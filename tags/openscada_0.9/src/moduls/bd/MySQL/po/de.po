@@ -1,0 +1,108 @@
+# OpenSCADA.DB.MySQL translate to German.
+# This file is distributed under the same license as the OpenSCADA.DB.MySQL module.
+#
+# Irina Popkova <IrischkaPopkova@yandex.ru>, 2008-2009.
+# Klaus Fetscher <k.fetscher@fetron.de>, 2009.
+# Roman Savochenko <rom_as@oscada.org>. 2010-2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DB.MySQL 1.7.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-07 17:09+0200\n"
+"PO-Revision-Date: 2009-08-17 11:32+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: de <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "DB MySQL"
+msgstr "DB MySQL"
+
+msgid "Roman Savochenko"
+msgstr "Roman Savotschenko"
+
+msgid "BD module. Provides support of the BD MySQL."
+msgstr "Modul unterstützt die MySQL Datenbank."
+
+msgid "Error initializing client."
+msgstr "Fehler beim Initialisieren des Clients."
+
+#, c-format
+msgid "Connect to DB error: %s"
+msgstr "Fehler: %s beim Verbinden mit der Datenbank"
+
+#, c-format
+msgid "Query to DB error: %s"
+msgstr "Fehler bei der Abfrage an Datenbank: %s"
+
+#, c-format
+msgid "Error open table '%s'. DB is disabled."
+msgstr "Fehler beim Öffnen der Tabelle '%s'. Datenbank ist abgeschaltet."
+
+#, c-format
+msgid "Connect to DB error %d: %s"
+msgstr "Fehler beim Verbinden mit der Datenbank %d: %s"
+
+#, c-format
+msgid "Query '%s' is error."
+msgstr "Fehler bei der Abfrage '%s'."
+
+#, c-format
+msgid "Query to DB error %d: %s"
+msgstr "Fehler %d bei der Abfrage an Datenbank: %s"
+
+#, c-format
+msgid "Store result error: %s"
+msgstr "Fehler beim Speichern des Ergebnisses: %s"
+
+#, c-format
+msgid "Could not execute statement: %s"
+msgstr "Aussage konnte nicht ausgeführt: %s"
+
+msgid ""
+"MySQL DB address must be written as: \"{host};{user};{pass};{db};{port}[;"
+"{u_sock}[;{charset-collation-engine}[;{tms}]]]\".\n"
+"Where:\n"
+"  host - MySQL server hostname;\n"
+"  user - DB user name;\n"
+"  pass - user's password for DB access;\n"
+"  db - DB name;\n"
+"  port - DB server port (default 3306);\n"
+"  u_sock - UNIX-socket name, for local access to DB (/var/lib/mysql/mysql."
+"sock);\n"
+"  charset-collation-engine - DB charset, collation and storage engine for "
+"CREATE DATABASE and SET;\n"
+"  tms - MySQL timeouts in form \"{connect},{read},{write}\" and in seconds.\n"
+"For local DB: \";roman;123456;OpenSCADA;;/var/lib/mysql/mysql.sock;utf8-"
+"utf8_general_ci-MyISAM;5,2,2\".\n"
+"For remote DB: \"server.nm.org;roman;123456;OpenSCADA;3306\"."
+msgstr ""
+"Die Adresse der Datenbank MySQL wird geschrieben als: \"{host};{user};{pass};"
+"{db};{port}[;{u_sock}[;{charset-collation-engine}[;{tms}]]]\".\n"
+"Wo:\n"
+"  host - Hostname des MySQL-Servers;\n"
+"  user - Name des Datenbankbenutzers;\n"
+"  pass - Kennwort des Datenbankbenutzers;\n"
+"  db - Name der Datenbank;\n"
+"  port - Port des Datenbank-Servers (Default 3306);\n"
+"  u_sock - Name des UNIX-Sockets, für lokalen Zugriff an Datenbank (/var/lib/"
+"mysql/mysql.sock).\n"
+"  charset-collation-engine - DB Zeichensatz, Kollation und Speicher-Engine "
+"für CREATE DATABASE und SET;\n"
+"  tms - MySQL-Timeouts in Form \"{connect},{read},{write}\" und in "
+"Sekunden.\n"
+"Für lokale Datenbank: \";roman;123456;OpenSCADA;;/var/lib/mysql/mysql.sock;"
+"utf8-utf8_general_ci-MyISAM;5,2,2\".\n"
+"Für entfernte Datenbank: \"server.nm.org;roman;123456;OpenSCADA;3306\"."
+
+msgid "Close opened transaction"
+msgstr "Geöffnete Transaktion schlissen"
+
+msgid "Table is empty!"
+msgstr "Tabelle ist leer!"
+
+msgid "Row \"%s\" is not present. Are you saved the object?"
+msgstr "Datensatz \"%s\" ist nicht vorhanden! Sind Sie das Objekt gespeichert?"

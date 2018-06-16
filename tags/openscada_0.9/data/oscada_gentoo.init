@@ -1,0 +1,39 @@
+#!/sbin/openrc-run
+#
+# Init file for OpenSCADA system demon.
+#
+# description: Open SCADA System server daemon
+#
+# processname: openscada
+# config: /etc/oscada.xml
+#
+
+WITHOUT_RC_COMPAT=1
+
+DNAME="OpenSCADA"
+NAME=openscada
+PIDFILE=/var/run/$NAME.pid
+DAEMON=/usr/bin/$NAME
+DAEMON_ARGS="--projName=server --demon --pidFile=$PIDFILE"
+
+depend() {
+    use logger net
+}
+
+start() {
+    ebegin "Starting $DNAME"
+    export LANG=en_US.UTF-8
+    start-stop-daemon --start --pidfile $PIDFILE --exec $DAEMON -- $DAEMON_ARGS
+    eend $? "Failed to start $DNAME"
+}
+
+stop() {
+    ebegin "Stopping $DNAME"
+    start-stop-daemon --stop --pidfile $PIDFILE --retry=TERM/30/KILL/5 --name $NAME
+    eend $?
+}
+
+restart() {
+    stop
+    start
+}

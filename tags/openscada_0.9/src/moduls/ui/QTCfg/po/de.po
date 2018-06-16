@@ -1,0 +1,748 @@
+# OpenSCADA.UI.QTCfg translate to German.
+# This file is distributed under the same license as the OpenSCADA.UI.QTCfg package module.
+#
+# Irina Popkova <IrischkaPopkova@yandex.ru>, 2009.
+# Klaus Fetscher <k.fetscher@fetron.de>, 2009.
+# Roman Savochenko <rom_as@oscada.org>, 2010-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.UI.QTCfg 2.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-01 16:36+0300\n"
+"PO-Revision-Date: 2009-08-20 11:41+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: de <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Path"
+msgstr "Pfad"
+
+msgid "Main navigation tree of the configurator."
+msgstr "Hauptnavigationsstruktur des Konfigurators."
+
+msgid "Main frame of the configurator."
+msgstr "Hauptrahmen des Konfigurators."
+
+msgid "Tabulated configuration pages."
+msgstr "Konfigurationsseiten in Tabellenform."
+
+msgid "&Close"
+msgstr "&Schliessen"
+
+msgid "Close the configurator window"
+msgstr "Schließen Sie das Konfiguratorfenster"
+
+msgid "The button for closing the configurator window"
+msgstr "Schaltfläche zum Schließen des Konfiguratorfensters"
+
+msgid "Press to close the configurator window."
+msgstr "Betätigen um das Konfiguratorfenster zu schließen."
+
+msgid "&Quit"
+msgstr "&Beenden"
+
+msgid "Quit the program"
+msgstr "Beende das Programm"
+
+msgid "The button for complete quit the program"
+msgstr "Schaltfläche zum Beenden beendet das Programm"
+
+msgid "Press for complete quit the program."
+msgstr "Betätigen um das Programm zu beenden."
+
+msgid "&Up"
+msgstr "Nach &oben"
+
+msgid "Go to the parent page"
+msgstr "Gehe zur Hauptseite"
+
+msgid "The button for going to the parent page"
+msgstr "Schaltfläche um zur übergeordneten Seite zu wechseln"
+
+msgid "Press for going to the parent page."
+msgstr "Betätigen um zur übergeordneten Seite zu wechseln."
+
+msgid "&Back"
+msgstr "&Zurück"
+
+msgid "Go back"
+msgstr "Geh zurück"
+
+msgid "The button for going to the back page"
+msgstr "Schaltfläche um zur Rückseite zu gehen"
+
+msgid "Press for going to the back page."
+msgstr "Betätigen um zur letzten Seite zu gelangen."
+
+msgid "&Forward"
+msgstr "Nach &vorne"
+
+msgid "Go forward"
+msgstr "Vorwärts gehen"
+
+msgid "The button for going to the forward page"
+msgstr "Schaltfläche um zur nächsten Seite zu gelangen"
+
+msgid "Press for going to the forward page."
+msgstr "Betätigen um zur nächsten Seite zu gelangen."
+
+msgid "Load from the DB"
+msgstr "Laden von der DB"
+
+msgid "Load the item data from DB"
+msgstr "Laden Sie die Artikeldaten aus der DB"
+
+msgid "The button for loading the item data from the DB"
+msgstr "Schaltfläche zum Laden der Artikeldaten aus der DB"
+
+msgid "Press for loading the item data from the DB."
+msgstr "Betätigen zum Laden der Artikeldaten aus der DB."
+
+msgid "Save to the DB"
+msgstr "Speichern Sie an die DB"
+
+msgid "Save the item data to DB"
+msgstr "Sichern Sie die Artikeldaten in der DB"
+
+msgid "The button for saving the item data to the DB"
+msgstr "Schaltfläche zum Speichern der Artikeldaten in der Datenbank"
+
+msgid "Press for saving the item data to the DB."
+msgstr "Betätigen zum Speichern der Artikeldaten in der Datenbank."
+
+msgid "&Add"
+msgstr "&Hinzufügen"
+
+msgid "Add item"
+msgstr "Hinzufügen Elements"
+
+msgid "The button for adding a new item"
+msgstr "Schaltfläche zum Hinzufügen eines neuen Elements"
+
+msgid "Press for adding a new item."
+msgstr "Betätigen zum Hinzufügen eines neuen Elements."
+
+msgid "&Delete"
+msgstr "&Löschen"
+
+msgid "Delete item"
+msgstr "Löschen Elements"
+
+msgid "The button for deleting the item"
+msgstr "Schaltfläche zum Löschen des Elements"
+
+msgid "Press for deleting the item."
+msgstr "Betätigen zum Löschen des Elements."
+
+msgid "Copy item"
+msgstr "Kopieren Elements"
+
+msgid "Copying the item"
+msgstr "Kopieren des Elements"
+
+msgid "The button for copying the item"
+msgstr "Schaltfläche zum Kopieren des Elements"
+
+msgid "Press for copying the item."
+msgstr "Betätigen zum Kopieren des Elements."
+
+msgid "Cut item"
+msgstr "Schneide Elements"
+
+msgid "Cutting the item"
+msgstr "Schneide des Elements"
+
+msgid "The button for cutting the item"
+msgstr "Schaltfläche zum Schneiden des Elements"
+
+msgid "Press for cutting the item."
+msgstr "Betätigen zum Schneiden des Elements."
+
+msgid "Paste item"
+msgstr "Fügen Elements"
+
+msgid "Pasting the item"
+msgstr "Fügen des Elements"
+
+msgid "The button for pasting the item"
+msgstr "Schaltfläche zum Einfügen des Elements"
+
+msgid "Press for pasting the item."
+msgstr "Betätigen zum Einfügen des Elements."
+
+msgid "&Refresh"
+msgstr "&Aktualisieren"
+
+msgid "Refresh the page"
+msgstr "Aktualisieren Sie die Seite"
+
+msgid "The button for refreshing the page content"
+msgstr "Schaltfläche zum Aktualisieren des Seiteninhalts"
+
+msgid "Press for refreshing the page content."
+msgstr "Betätigen zum Aktualisieren des Seiteninhalts."
+
+msgid "&Start"
+msgstr "&Starten"
+
+msgid "Start the cycled refreshing"
+msgstr "Starten Sie die zyklische Aktualisierung"
+
+msgid "The button for starting the cycled refreshing of the page content"
+msgstr ""
+"Schaltfläche zum Starten der zyklischen Aktualisierung des Seiteninhalts"
+
+msgid "Press for starting the cycled refreshing of the page content."
+msgstr "Betätigen zum Starten der zyklischen Aktualisierung des Seiteninhalts."
+
+msgid "&Stop"
+msgstr "&Anhalten"
+
+msgid "Stop the cycled refreshing"
+msgstr "Stoppen Sie die zyklische Aktualisierung"
+
+msgid "The button for stopping the cycled refreshing of the page content"
+msgstr ""
+"Schaltfläche zum Beenden der zyklischen Aktualisierung des Seiteninhalts"
+
+msgid "Press for stopping the cycled refreshing of the page content."
+msgstr "Betätigen zum Beenden der zyklischen Aktualisierung des Seiteninhalts."
+
+msgid "&About"
+msgstr "&Über"
+
+msgid "Program and OpenSCADA information"
+msgstr "Programm und OpenSCADA Information"
+
+msgid "The button of the information of the program and OpenSCADA"
+msgstr "Schaltfläche der Information des Programms und OpenSCADA"
+
+msgid "Press for information of the program and OpenSCADA."
+msgstr "Betätigen für Informationen zum Programm und OpenSCADA."
+
+msgid "About &Qt"
+msgstr "Über &Qt"
+
+msgid "Qt information"
+msgstr "Qt Information"
+
+msgid "The button for getting the using Qt information"
+msgstr "Schaltfläche für Informationen über Qt"
+
+msgid "Press for getting the using Qt information."
+msgstr "Betätigen für Informationen über Qt."
+
+msgid "Manual on '%1'"
+msgstr "Handbuch zu '%1'"
+
+msgid "The button for getting the using %1 manual"
+msgstr "Schaltfläche für %1 Handbuch"
+
+msgid "Press to get the using %1 manual."
+msgstr "Betätigen um %1 Handbuch."
+
+msgid "Manual on the page"
+msgstr "Handbuch auf der Seite"
+
+msgid "Selected page manual"
+msgstr "Ausgewählte Seiten-Handbuch"
+
+msgid "The button for getting the using selected page manual."
+msgstr ""
+"Die Schaltfläche für das Erhalten der ausgewählten Seite mit Anleitung."
+
+msgid "Press to get the using selected page manual."
+msgstr "Klicken um das Verwendung ausgewählter Seiten-Handbuch zu bekommen."
+
+msgid "What's &This"
+msgstr "Was ist &das"
+
+msgid "Requesting about GUI elements"
+msgstr "Anfordern von GUI-Elementen"
+
+msgid "The button for requesting information about the user interface elements"
+msgstr ""
+"Schaltfläche zum Anfordern von Informationen zu den Elementen der "
+"Benutzeroberfläche"
+
+msgid "Press for requesting information about the user interface elements."
+msgstr ""
+"Betätigen zum Anfordern von Informationen zu den Elementen der "
+"Benutzeroberfläche."
+
+msgid "&File"
+msgstr "&Datei"
+
+msgid "&Edit"
+msgstr "&Bearbeiten"
+
+msgid "&View"
+msgstr "&Ansicht"
+
+msgid "&Help"
+msgstr "&Hilfe"
+
+msgid "Main toolbar"
+msgstr "Hauptsymbolleiste"
+
+msgid "This label displays the current user."
+msgstr "Dieses Label zeigt den aktuellen Benutzer an."
+
+msgid "Field for displaying the current user."
+msgstr "Feld zum Anzeigen des aktuellen Benutzers."
+
+msgid "Double click to change the user."
+msgstr "Doppelklicken, um den Benutzer zu ändern."
+
+msgid "This label indicates the fact of making changes."
+msgstr "Dieses Etikett zeigt an, dass Änderungen vorgenommen wurden."
+
+msgid "Field for indicating the fact of making changes."
+msgstr "Feld zum Anzeigen der Tatsache, Änderungen vorzunehmen."
+
+msgid "This button calls the status bar history."
+msgstr "Diese Schaltfläche ruft den Verlauf der Statusleiste auf."
+
+msgid "Button for calling the status bar history."
+msgstr "Schaltfläche zum Aufrufen des Statusleistenverlaufs."
+
+msgid "Ready"
+msgstr "Fertig"
+
+#, c-format
+msgid "Configurator using the remote host %d times."
+msgstr "Konfigurator verwendet den Remote-Host %d mal."
+
+msgid "Saving the changes"
+msgstr "Speichern der Änderungen"
+
+msgid ""
+"Some changes were made!\n"
+"Save the changes to the DB before exiting?"
+msgstr ""
+"Einige Änderungen vorgenommen.\n"
+"Speichern Sie die Änderungen an der Ausfahrt DB?"
+
+msgid "No edited container is present."
+msgstr "Kein bearbeiteter Container ist vorhanden."
+
+msgid "Adding an item to the node '%1'."
+msgstr "Hinzufügen eines Elements zum Knoten '%1'."
+
+msgid "Adding a node"
+msgstr "Hinzufügen eines Knotens"
+
+msgid "The node '%1' is already present."
+msgstr "Der Knoten '%1' ist bereits vorhanden."
+
+msgid "Are you sure of deleting the nodes '%1'?"
+msgstr "Sind Sie sicher, die Knoten '%1' zu löschen?"
+
+msgid "Deleting the nodes"
+msgstr "Löschen der Knoten"
+
+msgid "Copying is not possible."
+msgstr "Kopieren ist nicht möglich."
+
+msgid "Selected"
+msgstr "Gewählt"
+
+msgid "Moving or copying the node"
+msgstr "Verschieben oder Kopieren des Knotens"
+
+msgid "Moving the node '%1' to '%2'.\n"
+msgstr "Verschieben des Knotens '%1' in '%2'.\n"
+
+msgid "Copying the node '%1' to '%2'.\n"
+msgstr "Kopieren des Knotens '%1' in '%2'.\n"
+
+msgid "Do not ask for more."
+msgstr "Frag nicht nach mehr."
+
+msgid "The node '%1' is already present. Continue?"
+msgstr "Der Knoten '%1' ist schon vorhanden. Weiter?"
+
+msgid "List of messages in the status bar:"
+msgstr "Liste der Nachrichten in der Statusleiste:"
+
+msgid "Status messages"
+msgstr "Statusmeldungen"
+
+#, c-format
+msgid ""
+"%s v%s.\n"
+"%s\n"
+"Author: %s\n"
+"License: %s\n"
+"\n"
+"%s v%s.\n"
+"%s\n"
+"License: %s\n"
+"Author: %s\n"
+"Web site: %s"
+msgstr ""
+"%s v%s.\n"
+"%s\n"
+"Autor: %s\n"
+"Lizenz: %s\n"
+"\n"
+"%s v%s.\n"
+"%s\n"
+"Lizenz: %s\n"
+"Autor: %s\n"
+"Web Seite: %s"
+
+msgid "Manual"
+msgstr "Handbuch"
+
+msgid "The manual '%1' was not found offline or online!"
+msgstr "Nein das Handbuch '%1' gefunden, offline oder online!"
+
+msgid "<EVAL>"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "Applying the changes"
+msgstr "Anwenden der Änderungen"
+
+msgid ""
+"Some changes were made!\n"
+"Accept the changes now or lose?"
+msgstr ""
+"Einige Änderungen nicht gelten!\n"
+"Bewerben Sie sich jetzt oder verloren das?"
+
+msgid "Broken information request - there are no descendants."
+msgstr "Unterbrochene Informationsanfrage - Es gibt keine Nachkommen."
+
+msgid "Refresh the items tree"
+msgstr "Aktualisieren Sie den Elementbaum"
+
+#, c-format
+msgid "Time of expanding/updating '%s': %f ms."
+msgstr "Zeit der Erweiterung/Aktualisierung '%s': %f msek."
+
+msgid "Sending the changes to the selected ones"
+msgstr "Senden der Änderungen an die ausgewählten"
+
+#, c-format
+msgid "Send the command '%s' to other selected nodes \"%s\"?"
+msgstr "Senden Befehl '%s' zu anderen ausgewählten Knoten \"%s\"?"
+
+#, c-format
+msgid "Unknown host '%s'."
+msgstr "Unknown host '%s'."
+
+msgid "Waiting the reply from the host '%1'"
+msgstr "Warten Sie auf Antwort vom Host '%1'"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Local station"
+msgstr "Lokaler Bedienrechner"
+
+msgid "Remote station"
+msgstr "Entfernter Bedienrechner"
+
+#, c-format
+msgid "%s| Set '%s' to '%s'!"
+msgstr "%s| Installieren '%s' in '%s'!"
+
+#, c-format
+msgid "%s| Went to the link '%s'!"
+msgstr "%s| Geh zum Link '%s'!"
+
+#, c-format
+msgid "%s| Pressed down '%s'!"
+msgstr "%s| Betätigen '%s'!"
+
+msgid "Value is wrong: "
+msgstr "Wert ist falsch: "
+
+#, c-format
+msgid "%s| Changed '%s' from '%s' to '%s'!"
+msgstr "%s| Ändern '%s' aus '%s' in '%s'!"
+
+msgid "Go"
+msgstr "Ändern"
+
+msgid "Add"
+msgstr "Hinzufügen"
+
+msgid "Insert"
+msgstr "Einfügen"
+
+msgid "Edit"
+msgstr "Ändern"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Up"
+msgstr "Nach oben"
+
+msgid "Down"
+msgstr "Nach unten"
+
+msgid "Setting the item name"
+msgstr "Einstellen der Elementname"
+
+msgid "Add a new element."
+msgstr "Fügen Sie ein neues Element."
+
+msgid "Insert a new element."
+msgstr "Fügen Sie ein neues Element."
+
+msgid "Rename the element."
+msgstr "Benennen Sie das Element."
+
+#, c-format
+msgid "%s| '%s' added by the element <%s:%s>!"
+msgstr "%s| '%s' wurde vom Element hinzugefügt <%s:%s>!"
+
+#, c-format
+msgid "%s| '%s' inserted by the element <%s:%s> to %d!"
+msgstr "%s| '%s' wird vom Element eingefügt <%s:%s> in %d!"
+
+#, c-format
+msgid "%s| '%s' set for the element %d to <%s:%s>!"
+msgstr "%s| '%s' für das Element festgelegt %d in <%s:%s>!"
+
+#, c-format
+msgid "%s| '%s' deleted for the element <%s:%s>!"
+msgstr "%s| '%s' wurde für das Element gelöscht <%s:%s>!"
+
+#, c-format
+msgid "%s| '%s' moved for the element %d to %d!"
+msgstr "%s| '%s' wurde für das Element %d nach %d verschoben!"
+
+msgid "Add record"
+msgstr "Datensatz hinzufügen"
+
+msgid "Insert record"
+msgstr "Datensatz einfügen"
+
+msgid "Delete record"
+msgstr "Datensatz löschen"
+
+msgid "Move Up"
+msgstr "Nach oben verschieben"
+
+msgid "Move Down"
+msgstr "Nach unten verschieben"
+
+msgid "Copy"
+msgstr "Kopieren"
+
+#, c-format
+msgid "%s| '%s' add by a record."
+msgstr "%s| '%s' wird um einen Datensatz hinzufügen."
+
+#, c-format
+msgid "%s| '%s' inserted for the record %d."
+msgstr "%s| '%s' wurde für den Datensatz %d eingefügt."
+
+#, c-format
+msgid "%s| '%s' deleted for the record '%s'."
+msgstr "%s| '%s' wurde für den Datensatz '%s' gelöscht."
+
+#, c-format
+msgid "%s| '%s' moved for the record %d to %d."
+msgstr "%s| '%s' wurde für den Datensatz %d nach %d verschoben."
+
+msgid "Saving an image"
+msgstr "Speichern eines Bildes"
+
+msgid "Loading an image"
+msgstr "Laden Sie ein Bild"
+
+msgid "Saving the picture"
+msgstr "Speichern der Bild"
+
+msgid "Images (*.png *.xpm *.jpg)"
+msgstr "Abbildungen (*.png *.xpm *.jpg)"
+
+#, c-format
+msgid "Error saving to the file '%s'\n"
+msgstr "Fehler beim Speichern in der Datei '%s'\n"
+
+msgid "Loading the picture"
+msgstr "Laden Sie das Bild"
+
+msgid "Images (*.png *.jpg)"
+msgstr "Abbildungen (*.png *.jpg)"
+
+#, c-format
+msgid "Error opening the file '%s'\n"
+msgstr "Fehler beim Öffnen der Datei '%s'\n"
+
+#, c-format
+msgid "Error image file '%s'\n"
+msgstr "Fehlerbilddatei '%s'\n"
+
+#, c-format
+msgid "%s| '%s' uploaded by the picture '%s'."
+msgstr "%s| '%s' hochgeladen von dem Bild '%s'."
+
+#, c-format
+msgid "The value '%s' is wrong!"
+msgstr "Der Wert '%s' ist falsch!"
+
+#, c-format
+msgid "%s| '%s' set for cell ('%s':%s) to: %s."
+msgstr "%s| '%s' für Zelle ('%s':%s) auf: %s gesetzt."
+
+#, c-format
+msgid "Selective element '%s' is missing!"
+msgstr "Selektives Element '%s' fehlt!"
+
+#, c-format
+msgid "%s| '%s' changed to: '%s'!"
+msgstr "%s| '%s' geändert: '%s'!"
+
+msgid "No connection is established"
+msgstr "Keine Verbindung hergestellt"
+
+msgid "Picture is not set!"
+msgstr "Es ist kein Bild hinterlegt!"
+
+msgid "Find"
+msgstr "Suche"
+
+msgid "Find next"
+msgstr "Weitersuchen"
+
+msgid "Apply"
+msgstr "Übernehmen"
+
+msgid "Cursor = (%1:%2)"
+msgstr "Cursor = (%1:%2)"
+
+msgid "Enter a string to search:"
+msgstr "Geben Sie eine Zeichenfolge suchen:"
+
+msgid "Searching a string"
+msgstr "Eine Zeichenfolge suchen"
+
+msgid "Backward"
+msgstr "Rückwärts"
+
+msgid "Case sensitively"
+msgstr "Case sensibel"
+
+msgid "Whole words"
+msgstr "Ganze Wörter"
+
+msgid "Identifier:"
+msgstr "Identifikator:"
+
+msgid "Name:"
+msgstr "Name:"
+
+msgid "Ok"
+msgstr ""
+
+msgid "Item type:"
+msgstr "Typ des Elements:"
+
+msgid "Selecting an user"
+msgstr "Einen Benutzer auswählen"
+
+msgid "User:"
+msgstr "Benutzer:"
+
+msgid "Password:"
+msgstr "Kennwort:"
+
+msgid "Error authentication!!!"
+msgstr "Fehlerauthentifizierung!!!"
+
+msgid "Program configurator (Qt)"
+msgstr "Programmkonfigurator (Qt)"
+
+msgid "Roman Savochenko"
+msgstr "Roman Savotschenko"
+
+msgid "Provides the Qt-based configurator of OpenSCADA."
+msgstr "Stellt den Qt-basierten Konfigurator von OpenSCADA zur Verfügung."
+
+#, c-format
+msgid ""
+"======================= Module <%s:%s> options =======================\n"
+"---- Parameters of the module section '%s' of the configuration file ----\n"
+"StartPath  <path>       Initial page path of the configurator.\n"
+"StartUser  <user>       Starting user without password.\n"
+"ToolTipLim <chars>      ToolTip limit in chars, by default 150. Set zero for "
+"disable.\n"
+"\n"
+msgstr ""
+"======================= Optionen des Moduls <%s:%s> "
+"========================\n"
+"------ Parameter des Modulabschnitts '%s' der Konfigurationsdatei ------\n"
+"StartPath  <path>       Initialer Seitenpfad des Konfigurators.\n"
+"StartUser  <user>       Benutzer ohne Passwort starten.\n"
+"ToolTipLim <Zeichen>    ToolTip-Limit in Chars, standardmäßig 150. Stellen "
+"Sie Null zum Deaktivieren ein.\n"
+"\n"
+
+msgid "Loading the module."
+msgstr "Laden des Moduls."
+
+msgid "Saving the module."
+msgstr "Speichern des Moduls."
+
+msgid "Starting the module."
+msgstr "Starten des Moduls."
+
+msgid "Stopping the module."
+msgstr "Stoppen des Moduls."
+
+msgid "Module options"
+msgstr "Optionen des Moduls"
+
+msgid "Timeouts of checking connections '{fail}:{good}', seconds"
+msgstr ""
+"Zeitüberschreitungen beim Überprüfen von Verbindungen '{fail}:{gut}', "
+"Sekunden"
+
+msgid "Initial path of the configurator"
+msgstr "Anfangspfad des Konfigurators"
+
+msgid "Initial user of the configurator"
+msgstr "Anfängliche Benutzer des Konfigurators"
+
+msgid "ToolTip limit, zero to disable"
+msgstr "ToolTip-Limit, Null zum Deaktivieren"
+
+msgid "Go to the configuration of the list of remote stations"
+msgstr "Gehen Sie auf die Konfiguration der Liste der entfernten Stationen"
+
+msgid "Page"
+msgstr "Seite"
+
+msgid "Item"
+msgstr "Artikel"
+
+msgid "QTCfg dialog"
+msgstr "QTCfg Dialog"
+
+msgid "Selecting the identifier and the name of the node"
+msgstr "Auswahl des Bezeichners und des Knotens"

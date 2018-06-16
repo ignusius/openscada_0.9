@@ -1,0 +1,194 @@
+# OpenSCADA.DAQ.DAQGate translate to Russian.
+# This file is distributed under the same license as the OpenSCADA.DAQ.DAQGate package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2007-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DAQ.DAQGate 0.9.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-01 16:13+0300\n"
+"PO-Revision-Date: 2007-10-29 12:40+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Data sources gate"
+msgstr "Шлюз источников данных"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"Allows to locate data sources of the remote OpenSCADA stations to local ones."
+msgstr ""
+"Позволяет выполнять шлюзование источников данных удалённых OpenSCADA станций "
+"на локальные."
+
+msgid "Table of parameters cache"
+msgstr "Таблица кеша параметров"
+
+msgid "Acquisition schedule"
+msgstr "Планирование сбора"
+
+msgid "Priority of the acquisition task"
+msgstr "Приоритет задачи сбора данных"
+
+msgid "Timeout of restore, seconds"
+msgstr "Интервал восстановления, секунд"
+
+msgid "Depth time of restore data, hours"
+msgstr "Глубина времени восстановления данных, часов"
+
+msgid "Level of requested messages"
+msgstr "Уровень запрашиваемых сообщений"
+
+msgid ""
+"==Disable==;Debug (0);Information (1);Notice (2);Warning (3);Error (4);"
+"Critical (5);Alert (6);Emergency (7)"
+msgstr ""
+"==Отключить==;Отладка (0);Информация (1);Замечание (2);Предупреждение (3);"
+"Ошибка (4);Критически (5);Тревога (6);Авария (7)"
+
+msgid "Synchronization time with the remote station, seconds"
+msgstr "Периодичность синхронизации с удалённой станцией, секунд"
+
+msgid "Remote stations list"
+msgstr "Список удалённых станций"
+
+msgid "List of the remote controller objects and parameters"
+msgstr "Список удалённых объектов контроллеров и параметров"
+
+msgid "Allow the automatic removal of parameters and attributes"
+msgstr "Разрешать автоматическое удаление параметров и атрибутов"
+
+msgid "Standard"
+msgstr "Стандарт"
+
+msgid "Remote parameter address"
+msgstr "Адрес удалённого параметра"
+
+msgid "Attributes configuration cache"
+msgstr "Кеш конфигурации атрибутов"
+
+msgid "Presence at stations"
+msgstr "Присутствие по станциям"
+
+msgid "Acquisition. "
+msgstr "Сбор. "
+
+#, c-format
+msgid "Acquisition with the period: %s. "
+msgstr "Сбор с периодом: %s. "
+
+#, c-format
+msgid "Next acquisition by the cron '%s'. "
+msgstr "Следующий сбор по cron '%s'. "
+
+#, c-format
+msgid "Spent time: %s[%s]. "
+msgstr "Затрачено времени: %s[%s]. "
+
+#, c-format
+msgid "Error the station '%s', restoring in %.3g s."
+msgstr "Ошибка станции '%s', восстановление через %.6g с."
+
+#, c-format
+msgid "Requests to the station '%s': %.6g."
+msgstr "Запросов к станции '%s': %.6g."
+
+#, c-format
+msgid "Enabling: station '%s' processing item '%s' for parameters %d."
+msgstr "Включение: станция '%s' обрабатывает элемент '%s' для параметров %d."
+
+#, c-format
+msgid ""
+"Error deleting parameter '%s' but it is not present on the configuration or "
+"remote station."
+msgstr ""
+"Ошибка удаления параметра '%s' поскольку он отсутствует в конфигурации или "
+"на удалённой станции."
+
+#, c-format
+msgid "DAQ.%s.%s: connecting to the data source: %s."
+msgstr "DAQ.%s.%s: подключение к источнику данных: %s."
+
+msgid "STOP"
+msgstr "ОСТАНОВЛЕН"
+
+msgid "10:Data not available."
+msgstr "10:Данные не доступны."
+
+msgid "OK"
+msgstr "НОРМА"
+
+#, c-format
+msgid "DAQ.%s.%s: connecting to the data source '%s': %s."
+msgstr "DAQ.%s.%s: подключение к источнику данных '%s': %s."
+
+#, c-format
+msgid "11:Station missed '%s'."
+msgstr "11:Станция отсутствует '%s'."
+
+msgid "Zero to disable the access to the remote archive."
+msgstr "Ноль для отключения доступа к удалённому архиву."
+
+msgid "Zero to disable to the periodic sync."
+msgstr "Ноль для отключения периодической синхронизации."
+
+msgid "List of remote OpenSCADA station IDs used in this controller."
+msgstr ""
+"Список идентификаторов удалённых OpenSCADA станций, используемых в этом "
+"контроллере."
+
+msgid "Append station"
+msgstr "Добавление станции"
+
+msgid "Go to configuration of the remote stations list"
+msgstr "Переход к конфигурации перечня удалённых станций"
+
+msgid ""
+"List of remote OpenSCADA full controller objects or individual controller "
+"parameters. Address example:\n"
+"  System.AutoDA - for a controller object;\n"
+"  System.AutoDA.UpTimeStation - for a controller parameter."
+msgstr ""
+"Список удалённых OpenSCADA полных объектов контроллеров или отдельных параметров "
+"контроллеров. Пример адреса:\n"
+"  System.AutoDA - для объекта контроллера;\n"
+"  System.AutoDA.UpTimeStation - для параметра контроллера."
+
+msgid "Parameters tree"
+msgstr "Дерево параметров"
+
+msgid "<<Append current>>"
+msgstr "<<Добавить текущий>>"
+
+msgid "Parameter"
+msgstr "Параметр"
+
+msgid "State"
+msgstr "Состояние"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Enabled"
+msgstr "Включен"
+
+msgid "Identifier"
+msgstr "Идентификатор"
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Configuration"
+msgstr "Конфигурация"
+
+msgid "Remote station configuration"
+msgstr "Конфигурация удалённой станции"
+
+msgid "Controller is not started!"
+msgstr "Контроллер не запущен!"

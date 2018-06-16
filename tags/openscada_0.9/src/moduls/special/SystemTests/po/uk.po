@@ -1,0 +1,717 @@
+# OpenSCADA.Special.SystemTests translate to Ukrainian.
+# This file is distributed under the same license as the OpenSCADA.Special.SystemTests package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2003-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.Special.SystemTests 1.5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-27 20:04+0200\n"
+"PO-Revision-Date: 2007-10-24 19:01+0300\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <uk@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "OpenSCADA and its modules' tests"
+msgstr "Тести OpenSCADA та її модулів"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid "Provides the group of tests to OpenSCADA and its modules."
+msgstr "Надає групу тестів для OpenSCADA та її модулів."
+
+#, c-format
+msgid ""
+"======================= Module <%s:%s> options =======================\n"
+"---- Parameters of the module section '%s' of the configuration file ----\n"
+"       *** Main options of all the tests ***\n"
+"  id                    test id;\n"
+"  on                    flag enabling test;\n"
+"  per                   period of repeating, seconds.\n"
+"       *** Test options ***\n"
+msgstr ""
+"========================== Опції модуля <%s:%s> ==========================\n"
+"------ Параметри модульної секції '%s' конфігураційного файлу ------\n"
+"       *** Загальні опції всіх тестів ***\n"
+"  id                    ідентифікатор тесту;\n"
+"  on                    прапор ввімкнення тесту;\n"
+"  per                   період повтору, секунд.\n"
+"       *** Опції тестів ***\n"
+
+#, c-format
+msgid "%s{%d \"%s\", text \"%s\", childs - %d."
+msgstr "%s{%d \"%s\", текст \"%s\", нащадків - %d."
+
+#, c-format
+msgid "        Attr \"%s\" = \"%s\"."
+msgstr "        Атрибут \"%s\" = \"%s\"."
+
+msgid "Test"
+msgstr "Тест"
+
+msgid "Tests"
+msgstr "Тести"
+
+msgid "Number"
+msgstr "Кількість"
+
+#, c-format
+msgid "All: %d; Accessing: %d"
+msgstr "Взагалі: %d; Доступні: %d"
+
+msgid "Result"
+msgstr "Результат"
+
+msgid "Value archive"
+msgstr "Архів значень"
+
+msgid "Period of the values, microseconds"
+msgstr "Період значень, мікросекунди"
+
+msgid "Archiver"
+msgstr "Архіватор"
+
+msgid ""
+"The tests of location in the value archives.\n"
+"Contains 7(8) tests of the value archiver to verify the correct functioning "
+"of the sequential packing mechanism."
+msgstr ""
+"Тест розташування у архіві значень. Містить 7(8) тестів архіватора значень "
+"на перевірку коректності функціонування послідовного механізму упакування."
+
+msgid "Test: Start"
+msgstr "Тест: Запуск"
+
+msgid "Test1: Simple fill and check archive."
+msgstr "Тест1: Просте заповнення та перевірка архіву."
+
+msgid "Test1: Failed."
+msgstr "Тест1: Помилка."
+
+msgid "Test1: Passed."
+msgstr "Тест1: Виконано."
+
+msgid "Test2: Internal insert double value (down)."
+msgstr "Тест2: Внутрішня вставка реального значення (до долу)."
+
+msgid "Test2: Failed."
+msgstr "Тест2: Помилка."
+
+msgid "Test2: Passed."
+msgstr "Тест2: Виконано."
+
+msgid "Test3: Internal insert double value (up)."
+msgstr "Тест3: Внутрішня вставка реального значення (з верху)."
+
+msgid "Test3: Failed."
+msgstr "Тест3: Помилка."
+
+msgid "Test3: Passed."
+msgstr "Тест3: Виконано."
+
+msgid "Test4: Internal insert double value (down)."
+msgstr "Тест4: Внутрішня вставка реального значення (до долу)."
+
+msgid "Test4: Failed."
+msgstr "Тест4: Помилка."
+
+msgid "Test4: Passed."
+msgstr "Тест4: Виконано."
+
+msgid "Test5: Internal insert no double value."
+msgstr "Тест5: Внутрішня вставка не реального значення."
+
+msgid "Test5: Failed."
+msgstr "Тест5: Помилка."
+
+msgid "Test5: Passed."
+msgstr "Тест5: Виконано."
+
+msgid "Test6: Internal insert double value (up)."
+msgstr "Тест6: Внутрішня вставка реального значення (з верху)."
+
+msgid "Test6: Failed."
+msgstr "Тест6: Помилка."
+
+msgid "Test6: Passed."
+msgstr "Тест6: Виконано."
+
+msgid "Test7: Internal insert value instead double value."
+msgstr "Тест7: Внутрішня вставка значення замість реального значення."
+
+msgid "Test7: Failed"
+msgstr "Тест7: Помилка."
+
+msgid "Test7: Passed."
+msgstr "Тест7: Виконано."
+
+msgid "Test: Passed"
+msgstr "Тест: Виконано"
+
+msgid "Passed"
+msgstr "Виконано"
+
+#, c-format
+msgid "Test: Failed: %s"
+msgstr "Тест: Помилка: %s"
+
+#, c-format
+msgid "Failed: %s"
+msgstr "Помилка: %s"
+
+msgid "Base64 encoding"
+msgstr "Base64 кодування"
+
+msgid "Mime Base64 algorithm encoding tests."
+msgstr "Тести кодування алгоритмом Mime Base64."
+
+msgid "Test1: Encoding."
+msgstr "Тест1: Кодування."
+
+#, c-format
+msgid "Encoded text by length %d for time %f ms."
+msgstr "Текст довжиною %d закодовано за час %f мс."
+
+#, c-format
+msgid "Encoded text: %s"
+msgstr "Закодований текст: %s"
+
+msgid "Test2: Decoding."
+msgstr "Тест2: Декодування."
+
+#, c-format
+msgid "Decoded text by length %d for time %f ms."
+msgstr "Текст довжиною %d декодовано за час %f мс."
+
+msgid "Test2: Failed. Decoding error."
+msgstr "Тест2: Помилка. Помилка декодування."
+
+msgid "DB type"
+msgstr "Тип БД"
+
+msgid "DB address"
+msgstr "Адреса БД"
+
+msgid "DB table"
+msgstr "Таблиця БД"
+
+msgid "Records number"
+msgstr "Кількість записів"
+
+msgid "DB test"
+msgstr "Тест БД"
+
+msgid ""
+"Full database test. Make:\n"
+"  - make/open DB;\n"
+"  - make/open table;\n"
+"  - make multiply records for the determined structure;\n"
+"  - modify multiply records;\n"
+"  - get and check values for multiply records;\n"
+"  - modify a record and the table structure;\n"
+"  - remove multiply records;\n"
+"  - close/remove table;\n"
+"  - close/remove DB."
+msgstr ""
+"Повний тест БД. Виконує:\n"
+"  - створення/відкриття БД;\n"
+"  - створення/відкриття таблиці;\n"
+"  - створення множини записів (рядків) визначеною структурою;\n"
+"  - модифікація множини записів;\n"
+"  - отримання та перевірка значень множини записів;\n"
+"  - модифікація структури запису та таблиці;\n"
+"  - видалення записів;\n"
+"  - закриття/видалення таблиці;\n"
+"  - закриття/видалення БД."
+
+#, c-format
+msgid "Open DB '%s'."
+msgstr "Відкриття БД '%s'."
+
+#, c-format
+msgid "Open table '%s'."
+msgstr "Відкриття таблиці '%s'."
+
+#, c-format
+msgid "Connect to table '%s'."
+msgstr "Підключення до таблиці '%s'."
+
+msgid "Create DB configuration."
+msgstr "Створення конфігурації БД."
+
+msgid "Name field"
+msgstr "Поле ім'я"
+
+msgid "Description field"
+msgstr "Поле опису"
+
+msgid "Field value"
+msgstr "Поле значення"
+
+msgid "Field id"
+msgstr "Поле ідентифікатору"
+
+msgid "Field stat"
+msgstr "Поле стану"
+
+msgid "Request's key"
+msgstr "Ключ запиту"
+
+msgid "Request's value"
+msgstr "Значення запиту"
+
+msgid "Create records."
+msgstr "Створення записів."
+
+#, c-format
+msgid "Created %d records for time %f sec."
+msgstr "Створено %d записів за час %f сек."
+
+msgid "Update records."
+msgstr "Оновлення записів."
+
+#, c-format
+msgid "Updated %d records for time %f sec."
+msgstr "Оновлено %d записів за час %f сек."
+
+#, c-format
+msgid "Update records, by request key, for %d records."
+msgstr "Оновлення записів, за ключем запиту, для %d записів."
+
+#, c-format
+msgid "Updated %d records, by request key, for time %f sec."
+msgstr "Оновлено %d записів, за ключем запиту, за час %f сек."
+
+msgid "Check records."
+msgstr "Перевірка записів."
+
+#, c-format
+msgid "Record #155='%s'; Descr='%s'; Value=%f; Id=%d; Stat=%d."
+msgstr "Запис #155='%s'; Опис='%s'; Значення=%f; Id=%d; Стан=%d."
+
+#, c-format
+msgid "Field <Sh> '%s' != '%s' error."
+msgstr "Помилка поля <Sh> '%s' != '%s'."
+
+#, c-format
+msgid "Field <descr> '%s' != '%s' error."
+msgstr "Помилка поля <descr> '%s' != '%s'."
+
+#, c-format
+msgid "Field <id> %d != %d error."
+msgstr "Помилка поля <id> %d != %d."
+
+#, c-format
+msgid "Field <stat> %d != %d error."
+msgstr "Помилка поля <stat> %d != %d."
+
+#, c-format
+msgid "Field <reqKey> '%s' != '%s' error."
+msgstr "Помилка поля <reqKey> '%s' != '%s'."
+
+#, c-format
+msgid "Field <reqVal> '%s' != '%s' error."
+msgstr "Помилка поля <reqVal> '%s' != '%s'."
+
+#, c-format
+msgid "Got %d records for time %f sec."
+msgstr "Отримано %d записів за час %f сек."
+
+msgid "Seek records."
+msgstr "Сканування записів."
+
+#, c-format
+msgid "Sought %d records for time %f sec."
+msgstr "Проскановано %d записів за час %f сек."
+
+#, c-format
+msgid "Sought %d records in preload for time %f sec."
+msgstr "Проскановано %d передзавантажених записів за час %f сек."
+
+msgid "Change DB structure."
+msgstr "Зміна структури БД."
+
+msgid "DB fix test"
+msgstr "Тест виправлення БД"
+
+#, c-format
+msgid "Record #2='%s'; Descr='%s'; Value=%f; Id=%d; Stat=%d."
+msgstr "Запис #2='%s'; Опис='%s'; Значення=%f; Id=%d; Стан=%d."
+
+msgid "Add column error."
+msgstr "Помилка додання стовпчика."
+
+msgid "Add column ok."
+msgstr "Вдале додання стовпчика."
+
+msgid "Del column error."
+msgstr "Помилка видалення стовпчика."
+
+msgid "Del column ok."
+msgstr "Вдале видалення стовпчика."
+
+#, c-format
+msgid "Del %d records for time %f sec."
+msgstr "Видалено %d записів за час %f сек."
+
+#, c-format
+msgid "Close and delete table '%s'."
+msgstr "Закриття та видалення таблиці '%s'."
+
+#, c-format
+msgid "Close and delete DB '%s'."
+msgstr "Закриття та видалення БД '%s'."
+
+msgid "Message category template"
+msgstr "Шаблон категорії повідомлення"
+
+msgid "Messages depth, seconds"
+msgstr "Глибина повідомлень, секунд"
+
+msgid "Messages"
+msgstr "Повідомлення"
+
+msgid ""
+"Test the archive of messages. Periodically reads new messages from the "
+"archive for the specified archiver."
+msgstr ""
+"Тест архіву повідомлень. Періодично вичитує нові повідомлення з архіву, для "
+"вказаного архіватору."
+
+#, c-format
+msgid "New messages present %d."
+msgstr "Наявно %d нових повідомлень."
+
+msgid "DAQ parameter address"
+msgstr "Адреса DAQ параметру"
+
+msgid "Parameter"
+msgstr "Параметр"
+
+msgid ""
+"DAQ test parameters. Reads the attributes and configuration fields of the "
+"parameter."
+msgstr ""
+"Тест DAQ параметрів. Вичитує атрибути та конфігураційні поля параметру."
+
+#, c-format
+msgid "Value attributes present: %d"
+msgstr "Наявно значень атрибутів: %d"
+
+#, c-format
+msgid "%s(SELECT): %s"
+msgstr "%s(ВИБІР): %s"
+
+#, c-format
+msgid "%s(STRING): %s"
+msgstr "%s(СТРОКА): %s"
+
+#, c-format
+msgid "%s(INTEGER): %d"
+msgstr "%s(ЦІЛЕ): %d"
+
+#, c-format
+msgid "%s(REAL): %f"
+msgstr "%s(РЕАЛЬНЕ): %f"
+
+#, c-format
+msgid "%s(BOOLEAN): %d"
+msgstr "%s(ЛОГІЧНЕ): %d"
+
+#, c-format
+msgid "Configuration fields: %d"
+msgstr "Полів конфігурації: %d"
+
+msgid "Path to the module"
+msgstr "Шлях до модуля"
+
+msgid "Mode (1-attach;-1-detach;0-change)"
+msgstr "Режим (1-підключити;-1-виключити;0-змінити)"
+
+msgid "Complete attach(startup)"
+msgstr "Повне підключення (на старті)"
+
+msgid "Attach SO"
+msgstr "Підключення SO"
+
+msgid "Test attach/detach module."
+msgstr "Тест підключення/виключення модулів."
+
+msgid "Path to the language element"
+msgstr "Шлях до елементу мови"
+
+msgid "The control language of the program"
+msgstr "Мова контролю програми"
+
+#, c-format
+msgid ""
+"The test of the control language of the program.\n"
+"Performs query of language elements through a complete path.\n"
+"The full path to the language element looks like </Archive/%2fbd%2fm_per>.\n"
+"The complete path consists of two nested paths.\n"
+"The first </Archive/> is the path to the node of the control tree.\n"
+"The second </bd/m_per> is the path to the specific node element."
+msgstr ""
+"Тест мови контролю програми.\n"
+"Виконує запит елементів мови за посередництвом повного шляху.\n"
+"Повний шлях до елемента мови має вигляд </Archive/%2fbd%2fm_per>.\n"
+"Повний шлях складається з двох вкладених шляхів.\n"
+"Перший </Archive/> це шлях до вузла дерева контролю.\n"
+"Другий </bd/m_per> це шлях до конкретного елемента вузла."
+
+#, c-format
+msgid "SysContr test for path '%s'."
+msgstr "Тест SysContr за шляхом '%s'."
+
+msgid "Address"
+msgstr "Адреса"
+
+msgid "Transport module"
+msgstr "Модуль транспорту"
+
+msgid "Text of the request"
+msgstr "Текст запиту"
+
+msgid "Transport"
+msgstr "Транспорт"
+
+msgid ""
+"Test of outgoing and/or ingoing transport.\n"
+"Performs testing of the original transport by sending a request to the "
+"specified ingoing transport."
+msgstr ""
+"Тест вихідних та/або вхідних транспортів.\n"
+"Виконує тестування вихідного транспорту шляхом надсилання запиту до "
+"вказаного вхідного транспорту."
+
+#, c-format
+msgid "%s: Put '%s'. Get: '%s'. Time = %g ms."
+msgstr "%s: Надіслано '%s'. Отримано: '%s'. Час = %g мс."
+
+#, c-format
+msgid "Passed. Time = %g ms."
+msgstr "Виконано. Час = %g мс."
+
+msgid "Value buffer"
+msgstr "Буфер значень"
+
+msgid ""
+"The tests of the values buffer.\n"
+"Contains 13 tests of all aspects of the value buffer (the subsystem "
+"\"Archives\")."
+msgstr ""
+"Тести буферу значень.\n"
+"Містить 13 тестів всіх аспектів буферу значень (підсистема \"Архіви\")."
+
+#, c-format
+msgid "Test%d"
+msgstr "Тест%d"
+
+#, c-format
+msgid ""
+"%s: Create buffer: Data = string, Size = 10, Period = 1s, HardGrid = yes, "
+"HighRes = no."
+msgstr ""
+"%s: Створення буферу: Дані = строка, Розмір = 10, Період = 1с, ЖорстГратка = "
+"так, ВисРоздЗд = ні."
+
+#, c-format
+msgid "%s: Passed."
+msgstr "%s: Виконано."
+
+msgid "Create buffer error."
+msgstr "Збій створення буферу."
+
+#, c-format
+msgid "%s: Change buffer mode."
+msgstr "%s: Зміна режиму буфера."
+
+msgid "Disable hard grid ok."
+msgstr "Вдала зміна жорсткої ґратки."
+
+msgid "Disable hard grid failed."
+msgstr "Збій зміни жорсткої ґратки."
+
+msgid "Set high resolution time ok."
+msgstr "Вдале встановлення високої роздільної здатності часу."
+
+msgid "Set high resolution time failed."
+msgstr "Збій встановлення високої роздільної здатності часу."
+
+msgid "Change buffer size ok."
+msgstr "Вдала зміна розміру буфера."
+
+msgid "Change buffer size failed."
+msgstr "Збій зміни розміру буфера."
+
+msgid "Change period ok."
+msgstr "Вдала зміна періоду."
+
+msgid "Change period failed."
+msgstr "Збій зміни періоду."
+
+#, c-format
+msgid "%s: Destroy buffer."
+msgstr "%s: Видалення буферу."
+
+#, c-format
+msgid "%s: Fill and check hard time grid string buffer."
+msgstr "%s: Заповнення та перевірка строкового буферу з жорсткою граткою часу."
+
+msgid "Buffer begin or/and end error, at filling half buffer."
+msgstr "Збій початку або/та кінця буферу, під час заповнення половини буферу."
+
+msgid "Write a half buffer values error."
+msgstr "Збій запису половини буферу значень."
+
+msgid "Write a half buffer ok."
+msgstr "Вдалий запис половини буферу."
+
+msgid "Buffer begin or/and end error, at roll filling buffer."
+msgstr "Збій початку або/та кінця буферу, під час заповнення по колу."
+
+msgid "Write a roll buffer values error."
+msgstr "Збій запису буферу по колу."
+
+msgid "Write a roll buffer ok."
+msgstr "Вдалий запис буферу по колу."
+
+msgid "Update buffer end error."
+msgstr "Збій оновлення кінця буферу."
+
+msgid "Update buffer end ok."
+msgstr "Вдале оновлення кінця буферу."
+
+#, c-format
+msgid "Wrote 1000 values for time %f ms."
+msgstr "Записано 1000 значень за час %f мс."
+
+#, c-format
+msgid "Read 1000 values for time %f ms."
+msgstr "Прочитано 1000 значень за час %f мс."
+
+#, c-format
+msgid "%s: Fill and check hard time grid integer buffer."
+msgstr ""
+"%s: Заповнення та перевірка цілочислового буферу з жорсткою ґраткою часу."
+
+#, c-format
+msgid "%s: Fill and check soft time grid string buffer (high time)."
+msgstr ""
+"%s: Заповнення та перевірка строкового буферу з м'якою ґраткою часу (висока "
+"розд. здатн. часу)."
+
+#, c-format
+msgid "%s: Fill and check soft time grid integer buffer (high time)."
+msgstr ""
+"%s: Заповнення та перевірка цілочислового буферу з м'якою ґраткою часу "
+"(висока розд. здатн. часу)."
+
+#, c-format
+msgid "%s: Fill and check soft time grid string buffer (low time)."
+msgstr ""
+"%s: Заповнення та перевірка строкового буферу з м'якою ґраткою часу (низька "
+"розд. здатн. часу)."
+
+#, c-format
+msgid "%s: Fill and check soft time grid integer buffer (low time)."
+msgstr ""
+"%s: Заповнення та перевірка цілочислового буферу з м'якою ґраткою часу "
+"(низька розд. здатн. часу)."
+
+#, c-format
+msgid "%s: Fill and check free time string buffer (high time)."
+msgstr ""
+"%s: Заповнення та перевірка строкового буферу з вільним часом (висока розд. "
+"здатн. часу)."
+
+#, c-format
+msgid "%s: Fill and check free time integer buffer (high time)."
+msgstr ""
+"%s: Заповнення та перевірка цілочислового буферу з вільним часом (висока "
+"розд. здатн. часу)."
+
+#, c-format
+msgid "%s: Fill and check free time string buffer (low time)."
+msgstr ""
+"%s: Заповнення та перевірка строкового буферу з вільним часом (низька розд. "
+"здатн. часу)."
+
+#, c-format
+msgid "%s: Fill and check free time integer buffer (low time)."
+msgstr ""
+"%s: Заповнення та перевірка цілочислового з вільним часом (низька розд. "
+"здатн. часу)."
+
+#, c-format
+msgid "%s: Failed: %s"
+msgstr "%s: Помилка: %s"
+
+#, c-format
+msgid "Failed: %s: %s"
+msgstr "Помилка: %s: %s"
+
+msgid "Path to the parameter attribute"
+msgstr "Шлях до атрибуту параметру"
+
+msgid "Depth of getting of archive values, seconds"
+msgstr "Глибина отримання архівних значень, секунд"
+
+msgid "Depth of getting of archive values, microseconds"
+msgstr "Глибина отримання архівних значень, мікросекунди"
+
+msgid "Parameter attribute"
+msgstr "Атрибут параметру"
+
+msgid ""
+"Test the attribute value of the parameter.\n"
+"Performs a periodic acquisition of the last value of the specified "
+"attribute, as well as the archive questioning to the required depth."
+msgstr ""
+"Тест значень атрибуту параметра.\n"
+"Виконує періодичне опитування останнього значення вказаного атрибуту, а "
+"також опитування архіву на потрібну глибину."
+
+#, c-format
+msgid "Value of: %s."
+msgstr "Значення з: %s."
+
+#, c-format
+msgid "Last value = %s"
+msgstr "Останнє значення = %s"
+
+#, c-format
+msgid "Value %d = %s."
+msgstr "Значення %d = %s."
+
+msgid "XML file"
+msgstr "XML файл"
+
+msgid "XML parsing"
+msgstr "Розбір XML"
+
+msgid ""
+"XML parsing file test. Disassembles and displays the structure of the "
+"specified file."
+msgstr ""
+"Тест розбору XML файлу. Розбирає та відображає структуру вказаного файлу."
+
+#, c-format
+msgid "Open file '%s' error."
+msgstr "Помилка відкриття файлу '%s'."
+
+#, c-format
+msgid "Read file '%s' error: %s."
+msgstr "Помилка читання файлу '%s': %s."
+
+#, c-format
+msgid "Read file '%s' only %d from %d."
+msgstr "Читання файлу '%s' тільки для %d із %d."
+
+#, c-format
+msgid "Test: Passed: %f ms."
+msgstr "Тест1: Виконано: %f ms."

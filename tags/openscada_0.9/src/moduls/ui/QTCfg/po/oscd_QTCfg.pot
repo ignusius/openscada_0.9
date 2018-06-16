@@ -1,0 +1,713 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 23:06+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Name"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Path"
+msgstr ""
+
+msgid "Main navigation tree of the configurator."
+msgstr ""
+
+msgid "Main frame of the configurator."
+msgstr ""
+
+msgid "Tabulated configuration pages."
+msgstr ""
+
+msgid "&Close"
+msgstr ""
+
+msgid "Close the configurator window"
+msgstr ""
+
+msgid "The button for closing the configurator window"
+msgstr ""
+
+msgid "Press to close the configurator window."
+msgstr ""
+
+msgid "&Quit"
+msgstr ""
+
+msgid "Quit the program"
+msgstr ""
+
+msgid "The button for complete quit the program"
+msgstr ""
+
+msgid "Press for complete quit the program."
+msgstr ""
+
+msgid "&Up"
+msgstr ""
+
+msgid "Go to the parent page"
+msgstr ""
+
+msgid "The button for going to the parent page"
+msgstr ""
+
+msgid "Press for going to the parent page."
+msgstr ""
+
+msgid "&Back"
+msgstr ""
+
+msgid "Go back"
+msgstr ""
+
+msgid "The button for going to the back page"
+msgstr ""
+
+msgid "Press for going to the back page."
+msgstr ""
+
+msgid "&Forward"
+msgstr ""
+
+msgid "Go forward"
+msgstr ""
+
+msgid "The button for going to the forward page"
+msgstr ""
+
+msgid "Press for going to the forward page."
+msgstr ""
+
+msgid "Load from the DB"
+msgstr ""
+
+msgid "Load the item data from DB"
+msgstr ""
+
+msgid "The button for loading the item data from the DB"
+msgstr ""
+
+msgid "Press for loading the item data from the DB."
+msgstr ""
+
+msgid "Save to the DB"
+msgstr ""
+
+msgid "Save the item data to DB"
+msgstr ""
+
+msgid "The button for saving the item data to the DB"
+msgstr ""
+
+msgid "Press for saving the item data to the DB."
+msgstr ""
+
+msgid "&Add"
+msgstr ""
+
+msgid "Add item"
+msgstr ""
+
+msgid "The button for adding a new item"
+msgstr ""
+
+msgid "Press for adding a new item."
+msgstr ""
+
+msgid "&Delete"
+msgstr ""
+
+msgid "Delete item"
+msgstr ""
+
+msgid "The button for deleting the item"
+msgstr ""
+
+msgid "Press for deleting the item."
+msgstr ""
+
+msgid "Copy item"
+msgstr ""
+
+msgid "Copying the item"
+msgstr ""
+
+msgid "The button for copying the item"
+msgstr ""
+
+msgid "Press for copying the item."
+msgstr ""
+
+msgid "Cut item"
+msgstr ""
+
+msgid "Cutting the item"
+msgstr ""
+
+msgid "The button for cutting the item"
+msgstr ""
+
+msgid "Press for cutting the item."
+msgstr ""
+
+msgid "Paste item"
+msgstr ""
+
+msgid "Pasting the item"
+msgstr ""
+
+msgid "The button for pasting the item"
+msgstr ""
+
+msgid "Press for pasting the item."
+msgstr ""
+
+msgid "&Refresh"
+msgstr ""
+
+msgid "Refresh the page"
+msgstr ""
+
+msgid "The button for refreshing the page content"
+msgstr ""
+
+msgid "Press for refreshing the page content."
+msgstr ""
+
+msgid "&Start"
+msgstr ""
+
+msgid "Start the cycled refreshing"
+msgstr ""
+
+msgid "The button for starting the cycled refreshing of the page content"
+msgstr ""
+
+msgid "Press for starting the cycled refreshing of the page content."
+msgstr ""
+
+msgid "&Stop"
+msgstr ""
+
+msgid "Stop the cycled refreshing"
+msgstr ""
+
+msgid "The button for stopping the cycled refreshing of the page content"
+msgstr ""
+
+msgid "Press for stopping the cycled refreshing of the page content."
+msgstr ""
+
+msgid "&About"
+msgstr ""
+
+msgid "Program and OpenSCADA information"
+msgstr ""
+
+msgid "The button of the information of the program and OpenSCADA"
+msgstr ""
+
+msgid "Press for information of the program and OpenSCADA."
+msgstr ""
+
+msgid "About &Qt"
+msgstr ""
+
+msgid "Qt information"
+msgstr ""
+
+msgid "The button for getting the using Qt information"
+msgstr ""
+
+msgid "Press for getting the using Qt information."
+msgstr ""
+
+msgid "Manual on '%1'"
+msgstr ""
+
+msgid "The button for getting the using %1 manual"
+msgstr ""
+
+msgid "Press to get the using %1 manual."
+msgstr ""
+
+msgid "Manual on the page"
+msgstr ""
+
+msgid "Selected page manual"
+msgstr ""
+
+msgid "The button for getting the using selected page manual."
+msgstr ""
+
+msgid "Press to get the using selected page manual."
+msgstr ""
+
+msgid "What's &This"
+msgstr ""
+
+msgid "Requesting about GUI elements"
+msgstr ""
+
+msgid "The button for requesting information about the user interface elements"
+msgstr ""
+
+msgid "Press for requesting information about the user interface elements."
+msgstr ""
+
+msgid "&File"
+msgstr ""
+
+msgid "&Edit"
+msgstr ""
+
+msgid "&View"
+msgstr ""
+
+msgid "&Help"
+msgstr ""
+
+msgid "Main toolbar"
+msgstr ""
+
+msgid "This label displays the current user."
+msgstr ""
+
+msgid "Field for displaying the current user."
+msgstr ""
+
+msgid "Double click to change the user."
+msgstr ""
+
+msgid "This label indicates the fact of making changes."
+msgstr ""
+
+msgid "Field for indicating the fact of making changes."
+msgstr ""
+
+msgid "This button calls the status bar history."
+msgstr ""
+
+msgid "Button for calling the status bar history."
+msgstr ""
+
+msgid "Ready"
+msgstr ""
+
+#, c-format
+msgid "Configurator using the remote host %d times."
+msgstr ""
+
+msgid "Saving the changes"
+msgstr ""
+
+msgid ""
+"Some changes were made!\n"
+"Save the changes to the DB before exiting?"
+msgstr ""
+
+msgid "No edited container is present."
+msgstr ""
+
+msgid "Adding an item to the node '%1'."
+msgstr ""
+
+msgid "Adding a node"
+msgstr ""
+
+msgid "The node '%1' is already present."
+msgstr ""
+
+msgid "Are you sure of deleting the nodes '%1'?"
+msgstr ""
+
+msgid "Deleting the nodes"
+msgstr ""
+
+msgid "Copying is not possible."
+msgstr ""
+
+msgid "Selected"
+msgstr ""
+
+msgid "Moving or copying the node"
+msgstr ""
+
+msgid "Moving the node '%1' to '%2'.\n"
+msgstr ""
+
+msgid "Copying the node '%1' to '%2'.\n"
+msgstr ""
+
+msgid "Do not ask for more."
+msgstr ""
+
+msgid "The node '%1' is already present. Continue?"
+msgstr ""
+
+msgid "List of messages in the status bar:"
+msgstr ""
+
+msgid "Status messages"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s v%s.\n"
+"%s\n"
+"Author: %s\n"
+"License: %s\n"
+"\n"
+"%s v%s.\n"
+"%s\n"
+"License: %s\n"
+"Author: %s\n"
+"Web site: %s"
+msgstr ""
+
+msgid "Manual"
+msgstr ""
+
+msgid "The manual '%1' was not found offline or online!"
+msgstr ""
+
+msgid "<EVAL>"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "Applying the changes"
+msgstr ""
+
+msgid ""
+"Some changes were made!\n"
+"Accept the changes now or lose?"
+msgstr ""
+
+msgid "Broken information request - there are no descendants."
+msgstr ""
+
+msgid "Refresh the items tree"
+msgstr ""
+
+#, c-format
+msgid "Time of expanding/updating '%s': %f ms."
+msgstr ""
+
+msgid "Sending the changes to the selected ones"
+msgstr ""
+
+#, c-format
+msgid "Send the command '%s' to other selected nodes \"%s\"?"
+msgstr ""
+
+#, c-format
+msgid "Unknown host '%s'."
+msgstr ""
+
+msgid "Waiting the reply from the host '%1'"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Local station"
+msgstr ""
+
+msgid "Remote station"
+msgstr ""
+
+#, c-format
+msgid "%s| Set '%s' to '%s'!"
+msgstr ""
+
+#, c-format
+msgid "%s| Went to the link '%s'!"
+msgstr ""
+
+#, c-format
+msgid "%s| Pressed down '%s'!"
+msgstr ""
+
+msgid "Value is wrong: "
+msgstr ""
+
+#, c-format
+msgid "%s| Changed '%s' from '%s' to '%s'!"
+msgstr ""
+
+msgid "Go"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Insert"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Up"
+msgstr ""
+
+msgid "Down"
+msgstr ""
+
+msgid "Setting the item name"
+msgstr ""
+
+msgid "Add a new element."
+msgstr ""
+
+msgid "Insert a new element."
+msgstr ""
+
+msgid "Rename the element."
+msgstr ""
+
+#, c-format
+msgid "%s| '%s' added by the element <%s:%s>!"
+msgstr ""
+
+#, c-format
+msgid "%s| '%s' inserted by the element <%s:%s> to %d!"
+msgstr ""
+
+#, c-format
+msgid "%s| '%s' set for the element %d to <%s:%s>!"
+msgstr ""
+
+#, c-format
+msgid "%s| '%s' deleted for the element <%s:%s>!"
+msgstr ""
+
+#, c-format
+msgid "%s| '%s' moved for the element %d to %d!"
+msgstr ""
+
+msgid "Add record"
+msgstr ""
+
+msgid "Insert record"
+msgstr ""
+
+msgid "Delete record"
+msgstr ""
+
+msgid "Move Up"
+msgstr ""
+
+msgid "Move Down"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+#, c-format
+msgid "%s| '%s' add by a record."
+msgstr ""
+
+#, c-format
+msgid "%s| '%s' inserted for the record %d."
+msgstr ""
+
+#, c-format
+msgid "%s| '%s' deleted for the record '%s'."
+msgstr ""
+
+#, c-format
+msgid "%s| '%s' moved for the record %d to %d."
+msgstr ""
+
+msgid "Saving an image"
+msgstr ""
+
+msgid "Loading an image"
+msgstr ""
+
+msgid "Saving the picture"
+msgstr ""
+
+msgid "Images (*.png *.xpm *.jpg)"
+msgstr ""
+
+#, c-format
+msgid "Error saving to the file '%s'\n"
+msgstr ""
+
+msgid "Loading the picture"
+msgstr ""
+
+msgid "Images (*.png *.jpg)"
+msgstr ""
+
+#, c-format
+msgid "Error opening the file '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "Error image file '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "%s| '%s' uploaded by the picture '%s'."
+msgstr ""
+
+#, c-format
+msgid "The value '%s' is wrong!"
+msgstr ""
+
+#, c-format
+msgid "%s| '%s' set for cell ('%s':%s) to: %s."
+msgstr ""
+
+#, c-format
+msgid "Selective element '%s' is missing!"
+msgstr ""
+
+#, c-format
+msgid "%s| '%s' changed to: '%s'!"
+msgstr ""
+
+msgid "No connection is established"
+msgstr ""
+
+msgid "Picture is not set!"
+msgstr ""
+
+msgid "Find"
+msgstr ""
+
+msgid "Find next"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Cursor = (%1:%2)"
+msgstr ""
+
+msgid "Enter a string to search:"
+msgstr ""
+
+msgid "Searching a string"
+msgstr ""
+
+msgid "Backward"
+msgstr ""
+
+msgid "Case sensitively"
+msgstr ""
+
+msgid "Whole words"
+msgstr ""
+
+msgid "Identifier:"
+msgstr ""
+
+msgid "Name:"
+msgstr ""
+
+msgid "Ok"
+msgstr ""
+
+msgid "Item type:"
+msgstr ""
+
+msgid "Selecting an user"
+msgstr ""
+
+msgid "User:"
+msgstr ""
+
+msgid "Password:"
+msgstr ""
+
+msgid "Error authentication!!!"
+msgstr ""
+
+msgid "Program configurator (Qt)"
+msgstr ""
+
+msgid "Roman Savochenko"
+msgstr ""
+
+msgid "Provides the Qt-based configurator of OpenSCADA."
+msgstr ""
+
+#, c-format
+msgid ""
+"======================= Module <%s:%s> options =======================\n"
+"---- Parameters of the module section '%s' of the configuration file ----\n"
+"StartPath  <path>       Initial page path of the configurator.\n"
+"StartUser  <user>       Starting user without password.\n"
+"ToolTipLim <chars>      ToolTip limit in chars, by default 150. Set zero for disable.\n"
+"\n"
+msgstr ""
+
+msgid "Loading the module."
+msgstr ""
+
+msgid "Saving the module."
+msgstr ""
+
+msgid "Starting the module."
+msgstr ""
+
+msgid "Stopping the module."
+msgstr ""
+
+msgid "Module options"
+msgstr ""
+
+msgid "Timeouts of checking connections '{fail}:{good}', seconds"
+msgstr ""
+
+msgid "Initial path of the configurator"
+msgstr ""
+
+msgid "Initial user of the configurator"
+msgstr ""
+
+msgid "ToolTip limit, zero to disable"
+msgstr ""
+
+msgid "Go to the configuration of the list of remote stations"
+msgstr ""
+
+msgid "Page"
+msgstr ""
+
+msgid "Item"
+msgstr ""
+
+msgid "QTCfg dialog"
+msgstr ""
+
+msgid "Selecting the identifier and the name of the node"
+msgstr ""

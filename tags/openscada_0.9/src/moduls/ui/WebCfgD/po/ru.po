@@ -1,0 +1,221 @@
+# OpenSCADA.UI.WebCfgD translate to Russian.
+# This file is distributed under the same license as the OpenSCADA.UI.WebCfgD package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2008-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.UI.WebCfgD 0.8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-12 16:39+0300\n"
+"PO-Revision-Date: 2008-12-15 15:28+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Program configurator (Dynamic WEB)"
+msgstr "Конфигуратор программы (Динамический WEB)"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"Provides the WEB-based configurator of OpenSCADA. The technologies are used: "
+"XHTML, CSS and JavaScript."
+msgstr ""
+"Предоставляет основанный на WEB динамический конфигуратор OpenSCADA. "
+"Использованы технологии: XHTML, CSS и JavaScript."
+
+msgid "Manual"
+msgstr "Руководство"
+
+msgid "About"
+msgstr "Про..."
+
+msgid "Drag to resize the Menu"
+msgstr "Потяните для изменения размера меню"
+
+msgid "Load"
+msgstr "Загрузить"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Up"
+msgstr "На уровень выше"
+
+msgid "Back"
+msgstr "Предыдущая"
+
+msgid "Forward"
+msgstr "Следующая"
+
+msgid "Add item"
+msgstr "Добавить элемент"
+
+msgid "Delete item"
+msgstr "Удалить элемент"
+
+msgid "Copy item"
+msgstr "Копировать элемент"
+
+msgid "Cut item"
+msgstr "Вырезать элемент"
+
+msgid "Paste item"
+msgstr "Вставить элемент"
+
+msgid "Refresh the item and tree"
+msgstr "Обновить элемент и дерево"
+
+msgid "Start the cycled refreshing"
+msgstr "Запуск периодического обновления"
+
+msgid "Stop the cycled refreshing"
+msgstr "Останов периодического обновления"
+
+msgid "Ready"
+msgstr "Готов"
+
+msgid "Go"
+msgstr "Перейти"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "Insert"
+msgstr "Вставить"
+
+msgid "Edit"
+msgstr "Редактировать"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Item up"
+msgstr "Поднять"
+
+msgid "Item down"
+msgstr "Опустить"
+
+msgid "Adding an element."
+msgstr "Добавление нового элемента."
+
+msgid "Inserting an element."
+msgstr "Вставка нового элемента."
+
+msgid "Renaming the element."
+msgstr "Переименование элемента."
+
+msgid "Selecting an image file for download to the picture field."
+msgstr "Выбор файла изображения для загрузки в поле изображения."
+
+msgid "Add row"
+msgstr "Добавить строку"
+
+msgid "Insert row"
+msgstr "Вставить строку"
+
+msgid "Delete row"
+msgstr "Удалить строку"
+
+msgid "Up row"
+msgstr "Поднять строку"
+
+msgid "Down row"
+msgstr "Опустить строку"
+
+msgid "There is no container for editing."
+msgstr "Нет ни одного редактируемого контейнера."
+
+msgid "Adding an item to the node '%1'."
+msgstr "Добавление элемента в узел '%1'."
+
+msgid "Item '%1' already exists."
+msgstr "Элемент '%1' уже присутствует."
+
+msgid "Are you sure you want to remove the node '%1'?"
+msgstr "Вы действительно хотите удалить узел '%1'?"
+
+msgid "Copy is impossible."
+msgstr "Копирование невозможно."
+
+msgid "Selected"
+msgstr "Выбранный"
+
+msgid "Move node '%1' to '%2'."
+msgstr "Перемещение узла '%1' в '%2'."
+
+msgid "Copy node '%1' to '%2'."
+msgstr "Копирование узла '%1' в '%2'."
+
+msgid "Node '%1' already present. Continue?"
+msgstr "Узел '%1' уже присутствует. Продолжить?"
+
+msgid "Element type:"
+msgstr "Тип элемента:"
+
+msgid "Name:"
+msgstr "Имя:"
+
+msgid "Ok"
+msgstr "Принять"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Page loaded."
+msgstr "Страница загружена."
+
+msgid "Selecting node id and/or name"
+msgstr "Выбор идентификатора и/или имени"
+
+msgid "Setting item name"
+msgstr "Установка имени элемента"
+
+msgid "Setting an image"
+msgstr "Установка изображения"
+
+msgid "Adding a node"
+msgstr "Добавление элемента"
+
+msgid "Moving or copying the node"
+msgstr "Перемещение или копирование узла"
+
+msgid "Name: "
+msgstr "Имя: "
+
+msgid "Description: "
+msgstr "Описание: "
+
+msgid "License: "
+msgstr "Лицензия: "
+
+msgid "Author: "
+msgstr "Автор: "
+
+msgid "Web site: "
+msgstr "Web сайт: "
+
+#, c-format
+msgid "Unknown command: %s."
+msgstr "Неизвестная команда: %s."
+
+#, c-format
+msgid "The page/widget '%s' calling command '%s'!"
+msgstr "Команда вызова страницы/виджета '%s': '%s'!"
+
+#, c-format
+msgid "Error the page '%s': %s"
+msgstr "Ошибка страницы '%s': %s"
+
+msgid "No content."
+msgstr "Нет содержимого."
+
+msgid "Module options"
+msgstr "Опции модуля"
+
+msgid "Go to the configuration of the remote stations list"
+msgstr "Перейти к конфигурации списка удалённых станций"

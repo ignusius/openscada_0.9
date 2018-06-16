@@ -1,0 +1,2049 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-04 23:34+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Operation user interface (Qt)"
+msgstr ""
+
+msgid "Roman Savochenko, Maxim Lysenko (2006-2012), Kseniya Yashina (2006-2007), Evgen Zaichuk (2005-2006)"
+msgstr ""
+
+msgid "Visual operation user interface, based on the Qt library - front-end to the VCA engine."
+msgstr ""
+
+#, c-format
+msgid ""
+"======================= Module <%s:%s> options =======================\n"
+"---- Parameters of the module section '%s' of the configuration file ----\n"
+"StartUser  <user>       Start-up, no-password, user.\n"
+"UserPass   <pass>       User password for non-local start.\n"
+"RunPrjs    <list>       List of projects to be launched at the start of the module.\n"
+"ExitLstRunPrjCls <0|1>  Exit closing the last completed project (default = 1).\n"
+"CachePgLife <hours>     The lifetime of pages in the cache.\n"
+"VCAstation <id>         The station with the VCA engine ('.' Is local).\n"
+"RestoreTime <seconds>   Connection recovery time.\n"
+"\n"
+msgstr ""
+
+msgid "Loading the module."
+msgstr ""
+
+msgid "Saving the module."
+msgstr ""
+
+msgid "Error connecting to remote station!"
+msgstr ""
+
+msgid "Error authenticating the user '%1'!!!"
+msgstr ""
+
+msgid "Starting the module."
+msgstr ""
+
+msgid "Stopping the module."
+msgstr ""
+
+msgid "Number of individual displays"
+msgstr ""
+
+msgid "Main windows"
+msgstr ""
+
+msgid "Module options"
+msgstr ""
+
+msgid "Station of the VCA engine"
+msgstr ""
+
+msgid "Go to the remote stations list configuration"
+msgstr ""
+
+msgid "Starting user"
+msgstr ""
+
+msgid "Password of the user"
+msgstr ""
+
+msgid "Connection recovery time, seconds"
+msgstr ""
+
+msgid "Lifetime of the cached pages"
+msgstr ""
+
+msgid ""
+"The time is specified in hours, which defines the inactivity interval for closing pages in the cache.\n"
+"A zero value of time excludes the closing of pages in the cache."
+msgstr ""
+
+msgid "List of the projects for launch"
+msgstr ""
+
+msgid ""
+"Automatically executed projects, divided by the symbol ';'.\n"
+"To open the project window on the desired display (1), use the project name format: 'PrjName-1'.\n"
+"To connect to the background or another open session use \"ses_{SesID}\"."
+msgstr ""
+
+msgid "Exit when closing the last running project"
+msgstr ""
+
+#, c-format
+msgid "%d: Development by \"%s\""
+msgstr ""
+
+#, c-format
+msgid "%d: Running \"%s:%s\" from \"%s\" - %s"
+msgstr ""
+
+msgid "Connected"
+msgstr ""
+
+msgid "Disconnected"
+msgstr ""
+
+#, c-format
+msgid "OpenSCADA Vision developing: %s"
+msgstr ""
+
+msgid "Full screen"
+msgstr ""
+
+msgid "Full screen mode toggling"
+msgstr ""
+
+msgid "The button for full screen mode toggling"
+msgstr ""
+
+msgid "Press for toggling the full screen mode."
+msgstr ""
+
+msgid "&Close"
+msgstr ""
+
+msgid "Close the Vision window"
+msgstr ""
+
+msgid "The button for closing the Vision developing window"
+msgstr ""
+
+msgid "Press to close of the current Vision developing window."
+msgstr ""
+
+msgid "&Quit"
+msgstr ""
+
+msgid "Quit the program"
+msgstr ""
+
+msgid "The button for complete quit the program"
+msgstr ""
+
+msgid "Press for complete quit the program."
+msgstr ""
+
+msgid "&About"
+msgstr ""
+
+msgid "Program and OpenSCADA information"
+msgstr ""
+
+msgid "The button of the information of the program and OpenSCADA"
+msgstr ""
+
+msgid "Press for information of the program and OpenSCADA."
+msgstr ""
+
+msgid "About &Qt"
+msgstr ""
+
+msgid "Qt information"
+msgstr ""
+
+msgid "The button for getting the using Qt information"
+msgstr ""
+
+msgid "Press for getting the using Qt information."
+msgstr ""
+
+msgid "Manual on '%1'"
+msgstr ""
+
+msgid "The button for getting the using '%1' manual"
+msgstr ""
+
+msgid "Press for getting the using '%1' manual."
+msgstr ""
+
+msgid "What's &This"
+msgstr ""
+
+msgid "Requesting about GUI elements"
+msgstr ""
+
+msgid "The button for requesting information about the user interface elements"
+msgstr ""
+
+msgid "Press for requesting information about the user interface elements."
+msgstr ""
+
+msgid "Load from DB"
+msgstr ""
+
+msgid "Load the item data from DB"
+msgstr ""
+
+msgid "The button for loading the item data from the DB"
+msgstr ""
+
+msgid "Press for loading the item data from the DB."
+msgstr ""
+
+msgid "Save to DB"
+msgstr ""
+
+msgid "Save the item data to DB"
+msgstr ""
+
+msgid "The button for saving the item data to the DB"
+msgstr ""
+
+msgid "Press for saving the item data to the DB."
+msgstr ""
+
+msgid "Run project"
+msgstr ""
+
+msgid "Run the project execution for the selected item"
+msgstr ""
+
+msgid "The button for running the project execution for the selected item"
+msgstr ""
+
+msgid "Press for running the project execution for the selected item."
+msgstr ""
+
+msgid "New project"
+msgstr ""
+
+msgid "The button for creation a new project"
+msgstr ""
+
+msgid "Press for creation a new project."
+msgstr ""
+
+msgid "New library"
+msgstr ""
+
+msgid "New widgets library"
+msgstr ""
+
+msgid "The button for creation a new widgets library"
+msgstr ""
+
+msgid "Press for creation a new widgets library."
+msgstr ""
+
+msgid "Add visual item"
+msgstr ""
+
+msgid "Adding a visual item to the library, container widget, project or page"
+msgstr ""
+
+msgid "The button for adding a visual item to the library, container widget, project or page"
+msgstr ""
+
+msgid "Press for adding a visual item to the library, container widget, project or page."
+msgstr ""
+
+msgid "Delete visual item"
+msgstr ""
+
+msgid "Deleting the visual item from the library, container widget, project or page"
+msgstr ""
+
+msgid "The button for deleting the visual item from the library, container widget, project or page"
+msgstr ""
+
+msgid "Press for deleting the visual item from the library, container widget, project or page."
+msgstr ""
+
+msgid "Properties of the visual item"
+msgstr ""
+
+msgid "Getting the properties of the visual item"
+msgstr ""
+
+msgid "The button for getting the properties of the visual item"
+msgstr ""
+
+msgid "Press for getting the properties of the visual item."
+msgstr ""
+
+msgid "Edit visual item"
+msgstr ""
+
+msgid "Going to editing the visual item"
+msgstr ""
+
+msgid "The button for going to editing the visual item"
+msgstr ""
+
+msgid "Press for going to editing the visual item."
+msgstr ""
+
+msgid "Clear visual item changes"
+msgstr ""
+
+msgid "Clearing the visual items changes"
+msgstr ""
+
+msgid "The button for clearing the visual items changes"
+msgstr ""
+
+msgid "Press for clearing the visual items changes."
+msgstr ""
+
+msgid "Lower down visual item changes"
+msgstr ""
+
+msgid "Lowering down the visual item changes to the parent"
+msgstr ""
+
+msgid "The button for lowering down the visual item changes to the parent"
+msgstr ""
+
+msgid "Press for lowering down the visual item changes to the parent."
+msgstr ""
+
+msgid "Undo visual item changes"
+msgstr ""
+
+msgid "Undoing the visual item changes:"
+msgstr ""
+
+msgid "The button for undoing the visual item changes"
+msgstr ""
+
+msgid "Press for undoing the visual item changes."
+msgstr ""
+
+msgid "Redo visual item changes"
+msgstr ""
+
+msgid "Redoing the visual item changes:"
+msgstr ""
+
+msgid "The button for redoing the visual item changes"
+msgstr ""
+
+msgid "Press for redoing the visual item changes."
+msgstr ""
+
+msgid "Copy visual item"
+msgstr ""
+
+msgid "Copying the visual item"
+msgstr ""
+
+msgid "The button for copying the visual item"
+msgstr ""
+
+msgid "Press for copying the visual item."
+msgstr ""
+
+msgid "Cut visual item"
+msgstr ""
+
+msgid "Cutting the visual item"
+msgstr ""
+
+msgid "The button for cutting the visual item"
+msgstr ""
+
+msgid "Press for cutting the visual item."
+msgstr ""
+
+msgid "Paste visual item"
+msgstr ""
+
+msgid "Pasting the visual item"
+msgstr ""
+
+msgid "The button for pasting the visual item"
+msgstr ""
+
+msgid "Press for pasting the visual item."
+msgstr ""
+
+msgid "Raise up to the top"
+msgstr ""
+
+msgid "Raising up the selected widgets to the top"
+msgstr ""
+
+msgid "The button for raising up the selected widgets to the top"
+msgstr ""
+
+msgid "Press for raising up the selected widgets to the top."
+msgstr ""
+
+msgid "Lower down to the bottom"
+msgstr ""
+
+msgid "Lowering down the selected widgets to the bottom"
+msgstr ""
+
+msgid "The button for lowering down the selected widgets to the bottom"
+msgstr ""
+
+msgid "Press for lowering down the selected widgets to the bottom."
+msgstr ""
+
+msgid "Rise up"
+msgstr ""
+
+msgid "Raising up the selected widgets"
+msgstr ""
+
+msgid "The button for raising up the selected widgets"
+msgstr ""
+
+msgid "Press for raising up the selected widgets."
+msgstr ""
+
+msgid "Lower down"
+msgstr ""
+
+msgid "Lowering down the selected widgets"
+msgstr ""
+
+msgid "The button for lowering down the selected widgets"
+msgstr ""
+
+msgid "Press for lowering down the selected widgets."
+msgstr ""
+
+msgid "Align to the left"
+msgstr ""
+
+msgid "Aligning the selected widgets to the left"
+msgstr ""
+
+msgid "The button for aligning the selected widgets to the left"
+msgstr ""
+
+msgid "Press for aligning the selected widgets to the left."
+msgstr ""
+
+msgid "Align vertically to the center"
+msgstr ""
+
+msgid "Aligning the selected widgets vertically to the center"
+msgstr ""
+
+msgid "The button for aligning the selected widgets vertically to the center"
+msgstr ""
+
+msgid "Press for aligning the selected widgets vertically to the center."
+msgstr ""
+
+msgid "Align to the right"
+msgstr ""
+
+msgid "Aligning the selected widgets to the right"
+msgstr ""
+
+msgid "The button for aligning the selected widgets to the right"
+msgstr ""
+
+msgid "Press for aligning the selected widgets to the right."
+msgstr ""
+
+msgid "Align to the top"
+msgstr ""
+
+msgid "Aligning the selected widgets to the top"
+msgstr ""
+
+msgid "The button for aligning the selected widgets to the top"
+msgstr ""
+
+msgid "Press for aligning the selected widgets to the top."
+msgstr ""
+
+msgid "Align horizontally to the center"
+msgstr ""
+
+msgid "Aligning the selected widgets horizontally to the center"
+msgstr ""
+
+msgid "The button for aligning the selected widgets horizontally to the center"
+msgstr ""
+
+msgid "Press for aligning the selected widgets horizontally to the center."
+msgstr ""
+
+msgid "Align to the bottom"
+msgstr ""
+
+msgid "Aligning the selected widgets to the bottom"
+msgstr ""
+
+msgid "The button for aligning the selected widgets to the bottom"
+msgstr ""
+
+msgid "Press for aligning the selected widgets to the bottom."
+msgstr ""
+
+msgid "Return the cursor"
+msgstr ""
+
+msgid "Returning the cursor"
+msgstr ""
+
+msgid "The button for returning the cursor"
+msgstr ""
+
+msgid "Press for returning the cursor."
+msgstr ""
+
+msgid "Add line"
+msgstr ""
+
+msgid "Adding a line to the elementary figure"
+msgstr ""
+
+msgid "The button for adding a line to the elementary figure"
+msgstr ""
+
+msgid "Press for adding a line to the elementary figure."
+msgstr ""
+
+msgid "Add arc"
+msgstr ""
+
+msgid "Adding an arc to the elementary figure"
+msgstr ""
+
+msgid "The button for adding an arc to the elementary figure"
+msgstr ""
+
+msgid "Press for adding an arc to the elementary figure."
+msgstr ""
+
+msgid "Add Besier curve"
+msgstr ""
+
+msgid "Adding a Besier curve to the elementary figure"
+msgstr ""
+
+msgid "The button for adding a Besier curve to the elementary figure"
+msgstr ""
+
+msgid "Press for adding a Besier curve to the elementary figure."
+msgstr ""
+
+msgid "Connections"
+msgstr ""
+
+msgid "Enabling the connections"
+msgstr ""
+
+msgid "The button for enabling the connections"
+msgstr ""
+
+msgid "Press for enabling the connections."
+msgstr ""
+
+msgid "Cl&ose"
+msgstr ""
+
+msgid "Close the active window"
+msgstr ""
+
+msgid "The button for closing the active window"
+msgstr ""
+
+msgid "Press for closing the active window."
+msgstr ""
+
+msgid "Close &All"
+msgstr ""
+
+msgid "Close all windows"
+msgstr ""
+
+msgid "The button for closing all windows"
+msgstr ""
+
+msgid "Press for closing all windows."
+msgstr ""
+
+msgid "&Tile"
+msgstr ""
+
+msgid "Tile all windows"
+msgstr ""
+
+msgid "The button for tiling all windows"
+msgstr ""
+
+msgid "Press for tiling all windows."
+msgstr ""
+
+msgid "&Cascade"
+msgstr ""
+
+msgid "Cascade all windows"
+msgstr ""
+
+msgid "The button for cascading all windows"
+msgstr ""
+
+msgid "Press for cascading all windows."
+msgstr ""
+
+msgid "Ne&xt"
+msgstr ""
+
+msgid "Activate the next window"
+msgstr ""
+
+msgid "The button for activating the next window"
+msgstr ""
+
+msgid "Press for activating the next window."
+msgstr ""
+
+msgid "Pre&vious"
+msgstr ""
+
+msgid "Activate the previous window"
+msgstr ""
+
+msgid "The button for activating the previous window"
+msgstr ""
+
+msgid "Press for activating the previous window."
+msgstr ""
+
+msgid "&File"
+msgstr ""
+
+msgid "&Edit"
+msgstr ""
+
+msgid "&Project"
+msgstr ""
+
+msgid "&Widget"
+msgstr ""
+
+msgid "&View"
+msgstr ""
+
+msgid "&Window"
+msgstr ""
+
+msgid "&Help"
+msgstr ""
+
+msgid "Visual items toolbar"
+msgstr ""
+
+msgid "Functions of the widgets location"
+msgstr ""
+
+msgid "Elementary figure tools"
+msgstr ""
+
+msgid "This label displays the current user."
+msgstr ""
+
+msgid "Field for displaying the current user."
+msgstr ""
+
+msgid "Double click to change the user."
+msgstr ""
+
+msgid "This label displays the used VCA engine station."
+msgstr ""
+
+msgid "Field for displaying the used VCA engine station."
+msgstr ""
+
+msgid "This label displays the widgets scaling mode."
+msgstr ""
+
+msgid "Field for displaying the widgets scaling mode."
+msgstr ""
+
+msgid "Click to change the widgets scaling mode."
+msgstr ""
+
+msgid "This label indicates the fact of making changes."
+msgstr ""
+
+msgid "Field for indicating the fact of making changes."
+msgstr ""
+
+msgid "Click to save all the made changes."
+msgstr ""
+
+msgid "This label displays the current widget scale."
+msgstr ""
+
+msgid "Field for displaying the current widget scale."
+msgstr ""
+
+msgid "Dock window of the projects manager."
+msgstr ""
+
+msgid "Dock window of the manager of the widgets libraries."
+msgstr ""
+
+msgid "Dock window of the inspector ot the widget attributes."
+msgstr ""
+
+msgid "Dock window of the inspector ot the widget links."
+msgstr ""
+
+msgid "Ready"
+msgstr ""
+
+msgid "Icons size"
+msgstr ""
+
+msgid "Small (16x16)"
+msgstr ""
+
+msgid "Medium (22x22)"
+msgstr ""
+
+msgid "Big (32x32)"
+msgstr ""
+
+msgid "Huge (48x48)"
+msgstr ""
+
+msgid "Saving of the visual items"
+msgstr ""
+
+msgid ""
+"Some visual items have been changed.\n"
+"Save the changes to the DB before exiting?"
+msgstr ""
+
+msgid ""
+"%1 v%2.\n"
+"%3\n"
+"Author: %4\n"
+"License: %5\n"
+"\n"
+"%6 v%7.\n"
+"%8\n"
+"License: %9\n"
+"Author: %10\n"
+"Web site: %11"
+msgstr ""
+
+msgid "Manual"
+msgstr ""
+
+msgid "The manual '%1' was not found offline or online!"
+msgstr ""
+
+msgid "Are you sure of loading visual items '%1' from the DB?"
+msgstr ""
+
+msgid "Loading the visual items data from the DB"
+msgstr ""
+
+msgid "Are you sure of saving all modifications to the DB?"
+msgstr ""
+
+msgid "Are you sure of saving the visual items '%1' to the DB?"
+msgstr ""
+
+msgid "Saving the visual items data to the DB"
+msgstr ""
+
+msgid "Enter the identifier and the name of the new project."
+msgstr ""
+
+msgid "Enter the identifier and the name of the new widgets library."
+msgstr ""
+
+msgid "Enter the identifier and the name of the new widget/page."
+msgstr ""
+
+msgid "Creating a widget/page"
+msgstr ""
+
+msgid "Are you sure of deleting the visual items: '%1'?"
+msgstr ""
+
+msgid "Deleting the visual items"
+msgstr ""
+
+msgid "Widget: %1"
+msgstr ""
+
+msgid "The widget '%1' editing window is already open."
+msgstr ""
+
+msgid ""
+"Are you sure of clear all changes of the visual items: '%1'?\n"
+"All changes will be lost and values will return to the previous state or will be inherited!"
+msgstr ""
+
+msgid ""
+"Are you sure for lowering down to the parent for all changes of the visual items: '%1'?\n"
+"All other visual elements, descendant from this ancestor, will use these changes!"
+msgstr ""
+
+msgid "Moving or copying the visual items"
+msgstr ""
+
+msgid "Moving the project '%1'.\n"
+msgstr ""
+
+msgid "Copying the project '%1'.\n"
+msgstr ""
+
+msgid "Moving the widgets library '%1'.\n"
+msgstr ""
+
+msgid "Copying the widgets library '%1'.\n"
+msgstr ""
+
+msgid "Moving the page '%1' to '%2'.\n"
+msgstr ""
+
+msgid "Copying the page '%1' to '%2'.\n"
+msgstr ""
+
+msgid "Moving the widget '%1' to '%2'.\n"
+msgstr ""
+
+msgid "Copying the widget '%1' to '%2'.\n"
+msgstr ""
+
+msgid "Enter the identifier and the name of the new widget."
+msgstr ""
+
+msgid "Copy/move scheme from '%1' to '%2' is not supported."
+msgstr ""
+
+msgid "Inherit:"
+msgstr ""
+
+msgid ""
+"The target item '%1' is already present!\n"
+"Paste to it anyway?"
+msgstr ""
+
+msgid "Attempting to copy/move yourself for \"%1/%1\"!"
+msgstr ""
+
+msgid "Properties of the widgets library"
+msgstr ""
+
+msgid "Widgets library"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Item icon. Click to download another."
+msgstr ""
+
+msgid "Enabled:"
+msgstr ""
+
+msgid "Container DB:"
+msgstr ""
+
+msgid "Used:"
+msgstr ""
+
+msgid "Date of modification:"
+msgstr ""
+
+msgid "Configuration"
+msgstr ""
+
+msgid "Identifier:"
+msgstr ""
+
+msgid "Name:"
+msgstr ""
+
+msgid "Description:"
+msgstr ""
+
+msgid "Owner, group:"
+msgstr ""
+
+msgid "Access:"
+msgstr ""
+
+msgid "Period of the calculating, milliseconds:"
+msgstr ""
+
+msgid "Mime data"
+msgstr ""
+
+msgid "Identifier"
+msgstr ""
+
+msgid "Mime type"
+msgstr ""
+
+msgid "Data size"
+msgstr ""
+
+msgid "Add record"
+msgstr ""
+
+msgid "Delete record"
+msgstr ""
+
+msgid "Load data"
+msgstr ""
+
+msgid "Unload data"
+msgstr ""
+
+msgid "Styles"
+msgstr ""
+
+msgid "Style:"
+msgstr ""
+
+msgid "Erase style"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Diagnostics"
+msgstr ""
+
+msgid "Time:"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Size:"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "mcsec"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "Level"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Error getting the node '%1' information."
+msgstr ""
+
+msgid "Not set"
+msgstr ""
+
+msgid "Downloading the image icon"
+msgstr ""
+
+msgid "Images (*.png *.jpg)"
+msgstr ""
+
+msgid "Error downloading the icon image '%1'."
+msgstr ""
+
+msgid "Saving the changes"
+msgstr ""
+
+msgid ""
+"Some changes were made!\n"
+"Save the changes to the DB before the closing?"
+msgstr ""
+
+msgid "No rows selected."
+msgstr ""
+
+msgid "Are you sure of loading a mime to selected item '%1'?"
+msgstr ""
+
+msgid "Loading the data"
+msgstr ""
+
+msgid "All files (*.*)"
+msgstr ""
+
+msgid "Error opening the file '%1': %2"
+msgstr ""
+
+msgid "The download file '%1' is very large."
+msgstr ""
+
+msgid "Saving the data"
+msgstr ""
+
+msgid "Error writing the data to the file '%1': %2"
+msgstr ""
+
+msgid "Properties of the widget"
+msgstr ""
+
+msgid "Widget"
+msgstr ""
+
+msgid "Parent widget:"
+msgstr ""
+
+msgid "Page type:"
+msgstr ""
+
+msgid "Root:"
+msgstr ""
+
+msgid "Path:"
+msgstr ""
+
+msgid "Attributes"
+msgstr ""
+
+msgid "Widget process"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Data type"
+msgstr ""
+
+msgid "Work area"
+msgstr ""
+
+msgid "Processing"
+msgstr ""
+
+msgid "Configuration template"
+msgstr ""
+
+msgid "Add attribute"
+msgstr ""
+
+msgid "Delete attribute"
+msgstr ""
+
+msgid "Procedure language:"
+msgstr ""
+
+msgid "Translate:"
+msgstr ""
+
+msgid "Links"
+msgstr ""
+
+msgid "Correct widget is not selected"
+msgstr ""
+
+msgid "Correct attribute is not selected"
+msgstr ""
+
+msgid "<Group>"
+msgstr ""
+
+msgid "Attribute"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Clear changes"
+msgstr ""
+
+msgid "Press to clear changes of the attribute."
+msgstr ""
+
+msgid "Lower the widget changes to its parent"
+msgstr ""
+
+msgid "Press for lowering the widget changes to its parent."
+msgstr ""
+
+msgid "Full-text editing of the attribute."
+msgstr ""
+
+msgid "Editing the attribute '%1' for the widget '%2'."
+msgstr ""
+
+msgid "Short help to describe the syntax of the text."
+msgstr ""
+
+msgid "Widgets"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+#, c-format
+msgid "Time of requesting the widgets development tree '%s': %f ms."
+msgstr ""
+
+msgid "Library"
+msgstr ""
+
+msgid "Library: %1"
+msgstr ""
+
+msgid "Adding a widget based on '%1'"
+msgstr ""
+
+msgid "The button for adding a widget based on '%1'"
+msgstr ""
+
+msgid "Press for adding a widget based on '%1'."
+msgstr ""
+
+msgid "Container widget"
+msgstr ""
+
+#, c-format
+msgid "Time of loading the widgets development tree '%s': %f ms."
+msgstr ""
+
+msgid "Refresh libraries"
+msgstr ""
+
+msgid "Press to refresh the present libraries."
+msgstr ""
+
+msgid "Projects"
+msgstr ""
+
+msgid "Project"
+msgstr ""
+
+#, c-format
+msgid "Time of loading the projects development tree '%s': %f ms."
+msgstr ""
+
+msgid "Page"
+msgstr ""
+
+msgid "Refresh projects"
+msgstr ""
+
+msgid "Press to refresh the present projects."
+msgstr ""
+
+msgid "Scale"
+msgstr ""
+
+msgid "Resize"
+msgstr ""
+
+msgid "WARNING! The widget is already set up for editing."
+msgstr ""
+
+msgid "Exit the widget editing"
+msgstr ""
+
+msgid "Press to exit the widget editing."
+msgstr ""
+
+msgid "Enter the widget editing"
+msgstr ""
+
+msgid "Press to enter the widget editing."
+msgstr ""
+
+msgid "Make up an icon from the widget"
+msgstr ""
+
+msgid "Press to make up an icon from the widget."
+msgstr ""
+
+msgid "Make up an image from the widget"
+msgstr ""
+
+msgid "Press to make up an image from the widget."
+msgstr ""
+
+msgid "Zoom in (+10%)"
+msgstr ""
+
+msgid "Press to increase the visual scale of the widget by 10%."
+msgstr ""
+
+msgid "Zoom out (-10%)"
+msgstr ""
+
+msgid "Press to decrease the visual scale of the widget by 10%."
+msgstr ""
+
+msgid "Reset the zoom (100%)"
+msgstr ""
+
+msgid "Press to reset the visual scale of the widget to 100%."
+msgstr ""
+
+msgid "Saving the widget image"
+msgstr ""
+
+msgid "Images (*.png *.xpm *.jpg)"
+msgstr ""
+
+msgid "Error saving to the file '%1'."
+msgstr ""
+
+msgid "Selected elements --- xy(%2:%3) wh[%4:%5]"
+msgstr ""
+
+msgid "Page: '%1' --- xy(%2:%3) wh[%4:%5]"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"... more items (%d)"
+msgstr ""
+
+msgid "geometry"
+msgstr ""
+
+#, c-format
+msgid "attribute '%s'"
+msgstr ""
+
+#, c-format
+msgid "new widget '%s' from '%s'"
+msgstr ""
+
+msgid "remove widget"
+msgstr ""
+
+#, c-format
+msgid "copy past widget '%s' from '%s'"
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+msgid "The widget is disabled or the widget shape is not supported!"
+msgstr ""
+
+msgid "Selected elements: '%1'"
+msgstr ""
+
+msgid "Cursor --- xy(%1:%2)"
+msgstr ""
+
+#, c-format
+msgid "Session '%s(%s)' using the remote host %d times."
+msgstr ""
+
+msgid ""
+"Error connecting to the visualization server '%1': %2.\n"
+"The next recovery attempt after %3s!"
+msgstr ""
+
+#, c-format
+msgid "Scale of the root page [%f:%f]."
+msgstr ""
+
+msgid "Printing a page"
+msgstr ""
+
+msgid "There is no page to print!"
+msgstr ""
+
+msgid "Select a page to print."
+msgstr ""
+
+msgid "Pages:"
+msgstr ""
+
+msgid "Printing the page: \"%1\" (%2)"
+msgstr ""
+
+msgid "OpenSCADA project: \"%1\""
+msgstr ""
+
+msgid "User: \"%1\""
+msgstr ""
+
+msgid "Printing a diagram"
+msgstr ""
+
+msgid "There is no page!"
+msgstr ""
+
+msgid "There is no diagram!"
+msgstr ""
+
+msgid "Select a diagram to print."
+msgstr ""
+
+msgid "Diagrams:"
+msgstr ""
+
+msgid "Printing the diagram: \"%1\" (%2)"
+msgstr ""
+
+msgid ""
+"OpenSCADA project: \"%1\"\n"
+"%2 (%3)"
+msgstr ""
+
+msgid ""
+"User: \"%1\"\n"
+"%2"
+msgstr ""
+
+msgid "Printing a document"
+msgstr ""
+
+msgid "There is no document!"
+msgstr ""
+
+msgid "Select a document to print."
+msgstr ""
+
+msgid "Document:"
+msgstr ""
+
+msgid "Printing the document: \"%1\" (%2)"
+msgstr ""
+
+msgid "Exporting a page"
+msgstr ""
+
+msgid "There is no page for exporting!"
+msgstr ""
+
+msgid "Select a page to export."
+msgstr ""
+
+msgid "Saving the page image"
+msgstr ""
+
+msgid "Exporting a diagram"
+msgstr ""
+
+msgid "Select a diagram to export."
+msgstr ""
+
+msgid "Saving a diagram"
+msgstr ""
+
+#, c-format
+msgid "Trend %1.png"
+msgstr ""
+
+msgid "Images (*.png *.xpm *.jpg);;CSV file (*.csv)"
+msgstr ""
+
+msgid "\"Date and time\";\"us\""
+msgstr ""
+
+msgid "\"Frequency (Hz)\""
+msgstr ""
+
+msgid "Error writing to: %1."
+msgstr ""
+
+msgid "Exporting a document"
+msgstr ""
+
+msgid "Select a document to export."
+msgstr ""
+
+msgid "Saving a document"
+msgstr ""
+
+#, c-format
+msgid "Document %1.html"
+msgstr ""
+
+msgid "XHTML (*.html);;CSV file (*.csv)"
+msgstr ""
+
+msgid "No data to export."
+msgstr ""
+
+msgid ""
+"Several sessions are already opened for the project \"%1\".\n"
+"You can create a new or connect to the present session. Please select the one you want or click \"Cancel\"."
+msgstr ""
+
+msgid "Selecting a session for connection or a new one creating"
+msgstr ""
+
+msgid "<Create new session>"
+msgstr ""
+
+msgid "Running project: %1"
+msgstr ""
+
+msgid "The button for closing the Vision runtime window"
+msgstr ""
+
+msgid "Press to close of the current Vision runtime window."
+msgstr ""
+
+msgid "&Alarm"
+msgstr ""
+
+msgid "&Print"
+msgstr ""
+
+msgid "Print the master page"
+msgstr ""
+
+msgid "The button for printing the master page, by default"
+msgstr ""
+
+msgid "Press for printing the master page, by default."
+msgstr ""
+
+msgid "Print the selected page"
+msgstr ""
+
+msgid "The button for printing the selected page"
+msgstr ""
+
+msgid "Press for printing the selected page."
+msgstr ""
+
+msgid "Diagram"
+msgstr ""
+
+msgid "Print the selected diagram"
+msgstr ""
+
+msgid "The button for printing the selected diagram"
+msgstr ""
+
+msgid "Press for printing the selected diagram."
+msgstr ""
+
+msgid "Document"
+msgstr ""
+
+msgid "Print the selected document"
+msgstr ""
+
+msgid "The button for printing the selected document"
+msgstr ""
+
+msgid "Press for printing the selected document."
+msgstr ""
+
+msgid "&Export"
+msgstr ""
+
+msgid "Export the master page"
+msgstr ""
+
+msgid "The button for exporting the master page, by default"
+msgstr ""
+
+msgid "Press for exporting the master page, by default."
+msgstr ""
+
+msgid "Export the selected page"
+msgstr ""
+
+msgid "The button for exporting the selected page"
+msgstr ""
+
+msgid "Press for exporting the selected page."
+msgstr ""
+
+msgid "Export the selected diagram"
+msgstr ""
+
+msgid "The button for exporting the selected diagram"
+msgstr ""
+
+msgid "Press for exporting the selected diagram."
+msgstr ""
+
+msgid "Export the selected document"
+msgstr ""
+
+msgid "The button for exporting the selected document"
+msgstr ""
+
+msgid "Press for exporting the selected document."
+msgstr ""
+
+msgid "Project '%1' manual"
+msgstr ""
+
+msgid "The button for getting the using project '%1' manual"
+msgstr ""
+
+msgid "Press for getting the using project '%1' manual."
+msgstr ""
+
+msgid "The button for requesting the information about GUI elements"
+msgstr ""
+
+msgid "Requesting the information about GUI elements"
+msgstr ""
+
+msgid "Press for requesting the information about GUI elements."
+msgstr ""
+
+msgid "Alarm level"
+msgstr ""
+
+msgid "The button for quietance all alarms"
+msgstr ""
+
+msgid "Press for quietance all alarms."
+msgstr ""
+
+msgid "General (status)"
+msgstr ""
+
+msgid "This label shows the current system time."
+msgstr ""
+
+msgid "This label displays the used interface style."
+msgstr ""
+
+msgid "Field for displaying the used interface style."
+msgstr ""
+
+msgid "Double click to change the style."
+msgstr ""
+
+msgid "Status line items"
+msgstr ""
+
+msgid "Running window"
+msgstr ""
+
+msgid "Original size;Maximize;Full screen"
+msgstr ""
+
+msgid "Keep aspect ratio on the scaling"
+msgstr ""
+
+msgid "Do not show the status bar"
+msgstr ""
+
+msgid "Control and save window positions"
+msgstr ""
+
+msgid "Alarm level: %1"
+msgstr ""
+
+#, c-format
+msgid "Restore the session creation for '%s'."
+msgstr ""
+
+#, c-format
+msgid "Time of updating the session '%s': %f ms."
+msgstr ""
+
+#, c-format
+msgid "Error function of the notificator '%s': %s"
+msgstr ""
+
+msgid "Enabled notification"
+msgstr ""
+
+msgid "Performing the notification, always 1"
+msgstr ""
+
+msgid "Making the resource, always 0"
+msgstr ""
+
+msgid "Resource stream"
+msgstr ""
+
+msgid "Notification message"
+msgstr ""
+
+msgid "Language of the notification message"
+msgstr ""
+
+#, c-format
+msgid "Notificator %d"
+msgstr ""
+
+msgid "The button for quietance the current \"%1\""
+msgstr ""
+
+msgid "Press for quietance the current \"%1\"."
+msgstr ""
+
+msgid "The button for quietance all \"%1\""
+msgstr ""
+
+msgid "Press for quietance all \"%1\"."
+msgstr ""
+
+msgid ""
+"Page: '%1'.\n"
+"No access to view."
+msgstr ""
+
+msgid "No style"
+msgstr ""
+
+msgid "Select your style from the list."
+msgstr ""
+
+msgid "Selecting a style"
+msgstr ""
+
+msgid "Elementary figure"
+msgstr ""
+
+msgid "Make this point dynamic"
+msgstr ""
+
+msgid "Press to make this point dynamic"
+msgstr ""
+
+msgid "Make this point static"
+msgstr ""
+
+msgid "Press to make this point static"
+msgstr ""
+
+msgid "Make line width dynamic"
+msgstr ""
+
+msgid "Press to make line width dynamic"
+msgstr ""
+
+msgid "Make line width static"
+msgstr ""
+
+msgid "Press to make line width static"
+msgstr ""
+
+msgid "Make line color dynamic"
+msgstr ""
+
+msgid "Press to make line color dynamic"
+msgstr ""
+
+msgid "Make line color static"
+msgstr ""
+
+msgid "Press to make line color static"
+msgstr ""
+
+msgid "Make border width dynamic"
+msgstr ""
+
+msgid "Press to make border width dynamic"
+msgstr ""
+
+msgid "Make border width static"
+msgstr ""
+
+msgid "Press to make border width static"
+msgstr ""
+
+msgid "Make border color dynamic"
+msgstr ""
+
+msgid "Press to make border color dynamic"
+msgstr ""
+
+msgid "Make border color static"
+msgstr ""
+
+msgid "Press to make border color static"
+msgstr ""
+
+msgid "Make line style dynamic"
+msgstr ""
+
+msgid "Press to make line style dynamic"
+msgstr ""
+
+msgid "Make line style static"
+msgstr ""
+
+msgid "Press to make line style static"
+msgstr ""
+
+msgid "Show the figure's properties"
+msgstr ""
+
+msgid "Press to show the properties dialog"
+msgstr ""
+
+msgid "Delete the current fill"
+msgstr ""
+
+msgid "Press to delete the current fill"
+msgstr ""
+
+msgid "Make fill color dynamic"
+msgstr ""
+
+msgid "Press to make fill color dynamic"
+msgstr ""
+
+msgid "Make fill color static"
+msgstr ""
+
+msgid "Press to make fill color static"
+msgstr ""
+
+msgid "Make fill image dynamic"
+msgstr ""
+
+msgid "Press to make fill image dynamic"
+msgstr ""
+
+msgid "Make fill image static"
+msgstr ""
+
+msgid "Press to make fill image static"
+msgstr ""
+
+msgid "Show the fill's properties"
+msgstr ""
+
+msgid "Press to show the fill's properties dialog"
+msgstr ""
+
+msgid "Make all values of the widget the static ones"
+msgstr ""
+
+msgid "Press to make all values of the widget static ones"
+msgstr ""
+
+msgid "Point coordinates(x,y): (%1, %2)"
+msgstr ""
+
+msgid "Coordinates(x,y): (%1, %2)"
+msgstr ""
+
+msgid "Properties for the %1 figures."
+msgstr ""
+
+msgid "Properties for the '%1' figure: '%2'."
+msgstr ""
+
+msgid "Elementary figure properties."
+msgstr ""
+
+msgid "Line:"
+msgstr ""
+
+msgid "Border:"
+msgstr ""
+
+msgid "Points:"
+msgstr ""
+
+msgid "x"
+msgstr ""
+
+msgid "y"
+msgstr ""
+
+msgid "Point 3:"
+msgstr ""
+
+msgid "Point 4:"
+msgstr ""
+
+msgid "Point 5:"
+msgstr ""
+
+msgid "Include(checked)/Exclude(unchecked) the fill color from the properties list."
+msgstr ""
+
+msgid "Fill Color"
+msgstr ""
+
+msgid "Set the default fill color."
+msgstr ""
+
+msgid "Include(checked)/Exclude(unchecked) the fill image from the properties list."
+msgstr ""
+
+msgid "Fill Image"
+msgstr ""
+
+msgid "Set the default fill image."
+msgstr ""
+
+msgid "Make the fill color Dynamic(checked)/Static(unchecked)."
+msgstr ""
+
+msgid "Dyn/Stat"
+msgstr ""
+
+msgid "Make the fill image Dynamic(checked)/Static(unchecked)."
+msgstr ""
+
+msgid "Include(checked)/Exclude(unchecked) the line width from the properties list."
+msgstr ""
+
+msgid "Line width"
+msgstr ""
+
+msgid "Set the default line width."
+msgstr ""
+
+msgid "Make the line width Dynamic(checked)/Static(unchecked)."
+msgstr ""
+
+msgid "Include(checked)/Exclude(unchecked) the line color from the properties list."
+msgstr ""
+
+msgid "Line color"
+msgstr ""
+
+msgid "Set the default line color."
+msgstr ""
+
+msgid "Make the line color Dynamic(checked)/Static(unchecked)."
+msgstr ""
+
+msgid "Include(checked)/Exclude(unchecked) the line style from the properties list."
+msgstr ""
+
+msgid "Line style"
+msgstr ""
+
+msgid "Set the default line style."
+msgstr ""
+
+msgid "Make the line style Dynamic(checked)/Static(unchecked)."
+msgstr ""
+
+msgid "Include(checked)/Exclude(unchecked) the border width from the properties list."
+msgstr ""
+
+msgid "Border width"
+msgstr ""
+
+msgid "Set the default line's border width."
+msgstr ""
+
+msgid "Make the border width Dynamic(checked)/Static(unchecked)."
+msgstr ""
+
+msgid "Include(checked)/Exclude(unchecked) the border color from the properties list."
+msgstr ""
+
+msgid "Border color"
+msgstr ""
+
+msgid "Set the default line's border color."
+msgstr ""
+
+msgid "Make the border color Dynamic(checked)/Static(unchecked)."
+msgstr ""
+
+msgid "Point 1:"
+msgstr ""
+
+msgid "Make the 1 point Dynamic(checked)/Static(unchecked)."
+msgstr ""
+
+msgid "Point 2:"
+msgstr ""
+
+msgid "Make the 2 point Dynamic(checked)/Static(unchecked)."
+msgstr ""
+
+msgid "Make the 3 point Dynamic(checked)/Static(unchecked)."
+msgstr ""
+
+msgid "Make the 4 point Dynamic(checked)/Static(unchecked)."
+msgstr ""
+
+msgid "Make the 5 point Dynamic(checked)/Static(unchecked)."
+msgstr ""
+
+msgid "Solid"
+msgstr ""
+
+msgid "Dashed"
+msgstr ""
+
+msgid "Dotted"
+msgstr ""
+
+msgid "Widget's shape '%1' is not implemented yet!"
+msgstr ""
+
+msgid "Saving a file"
+msgstr ""
+
+msgid "Loading a file"
+msgstr ""
+
+msgid "Error writing to the file '%1'."
+msgstr ""
+
+#, c-format
+msgid "Time of building the trend: %f ms."
+msgstr ""
+
+msgid "kHz"
+msgstr ""
+
+msgid "Hz"
+msgstr ""
+
+#, c-format
+msgid "%ds"
+msgstr ""
+
+#, c-format
+msgid "%gs"
+msgstr ""
+
+#, c-format
+msgid "%gms"
+msgstr ""
+
+#, c-format
+msgid "Time of drawing the trend: %f ms."
+msgstr ""
+
+msgid "Date and time"
+msgstr ""
+
+msgid "Print"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+#, c-format
+msgid "Error parsing the document: %s"
+msgstr ""
+
+msgid "Loading page: '%1'."
+msgstr ""
+
+msgid "Ok"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Selecting an user"
+msgstr ""
+
+msgid "User:"
+msgstr ""
+
+msgid "Password:"
+msgstr ""
+
+msgid "Selecting a font"
+msgstr ""
+
+msgid "Font:"
+msgstr ""
+
+msgid "Bold"
+msgstr ""
+
+msgid "Italic"
+msgstr ""
+
+msgid "Strikeout"
+msgstr ""
+
+msgid "Underline"
+msgstr ""
+
+msgid "Sample:"
+msgstr ""
+
+msgid "AaBbCcDdEeFf"
+msgstr ""
+
+msgid "Find"
+msgstr ""
+
+msgid "Find next"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Cursor = (%1:%2)"
+msgstr ""
+
+msgid "Enter a string to search:"
+msgstr ""
+
+msgid "Search string"
+msgstr ""
+
+msgid "Backward"
+msgstr ""
+
+msgid "Case sensitively"
+msgstr ""
+
+msgid "Whole words"
+msgstr ""
+
+#, c-format
+msgid "Time of requesting the VCA engine '%s': %f ms."
+msgstr ""
+
+#, c-format
+msgid "Time of loading '%s': %f ms."
+msgstr ""
+
+#, c-format
+msgid "Time of initiating '%s': %f ms."
+msgstr ""
+
+msgid "Input dialog of Vision"
+msgstr ""

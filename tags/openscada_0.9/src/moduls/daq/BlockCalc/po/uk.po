@@ -1,0 +1,274 @@
+# OpenSCADA.DAQ.BlockCalc translate to Ukrainian.
+# Copyright (C) 2005-2011 Roman Savochenko
+# This file is distributed under the same license as the OpenSCADA.DAQ.BlockCalc module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2005-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DAQ.BlockCalc 1.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-04 10:38+0200\n"
+"PO-Revision-Date: 2007-10-28 08:54+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <uk@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#, c-format
+msgid "Block link '%s' save error."
+msgstr "Помилка збереження зв'язку блока '%s'."
+
+#, c-format
+msgid "Node '%s' is not function."
+msgstr "Вузол '%s' не функція."
+
+#, c-format
+msgid "Link %d error!"
+msgstr "Помилка зв'язку %d!"
+
+#, c-format
+msgid "Error reading block's '%s' links."
+msgstr "Помилка читання зв'язків блоку '%s'."
+
+#, c-format
+msgid "Error writing block's '%s' links."
+msgstr "Помилка запису зв'язків блоку '%s'."
+
+msgid "Block disabled or error."
+msgstr "Блок виключено або помилка."
+
+msgid "Block: "
+msgstr "Блок: "
+
+msgid "Block"
+msgstr "Блок"
+
+msgid "State"
+msgstr "Стан"
+
+msgid "Enabled"
+msgstr "Ввімкнено"
+
+msgid "Process"
+msgstr "Обробляється"
+
+msgid "Configuration"
+msgstr "Конфігурація"
+
+msgid ""
+"Priority block(s) calculate before this block. Blocks list is separated by "
+"symbol ';'."
+msgstr ""
+"Пріоритетний блок(и) який має обчислюватися перед цим блоком. Перелік блоків "
+"поділяється символом ';'."
+
+msgid "Go to function"
+msgstr "Перейти до функції"
+
+msgid "IO"
+msgstr "ВВ"
+
+msgid "Show"
+msgstr "Показати"
+
+msgid "Hidden"
+msgstr "Приховані"
+
+msgid "Links"
+msgstr "Зв'язки"
+
+msgid "Free"
+msgstr "Вільний"
+
+msgid "Local"
+msgstr "Локальний"
+
+msgid "Global"
+msgstr "Глобальний"
+
+msgid "Parameter"
+msgstr "Параметр"
+
+msgid "Local out"
+msgstr "Локальний вихід"
+
+msgid "Global out"
+msgstr "Глобальний вихід"
+
+msgid "Parameter out"
+msgstr "Параметр вихід"
+
+msgid "Local in"
+msgstr "Локальний вхід"
+
+msgid "Global in"
+msgstr "Глобальний вхід"
+
+msgid "Parameter in"
+msgstr "Параметр вхід"
+
+msgid "Block based calculator"
+msgstr "Блоковий обчислювач"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid "Provides a block based calculator."
+msgstr "Надає блоковий обчислювач."
+
+msgid "Parameters table"
+msgstr "Таблиця параметрів"
+
+msgid "Block's table"
+msgstr "Таблиця блоків"
+
+msgid "Schedule of the calculation"
+msgstr "Планування обчислень"
+
+msgid "Calculate task priority"
+msgstr "Пріоритет задачі обчислення"
+
+msgid "Iteration number into calculate period"
+msgstr "Кількість ітерацій у одному періоді обрахування"
+
+msgid "Standard"
+msgstr "Стандартний"
+
+msgid "Blocks' IOs"
+msgstr "Параметри блоку"
+
+msgid "Identifier"
+msgstr "Ідентифікатор"
+
+msgid "Name"
+msgstr "Ім'я"
+
+msgid "Description"
+msgstr "Опис"
+
+msgid "To enable"
+msgstr "Вмикати"
+
+msgid "To process"
+msgstr "Обробляти"
+
+msgid "Prior block"
+msgstr "Попередній блок"
+
+msgid "Write to output links only at changes"
+msgstr "Записувати за вихідними зв'язками тільки при змінах"
+
+msgid "Function"
+msgstr "Функція"
+
+msgid "Block's ID"
+msgstr "ID блоку"
+
+msgid "IO ID"
+msgstr "ВВ ID"
+
+msgid "Link's type"
+msgstr "Тип зв'язку"
+
+msgid "Link"
+msgstr "Зв'язок"
+
+msgid "Link's value"
+msgstr "Значення зв'язку"
+
+msgid "Calculation. "
+msgstr "Обчислення. "
+
+msgid "Calculation with the period: %s. "
+msgstr "Обчислення за періодом: %s. "
+
+#, c-format
+msgid "Next calculation by the cron '%s'. "
+msgstr "Наступне обчислення за cron '%s'. "
+
+#, c-format
+msgid "Spent time: %s[%s]. "
+msgstr "Витрачено часу: %s[%s]. "
+
+#, c-format
+msgid "Enable block '%s' error."
+msgstr "Помилка ввімкнення блоку '%s'."
+
+msgid "Start stage 1: set all blocks to process."
+msgstr "Крок запуску 1: встановлення всіх блоків у обробку."
+
+#, c-format
+msgid "Process block '%s' error."
+msgstr "Помилка обрахунку блоку '%s'."
+
+msgid "Start stage 2: sort blocks for need sequence."
+msgstr "Крок запуску 2: сортування блоків у потрібній послідовності."
+
+#, c-format
+msgid "Reshuffle blocks '%s'(%d) <-> '%s'(%d)."
+msgstr "Перестановка блоків '%s'(%d) <-> '%s'(%d)."
+
+#, c-format
+msgid "Start stage 3: task create: prcSt=%d."
+msgstr "Крок запуску 3: створення завдання: prcSt=%d."
+
+#, c-format
+msgid "Block '%s' calc error."
+msgstr "Помилка обчислення блоку '%s'."
+
+#, c-format
+msgid "Block '%s' is stopped."
+msgstr "Блок '%s' зупинено."
+
+msgid "Blocks scheme"
+msgstr "Схема блоків"
+
+msgid "Number"
+msgstr "Кількість"
+
+msgid "Blocks"
+msgstr "Блоки"
+
+#, c-format
+msgid "All: %u; Enabled: %u; Process: %u"
+msgstr "Загалом: %u; Ввімкнено: %u; Обробляється: %u"
+
+msgid "1:Parameter disabled."
+msgstr "1:Параметр вимкнено."
+
+msgid "2:Calculation stopped."
+msgstr "2:Обчислення зупинено."
+
+msgid ""
+"Attributes configuration list. List must be written by lines in format: "
+"\"{blk}.{blk_io}[:{aid}:{anm}]\"\n"
+"Where:\n"
+"  blk - block identifier from block's scheme; for constant value set to:\n"
+"    '*s' - String type;\n"
+"    '*i' - Integer type;\n"
+"    '*r' - Real type;\n"
+"    '*b' - Boolean type.\n"
+"  blk_io - block's parameter from block's scheme; for constant value set to "
+"attribute value;\n"
+"  aid - created attribute identifier;\n"
+"  anm - created attribute name.\n"
+"If 'aid' or 'anm' are not set they will be generated from selected block's "
+"parameter."
+msgstr ""
+"Перелік конфігурації атрибутів. Перелік формується строками у форматі: "
+"\"{blk}.{blk_io}[:{aid}:{anm}]\"\n"
+"Де:\n"
+"  blk - ідентифікатор блоку, блочної схеми; для константи значення "
+"встановлено у:\n"
+"    '*s' - строковий тип;\n"
+"    '*i' - цілий тип;\n"
+"    '*r' - реальний тип;\n"
+"    '*b' - логічний тип.\n"
+"  blk_io - параметр блоку, блочної схеми; для константи значення встановлено "
+"у значення атрибута;\n"
+"  aid - ідентифікатор створюваного атрибуту;\n"
+"  anm - ім'я створюваного атрибуту.\n"
+"Якщо 'aid' або 'anm' не встановлено тоді виконується їх генерація з "
+"вибраного параметру блоку."

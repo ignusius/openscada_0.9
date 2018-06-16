@@ -1,0 +1,103 @@
+# OpenSCADA.Archive.DBArch translate to Russian.
+# This file is distributed under the same license as the OpenSCADA.Archive.DBArch package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2007-2010, 2016-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.Archive.DBArch 0.9.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-19 11:36+0200\n"
+"PO-Revision-Date: 2007-10-21 22:40+0300\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Archiver on the DB"
+msgstr "Архиватор на БД"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"The archiver module. Provides functions for messages and values archiving to "
+"the DB."
+msgstr ""
+"Модуль архиватора. Предоставляет функции архивирования сообщений и значений "
+"на БД."
+
+#, c-format
+msgid "Check value archivator '%s' error."
+msgstr "Ошибка проверки архиватора значений '%s'."
+
+msgid "In minutes"
+msgstr "В минутах"
+
+msgid "Time, seconds"
+msgstr "Время, секунд"
+
+msgid "Time, microseconds"
+msgstr "Время, микросекунд"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Message"
+msgstr "Сообщение"
+
+msgid "Level"
+msgstr "Уровень"
+
+#, c-format
+msgid "Enable target DB error: %s"
+msgstr "Ошибка включения целевой БД: %s"
+
+msgid "Archive is not started!"
+msgstr "Архив не запущен!"
+
+msgid "Archiving time (msek)"
+msgstr "Время архивирования (мс)"
+
+msgid "Additional options"
+msgstr "Дополнительные опции"
+
+msgid "Archive size (days)"
+msgstr "Размер архива (дней)"
+
+msgid "Set to 0 for the limit disable and some performance rise."
+msgstr ""
+"Установить в 0 для отключения данного лимита и некоторого повышения "
+"производительности."
+
+msgid "Force time as string"
+msgstr "Формировать время как строка"
+
+msgid ""
+"Only for DBs it supports by a specific data type like to \"datetime\" into "
+"MySQL."
+msgstr ""
+"Только для БД поддерживающих такое посредством специфических типов данных "
+"вроде \"datetime\" в MySQL."
+
+msgid "Mark, time/(10*per)"
+msgstr "Метка, time/(10*per)"
+
+msgid "Set to 0 for the limit disable and some performance rise"
+msgstr ""
+"Установить в 0 для отключения данного лимита и некоторого повышения "
+"производительности"
+
+msgid "Grouping parameters limit"
+msgstr "Ограничение группировки параметров"
+
+msgid ""
+"Enable grouping arhivator's parameters into a single table. Set to '0' for "
+"one table per parameter."
+msgstr ""
+"Включение группировки параметров архиватора в одной таблице. Установить в "
+"'0' для одной таблицы на параметр."
+
+msgid "Value"
+msgstr "Значение"

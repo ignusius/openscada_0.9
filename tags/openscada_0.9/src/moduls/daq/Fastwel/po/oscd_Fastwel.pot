@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-01 11:17+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Fastwel IO"
+msgstr ""
+
+msgid "Maxim Kochetkov"
+msgstr ""
+
+msgid "Fastwel IO FBUS client implementation"
+msgstr ""
+
+msgid "FBUS init failed."
+msgstr ""
+
+#, c-format
+msgid "FBUS open net #%d failed."
+msgstr ""
+
+#, c-format
+msgid "FBUS rescan net #%d failed."
+msgstr ""
+
+#, c-format
+msgid "FBUS GetNodeDescription net #%d, #id%d  failed."
+msgstr ""
+
+msgid "DIM762 Parameters table"
+msgstr ""
+
+msgid "DIM716 Parameters table"
+msgstr ""
+
+msgid "DIM718 Parameters table"
+msgstr ""
+
+msgid "AIM791 Parameters table"
+msgstr ""
+
+msgid "AIM726 Parameters table"
+msgstr ""
+
+msgid "AIM730 Parameters table"
+msgstr ""
+
+msgid "AIM725 Parameters table"
+msgstr ""
+
+msgid "DIM765 Parameters table"
+msgstr ""
+
+msgid "Acquisition schedule"
+msgstr ""
+
+msgid "Priority of the acquisition task"
+msgstr ""
+
+msgid "Network number"
+msgstr ""
+
+msgid "DIM762"
+msgstr ""
+
+msgid "Device address"
+msgstr ""
+
+msgid "Debounce"
+msgstr ""
+
+msgid "No;200us;3ms"
+msgstr ""
+
+msgid "Enable counting"
+msgstr ""
+
+msgid "DIM716"
+msgstr ""
+
+msgid "DIM718"
+msgstr ""
+
+msgid "AIM791"
+msgstr ""
+
+msgid "Input range"
+msgstr ""
+
+msgid "0..5mA;0..20mA;4..20mA"
+msgstr ""
+
+msgid "Scan Rate"
+msgstr ""
+
+msgid "Filter depth"
+msgstr ""
+
+msgid "AIM726"
+msgstr ""
+
+msgid "50Hz;500Hz;1000Hz"
+msgstr ""
+
+msgid "AIM730"
+msgstr ""
+
+msgid "Output range"
+msgstr ""
+
+msgid "0..20mA;4..20mA"
+msgstr ""
+
+msgid "AIM725"
+msgstr ""
+
+msgid "Sensor range"
+msgstr ""
+
+msgid "PT50;PT100;PT200;PT500;PT1000;NI100;NI120;CU100;CU50;0-150 Ohm;0-300 Ohm;0-600 Ohm;0-1500 Ohm; 0-3000 Ohm"
+msgstr ""
+
+msgid "Sensor type"
+msgstr ""
+
+msgid "2-wire;3-wire"
+msgstr ""
+
+msgid "DIM765/766"
+msgstr ""
+
+#, c-format
+msgid "Type %d"
+msgstr ""
+
+msgid "No break detection;1K8;2K2;2K7;3K3;3K9;4K7;5K6;6K8;8K2;10K;12K;15K;18K;20K;22K;24K;27K;30K;33K;Type 2"
+msgstr ""
+
+#, c-format
+msgid "Debounce on %d"
+msgstr ""
+
+msgid "OFF;1.4ms;2.8ms;4.2ms;9.8ms;20ms;50ms;100ms;200ms;300ms"
+msgstr ""
+
+#, c-format
+msgid "Debounce off %d"
+msgstr ""
+
+msgid "Acquisition. "
+msgstr ""
+
+#, c-format
+msgid "Acquisition with the period: %s. "
+msgstr ""
+
+#, c-format
+msgid "Next acquisition by the cron '%s'. "
+msgstr ""
+
+#, c-format
+msgid "Spent time: %s."
+msgstr ""
+
+#, c-format
+msgid "Break %d"
+msgstr ""
+
+msgid "1:Parameter disabled."
+msgstr ""
+
+msgid "2:Acquisition stopped."
+msgstr ""
+
+msgid "0: Normal"
+msgstr ""
+
+#, c-format
+msgid "3: Wrong type: %s"
+msgstr ""

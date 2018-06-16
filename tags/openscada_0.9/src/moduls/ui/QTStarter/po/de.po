@@ -1,0 +1,815 @@
+# OpenSCADA.UI.QTStarter translate to German.
+# This file is distributed under the same license as the OpenSCADA.UI.QTStarter package module.
+#
+# Irina Popkova <IrischkaPopkova@yandex.ru>, 2009, 2011.
+# Klaus Fetscher <k.fetscher@fetron.de>, 2009.
+# Roman Savochenko <rom_as@oscada.org>, 2014-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.UI.QTStarter 1.6.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-21 17:03+0300\n"
+"PO-Revision-Date: 2011-07-19 20:56+0400\n"
+"Last-Translator: Irina Popkova <IrischkaPopkova@yandex.ru>\n"
+"Language-Team: German <de@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Qt GUI starter"
+msgstr "Qt GUI Starter"
+
+msgid "Roman Savochenko"
+msgstr "Roman Savotschenko"
+
+msgid ""
+"Provides the Qt GUI starter. Qt-starter is the only and compulsory component "
+"for all GUI modules based on the Qt library."
+msgstr ""
+"Bietet die Qt GUI Starter. Qt-Starter ist die einzige und verpflichtender "
+"Bestandteil für alle GUI-Module basierend auf der Qt-Bibliothek."
+
+msgid "Could not read image data"
+msgstr "Konnte nicht gelesen werden Bilddaten"
+
+msgid "&Yes"
+msgstr "&Ja"
+
+msgid "&No"
+msgstr "&Nein"
+
+msgid "&Cancel"
+msgstr "&Abbrechen"
+
+msgid "&OK"
+msgstr ""
+
+msgid "Apply"
+msgstr "Übernehmen"
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Back"
+msgstr "Zurück"
+
+msgid "Forward"
+msgstr "Vorwärts"
+
+msgid "Parent Directory"
+msgstr "Elternverzeichnis"
+
+msgid "Look in:"
+msgstr "Suchen in:"
+
+msgid "Computer"
+msgstr "Computer"
+
+msgid "File"
+msgstr "Datei"
+
+msgid "Folder"
+msgstr "Ordner"
+
+msgid "File &name:"
+msgstr "Datei&Name:"
+
+msgid "Open"
+msgstr "Öffnen"
+
+msgid "&Open"
+msgstr "&Öffnen"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "&Save"
+msgstr "Speichern"
+
+msgid "Save As"
+msgstr "Speichern als"
+
+msgid "Date Modified"
+msgstr "Änderungsdatum"
+
+msgid "All Files (*)"
+msgstr "Alle Dateien (*)"
+
+msgid "Create New Folder"
+msgstr "Neuen Ordner erstellen"
+
+msgid "List View"
+msgstr "Listen Ansicht"
+
+msgid "Detail View"
+msgstr "Detaillierte Ansicht"
+
+msgid "Files of type:"
+msgstr "Dateityp:"
+
+msgid "New Folder"
+msgstr "Neuer Ordner"
+
+msgid "&New Folder"
+msgstr "&Neuer Ordner"
+
+msgid "Show &hidden files"
+msgstr "&Versteckte Dateien anzeigen"
+
+msgid "&Delete"
+msgstr "&Löschen"
+
+msgid "&Rename"
+msgstr "Um&benennen"
+
+msgid "Remove"
+msgstr "Entfernen"
+
+msgid "&Undo"
+msgstr "&Rückgängig"
+
+msgid "&Redo"
+msgstr "&Wiederherstellen"
+
+msgid "Cu&t"
+msgstr "Aus&schneiden"
+
+msgid "&Copy"
+msgstr "&Kopieren"
+
+msgid "&Paste"
+msgstr "Ein&fügen"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Select All"
+msgstr "Alles auswählen"
+
+msgid "Insert Unicode control character"
+msgstr "Hinzufügen von Unicode-Kontrollzeichen"
+
+msgid "Size"
+msgstr "Größe"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Drive"
+msgstr "Disk"
+
+msgid "Go back"
+msgstr "Zurückgehen"
+
+msgid "Go forward"
+msgstr "Vorwärts"
+
+msgid "Go to the parent directory"
+msgstr "Elternverzeichnis"
+
+msgid "Create a New Folder"
+msgstr "Neuen Ordner erstellen"
+
+msgid "Change to list view mode"
+msgstr "Ändern Sie den Anzeigemodus Liste"
+
+msgid "Change to detail view mode"
+msgstr "Ändern Sie in detaillierten Modus"
+
+msgid "Destination file exists"
+msgstr "Das Ziel-Datei vorhanden ist"
+
+msgid "%1 bytes"
+msgstr "%1 Bytes"
+
+msgid "%1 KB"
+msgstr "%1 KB"
+
+msgid "%1 MB"
+msgstr "%1 MB"
+
+msgid "Are sure you want to delete '%1'?"
+msgstr "Wollen Sie wirklich '%1' löschen?"
+
+msgid ""
+"%1 already exists.\n"
+"Do you want to replace it?"
+msgstr ""
+"%1 existiert.\n"
+"Wollen Sie es zu entfernen?"
+
+msgid "Recent Places"
+msgstr "Letzte Plätze"
+
+msgid "<h3>About Qt</h3><p>This program uses Qt version %1.</p>"
+msgstr ""
+"<h3>Über Qt</h3><p><p>Dieses Programm verwendet die Qt-Open Source Edition "
+"der Version %1.</p>"
+
+msgid ""
+"<p>Qt is a C++ toolkit for cross-platform application development.</p><p>Qt "
+"provides single-source portability across MS&nbsp;Windows, Mac&nbsp;OS&nbsp;"
+"X, Linux, and all major commercial Unix variants. Qt is also available for "
+"embedded devices as Qt for Embedded Linux and Qt for Windows CE.</p><p>Qt is "
+"available under three different licensing options designed to accommodate "
+"the needs of our various users.</p><p>Qt licensed under our commercial "
+"license agreement is appropriate for development of proprietary/commercial "
+"software where you do not want to share any source code with third parties "
+"or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU "
+"GPL version 3.0.</p><p>Qt licensed under the GNU LGPL version 2.1 is "
+"appropriate for the development of Qt applications (proprietary or open "
+"source) provided you can comply with the terms and conditions of the GNU "
+"LGPL version 2.1.</p><p>Qt licensed under the GNU General Public License "
+"version 3.0 is appropriate for the development of Qt applications where you "
+"wish to use such applications in combination with software subject to the "
+"terms of the GNU GPL version 3.0 or where you are otherwise willing to "
+"comply with the terms of the GNU GPL version 3.0.</p><p>Please see <a href="
+"\"http://qt.digia.com/product/licensing\">qt.digia.com/product/licensing</a> "
+"for an overview of Qt licensing.</p><p>Copyright (C) 2012 Digia Plc and/or "
+"its subsidiary(-ies).</p><p>Qt is a Digia product. See <a href=\"http://qt."
+"digia.com/\">qt.digia.com</a> for more information.</p>"
+msgstr ""
+
+msgid "Hu&e:"
+msgstr "Farbton:"
+
+msgid "&Sat:"
+msgstr "Sättigung:"
+
+msgid "&Val:"
+msgstr "Helligkeit:"
+
+msgid "&Red:"
+msgstr "Rot:"
+
+msgid "&Green:"
+msgstr "Grün:"
+
+msgid "Bl&ue:"
+msgstr "Blau:"
+
+msgid "A&lpha channel:"
+msgstr "Alpha Kanal:"
+
+msgid "&Basic colors"
+msgstr "Grundfarben"
+
+msgid "&Custom colors"
+msgstr "Sonderfarben"
+
+msgid "&Add to Custom Colors"
+msgstr "Sonderfarbe hinzufügen"
+
+msgid "Select color"
+msgstr "Farbe auswählen"
+
+msgid "&Restore"
+msgstr "&Reestablish"
+
+msgid "&Move"
+msgstr "&Bewegen"
+
+msgid "&Size"
+msgstr "&Größe"
+
+msgid "Mi&nimize"
+msgstr "Mi&nimieren"
+
+msgid "Ma&ximize"
+msgstr "Ma&ximieren"
+
+msgid "Stay on &Top"
+msgstr "Aufenthalt auf die &Oberseite"
+
+msgid "&Close"
+msgstr "&Schließen"
+
+msgid "Select Color"
+msgstr "Farbe auswählen"
+
+msgid "Form"
+msgstr "Form"
+
+msgid "Printer"
+msgstr "Drucker"
+
+msgid "&Name:"
+msgstr "&Name:"
+
+msgid "P&roperties"
+msgstr "Eigenschaften"
+
+msgid "Location:"
+msgstr "Ort:"
+
+msgid "Preview"
+msgstr "Vorschau"
+
+msgid "Type:"
+msgstr "Typ:"
+
+msgid "Output &file:"
+msgstr "Ausgabedatei:"
+
+msgid "Print range"
+msgstr "Druckbereich"
+
+msgid "Print all"
+msgstr "Alles drucken"
+
+msgid "Current Page"
+msgstr "Aktuelle Seite"
+
+msgid "Pages from"
+msgstr "Seiten von"
+
+msgid "to"
+msgstr "nach"
+
+msgid "Selection"
+msgstr "Auswahl"
+
+msgid "Output Settings"
+msgstr "Ausgabeeinstellungen"
+
+msgid "Copies:"
+msgstr "Kopien:"
+
+msgid "Collate"
+msgstr "Sortieren"
+
+msgid "Reverse"
+msgstr "Umkehren"
+
+msgid "Copies"
+msgstr "Kopien"
+
+msgid "Color Mode"
+msgstr "Farbmodus"
+
+msgid "Color"
+msgstr "Farbig"
+
+msgid "Grayscale"
+msgstr "Graustufen"
+
+msgid "Duplex Printing"
+msgstr "Doppelseitiger Druck"
+
+msgid "None"
+msgstr "Keine"
+
+msgid "Long side"
+msgstr "Lange Seite"
+
+msgid "Short side"
+msgstr "Kurze Seite"
+
+msgid "Options"
+msgstr "Optionen"
+
+msgid "&Options >>"
+msgstr "Optionen >>"
+
+msgid "&Options <<"
+msgstr "Optionen <<"
+
+msgid "&Print"
+msgstr "Drucken"
+
+msgid "Print"
+msgstr "Drucken"
+
+msgid "Print to File (PDF)"
+msgstr "Drucken in die Datei (PDF)"
+
+msgid "Print to File (Postscript)"
+msgstr "Drucken in die Datei (Postscript)"
+
+msgid "Local file"
+msgstr "Lokale Datei"
+
+msgid "Write %1 file"
+msgstr "Datei %1 speichern"
+
+msgid "Paper"
+msgstr "Papier"
+
+msgid "Page size:"
+msgstr "Seitengrösse:"
+
+msgid "Width:"
+msgstr "Breite:"
+
+msgid "Height:"
+msgstr "Höhe:"
+
+msgid "Paper source:"
+msgstr "Papierquelle:"
+
+msgid "Orientation"
+msgstr "Orientierung"
+
+msgid "Portrait"
+msgstr "Porträt"
+
+msgid "Landscape"
+msgstr "Landschaft"
+
+msgid "Reverse landscape"
+msgstr "Landschaft umkehren"
+
+msgid "Reverse portrait"
+msgstr "Porträt umkehren"
+
+msgid "Margins"
+msgstr "Ränder"
+
+msgid "top margin"
+msgstr "Rand von oben"
+
+msgid "left margin"
+msgstr "Rand von links"
+
+msgid "right margin"
+msgstr "Rand von rechts"
+
+msgid "bottom margin"
+msgstr "Rand von unten"
+
+msgid "Points (pt)"
+msgstr "Punkte (pt)"
+
+msgid "Inches (in)"
+msgstr "Zoll (in)"
+
+msgid "Executive"
+msgstr "Entsorgung"
+
+msgid "Folio"
+msgstr "Folio"
+
+msgid "Ledger"
+msgstr "Hauptbuch"
+
+msgid "Legal"
+msgstr "Legal"
+
+msgid "Letter"
+msgstr "Schreiben"
+
+msgid "Tabloid"
+msgstr "Boulevardblatt"
+
+msgid "US Common #10 Envelope"
+msgstr "Gemeinsame US #10 Umschlag"
+
+msgid "Custom"
+msgstr "Brauch"
+
+msgid "Millimeters (mm)"
+msgstr "Millimeter (mm)"
+
+msgid "Centimeters (cm)"
+msgstr "Zentimeter (cm)"
+
+msgid "Page"
+msgstr "Seite"
+
+msgid "Advanced"
+msgstr "Erweitert"
+
+msgid "Mon"
+msgstr "Mon"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Style"
+msgstr "Stil"
+
+msgid "Font"
+msgstr "Schriftart"
+
+msgid "Palette"
+msgstr "Palette"
+
+msgid "Style Sheets"
+msgstr "Stilvorlagen"
+
+msgid "Hold when overloaded to another project."
+msgstr "Beim Neuladen in verschiedenen Projekten halten."
+
+msgid "Loading the module."
+msgstr "Laden des Moduls."
+
+msgid "Saving the module."
+msgstr "Speichern des Moduls."
+
+msgid "Starting the module."
+msgstr "Starten des Moduls."
+
+msgid "Stopping the module."
+msgstr "Stoppen des Moduls."
+
+#, c-format
+msgid ""
+"======================= Module <%s:%s> options =======================\n"
+"    --QtInNotMainThread Starts Qt into a different from the main thread.\n"
+"    --showWin=<0,1,2>   Window display mode, initial and which is allowed to "
+"change from: 0-typical window, 1-maximized window, 2-full screen.\n"
+"----------- Qt debug commandline options ----------\n"
+"    --noX11             Prevent the launch of Qt, preferably for a clean "
+"console.\n"
+"    --sync              Switch to Sync X11 for debugging.\n"
+"    --widgetcount       Print debug messages at output, the number of "
+"widgets\n"
+"                        left unselected and their maximum number.\n"
+"----------- Qt commandline options ----------------\n"
+"    --qws               Do this with Qt server software for embedded Linux.\n"
+"    --style=<name>      Sets the GUI style to <name> (windows, platinum, "
+"plastique, ...).\n"
+"    --stylesheet=<path> Set the style sheet from the file by <path>.\n"
+"    --session=<name>    Restore from the previous session with the specified "
+"<name>.\n"
+"    --reverse           Set the layout in Qt::RightToLeft.\n"
+"    --graphicssystem=<nm> Install rendering mechanism for screen widgets and "
+"QPixmaps (raster, opengl).\n"
+"    --display=<nm>      Set the X display (typically $DISPLAY).\n"
+"    --geometry=<geom>   Set the client geometry of the first display "
+"window.\n"
+"---- Parameters of the module section '%s' of the configuration file ----\n"
+"StartMod   <moduls>     List of the modules that are started, separated "
+"';'.\n"
+"CloseToTray <0|1>       Closing all windows or starting without Qt modules "
+"to the system tray.\n"
+"Style      <name>       The GUI style of Qt.\n"
+"Font       <font>       Common Qt font.\n"
+"Palette    <colors>     Twenty colors of the palette separated by symbol ',' "
+"in three lines for active, disabled and inactive groups.\n"
+"StyleSheets <CSS>       Rules of the Cascade Style Sheets.\n"
+"\n"
+msgstr ""
+"======================== Optionen des Moduls <%s:%s> "
+"============================\n"
+"    --QtInNotMainThread Startet Qt in einen anderen als den Hauptthread.\n"
+"    --showWin=<0,1,2>   Windows show mode, initial und erlaubt den Wechsel "
+"von: 0-typical window, 1-maximized window, 2-fullscreen.\n"
+"------ Evaluation Parameter der Qt, die Befehlszeile --\n"
+"    --noX11             Verhindern Sie den Start von Qt, vorzugsweise für "
+"eine saubere Konsole.\n"
+"    --sync              Wechseln Sie zum Debuggen zu X11 synchronisieren.\n"
+"    --widgetcount       Debug-Meldungen bei der Ausgabe ausgeben, die "
+"Anzahl\n"
+"                        der nicht ausgewählten Widgets und ihre maximale "
+"Anzahl.\n"
+"------ Parameter des Qt, die Befehlszeile -------------\n"
+"    --qws               Tun Sie dies mit Qt-Server-Software für Embedded "
+"Linux.\n"
+"    --style=<Name>      Setzt den GUI-Stil auf <Name> (windows, platinum, "
+"plastique, ...).\n"
+"    --stylesheet=<Pfad> Legen Sie das Stylesheet mit <Pfad> aus der Datei "
+"fest.\n"
+"    --session=<Name>    Wiederherstellen von der vorherigen Sitzung mit dem "
+"angegebenen <Name>.\n"
+"    --reverse           Legen Sie das Layout in Qt::RightToLeft fest.\n"
+"    --graphicssystem=<Name> Installiere den Rendering Mechanismus für Screen "
+"Widgets und QPixmaps (raster, opengl).\n"
+"    --display=<Name>    Stellen Sie die X-Display (in der Regel in der "
+"$DISPLAY).\n"
+"    --geometry=<Geom>   Legen Sie die Client-Geometrie des ersten "
+"Anzeigefensters fest.\n"
+"------ Parameter des Modulabschnitts '%s' der Konfigurationsdatei ------\n"
+"StartMod   <Module>     Liste der Module, die gestartet werden, getrennt "
+"';'.\n"
+"CloseToTray <0|1>       Schließen Sie alle Fenster oder starten Sie ohne Qt-"
+"Module in die Taskleiste.\n"
+"Style      <Name>       Der GUI-Stil von Qt.\n"
+"Font       <Schriftart> Gemeinsame Qt Schriftart.\n"
+"Palette    <Farben>     Zwanzig Farben der Palette getrennt durch Symbol ',' "
+"in drei Zeilen für aktive, deaktivierte und inaktive Gruppen.\n"
+"StyleSheets <CSS>       Regeln der Cascade Style Sheets.\n"
+"\n"
+
+msgid "Module options"
+msgstr "Optionen des Moduls"
+
+msgid "Qt modules for startup, separated by ';'"
+msgstr "Qt-Module für den Start, getrennt durch ';'"
+
+msgid "Collapse or startup to the system tray"
+msgstr "Reduzieren oder starten Sie in der Taskleiste"
+
+msgid "Look and feel"
+msgstr "Aussehen und Gefühl"
+
+msgid "Known profiles"
+msgstr "Bekannte Profile"
+
+msgid "Widgets style"
+msgstr "Widgets Stil"
+
+msgid "Common font"
+msgstr "Gemeinsame Schriftart"
+
+msgid "<Select a profile to combine>"
+msgstr "<Wählen Sie ein zu kombinierendes Profil>"
+
+msgid "<Clear>"
+msgstr "<Löschen>"
+
+msgid "<Read back>"
+msgstr "<Rücklesen>"
+
+msgid "OpenSCADA Project: %1"
+msgstr "OpenSCADA Projekt: %1"
+
+msgid "Exit the program"
+msgstr "Beenden Sie das Programm"
+
+msgid "Qt-starter of OpenSCADA"
+msgstr "Qt-Starter von OpenSCADA"
+
+msgid "Project: %1"
+msgstr "Projekt: %1"
+
+msgid "OpenSCADA start"
+msgstr "OpenSCADA starten"
+
+msgid "&About"
+msgstr "&Über"
+
+msgid "Program information"
+msgstr "Programminformationen"
+
+msgid "The button for display the program information."
+msgstr "Die Schaltfläche für das Anzeigeprogramm und OpenSCADA-Informationen."
+
+msgid "About &Qt"
+msgstr "Über &Qt"
+
+msgid "Qt information"
+msgstr "Qt Information"
+
+msgid "The button for getting the Qt information."
+msgstr "Die Schaltfläche zum Abrufen der Qt-Informationen."
+
+msgid "%1 manual"
+msgstr "%1 Handbuch"
+
+msgid "The button for the manual %1."
+msgstr "Die Schaltfläche für das Handbuch% 1."
+
+msgid "What's &This"
+msgstr "Was ist &das"
+
+msgid "Question about GUI elements"
+msgstr "Hilfe über die Elemente der Benutzerschnittstelle"
+
+msgid ""
+"The button for requesting the information about user interface elements."
+msgstr ""
+"Die Schaltfläche zum Anfordern von Informationen zu "
+"Benutzeroberflächenelementen."
+
+msgid "&Help"
+msgstr "&Hilfe"
+
+msgid "Qt modules of OpenSCADA"
+msgstr "Qt-Module von OpenSCADA"
+
+msgid "Call the Qt-based UI module '%1'"
+msgstr "Rufen Sie die Qt-basierte UI-Modul '%1'"
+
+msgid ""
+"Module: %1\n"
+"Name: %2\n"
+"Source: %3\n"
+"Version: %4\n"
+"Author: %5\n"
+"Description: %6\n"
+"License: %7"
+msgstr ""
+"Modul: %1\n"
+"Name: %2\n"
+"Quelle: %3\n"
+"Version: %4\n"
+"Autor: %5\n"
+"Beschreibung: %6\n"
+"Lizenz: %7"
+
+msgid "Projects of OpenSCADA"
+msgstr "Projekte von OpenSCADA"
+
+msgid "List of allowed to call/switch projects of OpenSCADA"
+msgstr "Liste der erlaubten Aufrufe/Wechsel von Projekten von OpenSCADA"
+
+msgid "The list for call and switch to allowed projects of OpenSCADA."
+msgstr "Die Liste für Anruf und Wechsel zu erlaubten Projekten von OpenSCADA."
+
+msgid "current"
+msgstr "aktuell"
+
+msgid "running"
+msgstr "laufen"
+
+msgid "Switch to the selected project"
+msgstr "Wechseln Sie zum ausgewählten Projekt"
+
+msgid "Call the selected project"
+msgstr "Rufen Sie das ausgewählte Projekt"
+
+msgid "The button for switch to the selected project."
+msgstr "Die Schaltfläche zum Wechseln zum ausgewählten Projekt."
+
+msgid "The button for call the selected project."
+msgstr "Die Schaltfläche zum Aufrufen des ausgewählten Projekts."
+
+msgid "Creating-updating a project"
+msgstr "Erstellen-Aktualisieren eines Projekts"
+
+msgid ""
+"New projects creating or updating of presented ones, like to desktop links"
+msgstr ""
+"Neue Projekte erstellen oder aktualisieren von vorgestellten, wie Desktop-"
+"Links"
+
+msgid ""
+"The button for new projects creating or updating of presented ones, like to "
+"desktop links."
+msgstr ""
+"Die Schaltfläche für die Erstellung neuer Projekte oder die Aktualisierung "
+"von vorgestellten Projekten, wie Desktop-Links."
+
+msgid "The button for exit the program."
+msgstr "Die Taste zum Verlassen des Programms."
+
+#, c-format
+msgid ""
+"%s v%s.\n"
+"%s\n"
+"Author: %s\n"
+"License: %s\n"
+"\n"
+"%s v%s.\n"
+"%s\n"
+"License: %s\n"
+"Author: %s\n"
+"Web site: %s"
+msgstr ""
+"%s v%s.\n"
+"%s\n"
+"Autor: %s\n"
+"Lizenz: %s\n"
+"\n"
+"%s v%s.\n"
+"%s\n"
+"Lizenz: %s\n"
+"Autor: %s\n"
+"Web Seite: %s"
+
+msgid "Manual"
+msgstr "Handbuch"
+
+msgid "No manual '%1' found offline or online!"
+msgstr "Nein das Handbuch '%1' gefunden, offline oder online!"
+
+msgid "New project or project to update"
+msgstr "Neues Projekt oder Projekt zum Aktualisieren"
+
+msgid "Project name for new one creating or to update present one:"
+msgstr ""
+"Projektname für eine neue Kreation oder um die aktuelle zu aktualisieren:"
+
+msgid "Empty name of the project is unavailable!"
+msgstr "Der leere Name des Projekts ist nicht verfügbar!"
+
+msgid "Switch project"
+msgstr "Projekt wechseln"
+
+msgid "Do you really want to change the current project \"%1\" to \"%2\"?"
+msgstr "Möchten Sie das aktuelle Projekt \"%1\" wirklich in \"%2\" ändern?"
+
+msgid "Call project"
+msgstr "Projekt aufrufen"
+
+msgid "Project \"%1\" seems running now! You still want to switch the project?"
+msgstr ""
+"Project \"%1\" scheint jetzt zu laufen! Sie möchten das Projekt trotzdem "
+"wechseln?"
+
+msgid "Project \"%1\" seems running now! You still want to call the project?"
+msgstr ""
+"Project \"%1\" scheint jetzt zu laufen! Sie möchten das Projekt trotzdem "
+"aufrufen?"
+
+msgid "Project \"%1\" seems wrong or broken!"
+msgstr "Project \"%1\" scheint falsch oder defekt!"
+
+#, c-format
+msgid "Untranslated Qt message: '%s'"
+msgstr "Keine übersetzt Qt Nachricht: '%s'"

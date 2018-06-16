@@ -1,0 +1,207 @@
+# OpenSCADA.DAQ.SMH2Gi translate to German.
+# Copyright (C) 2012 Roman Savochenko
+# This file is distributed under the same license as the OpenSCADA.DAQ.SMH2Gi package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2012, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.SMH2Gi 0.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-27 20:19+0300\n"
+"PO-Revision-Date: 2012-10-31 10:58+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: German <de@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Segnetics SMH2Gi and SMH4"
+msgstr "Segnetics SMH2Gi und SMH4"
+
+msgid "Roman Savochenko"
+msgstr "Roman Savotschenko"
+
+msgid ""
+"Data acquisition and control by Segnetics SMH2Gi and SMH4 hardware "
+"interfaces and modules."
+msgstr ""
+"Datenerfassung und Steuerung Hardware-Schnittstellen und Module Segnetics "
+"SMH2Gi und SMH4."
+
+msgid "Shared memory parameters"
+msgstr "Die Parameter gemeinsamen Speicher"
+
+msgid "MR and MC bus parameters"
+msgstr "Reifenparameter MR und MC"
+
+msgid "Acquisition schedule"
+msgstr "Planung der Befragung"
+
+msgid "Priority of the acquisition task"
+msgstr "Priorität der Erfassungsaufgabe"
+
+msgid "Shared memory variables file"
+msgstr "Variable Datei in dem gemeinsamen Speicher"
+
+msgid "MR bus device"
+msgstr "Busgerat-MR"
+
+msgid "MC bus device"
+msgstr "Busgerat-MC"
+
+msgid "MC device reset GPIO"
+msgstr "MC-Gerät zurückgesetzt GPIO"
+
+msgid "Request tries"
+msgstr "Anfrageversuche"
+
+msgid "Re-enable by Reinit flag for MC/MR module."
+msgstr "Reaktivieren von 'Reinit' Flagge für MC/MR-Modul."
+
+msgid "MR/MC devices *.ini files directry"
+msgstr "Das Verzeichnis der *.INI-Dateien Geräten MR/MC"
+
+msgid "Acquisition. "
+msgstr "Erwerb. "
+
+#, c-format
+msgid "Acquisition with the period: %s. "
+msgstr "Erwerb mit dem Zeitraum: %s. "
+
+#, c-format
+msgid "Next acquisition by the cron '%s'. "
+msgstr "Erwerb nächsten durch cron '%s'. "
+
+#, c-format
+msgid "Spent time: %s."
+msgstr "Abgelaufene Zeit: %s."
+
+#, c-format
+msgid "Error opening GPIO %s for MC reset."
+msgstr "Fehler beim Öffnen GPIO %s zurückzusetzen MC."
+
+msgid "Write to gpio94 error!"
+msgstr "Schreibe auf gpio94 Fehler!"
+
+#, c-format
+msgid "Segnetics SMH2Gi automatic created transport for '%s' bus"
+msgstr "Automatische Erstellung Verkehr Segnetics SMH2Gi für Bus '%s'"
+
+#, c-format
+msgid "ModBUS REQ -> '%s': %s"
+msgstr "ModBUS Anfrage -> '%s': %s"
+
+msgid "13:Error respond: Too short."
+msgstr "13:Fehler in der Antwort: Zu kurz."
+
+msgid "13:Error respond: CRC check error."
+msgstr "13:Fehler in der Antwort: Fehler der CRC-Prüfung."
+
+#, c-format
+msgid "ModBUS RESP -> '%s': %s"
+msgstr "ModBUS Antwort -> '%s': %s"
+
+#, c-format
+msgid "ModBUS ERR -> %s: %s"
+msgstr "ModBUS Fehler -> %s: %s"
+
+msgid "Set <0 for disable the reset."
+msgstr "Setzen Sie <0, um den Reset zu deaktivieren."
+
+msgid "1:Parameter disabled."
+msgstr "1:Parameter ist abgeschaltet."
+
+msgid "2:Acquisition stopped."
+msgstr "2:Erwerb ist angehalten."
+
+msgid "Variables list"
+msgstr "Liste der Variablen"
+
+#, c-format
+msgid "SHM Get vals: %s"
+msgstr "SHM Abrufen des Werts: %s"
+
+#, c-format
+msgid "SHM Set value '%s' to '%s' error."
+msgstr "SHM Setzen des Wertes '%s' in '%s' Fehler."
+
+#, c-format
+msgid "SHM Set val: %s='%s': %d"
+msgstr "SHM Setzen des Wertes: %s='%s': %d"
+
+msgid "Module type"
+msgstr "Modultyp"
+
+msgid "Module slot/address"
+msgstr "Adresse/platz module"
+
+msgid "Module addition parameters"
+msgstr "Zusätzliche Parameter des Moduls"
+
+#, c-format
+msgid "No selected any module type or type '%d' error."
+msgstr "Fehler '%d' oder ausgewählten Modultyp."
+
+#, c-format
+msgid "Parameters request error: %s."
+msgstr "Fehler Parameter-Abfrage: %s."
+
+#, c-format
+msgid "Configure device %d but set %d."
+msgstr "Konfiguriertes Gerät %d, aber %d gefunden."
+
+#, c-format
+msgid "Send tune request error: %s."
+msgstr "Thun Anfrage Fehler beim Senden: %s."
+
+msgid "20:PDU short."
+msgstr "20:PDU kurz."
+
+msgid ""
+"21:Position lost. Need reload MR/MC bus - re-enable the controller object."
+msgstr ""
+"21:Position verloren. Brauchen nachladen MR/MC-Bus - reaktivieren das "
+"Controller-Objekt."
+
+msgid "Analog output overload; "
+msgstr "Analoge Ausgang ist überlastet; "
+
+msgid "No tunes get; "
+msgstr "Nicht erhalten die Einstellungen; "
+
+msgid "High voltage; "
+msgstr "Hochspannung; "
+
+msgid "Low voltage; "
+msgstr "Niederspannung; "
+
+msgid "Internal power supply overvoltage; "
+msgstr "Überlastete internes Netzteil; "
+
+msgid "Unknown MR module type; "
+msgstr "Unbekannt Modultyp MR; "
+
+msgid ""
+"-1  - for MC;\n"
+"0-7 - for MR."
+msgstr ""
+"-1  - für MC;\n"
+"0-7 - für MR."
+
+msgid "Configuration"
+msgstr "Konfiguration"
+
+msgid "Digital signals reverse"
+msgstr "Inversion von Digitalsignalen"
+
+#, c-format
+msgid "DI %d"
+msgstr ""
+
+#, c-format
+msgid "DO %d"
+msgstr ""
+
+msgid "<No select>"
+msgstr "<Nicht ausgewählt>"

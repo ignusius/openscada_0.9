@@ -1,0 +1,137 @@
+# OpenSCADA.Protocol.SelfSystem translate to Russian.
+# This file is distributed under the same license as the OpenSCADA.Protocol.SelfSystem package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2007-2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.Protocol.SelfSystem 0.9.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-19 18:52+0300\n"
+"PO-Revision-Date: 2007-10-23 18:19+0300\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Self protocol of OpenSCADA"
+msgstr "Собственный протокол OpenSCADA"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"Provides self OpenSCADA protocol based at XML and one's control interface."
+msgstr ""
+"Предоставляет cобственный протокол основанный на XML и интерфейсе управления "
+"OpenSCADA."
+
+#, c-format
+msgid ""
+"Connections from the user '%s' and the source '%s' reached to limit %d. "
+"Erasing spare!"
+msgstr ""
+"Подключения от пользователя '%s' и источника '%s' достигли лимита %d. "
+"Удаление лишних!"
+
+#, c-format
+msgid "SES_OPEN request: %d"
+msgstr "SES_OPEN запрос: %d"
+
+msgid "Not full respond."
+msgstr "Неполный ответ."
+
+#, c-format
+msgid "SES_OPEN response: %d"
+msgstr "SES_OPEN ответ: %d"
+
+#, c-format
+msgid "Station '%s' error: %s!"
+msgstr "Станция '%s' ошибка: %s!"
+
+#, c-format
+msgid "Station '%s' error: Respond format error!"
+msgstr "Ошибка станции '%s': Ответ не корректен!"
+
+#, c-format
+msgid "REQ send: %d"
+msgstr "REQ отправка: %d"
+
+#, c-format
+msgid "REQ response first %d"
+msgstr "REQ первый ответ %d"
+
+#, c-format
+msgid "Station respond '%s' error!"
+msgstr "Ошибка ответа станции '%s'!"
+
+#, c-format
+msgid "REQ response full %d"
+msgstr "REQ весь ответ %d"
+
+#, c-format
+msgid "Request error: %s"
+msgstr "Ошибка запроса: %s"
+
+msgid "Parameters"
+msgstr "Параметры"
+
+msgid "State"
+msgstr "Статус"
+
+msgid "Active authentication sessions"
+msgstr "Активные сеансы аутентификации"
+
+msgid "Module options"
+msgstr "Опции модуля"
+
+msgid "Life time of auth session(min)"
+msgstr "Время жизни сессии (мин)"
+
+msgid "Single user and host connections limit"
+msgstr "Предел подключений одного пользователя и хоста"
+
+msgid "Compression level"
+msgstr "Уровень компрессии"
+
+msgid ""
+"ZLib compression level:\n"
+"  -1  - optimal speed-size;\n"
+"  0   - disable;\n"
+"  1-9 - direct level."
+msgstr ""
+"Уровень компрессии ZLib:\n"
+"  -1  - оптимальный, скорость-размер;\n"
+"  0   - отключен;\n"
+"  1-9 - прямой уровень."
+
+msgid "Lower compression border"
+msgstr "Нижняя граница компрессии"
+
+msgid "Value in bytes."
+msgstr "Значение в байтах."
+
+#, c-format
+msgid "%s %s(%s)"
+msgstr ""
+
+#, c-format
+msgid "Get request: '%s': %d, time: %f ms."
+msgstr "Получение запроса: '%s': %d, время: %f мс."
+
+#, c-format
+msgid "Check and reforward request: '%s': %d, time: %f ms."
+msgstr "Проверка и перенаправление запроса: '%s': %d, время: %f мс."
+
+#, c-format
+msgid "Unpack and load request: '%s': %d, time: %f ms."
+msgstr "Распаковка и загрузка запроса: '%s': %d, время: %f мс."
+
+#, c-format
+msgid "Process request: '%s', time: %f ms."
+msgstr "Обработка запроса: '%s', время: %f мс."
+
+#, c-format
+msgid "Save respond to stream and pack: '%s': %d, time: %f ms."
+msgstr "Сохранение ответа в поток и упаковка: '%s': %d, время: %f мс."

@@ -1,0 +1,252 @@
+# OpenSCADA.DAQ.AMRDevs translate to Russian.
+# This file is distributed under the same license as the OpenSCADA.DAQ.AMRDevs package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2010-2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DAQ.AMRDevs 0.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-01 11:07+0300\n"
+"PO-Revision-Date: 2010-02-16 16:54+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "13:Error respond: Too short."
+msgstr "13:Ошибка ответа: Не полный."
+
+msgid "13:Error respond: CRC check error."
+msgstr "13:Ошибка ответа: Ошибка проверки CRC."
+
+#, c-format
+msgid "14:Connection error - %s"
+msgstr "14:Ошибка соединения - %s"
+
+msgid "15:Response PDU size error."
+msgstr "15:Ошибка в размере PDU ответа."
+
+msgid "Attributes list"
+msgstr "Список атрибутов"
+
+msgid ""
+"Attributes configuration list. List must be written by lines in format: [dt:"
+"numb:id:name]\n"
+"Where:\n"
+"  dt - data type: I-integer(16),LI-long integer(32),F-float;\n"
+"  numb - register number (dec, hex or octal);\n"
+"  id - created attribute identifier;\n"
+"  name - created attribute name.\n"
+"Example:\n"
+"  'I:0x300:var:Variable' - integer access;\n"
+"  'F:200:float:Float' - get float from registers 200 and 201;\n"
+"  'LI:300:int32:Int32' - get int32 from registers 300 and 301."
+msgstr ""
+"Список конфигурации атрибутов. Список должен формироваться строками в "
+"формате: [dt:numb:id:name]\n"
+"Где:\n"
+"  dt - тип данных: I-целое(16),LI-целое длинное(32),F-вещественное;\n"
+"  numb - номер регистра (десят., шестн., или восьмеричн.);\n"
+"  id - идентификатор создаваемого атрибута;\n"
+"  name - имя создаваемого атрибута.\n"
+"Пример:\n"
+"  'I:0x300:var:Variable' - доступ как к целому;\n"
+"  'F:200:float:Float' - получение вещественного из регистров 200 и 201;\n"
+"  'LI:300:int32:Int32' - получение int32 из регистров 300 и 301."
+
+msgid "Registers' fragments merge"
+msgstr "Объединение фрагментов регистров"
+
+msgid "Value"
+msgstr "Значение"
+
+msgid "Pressure"
+msgstr "Давление"
+
+msgid "Temperature"
+msgstr "Температура"
+
+msgid "Current flow"
+msgstr "Текущий расход"
+
+msgid "Quantity for start day"
+msgstr "Количество с начала суток"
+
+msgid "Quantity for last day"
+msgstr "Количество за предыдущие сутки"
+
+msgid "Quantity for start"
+msgstr "Количество с начала наблюдений"
+
+msgid "Caloric"
+msgstr "Калорийность"
+
+msgid "14:Connection error or respond size short."
+msgstr "14:Ошибка соединения или ответ короткий."
+
+msgid "10:Respond error."
+msgstr "10:Ошибка ответа."
+
+msgid "11:Request broken."
+msgstr "11:Ошибка запроса."
+
+msgid "15:Respond thread broken."
+msgstr "15:Ошибка нити ответа."
+
+msgid "Thread number"
+msgstr "Номер нитки"
+
+msgid "Firmware version"
+msgstr "Версия ПО"
+
+msgid "Kontar"
+msgstr ""
+
+msgid "Input transport"
+msgstr "Входной транспорт"
+
+msgid "Master password"
+msgstr "Мастер пароль"
+
+msgid "Master PLC serial number"
+msgstr "Серийный номер Мастер ПЛК"
+
+msgid "Controllers network config-file"
+msgstr "Конфиг. файл сети контроллеров"
+
+msgid "PLC serial number"
+msgstr "Серийный номер ПЛК"
+
+msgid "Set PLC clock on different for more, seconds"
+msgstr "Уст. часы ПЛК при отклонении более, секунд"
+
+msgid "PLC clock's zone"
+msgstr "Зона часов ПЛК"
+
+msgid "List"
+msgstr "Список"
+
+msgid "Parameter"
+msgstr "Параметр"
+
+#, c-format
+msgid "Master PLC ID Request: '%s'"
+msgstr "Запрос ID Мастер ПЛК: '%s'"
+
+#, c-format
+msgid "Connection from PLC Kontar %xh."
+msgstr "Подключение с ПЛК Kontar %xh."
+
+#, c-format
+msgid "Password sequence set: '%s'."
+msgstr "Установка последовательности пароля: '%s'."
+
+#, c-format
+msgid "Master PLC ID Response: '%s'"
+msgstr "Ответ ID Мастер ПЛК: '%s'"
+
+msgid "No a propper connection from PLC."
+msgstr "Нет подходящего подключения от ПЛК."
+
+#, c-format
+msgid "Request: '%s'"
+msgstr "Запрос: '%s'"
+
+#, c-format
+msgid "Request (enc): '%s'"
+msgstr "Запрос (код): '%s'"
+
+#, c-format
+msgid "13:Inapt MasterPLC ID: %xh != %xh"
+msgstr "13:Неподходящий ID МастерПЛК: %xh != %xh"
+
+msgid "12:PLC: The password encrypted by master key."
+msgstr "12:ПЛК: Пароль кодирован мастер ключём."
+
+msgid "12:PLC: Error."
+msgstr "12:ПЛК: Ошибка."
+
+msgid "12:PLC: Unknown command."
+msgstr "12:ПЛК: Неизвестная команда."
+
+msgid "12:PLC: Wrong command format."
+msgstr "12:ПЛК: Ошибка формата команды."
+
+msgid "12:PLC: Error read from slave."
+msgstr "12:ПЛК: Ошибка чтения из подчинённого."
+
+msgid "12:PLC: Network update in process."
+msgstr "12:ПЛК: Обновление сети в процессе."
+
+#, c-format
+msgid "Response (enc): '%s'"
+msgstr "Ответ (код): '%s'"
+
+#, c-format
+msgid "Response: '%s'"
+msgstr "Ответ: '%s'"
+
+#, c-format
+msgid "Error: '%s': '%s'"
+msgstr "Ошибка: '%s': '%s'"
+
+#, c-format
+msgid "15:Response PDU size (%d from %d) error."
+msgstr "15:Ошибка размера PDU (%d из %d) ответа."
+
+msgid "<No select>"
+msgstr "<Не выбрано>"
+
+msgid "AMR devices"
+msgstr "Устройства АСКУ"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"Provides access to automatic meter reading devices. Supported devices: "
+"Kontar (http://www.mzta.ru)."
+msgstr ""
+"Предоставляет доступ к устройствам счётчиков коммерческого учёта. "
+"Поддерживаются устройства: Kontar (http://www.mzta.ru)."
+
+msgid "Acquisition schedule"
+msgstr "Планирование сбора"
+
+msgid "Priority of the acquisition task"
+msgstr "Приоритет задачи сбора данных"
+
+msgid "Restore timeout, seconds"
+msgstr "Время восстановления, секунд"
+
+msgid "Request tries"
+msgstr "Попыток запроса"
+
+#, c-format
+msgid "Call by period: %s. "
+msgstr "Вызовы с периодом: %s. "
+
+#, c-format
+msgid "Call next by cron '%s'. "
+msgstr "Следующий вызов по cron '%s'. "
+
+#, c-format
+msgid "Spent time: %s."
+msgstr "Затрачено времени: %s."
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Disabled"
+msgstr "Отключен"
+
+msgid "Enabled"
+msgstr "Включен"
+
+msgid "Processed"
+msgstr "Обработка"
+
+msgid "11:Value not gathered."
+msgstr "11:Значение не получено."

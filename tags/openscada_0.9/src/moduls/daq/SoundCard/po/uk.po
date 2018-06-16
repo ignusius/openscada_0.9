@@ -1,0 +1,86 @@
+# OpenSCADA.DAQ.SoundCard translate to Ukrainian.
+# Copyright (C) 2008-2010 Roman Savochenko
+# This file is distributed under the same license as the OpenSCADA.DAQ.SoundCard package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2008-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DAQ.SoundCard 0.6.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-04 13:47+0200\n"
+"PO-Revision-Date: 2008-03-27 18:49+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: LANGUAGE <uk@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Sound card"
+msgstr "Звукова карта"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid "Provides an access to the sound card."
+msgstr "Надає доступ до даних звукової карти."
+
+msgid "Table of parameters"
+msgstr "Таблиця параметрів"
+
+msgid "Card device"
+msgstr "Пристрій карти"
+
+msgid "Card sample rate (Hz)"
+msgstr "Частота вибірки значень (Гц)"
+
+msgid "Card sample type"
+msgstr "Тип вибірки карти"
+
+msgid "Float 32;Int 32;Int 16"
+msgstr "Реальне 32;Ціле 32;Ціле 16"
+
+msgid "Priority of the acquisition task"
+msgstr "Пріоритет задачі збору"
+
+msgid "Standard"
+msgstr "Стандарт"
+
+msgid "Channel"
+msgstr "Канал"
+
+msgid "Value"
+msgstr "Значення"
+
+#, c-format
+msgid "%d input channels available"
+msgstr "Наявно %d вхідних каналів"
+
+#, c-format
+msgid ""
+"Acquisition from %d channels, recieved %.2g MB, samplerate corrections %g "
+"and the adjusted value %d."
+msgstr ""
+"Збір з %d каналів, отримано %.2g МБ, частота вибірки скоригована %g разів до "
+"значення %d."
+
+#, c-format
+msgid "Error of the selected device '%s' or default device is not available."
+msgstr ""
+"Помилка вибраного пристрою '%s' або пристрій по замовчуванню не наявний."
+
+msgid "No channel is set up for acquisition."
+msgstr "Жодного каналу не налаштовано для збору."
+
+msgid "Error setting sample type."
+msgstr "Помилка встановлення типу вибірки."
+
+msgid "Sound stream is not stopped!"
+msgstr "Звуковий потік не зупинено!"
+
+#, c-format
+msgid ""
+"CallBack: Sample rate correction from %g to %g for fix error %ds on time %ds."
+msgstr ""
+"CallBack: Коригування частоти вибірки з %g на %g для виправлення помилки %ds "
+"на час %ds."

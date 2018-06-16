@@ -1,0 +1,187 @@
+# OpenSCADA.DAQ.DCON translate to Ukrainian.
+# Copyright (C) 2008-2009 Almaz Karimov
+# This file is distributed under the same license as the OpenSCADA.DAQ.DCON package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2008-2018.
+# Almaz Karimov, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DAQ.DCON 0.5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-01 11:14+0300\n"
+"PO-Revision-Date: 2011-02-28 16:29+0300\n"
+"Last-Translator: Almaz Karimov\n"
+"Language-Team:  <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+msgid "DCON client"
+msgstr "DCON клиент"
+
+msgid "Roman Savochenko, Almaz Karimov"
+msgstr "Роман Савоченко, Алмаз Каримов"
+
+msgid ""
+"Provides an implementation of DCON-client protocol. Supports I-7000 DCON "
+"protocol."
+msgstr ""
+"Предоставляет реализацию клиентского сервиса протокола DCON. Поддерживается "
+"протокол I-7000 DCON."
+
+msgid "Parameters table"
+msgstr "Таблица параметров"
+
+msgid "Acquisition schedule"
+msgstr "Планирование сбора"
+
+msgid "Priority of the acquisition task"
+msgstr "Приоритет задачи сбора данных"
+
+msgid "Transport"
+msgstr "Транспорт"
+
+msgid "Request tries"
+msgstr "Попыток запроса"
+
+msgid "Standard"
+msgstr "Стандарт"
+
+msgid "Module address"
+msgstr "Адрес модуля"
+
+msgid "CRC control"
+msgstr "Проверка контрольной суммы"
+
+msgid "Host signal"
+msgstr "Сигнал главного"
+
+msgid "No signal;HostOK"
+msgstr "Нет сигнала;Главный в порядке"
+
+msgid "AI method"
+msgstr "AI метод"
+
+msgid ""
+"No AI;1AI (#AA);2AI (#AA);3AI (#AA);4AI (#AA);6AI (#AA);8AI (#AA);10AI "
+"(#AA);20AI (#AA);16AI (#AA^AA);1AI (#AAN);2AI (#AAN);3AI (#AAN);4AI "
+"(#AAN);6AI (#AAN);8AI (#AAN);10AI (#AANN);20AI (#AANN);16AI (#AAN^AAN)"
+msgstr ""
+"Нет AI;1AI (#AA);2AI (#AA);3AI (#AA);4AI (#AA);6AI (#AA);8AI (#AA);10AI "
+"(#AA);20AI (#AA);16AI (#AA^AA);1AI (#AAN);2AI (#AAN);3AI (#AAN);4AI "
+"(#AAN);6AI (#AAN);8AI (#AAN);10AI (#AANN);20AI (#AANN);16AI (#AAN^AAN)"
+
+msgid "Engineer or percent;Hexadecimal (0000 FFFF);Hexadecimal (8000 7FFF)"
+msgstr ""
+"Инженерный или процентный;Шестнадцатеричный (0000 FFFF);Шестнадцатеричный "
+"(8000 7FFF)"
+
+msgid "AO method"
+msgstr "AO метод"
+
+msgid "No AO;1AO (#AA);2AO (#AAN);4AO (#AAN);4AO (#AACN)"
+msgstr "Нет AO;1AO (#AA);2AO (#AAN);4AO (#AAN);4AO (#AACN)"
+
+msgid ""
+"Engineer (00.000 20.000);Engineer (04.000 20.000);Engineer (00.000 10.000);"
+"Engineer (+00.000 +20.000);Engineer (+04.000 +20.000);Engineer (+00.000 "
+"+10.000);Engineer (-10.000 +10.000);Engineer (+00.000 +05.000);Engineer "
+"(-05.000 +05.000);Percent (+000.00 +100.00);Hexadecimal (000 FFF)"
+msgstr ""
+"Инженерный (00.000 20.000);Инженерный (04.000 20.000);Инженерный (00.000 "
+"10.000);Инженерный (+00.000 +20.000);Инженерный (+04.000 +20.000);Инженерный "
+"(+00.000 +10.000);Инженерный (-10.000 +10.000);Инженерный (+00.000 +05.000);"
+"Инженерный (-05.000 +05.000);Инженерный (+000.00 +100.00);Шестнадцатеричный "
+"(000 FFF)"
+
+msgid "DI method"
+msgstr "DI метод"
+
+msgid ""
+"No DI;3DI ($AA6);4DI ($AA6);7DI ($AA6);8DI ($AA6);14DI ($AA6);16DI "
+"($AA6);1DI (@AADI);8DI ($AA6,FF00)"
+msgstr ""
+"Нет DI;3DI ($AA6);4DI ($AA6);7DI ($AA6);8DI ($AA6);14DI ($AA6);16DI "
+"($AA6);1DI (@AADI);8DI ($AA6,FF00)"
+
+msgid "DO method"
+msgstr "DO метод"
+
+msgid ""
+"No DO;2DO (@AA,0300);3DO (@AA,7);4DO (@AA,F);5DO (@AA,1F);7DO (@AA,7F);8DO "
+"(@AA,FF);12DO (@AA,0FFF);13DO (@AA,1FFF);16DO (@AA,FFFF);2DO (^AADOVVV);3DO "
+"(^AADOVVV);2DO (@AADO);4DO (@AADO);6DO (@AADODD);2DO (@AADO0D);4DO "
+"(@(^)AADO0D);4DO (@AA,0F00);8DO (@AA,FF00);4DO (#AA000F);8DO (#AA00FF);12DO "
+"(#AA000FFF)"
+msgstr ""
+"Нет DO;2DO (@AA,0300);3DO (@AA,7);4DO (@AA,F);5DO (@AA,1F);7DO (@AA,7F);8DO "
+"(@AA,FF);12DO (@AA,0FFF);13DO (@AA,1FFF);16DO (@AA,FFFF);2DO (^AADOVVV);3DO "
+"(^AADOVVV);2DO (@AADO);4DO (@AADO);6DO (@AADODD);2DO (@AADO0D);4DO "
+"(@(^)AADO0D);4DO (@AA,0F00);8DO (@AA,FF00);4DO (#AA000F);8DO (#AA00FF);12DO "
+"(#AA000FFF)"
+
+msgid "CI method"
+msgstr "CI метод"
+
+msgid "No CI;2CI (#AA);3CI (#AA)"
+msgstr "Нет CI;2CI (#AA);3CI (#AA)"
+
+msgid "Acquisition. "
+msgstr "Сбор. "
+
+#, c-format
+msgid "Acquisition with the period: %s. "
+msgstr "Сбор с периодом: %s. "
+
+#, c-format
+msgid "Next acquisition by the cron '%s'. "
+msgstr "Следующий сбор по cron '%s'. "
+
+#, c-format
+msgid "Spent time: %s. "
+msgstr "Затрачено времени: %s. "
+
+#, c-format
+msgid "REQ -> '%s'"
+msgstr "Запрос -> '%s'"
+
+msgid "10:Transport error: "
+msgstr "10:Ошибка транспорта."
+
+msgid "13:Error respond: Not full."
+msgstr "13:Ошибка ответа: Неполный."
+
+msgid "20:Respond length error."
+msgstr "20:Ошибка в длине пакета модуля."
+
+msgid "21:Invalid module CRC."
+msgstr "21:Ошибка контрольной суммы модуля."
+
+msgid "22:Invalid module response."
+msgstr "22:Ошибка ответа модуля."
+
+#, c-format
+msgid "RESP -> '%s'"
+msgstr "Ответ -> '%s'"
+
+#, c-format
+msgid "ERR -> '%s': %s"
+msgstr "Ошибка -> '%s': %s"
+
+msgid "23:Undefined range"
+msgstr "23:Неопределённый диапазон"
+
+msgid "24:Module out of range"
+msgstr "24:Выход за пределы диапазона в модуле"
+
+msgid "25:Command ignored (host watchdog)."
+msgstr "25:Команда проигнорирована (сторожевой таймер)."
+
+msgid "1:Parameter disabled."
+msgstr "1:Параметр отключен"
+
+msgid "2:Acquisition stopped."
+msgstr "2:Сбор остановлен."

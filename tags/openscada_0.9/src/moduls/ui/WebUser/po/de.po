@@ -1,0 +1,171 @@
+# OpenSCADA.UI.WebUser translate to German.
+# This file is distributed under the same license as the OpenSCADA.UI.WebUser package module.
+#
+# Irina Popkova <IrischkaPopkova@yandex.ru>, 2010.
+# Roman Savochenko <rom_as@oscada.org>, 2010,2015-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.UI.WebUser 0.6.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-13 21:18+0200\n"
+"PO-Revision-Date: 2010-10-25 09:57+0400\n"
+"Last-Translator: Irina Popkova <IrischkaPopkova@yandex.ru>\n"
+"Language-Team: <de@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Lokalize 1.0\n"
+
+msgid "Web interface from user"
+msgstr "Web-Interface des Nutzers"
+
+msgid "Roman Savochenko"
+msgstr "Roman Savotschenko"
+
+msgid ""
+"Allows you to create your own user web-interfaces in any language of "
+"OpenSCADA."
+msgstr ""
+"Ermöglicht das Schaffen der eigenen Nuttzersweb-Interfaces auf beliebiger "
+"OpenSCADA - Sprache."
+
+msgid "Identifier"
+msgstr "Identifikator"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "To enable"
+msgstr "Einschalten"
+
+msgid "Program"
+msgstr "Programm"
+
+msgid "Date of modification"
+msgstr "Änderungsdatum"
+
+msgid "Search and create new user page error."
+msgstr "Fehler der Suche und  das Schaffen einer neuen Nutzersseite."
+
+msgid "Presented user's WEB-pages."
+msgstr "Präsentierte Benutzer-WEB-Seiten."
+
+msgid "Page is missing"
+msgstr "Seite fehlt"
+
+#, c-format
+msgid "Page '%s' error: %s"
+msgstr "Seite '%s' Fehler: %s"
+
+msgid "User page"
+msgstr "Seite des Nutzers"
+
+msgid "User pages"
+msgstr "Seiten des Nutzers"
+
+msgid "Default page"
+msgstr "Defaultseite"
+
+msgid "Pages"
+msgstr "Seiten"
+
+msgid "<Page index display>"
+msgstr "<Seitenindex zeigen>"
+
+msgid "Result"
+msgstr "Ergebnis"
+
+msgid "HTTP request"
+msgstr "HTTP - Anfrage"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Page"
+msgstr "Seite"
+
+msgid "Sender"
+msgstr "Sender"
+
+msgid "User"
+msgstr "Nutzer"
+
+msgid "HTTP variables"
+msgstr "HTTP Variablen"
+
+msgid "URL's parameters"
+msgstr "URL - Parameter"
+
+msgid "Content items"
+msgstr "Inhaltselemente"
+
+msgid "This object"
+msgstr "Dieses Objekt"
+
+msgid "Protocol's object"
+msgstr "Protokollobjekt"
+
+msgid "Disabled. "
+msgstr "Ausgeschaltet. "
+
+msgid "Enabled. "
+msgstr "Eingeschaltet. "
+
+msgid "Modified, re-enable to apply! "
+msgstr "Geändert, wieder freigeben zu bewerben! "
+
+#, c-format
+msgid "Requests %.4g."
+msgstr "Anfragen %.4g."
+
+msgid "User page: "
+msgstr "Seite des Nutzers: "
+
+msgid "State"
+msgstr "Zustand"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Enabled"
+msgstr "Aktiviert"
+
+msgid "DB"
+msgstr "DB"
+
+msgid "Configuration"
+msgstr "Konfiguration"
+
+msgid "Program language"
+msgstr "Programmsprache"
+
+msgid ""
+"Next attributes has defined for requests processing:\n"
+"   'rez' - processing result (by default - 200 OK);\n"
+"   'HTTPreq' - HTTP request method (GET,POST);\n"
+"   'url' - requested URI;\n"
+"   'page' - Get/Post page content;\n"
+"   'sender' - request sender;\n"
+"   'user' - auth user;\n"
+"   'HTTPvars' - HTTP variables into Object;\n"
+"   'URLprms' - URL's parameters into Object;\n"
+"   'cnts' - content items for POST into Array<XMLNodeObj>;\n"
+"   'this' - pointer to this page's object;\n"
+"   'prt' - pointer to object of the input part of the HTTP protocol."
+msgstr ""
+"Folgende Attribute sind für die Bearbeitung der Anfragen bestimmt:\n"
+"   'rez' - Ergebnis der Bearbeitung (Default - 200 OK);\n"
+"   'HTTPreq' - Methode der HTTP - Anfrage (GET,POST);\n"
+"   'url' - URI der Anfrage;\n"
+"   'page' - Inhalt der Seite Get/Post;\n"
+"   'sender' - Anfragesender;\n"
+"   'user' - autentifizierter Nutzer;\n"
+"   'HTTPvars' - HTTP - Variablen in Object;\n"
+"   'URLprms' - URL-Parameter in Object;\n"
+"   'cnts' - Elemente des Inhalts für POST in Array<XMLNodeObj>;\n"
+"   'this' - Zeiger auf diese Seite Objekt;\n"
+"   'prt' - Zeiger auf Objekt des Eingangsteils des HTTP-Protokolls."

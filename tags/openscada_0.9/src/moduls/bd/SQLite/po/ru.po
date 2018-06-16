@@ -1,0 +1,77 @@
+# OpenSCADA.DB.SQLite translate to Russian.
+# This file is distributed under the same license as the OpenSCADA.DB.SQLite package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2003-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DB.SQLite 1.6.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 22:42+0300\n"
+"PO-Revision-Date: 2007-10-23 12:39+0300\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "DB SQLite"
+msgstr "БД SQLite"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid "BD module. Provides support of the BD SQLite."
+msgstr "Модуль БД. Предоставляет поддержку БД SQLite."
+
+#, c-format
+msgid "Error deleting DB: %s"
+msgstr "Ошибка удаления БД: %s"
+
+#, c-format
+msgid "Error opening DB file: %s"
+msgstr "Ошибка открытия файла БД: %s"
+
+#, c-format
+msgid "Error opening the table '%s'. DB is disabled."
+msgstr "Ошибка открытия таблицы '%s'. БД отключена."
+
+#, c-format
+msgid "Request: \"%s\""
+msgstr "Запрос: \"%s\""
+
+msgid "Unknown error"
+msgstr "Неизвестная ошибка"
+
+#, c-format
+msgid "Error of the request \"%s\": %s(%d)"
+msgstr "Ошибка запроса \"%s\": %s(%d)"
+
+msgid ""
+"SQLite DB address must be written as: \"{FileDBPath}\".\n"
+"Where:\n"
+"  FileDBPath - full path to DB file (./oscada/Main.db).\n"
+"               Use the empty path to create a temporary database on the "
+"disk.\n"
+"               Use \":memory:\" to create a temporary database in memory."
+msgstr ""
+"Адрес БД SQLite записывается как: \"{FileDBPath}\".\n"
+"Где:\n"
+"  FileDBPath - полный путь к файлу БД (./oscada/Main.db).\n"
+"               Используйте пустой путь для создания временной базы данных на "
+"диске.\n"
+"               Используйте \":memory:\" для создания временной базы данных в "
+"памяти."
+
+msgid "Close opened transaction"
+msgstr "Закрыть открытую транзакцию"
+
+msgid "Table is empty."
+msgstr "Таблица пуста."
+
+#, c-format
+msgid "Row \"%s\" is not present. Are you saved the object?"
+msgstr "Запись \"%s\" отсутствует. Вы сохраняли этот объект?"
+
+msgid "The DB is into the Read only mode!"
+msgstr "БД в режиме Только для Чтения!"

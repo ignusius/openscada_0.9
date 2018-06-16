@@ -1,0 +1,222 @@
+# OpenSCADA.UI.WebCfgD translate to German.
+# This file is distributed under the same license as the OpenSCADA.UI.WebCfgD package module.
+#
+# Irina Popkova <IrischkaPopkova@yandex.ru>, 2009.
+# Roman Savochenko <rom_as@oscada.org>, 2015-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.UI.WebCfgD 0.8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-12 16:45+0300\n"
+"PO-Revision-Date: 2008-12-15 15:28+0200\n"
+"Last-Translator: Irina Popkova <irischkapopkova@yandex.ru>\n"
+"Language-Team: <de@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Program configurator (Dynamic WEB)"
+msgstr "Programmkonfigurator (Dynamischer WEB)"
+
+msgid "Roman Savochenko"
+msgstr "Roman Savotschenko"
+
+msgid ""
+"Provides the WEB-based configurator of OpenSCADA. The technologies are used: "
+"XHTML, CSS and JavaScript."
+msgstr ""
+"Bietet den WEB-basierten Konfigurator von OpenSCADA. Die Technologien werden "
+"verwendet: XHTML, CSS und JavaScript."
+
+msgid "Manual"
+msgstr "Handbuch"
+
+msgid "About"
+msgstr "Über..."
+
+msgid "Drag to resize the Menu"
+msgstr "Ziehen Sie, um die Größe des Menü"
+
+msgid "Load"
+msgstr "Laden"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Up"
+msgstr "Eine Stufe höher"
+
+msgid "Back"
+msgstr "Zurück"
+
+msgid "Forward"
+msgstr "Nach vorne"
+
+msgid "Add item"
+msgstr "Hinzufügen Elements"
+
+msgid "Delete item"
+msgstr "Löschen Elements"
+
+msgid "Copy item"
+msgstr "Kopieren Elements"
+
+msgid "Cut item"
+msgstr "Schneide Elements"
+
+msgid "Paste item"
+msgstr "Fügen Elements"
+
+msgid "Refresh the item and tree"
+msgstr "Aktualisieren Sie den Artikel und Baum"
+
+msgid "Start the cycled refreshing"
+msgstr "Starten Sie die zyklische Aktualisierung"
+
+msgid "Stop the cycled refreshing"
+msgstr "Stoppen Sie die zyklische Aktualisierung"
+
+msgid "Ready"
+msgstr "Fertig"
+
+msgid "Go"
+msgstr "Übergehen"
+
+msgid "Add"
+msgstr "Addieren"
+
+msgid "Insert"
+msgstr "Einsetzen"
+
+msgid "Edit"
+msgstr "Redigieren"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Item up"
+msgstr "Item nach oben"
+
+msgid "Item down"
+msgstr "Item nach unten"
+
+msgid "Adding an element."
+msgstr "Hinzufügen eines Elements."
+
+msgid "Inserting an element."
+msgstr "Einfügen eines Elements."
+
+msgid "Renaming the element."
+msgstr "Umbenennen des Elements."
+
+msgid "Selecting an image file for download to the picture field."
+msgstr "Auswählen einer Bilddatei zum Download auf das Bildfeld."
+
+msgid "Add row"
+msgstr "Die Zeile addieren"
+
+msgid "Insert row"
+msgstr "Die Zeile einsetzen"
+
+msgid "Delete row"
+msgstr "Die Zeile löschen"
+
+msgid "Up row"
+msgstr "Zeile nach oben"
+
+msgid "Down row"
+msgstr "Zeile nach unten"
+
+msgid "There is no container for editing."
+msgstr "Es gibt keinen Container zum Bearbeiten."
+
+msgid "Adding an item to the node '%1'."
+msgstr "Hinzufügen eines Elements zum Knoten '%1'."
+
+msgid "Item '%1' already exists."
+msgstr "Artikel '%1' existiert bereits."
+
+msgid "Are you sure you want to remove the node '%1'?"
+msgstr "Möchten Sie den Knoten '%1' wirklich entfernen?"
+
+msgid "Copy is impossible."
+msgstr "Kopierung ist unmöglich."
+
+msgid "Selected"
+msgstr "Gewählt"
+
+msgid "Move node '%1' to '%2'."
+msgstr "Den Knoten '%1' in '%2' umsetzen."
+
+msgid "Copy node '%1' to '%2'."
+msgstr "Kopierung des Knotens '%1' в '%2'."
+
+msgid "Node '%1' already present. Continue?"
+msgstr "Der Knoten '%1' ist schon vorhanden. Weiter?"
+
+msgid "Element type:"
+msgstr "Typ des Elements:"
+
+msgid "Name:"
+msgstr "Name:"
+
+msgid "Ok"
+msgstr "Annehmen"
+
+msgid "Close"
+msgstr "Schliessen"
+
+msgid "Page loaded."
+msgstr "Die Seite ist geladet."
+
+msgid "Selecting node id and/or name"
+msgstr "Auswahl der Knoten-ID und/oder des Namens"
+
+msgid "Setting item name"
+msgstr "Einstellungselementname"
+
+msgid "Setting an image"
+msgstr "Ein Bild einstellen"
+
+msgid "Adding a node"
+msgstr "Hinzufügen eines Knotens"
+
+msgid "Moving or copying the node"
+msgstr "Verschieben oder Kopieren des Knotens"
+
+msgid "Name: "
+msgstr "Name: "
+
+msgid "Description: "
+msgstr "Beschreibung: "
+
+msgid "License: "
+msgstr "Lizenz: "
+
+msgid "Author: "
+msgstr "Autor: "
+
+msgid "Web site: "
+msgstr "Web Seite: "
+
+#, c-format
+msgid "Unknown command: %s."
+msgstr "Unbekanntes Kommando: %s."
+
+#, c-format
+msgid "The page/widget '%s' calling command '%s'!"
+msgstr "Die Seite / das Widget '%s' ruft den Befehl '%s' auf!"
+
+#, c-format
+msgid "Error the page '%s': %s"
+msgstr "Fehler bei der Seite '%s': %s"
+
+msgid "No content."
+msgstr "Kein Inhalt."
+
+msgid "Module options"
+msgstr "Optionen des Moduls"
+
+msgid "Go to the configuration of the remote stations list"
+msgstr "Wechseln Sie zur Konfiguration der Liste der entfernten Stationen"

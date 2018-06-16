@@ -1,0 +1,169 @@
+# OpenSCADA.UI.WebUser translate to Russian.
+# This file is distributed under the same license as the OpenSCADA.UI.WebUser package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2010-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.UI.WebUser 0.6.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-13 21:18+0200\n"
+"PO-Revision-Date: 2010-03-05 15:57+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Web interface from user"
+msgstr "Web-интерфейс от пользователя"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"Allows you to create your own user web-interfaces in any language of "
+"OpenSCADA."
+msgstr ""
+"Позволяет создавать собственные пользовательские web-интерфейсы на языке "
+"OpenSCADA."
+
+msgid "Identifier"
+msgstr "Идентификатор"
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "To enable"
+msgstr "Включать"
+
+msgid "Program"
+msgstr "Программа"
+
+msgid "Date of modification"
+msgstr "Дата модификации"
+
+msgid "Search and create new user page error."
+msgstr "Ошибка поиска и создание новой страницы пользователя."
+
+msgid "Presented user's WEB-pages."
+msgstr "Присутствующие пользовательские WEB-страницы."
+
+msgid "Page is missing"
+msgstr "Страница отсутствует"
+
+#, c-format
+msgid "Page '%s' error: %s"
+msgstr "Страница '%s' ошибка: %s"
+
+msgid "User page"
+msgstr "Страница пользователя"
+
+msgid "User pages"
+msgstr "Страницы пользователя"
+
+msgid "Default page"
+msgstr "Страница по умолчанию"
+
+msgid "Pages"
+msgstr "Страницы"
+
+msgid "<Page index display>"
+msgstr "<Отображать индекс страниц>"
+
+msgid "Result"
+msgstr "Результат"
+
+msgid "HTTP request"
+msgstr "HTTP запрос"
+
+msgid "URL"
+msgstr ""
+
+msgid "Page"
+msgstr "Страница"
+
+msgid "Sender"
+msgstr "Отправитель"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "HTTP variables"
+msgstr "HTTP переменные"
+
+msgid "URL's parameters"
+msgstr "Параметры URL"
+
+msgid "Content items"
+msgstr "Элементы содержания"
+
+msgid "This object"
+msgstr "Этот объект"
+
+msgid "Protocol's object"
+msgstr "Объект протокола"
+
+msgid "Disabled. "
+msgstr "Отключен. "
+
+msgid "Enabled. "
+msgstr "Включен. "
+
+msgid "Modified, re-enable to apply! "
+msgstr "Модифицирован, перевключить для применения! "
+
+#, c-format
+msgid "Requests %.4g."
+msgstr "Запросов %.4g."
+
+msgid "User page: "
+msgstr "Страница пользователя: "
+
+msgid "State"
+msgstr "Состояние"
+
+msgid "Status"
+msgstr "Состояние"
+
+msgid "Enabled"
+msgstr "Включен"
+
+msgid "DB"
+msgstr "БД"
+
+msgid "Configuration"
+msgstr "Конфигурация"
+
+msgid "Program language"
+msgstr "Язык программы"
+
+msgid ""
+"Next attributes has defined for requests processing:\n"
+"   'rez' - processing result (by default - 200 OK);\n"
+"   'HTTPreq' - HTTP request method (GET,POST);\n"
+"   'url' - requested URI;\n"
+"   'page' - Get/Post page content;\n"
+"   'sender' - request sender;\n"
+"   'user' - auth user;\n"
+"   'HTTPvars' - HTTP variables into Object;\n"
+"   'URLprms' - URL's parameters into Object;\n"
+"   'cnts' - content items for POST into Array<XMLNodeObj>;\n"
+"   'this' - pointer to this page's object;\n"
+"   'prt' - pointer to object of the input part of the HTTP protocol."
+msgstr ""
+"Следующие атрибуты определены для обработки запросов:\n"
+"   'rez' - результат обработки (по умолчанию - 200 OK);\n"
+"   'HTTPreq' - метод HTTP запроса (GET,POST);\n"
+"   'url' - URI запроса;\n"
+"   'page' - содержимое страницы Get/Post;\n"
+"   'sender' - отправитель запроса;\n"
+"   'user' - аутентифицированный пользователь;\n"
+"   'HTTPvars' - HTTP переменные в Object;\n"
+"   'URLprms' - параметры URL в Object;\n"
+"   'cnts' - элементы содержимого для POST в Array<XMLNodeObj>\n"
+"   'this' - указатель на объект этой страницы;\n"
+"   'prt' - указатель на объект входной части HTTP протокола."

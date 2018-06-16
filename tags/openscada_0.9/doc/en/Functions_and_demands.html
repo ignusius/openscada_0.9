@@ -1,0 +1,1164 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<title>Functions and demands - OpenSCADAWiki</title>
+<meta content="MediaWiki 1.26.4" name="generator" />
+<link href="https://www.gnu.org/copyleft/fdl.html" rel="copyright" />
+<link href="files/doc.css" rel="stylesheet" /></head>
+<body><div id="mw_header">
+			<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" lang="en">Functions and demands</h1>
+		</div><div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="mw-pt-languages noprint" dir="ltr" lang="en"><div class="mw-pt-languages-label">Other languages:</div><div class="mw-pt-languages-list autonym"><span class="mw-pt-languages-ui mw-pt-languages-selected mw-pt-progress mw-pt-progress--complete">English</span>&nbsp;• ‎<a class="mw-pt-progress mw-pt-progress--complete" href="http://oscada.org/wiki/Functions_and_demands/ru" title="Функции и требования (100% translated)">российский</a>&nbsp;• ‎<a class="mw-pt-progress mw-pt-progress--complete" href="http://oscada.org/wiki/Functions_and_demands/uk" title="Функції та вимоги (100% translated)">українська</a></div></div>
+<p>The page contains information that allows you to get a general view of the features that OpenSCADA can perform at this time. The functions are grouped according to application areas. To get a general picture there also includes scheduled functions or functions that are currently being implemented. The page also contains the requirements of OpenSCADA for its execution and building.
+</p>
+<div class="toc" id="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Areas_of_application_OpenSCADA"><span class="tocnumber">1</span> <span class="toctext">Areas of application OpenSCADA</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Server_of_the_SCADA_system"><span class="tocnumber">1.1</span> <span class="toctext">Server of the SCADA system</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Station_of_the_operator_of_technological_process.2C_the_dispatcher_board.2C_the_monitoring_panel.2C_etc."><span class="tocnumber">1.2</span> <span class="toctext">Station of the operator of technological process, the dispatcher board, the monitoring panel, etc.</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Environment_of_execution_of_the_controllers_.28PLC.29"><span class="tocnumber">1.3</span> <span class="toctext">Environment of execution of the controllers (PLC)</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Universal_OPC-UA_server"><span class="tocnumber">1.4</span> <span class="toctext">Universal OPC-UA server</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Requirements_for_OpenSCADA"><span class="tocnumber">2</span> <span class="toctext"><span>Requirements for OpenSCADA</span></span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Execution"><span class="tocnumber">2.1</span> <span class="toctext">Execution</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Building"><span class="tocnumber">2.2</span> <span class="toctext"><span>Building</span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Links"><span class="tocnumber">3</span> <span class="toctext">Links</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Areas_of_application_OpenSCADA"><span class="mw-headline-number">1</span> Areas of application OpenSCADA</span></h2>
+<p>Separating to the employment areas was made to simplify perception of the program functionality in light of traditional area of the project OpenSCADA — automation of technological processes. But also there possible mixed and specialized configuring of the program for real-time data operation, for example into areas: ERP, Billing, Smart House and etc.
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:537px;"><a class="image" href="http://oscada.org/wiki/File:Oscada_use.png"><img class="thumbimage" height="655" src="files/Oscada_use.png" width="535" /></a>  <div class="thumbcaption">Fig.1. Roles of OpenSCADA.</div></div></div></div>
+<hr />
+<h3><span class="mw-headline" id="Server_of_the_SCADA_system"><span class="mw-headline-number">1.1</span> Server of the SCADA system</span></h3>
+<table class="wikitable">
+
+<tr>
+<th colspan="2"> Visual Control Area (VCA) of the end user
+</th></tr>
+<tr>
+<td> Remote visualization server grounded on the visual control engine of VCA — local starting of the module UI.Vision, connected to the visualization server. </td>
+<td> Module of the VCA engine <a href="Modules/VCAEngine.html" title="Special:MyLanguage/Modules/VCAEngine">VCAEngine</a>
+</td></tr>
+<tr>
+<td> Remote WEB interface </td>
+<td> Web-browser<br />Module of the visualizer <a href="Modules/WebVision.html" title="Special:MyLanguage/Modules/WebVision">WebVision</a><br />Module of the VCA engine <a href="Modules/VCAEngine.html" title="Special:MyLanguage/Modules/VCAEngine">VCAEngine</a>
+</td></tr>
+<tr>
+<td> Simple remote Web-interfaces of the user </td>
+<td> Web-browser<br />Module <a href="Modules/WebUser.html" title="Special:MyLanguage/Modules/WebUser">WebUser</a>
+</td></tr>
+<tr>
+<th colspan="2"> Providing data to higher level systems
+</th></tr>
+<tr>
+<td align="center" colspan="2"> <i>By interfaces</i>
+</td></tr>
+<tr>
+<td> Serial interface: RS232, RS485, Modem, ... </td>
+<td> Module <a href="Modules/Serial.html" title="Special:MyLanguage/Modules/Serial">Serial</a>
+</td></tr>
+<tr>
+<td> IP-networks sockets and network level protocols TCP, UDP and Unix </td>
+<td> Module <a href="Modules/Sockets.html" title="Special:MyLanguage/Modules/Sockets">Sockets</a>
+</td></tr>
+<tr>
+<td> Security sockets layer (SSL) </td>
+<td> Module <a href="Modules/SSL.html" title="Special:MyLanguage/Modules/SSL">SSL</a>
+</td></tr>
+<tr>
+<td align="center" colspan="2"> <i>By protocols</i>
+</td></tr>
+<tr>
+<td> Self protocol of OpenSCADA </td>
+<td> Module <a href="Modules/SelfSystem.html" title="Special:MyLanguage/Modules/SelfSystem">SelfSystem</a>
+</td></tr>
+<tr>
+<td> ModBus family protocols: TCP, RTU and ASCII </td>
+<td> Module <a href="Modules/ModBus.html" title="Special:MyLanguage/Modules/ModBus">ModBus</a>
+</td></tr>
+<tr>
+<td> "OPC-UA" protocol </td>
+<td> Module <a href="Modules/OPC_UA.html" title="Special:MyLanguage/Modules/OPC UA">OPC-UA</a>
+</td></tr>
+<tr>
+<td> Simple specialized protocols developed by the user protocol </td>
+<td> Module <a href="Modules/UserProtocol.html" title="Special:MyLanguage/Modules/UserProtocol">UserProtocol</a>
+</td></tr>
+<tr>
+<td align="center" colspan="2"> <i>Through DBMS</i>
+</td></tr>
+<tr>
+<td> MySQL </td>
+<td> Module <a href="Modules/MySQL.html" title="Special:MyLanguage/Modules/MySQL">MySQL</a>
+</td></tr>
+<tr>
+<td> PostgreSQL </td>
+<td> Module <a href="Modules/PostgreSQL.html" title="Special:MyLanguage/Modules/PostgreSQL">PostgreSQL</a>
+</td></tr>
+<tr>
+<td> FireBird </td>
+<td> Module <a href="Modules/FireBird.html" title="Special:MyLanguage/Modules/FireBird">FireBird</a>
+</td></tr>
+<tr>
+<td> ODBC — DBMS for which there is an ODBC driver </td>
+<td> Module <a href="Modules/FireBird.html" title="Special:MyLanguage/Modules/FireBird">ODBC</a> (<span style="color: red">not finished</span>)
+</td></tr>
+<tr>
+<th colspan="2"> Configuration and development (SCADA programmer and administrator)
+</th></tr>
+<tr>
+<td> Remotely, through WEB-interface </td>
+<td> Web-browser<br />Module <a href="Modules/WebCfgD.html" title="Special:MyLanguage/Modules/WebCfgD">WebCfgD</a> or <a href="Modules/WebCfg.html" title="Special:MyLanguage/Modules/WebCfg">WebCfg</a>
+</td></tr>
+<tr>
+<td> Remotely, from the configuration station by the control interface of OpenSCADA </td>
+<td> Module <a href="Modules/SelfSystem.html" title="Special:MyLanguage/Modules/SelfSystem">SelfSystem</a>
+</td></tr>
+<tr>
+<th colspan="2"> Languages of the user programming and calculation
+</th></tr>
+<tr>
+<td> JavaLikeCalc — a high level language similar to JavaScript and Java </td>
+<td> Module <a href="Modules/JavaLikeCalc.html" title="Special:MyLanguage/Modules/JavaLikeCalc">JavaLikeCalc</a>
+</td></tr>
+<tr>
+<td> Block Schemes </td>
+<td> Module <a href="Modules/BlockCalc.html" title="Special:MyLanguage/Modules/BlockCalc">BlockCalc</a>
+</td></tr>
+<tr>
+<th colspan="2"> Storing station data
+</th></tr>
+<tr>
+<td> Configuration file </td>
+<td> Core of OpenSCADA
+</td></tr>
+<tr>
+<td align="center" colspan="2"> DB
+</td></tr>
+<tr>
+<td> SQLite </td>
+<td> Module <a href="Modules/SQLite.html" title="Special:MyLanguage/Modules/SQLite">SQLite</a>
+</td></tr>
+<tr>
+<td> MySQL </td>
+<td> Module <a href="Modules/MySQL.html" title="Special:MyLanguage/Modules/MySQL">MySQL</a>
+</td></tr>
+<tr>
+<td> PostgreSQL </td>
+<td> Module <a href="Modules/PostgreSQL.html" title="Special:MyLanguage/Modules/PostgreSQL">PostgreSQL</a>
+</td></tr>
+<tr>
+<td> FireBird </td>
+<td> Module <a href="Modules/FireBird.html" title="Special:MyLanguage/Modules/FireBird">FireBird</a>
+</td></tr>
+<tr>
+<td> ODBC — DBMS for which there is an ODBC driver </td>
+<td> Module <a href="Modules/FireBird.html" title="Special:MyLanguage/Modules/FireBird">ODBC</a> (<span style="color: red">not finished</span>)
+</td></tr>
+<tr>
+<td> DBF </td>
+<td> Module <a href="Modules/DBF.html" title="Special:MyLanguage/Modules/DBF">DBF</a>
+</td></tr>
+<tr>
+<td> Directories through LDAP </td>
+<td> Module БД <a class="external" href="http://oscada.org/wiki/Special:MyLanguage/Modules/LDAP" title="Special:MyLanguage/Modules/LDAP">LDAP</a>
+</td></tr>
+<tr>
+<td> Available on another OpenSCADA-based server </td>
+<td> <span style="color: red">scheduled</span>
+</td></tr>
+<tr>
+<th colspan="2"> Acquisition and control of internal and external data (DAQ)
+</th></tr>
+<tr>
+<td> Different types of logical and physical sources that have data access utilities or accessible through simple and specialized network protocols. This is accomplished by writing a data acquisition procedure of the user protocol in the user programming language. Most known protocols implementing on <a class="external" href="http://oscada.org/wiki/Special:MyLanguage/Libs/User_protocol_devices" title="Special:MyLanguage/Libs/User protocol devices">the user protocols</a>:
+<ul><li> <i>Common services</i>: SMS, SMTP, UPS.</li>
+<li> <i>Industrial automation</i>: Elemer TM510x, EDWARDS TURBOMOLECULAR PUMPS (SCU750), Sycon Multi Drop Protocol, Power supply for turbomolecular pumps (TMP-xx03), Temperature measurement IT-3, IVE-452HS-02, OPTRIS CT/CTL, CTR 100-101, IEC-60870-104, Shark Slave Communication Protocol, DCON (example), OWEN (example).</li>
+<li> <i>Counters of the resources</i>: Heat counter computer VKT7, Mercury 200, Mercury 230, Nik2303I.</li>
+<li> <i>Low level sensors and chips</i>:
+<ul><li> <i>I2C</i>: PCF8591, PCF8574, BMP180, BME280, DS3231, AT24CXX;</li>
+<li> <i>1Wire Chips by the adapters DS9097 and DS9097U</i>: DS1820, DS1820/DS18S20/DS1920, DS1822, DS2413, DS2408, DS2450, DS2438;</li>
+<li> <i>Low level devices by GPIO</i>: DHT11,22 (DHT), 1602A(HD44780).</li></ul></li></ul>
+</td>
+<td> Module of the user programming language <a href="Modules/JavaLikeCalc.html" title="Special:MyLanguage/Modules/JavaLikeCalc">JavaLikeCalc</a><br />Module <a href="Modules/LogicLev.html" title="Special:MyLanguage/Modules/LogicLev">LogicLev</a><br />Module of the user protocol <a href="Modules/UserProtocol.html" title="Special:MyLanguage/Modules/UserProtocol">UserProtocol</a>
+</td></tr>
+<tr>
+<td> Formation of logical sources and derivative parameters structures, based on templates of parameters and data of other sources </td>
+<td> Module <a href="Modules/LogicLev.html" title="Special:MyLanguage/Modules/LogicLev">LogicLev</a>
+</td></tr>
+<tr>
+<td> Formation of logical sources using block diagrams </td>
+<td> Module <a href="Modules/BlockCalc.html" title="Special:MyLanguage/Modules/BlockCalc">BlockCalc</a>
+</td></tr>
+<tr>
+<td> External servers and PLCs are built on OpenSCADA, possibly for duplication. </td>
+<td> Module <a href="Modules/DAQGate.html" title="Special:MyLanguage/Modules/DAQGate">DAQGate</a>
+</td></tr>
+<tr>
+<td> Information about hardware and software platform </td>
+<td> Module <a href="Modules/System.html" title="Special:MyLanguage/Modules/System">System</a>
+</td></tr>
+<tr>
+<td> Industrial controllers and other devices by the ModBus protocol </td>
+<td> Module <a href="Modules/ModBus.html" title="Special:MyLanguage/Modules/ModBus">ModBus</a>
+</td></tr>
+<tr>
+<td> Industrial controllers by the DCON protocol </td>
+<td> Module <a href="Modules/DCON.html" title="Special:MyLanguage/Modules/DCON">DCON</a>
+</td></tr>
+<tr>
+<td> Industrial controllers and other devices by the OPC-UA protocol </td>
+<td> Module <a href="Modules/OPC_UA.html" title="Special:MyLanguage/Modules/OPC UA">OPC-UA</a>
+</td></tr>
+<tr>
+<td> Industrial controllers and other devices by the MMS(IEC-9506) protocol </td>
+<td> Module <a class="external" href="http://oscada.org/wiki/Special:MyLanguage/Modules/MMS" title="Special:MyLanguage/Modules/MMS">MMS</a>
+</td></tr>
+<tr>
+<td> Network devices and other sources by the SNMP protocol (Simple Network Management Protocol) </td>
+<td> Module <a href="Modules/SNMP.html" title="Special:MyLanguage/Modules/SNMP">SNMP</a>
+</td></tr>
+<tr>
+<td> Industrial equipment of the firm <a class="external text" href="http://www.icpdas.com" rel="nofollow noreferrer noopener" target="_blank">ICP DAS</a>, modules of the series: I7k, I8k, I87K and other on the ISA bus </td>
+<td> Module <a href="Modules/ICP_DAS.html" title="Special:MyLanguage/Modules/ICP DAS">ICP_DAS</a>
+</td></tr>
+<tr>
+<td> Industrial controllers of the firm Siemens of the series S7 </td>
+<td> Module <a href="Modules/Siemens.html" title="Special:MyLanguage/Modules/Siemens">Siemens</a>
+</td></tr>
+<tr>
+<td> DAQ-boars on the buses ISA, PCI, PCMCIA and USB </td>
+<td> Library <a class="external text" href="http://comedi.org" rel="nofollow noreferrer noopener" target="_blank">Comedi</a><br />Module <a href="Modules/Comedi.html" title="Special:MyLanguage/Modules/Comedi">Comedi</a>
+</td></tr>
+<tr>
+<td> Input channels of the sound controllers </td>
+<td> Module <a href="Modules/SoundCard.html" title="Special:MyLanguage/Modules/SoundCard">SoundCard</a>
+</td></tr>
+<tr>
+<td> Automation of the "Big Dutchman" company </td>
+<td> Module <a href="Modules/BFN.html" title="Special:MyLanguage/Modules/BFN">BFN</a>
+</td></tr>
+<tr>
+<th colspan="2"> Archiving-History
+</th></tr>
+<tr>
+<td align="center" colspan="2"> Message archives by various categories and levels
+</td></tr>
+<tr>
+<td> Files in the format of XML or plain text with packing the out-of-date archives </td>
+<td> Module <a href="Modules/FSArch.html" title="Special:MyLanguage/Modules/FSArch">FSArch</a>
+</td></tr>
+<tr>
+<td> On tables of the archival DB of OpenSCADA </td>
+<td> Module <a href="Modules/DBArch.html" title="Special:MyLanguage/Modules/DBArch">DBArch</a>
+</td></tr>
+<tr>
+<td> On the other, based on OpenSCADA, archiving server, may be remote </td>
+<td> <span style="color: red">scheduled</span>
+</td></tr>
+<tr>
+<td align="center" colspan="2"> Value archives of the gathered data
+</td></tr>
+<tr>
+<td> Buffers in memory of a certain length </td>
+<td> Core of OpenSCADA
+</td></tr>
+<tr>
+<td> Files with double packing: consecutive and the standard archiver gzip </td>
+<td> Module <a href="Modules/FSArch.html" title="Special:MyLanguage/Modules/FSArch">FSArch</a>
+</td></tr>
+<tr>
+<td> On tables of the archival DB of OpenSCADA </td>
+<td> Module <a href="Modules/DBArch.html" title="Special:MyLanguage/Modules/DBArch">DBArch</a>
+</td></tr>
+<tr>
+<td> On the other, based on OpenSCADA, archiving server, may be remote </td>
+<td> <span style="color: red">scheduled</span>
+</td></tr></table>
+<hr />
+<h3><span class="mw-headline" id="Station_of_the_operator_of_technological_process.2C_the_dispatcher_board.2C_the_monitoring_panel.2C_etc."><span class="mw-headline-number">1.2</span> Station of the operator of technological process, the dispatcher board, the monitoring panel, etc.</span></h3>
+<table class="wikitable">
+
+<tr>
+<th colspan="2"> Visual Control Area (VCA) of the end user
+</th></tr>
+<tr>
+<td> Local (fast) interface, based on the Qt library, with the ability to visualize the remote VCA engine — the visualization server </td>
+<td> Module of the visualizer <a href="Modules/Vision.html" title="Special:MyLanguage/Modules/Vision">Vision</a><br />Module of the VCA engine <a href="Modules/VCAEngine.html" title="Special:MyLanguage/Modules/VCAEngine">VCAEngine</a>
+</td></tr>
+<tr>
+<td> Remote WEB interface </td>
+<td> Web-browser<br />Module of the visualizer <a href="Modules/WebVision.html" title="Special:MyLanguage/Modules/WebVision">WebVision</a><br />Module of the VCA engine <a href="Modules/VCAEngine.html" title="Special:MyLanguage/Modules/VCAEngine">VCAEngine</a>
+</td></tr>
+<tr>
+<td> Simple remote Web-interfaces of the user </td>
+<td> Web-browser<br />Module <a href="Modules/WebUser.html" title="Special:MyLanguage/Modules/WebUser">WebUser</a>
+</td></tr>
+<tr>
+<th colspan="2"> Configuration and development (SCADA programmer and administrator)
+</th></tr>
+<tr>
+<td> Local, via Qt-interface </td>
+<td> Module <a href="Modules/QTCfg.html" title="Special:MyLanguage/Modules/QTCfg">QTCfg</a><br />Module <a href="Modules/Vision.html" title="Special:MyLanguage/Modules/Vision">Vision</a>
+</td></tr>
+<tr>
+<td> Remotely, through WEB-interface </td>
+<td> Web-browser<br />Module <a href="Modules/WebCfgD.html" title="Special:MyLanguage/Modules/WebCfgD">WebCfgD</a> or <a href="Modules/WebCfg.html" title="Special:MyLanguage/Modules/WebCfg">WebCfg</a>
+</td></tr>
+<tr>
+<td> Remotely, from the configuration station by the control interface of OpenSCADA </td>
+<td> Module <a href="Modules/SelfSystem.html" title="Special:MyLanguage/Modules/SelfSystem">SelfSystem</a>
+</td></tr>
+<tr>
+<th colspan="2"> Languages of the user programming and calculation
+</th></tr>
+<tr>
+<td> JavaLikeCalc — a high level language similar to JavaScript and Java </td>
+<td> Module <a href="Modules/JavaLikeCalc.html" title="Special:MyLanguage/Modules/JavaLikeCalc">JavaLikeCalc</a>
+</td></tr>
+<tr>
+<td> Block Schemes </td>
+<td> Module <a href="Modules/BlockCalc.html" title="Special:MyLanguage/Modules/BlockCalc">BlockCalc</a>
+</td></tr>
+<tr>
+<th colspan="2"> Storing station data
+</th></tr>
+<tr>
+<td> Configuration file </td>
+<td> Core of OpenSCADA
+</td></tr>
+<tr>
+<td align="center" colspan="2"> DB
+</td></tr>
+<tr>
+<td> SQLite </td>
+<td> Module <a href="Modules/SQLite.html" title="Special:MyLanguage/Modules/SQLite">SQLite</a>
+</td></tr>
+<tr>
+<td> MySQL </td>
+<td> Module <a href="Modules/MySQL.html" title="Special:MyLanguage/Modules/MySQL">MySQL</a>
+</td></tr>
+<tr>
+<td> PostgreSQL </td>
+<td> Module <a href="Modules/PostgreSQL.html" title="Special:MyLanguage/Modules/PostgreSQL">PostgreSQL</a>
+</td></tr>
+<tr>
+<td> FireBird </td>
+<td> Module <a href="Modules/FireBird.html" title="Special:MyLanguage/Modules/FireBird">FireBird</a>
+</td></tr>
+<tr>
+<td> ODBC — DBMS for which there is an ODBC driver </td>
+<td> Module <a href="Modules/FireBird.html" title="Special:MyLanguage/Modules/FireBird">ODBC</a> (<span style="color: red">not finished</span>)
+</td></tr>
+<tr>
+<td> DBF </td>
+<td> Module <a href="Modules/DBF.html" title="Special:MyLanguage/Modules/DBF">DBF</a>
+</td></tr>
+<tr>
+<td> Directories through LDAP </td>
+<td> Module БД <a class="external" href="http://oscada.org/wiki/Special:MyLanguage/Modules/LDAP" title="Special:MyLanguage/Modules/LDAP">LDAP</a>
+</td></tr>
+<tr>
+<td> Available on another OpenSCADA-based server </td>
+<td> <span style="color: red">scheduled</span>
+</td></tr>
+<tr>
+<th colspan="2"> Acquisition and control of internal and external data (DAQ)
+</th></tr>
+<tr>
+<td> External servers and PLCs are built on OpenSCADA, possibly for duplication. </td>
+<td> Module <a href="Modules/DAQGate.html" title="Special:MyLanguage/Modules/DAQGate">DAQGate</a>
+</td></tr>
+<tr>
+<td> Industrial controllers and other devices by the OPC-UA protocol </td>
+<td> Module <a href="Modules/OPC_UA.html" title="Special:MyLanguage/Modules/OPC UA">OPC-UA</a>
+</td></tr>
+<tr>
+<td> Network devices and other sources by the SNMP protocol (Simple Network Management Protocol) </td>
+<td> Module <a href="Modules/SNMP.html" title="Special:MyLanguage/Modules/SNMP">SNMP</a>
+</td></tr>
+<tr>
+<th colspan="2"> Archiving-History
+</th></tr>
+<tr>
+<td align="center" colspan="2"> Message archives by various categories and levels
+</td></tr>
+<tr>
+<td> Files in the format of XML or plain text with packing the out-of-date archives </td>
+<td> Module <a href="Modules/FSArch.html" title="Special:MyLanguage/Modules/FSArch">FSArch</a>
+</td></tr>
+<tr>
+<td> On tables of the archival DB of OpenSCADA </td>
+<td> Module <a href="Modules/DBArch.html" title="Special:MyLanguage/Modules/DBArch">DBArch</a>
+</td></tr>
+<tr>
+<td> On the other, based on OpenSCADA, archiving server, may be remote </td>
+<td> <span style="color: red">scheduled</span>
+</td></tr>
+<tr>
+<td align="center" colspan="2"> Value archives of the gathered data
+</td></tr>
+<tr>
+<td> Buffers in memory of a certain length </td>
+<td> Core of OpenSCADA
+</td></tr>
+<tr>
+<td> Files with double packing: consecutive and the standard archiver gzip </td>
+<td> Module <a href="Modules/FSArch.html" title="Special:MyLanguage/Modules/FSArch">FSArch</a>
+</td></tr>
+<tr>
+<td> On tables of the archival DB of OpenSCADA </td>
+<td> Module <a href="Modules/DBArch.html" title="Special:MyLanguage/Modules/DBArch">DBArch</a>
+</td></tr>
+<tr>
+<td> On the other, based on OpenSCADA, archiving server, may be remote </td>
+<td> <span style="color: red">scheduled</span>
+</td></tr></table>
+<hr />
+<h3><span class="mw-headline" id="Environment_of_execution_of_the_controllers_.28PLC.29"><span class="mw-headline-number">1.3</span> Environment of execution of the controllers (PLC)</span></h3>
+<table class="wikitable">
+
+<tr>
+<th colspan="2"> Providing data to higher level systems
+</th></tr>
+<tr>
+<td align="center" colspan="2"> <i>By interfaces</i>
+</td></tr>
+<tr>
+<td> Serial interface: RS232, RS485, Modem, ... </td>
+<td> Module <a href="Modules/Serial.html" title="Special:MyLanguage/Modules/Serial">Serial</a>
+</td></tr>
+<tr>
+<td> IP-networks sockets and network level protocols TCP, UDP and Unix </td>
+<td> Module <a href="Modules/Sockets.html" title="Special:MyLanguage/Modules/Sockets">Sockets</a>
+</td></tr>
+<tr>
+<td> Security sockets layer (SSL) </td>
+<td> Module <a href="Modules/SSL.html" title="Special:MyLanguage/Modules/SSL">SSL</a>
+</td></tr>
+<tr>
+<td align="center" colspan="2"> <i>By protocols</i>
+</td></tr>
+<tr>
+<td> Self protocol of OpenSCADA </td>
+<td> Module <a href="Modules/SelfSystem.html" title="Special:MyLanguage/Modules/SelfSystem">SelfSystem</a>
+</td></tr>
+<tr>
+<td> ModBus family protocols: TCP, RTU and ASCII </td>
+<td> Module <a href="Modules/ModBus.html" title="Special:MyLanguage/Modules/ModBus">ModBus</a>
+</td></tr>
+<tr>
+<td> "OPC-UA" protocol </td>
+<td> Module <a href="Modules/OPC_UA.html" title="Special:MyLanguage/Modules/OPC UA">OPC-UA</a>
+</td></tr>
+<tr>
+<td> Simple specialized protocols developed by the user protocol </td>
+<td> Module <a href="Modules/UserProtocol.html" title="Special:MyLanguage/Modules/UserProtocol">UserProtocol</a>
+</td></tr>
+<tr>
+<td align="center" colspan="2"> <i>Through DBMS</i>
+</td></tr>
+<tr>
+<td> MySQL </td>
+<td> Module <a href="Modules/MySQL.html" title="Special:MyLanguage/Modules/MySQL">MySQL</a>
+</td></tr>
+<tr>
+<td> PostgreSQL </td>
+<td> Module <a href="Modules/PostgreSQL.html" title="Special:MyLanguage/Modules/PostgreSQL">PostgreSQL</a>
+</td></tr>
+<tr>
+<td> FireBird </td>
+<td> Module <a href="Modules/FireBird.html" title="Special:MyLanguage/Modules/FireBird">FireBird</a>
+</td></tr>
+<tr>
+<td> ODBC — DBMS for which there is an ODBC driver </td>
+<td> Module <a href="Modules/FireBird.html" title="Special:MyLanguage/Modules/FireBird">ODBC</a> (<span style="color: red">not finished</span>)
+</td></tr>
+<tr>
+<th colspan="2"> Configuration and development (SCADA programmer and administrator)
+</th></tr>
+<tr>
+<td> Remotely, through WEB-interface </td>
+<td> Web-browser<br />Module <a href="Modules/WebCfgD.html" title="Special:MyLanguage/Modules/WebCfgD">WebCfgD</a> or <a href="Modules/WebCfg.html" title="Special:MyLanguage/Modules/WebCfg">WebCfg</a>
+</td></tr>
+<tr>
+<td> Remotely, from the configuration station by the control interface of OpenSCADA </td>
+<td> Module <a href="Modules/SelfSystem.html" title="Special:MyLanguage/Modules/SelfSystem">SelfSystem</a>
+</td></tr>
+<tr>
+<th colspan="2"> Languages of the user programming and calculation
+</th></tr>
+<tr>
+<td> JavaLikeCalc — a high level language similar to JavaScript and Java </td>
+<td> Module <a href="Modules/JavaLikeCalc.html" title="Special:MyLanguage/Modules/JavaLikeCalc">JavaLikeCalc</a>
+</td></tr>
+<tr>
+<td> Block Schemes </td>
+<td> Module <a href="Modules/BlockCalc.html" title="Special:MyLanguage/Modules/BlockCalc">BlockCalc</a>
+</td></tr>
+<tr>
+<th colspan="2"> Storing station data
+</th></tr>
+<tr>
+<td> Configuration file </td>
+<td> Core of OpenSCADA
+</td></tr>
+<tr>
+<td align="center" colspan="2"> DB
+</td></tr>
+<tr>
+<td> SQLite </td>
+<td> Module <a href="Modules/SQLite.html" title="Special:MyLanguage/Modules/SQLite">SQLite</a>
+</td></tr>
+<tr>
+<td> MySQL </td>
+<td> Module <a href="Modules/MySQL.html" title="Special:MyLanguage/Modules/MySQL">MySQL</a>
+</td></tr>
+<tr>
+<td> PostgreSQL </td>
+<td> Module <a href="Modules/PostgreSQL.html" title="Special:MyLanguage/Modules/PostgreSQL">PostgreSQL</a>
+</td></tr>
+<tr>
+<td> FireBird </td>
+<td> Module <a href="Modules/FireBird.html" title="Special:MyLanguage/Modules/FireBird">FireBird</a>
+</td></tr>
+<tr>
+<td> ODBC — DBMS for which there is an ODBC driver </td>
+<td> Module <a href="Modules/FireBird.html" title="Special:MyLanguage/Modules/FireBird">ODBC</a> (<span style="color: red">not finished</span>)
+</td></tr>
+<tr>
+<td> DBF </td>
+<td> Module <a href="Modules/DBF.html" title="Special:MyLanguage/Modules/DBF">DBF</a>
+</td></tr>
+<tr>
+<td> Directories through LDAP </td>
+<td> Module БД <a class="external" href="http://oscada.org/wiki/Special:MyLanguage/Modules/LDAP" title="Special:MyLanguage/Modules/LDAP">LDAP</a>
+</td></tr>
+<tr>
+<td> Available on another OpenSCADA-based server </td>
+<td> <span style="color: red">scheduled</span>
+</td></tr>
+<tr>
+<th colspan="2"> Acquisition and control of internal and external data (DAQ)
+</th></tr>
+<tr>
+<td> Different types of logical and physical sources that have data access utilities or accessible through simple and specialized network protocols. This is accomplished by writing a data acquisition procedure of the user protocol in the user programming language. Most known protocols implementing on <a class="external" href="http://oscada.org/wiki/Special:MyLanguage/Libs/User_protocol_devices" title="Special:MyLanguage/Libs/User protocol devices">the user protocols</a>:
+<ul><li> <i>Common services</i>: SMS, SMTP, UPS.</li>
+<li> <i>Industrial automation</i>: Elemer TM510x, EDWARDS TURBOMOLECULAR PUMPS (SCU750), Sycon Multi Drop Protocol, Power supply for turbomolecular pumps (TMP-xx03), Temperature measurement IT-3, IVE-452HS-02, OPTRIS CT/CTL, CTR 100-101, IEC-60870-104, Shark Slave Communication Protocol, DCON (example), OWEN (example).</li>
+<li> <i>Counters of the resources</i>: Heat counter computer VKT7, Mercury 200, Mercury 230, Nik2303I.</li>
+<li> <i>Low level sensors and chips</i>:
+<ul><li> <i>I2C</i>: PCF8591, PCF8574, BMP180, BME280, DS3231, AT24CXX;</li>
+<li> <i>1Wire Chips by the adapters DS9097 and DS9097U</i>: DS1820, DS1820/DS18S20/DS1920, DS1822, DS2413, DS2408, DS2450, DS2438;</li>
+<li> <i>Low level devices by GPIO</i>: DHT11,22 (DHT), 1602A(HD44780).</li></ul></li></ul>
+</td>
+<td> Module of the user programming language <a href="Modules/JavaLikeCalc.html" title="Special:MyLanguage/Modules/JavaLikeCalc">JavaLikeCalc</a><br />Module <a href="Modules/LogicLev.html" title="Special:MyLanguage/Modules/LogicLev">LogicLev</a><br />Module of the user protocol <a href="Modules/UserProtocol.html" title="Special:MyLanguage/Modules/UserProtocol">UserProtocol</a>
+</td></tr>
+<tr>
+<td> Formation of logical sources and derivative parameters structures, based on templates of parameters and data of other sources </td>
+<td> Module <a href="Modules/LogicLev.html" title="Special:MyLanguage/Modules/LogicLev">LogicLev</a>
+</td></tr>
+<tr>
+<td> Formation of logical sources using block diagrams </td>
+<td> Module <a href="Modules/BlockCalc.html" title="Special:MyLanguage/Modules/BlockCalc">BlockCalc</a>
+</td></tr>
+<tr>
+<td> External servers and PLCs are built on OpenSCADA, possibly for duplication. </td>
+<td> Module <a href="Modules/DAQGate.html" title="Special:MyLanguage/Modules/DAQGate">DAQGate</a>
+</td></tr>
+<tr>
+<td> Information about hardware and software platform </td>
+<td> Module <a href="Modules/System.html" title="Special:MyLanguage/Modules/System">System</a>
+</td></tr>
+<tr>
+<td> Industrial controllers and other devices by the ModBus protocol </td>
+<td> Module <a href="Modules/ModBus.html" title="Special:MyLanguage/Modules/ModBus">ModBus</a>
+</td></tr>
+<tr>
+<td> Industrial controllers by the DCON protocol </td>
+<td> Module <a href="Modules/DCON.html" title="Special:MyLanguage/Modules/DCON">DCON</a>
+</td></tr>
+<tr>
+<td> Industrial controllers and other devices by the OPC-UA protocol </td>
+<td> Module <a href="Modules/OPC_UA.html" title="Special:MyLanguage/Modules/OPC UA">OPC-UA</a>
+</td></tr>
+<tr>
+<td> Industrial controllers and other devices by the MMS(IEC-9506) protocol </td>
+<td> Module <a class="external" href="http://oscada.org/wiki/Special:MyLanguage/Modules/MMS" title="Special:MyLanguage/Modules/MMS">MMS</a>
+</td></tr>
+<tr>
+<td> Network devices and other sources by the SNMP protocol (Simple Network Management Protocol) </td>
+<td> Module <a href="Modules/SNMP.html" title="Special:MyLanguage/Modules/SNMP">SNMP</a>
+</td></tr>
+<tr>
+<td> Industrial equipment of the firm <a class="external text" href="http://www.icpdas.com" rel="nofollow noreferrer noopener" target="_blank">ICP DAS</a>, modules of the series: I7k, I8k, I87K and other on the ISA bus </td>
+<td> Module <a href="Modules/ICP_DAS.html" title="Special:MyLanguage/Modules/ICP DAS">ICP_DAS</a>
+</td></tr>
+<tr>
+<td> Industrial controllers of the firm Siemens of the series S7 </td>
+<td> Module <a href="Modules/Siemens.html" title="Special:MyLanguage/Modules/Siemens">Siemens</a>
+</td></tr>
+<tr>
+<td> DAQ-boars of <a class="external text" href="http://diamondsystems.com/" rel="nofollow noreferrer noopener" target="_blank">Diamond Systems</a> </td>
+<td> Module <a href="Modules/DiamondBoards.html" title="Special:MyLanguage/Modules/DiamondBoards">DiamondBoards</a>
+</td></tr>
+<tr>
+<td> DAQ-boars on the buses ISA, PCI, PCMCIA and USB </td>
+<td> Library <a class="external text" href="http://comedi.org" rel="nofollow noreferrer noopener" target="_blank">Comedi</a><br />Module <a href="Modules/Comedi.html" title="Special:MyLanguage/Modules/Comedi">Comedi</a>
+</td></tr>
+<tr>
+<td> Input channels of the sound controllers </td>
+<td> Module <a href="Modules/SoundCard.html" title="Special:MyLanguage/Modules/SoundCard">SoundCard</a>
+</td></tr>
+<tr>
+<td> Automation of the "Big Dutchman" company </td>
+<td> Module <a href="Modules/BFN.html" title="Special:MyLanguage/Modules/BFN">BFN</a>
+</td></tr>
+<tr>
+<td> Discrete inputs/outputs of general purpose of different single-board computers </td>
+<td> Module <a href="Modules/GPIO.html" title="Special:MyLanguage/Modules/GPIO">GPIO</a>
+</td></tr>
+<tr>
+<th colspan="2"> Archiving-History
+</th></tr>
+<tr>
+<td align="center" colspan="2"> Message archives by various categories and levels
+</td></tr>
+<tr>
+<td> Files in the format of XML or plain text with packing the out-of-date archives </td>
+<td> Module <a href="Modules/FSArch.html" title="Special:MyLanguage/Modules/FSArch">FSArch</a>
+</td></tr>
+<tr>
+<td> On tables of the archival DB of OpenSCADA </td>
+<td> Module <a href="Modules/DBArch.html" title="Special:MyLanguage/Modules/DBArch">DBArch</a>
+</td></tr>
+<tr>
+<td> On the other, based on OpenSCADA, archiving server, may be remote </td>
+<td> <span style="color: red">scheduled</span>
+</td></tr>
+<tr>
+<td align="center" colspan="2"> Value archives of the gathered data
+</td></tr>
+<tr>
+<td> Buffers in memory of a certain length </td>
+<td> Core of OpenSCADA
+</td></tr>
+<tr>
+<td> Files with double packing: consecutive and the standard archiver gzip </td>
+<td> Module <a href="Modules/FSArch.html" title="Special:MyLanguage/Modules/FSArch">FSArch</a>
+</td></tr>
+<tr>
+<td> On tables of the archival DB of OpenSCADA </td>
+<td> Module <a href="Modules/DBArch.html" title="Special:MyLanguage/Modules/DBArch">DBArch</a>
+</td></tr>
+<tr>
+<td> On the other, based on OpenSCADA, archiving server, may be remote </td>
+<td> <span style="color: red">scheduled</span>
+</td></tr></table>
+<h3><span class="mw-headline" id="Universal_OPC-UA_server"><span class="mw-headline-number">1.4</span> Universal OPC-UA server</span></h3>
+<p>Due implementation of the protocol OPC-UA into agent mode, OpenSCADA can provide a popular function of the OPC-server to client's protocols, which supports and direct implemented into OpenSCADA. The function common uses on platform MS Windows®, and many SCADA-systems on the platform work exclusively with OPC—servers, as the data sources. Thus, OpenSCADA can act as an universal OPC-server on Linux platform (Fig.2).
+</p><p><span style="color: red">In plans.</span> With adapting OpenSCADA to work on MS Windows® platform and implementing the work with OPC-DA by system DCOM, there will appear possibility for applying OpenSCADA into the gate OPC-DA -&gt; OPC-UA role, which means free integration of old systems to the new or accumulation systems.
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:556px;"><a class="image" href="http://oscada.org/wiki/File:Oscada_use_opcua.png"><img class="thumbimage" height="525" src="files/Oscada_use_opcua.png" width="554" /></a>  <div class="thumbcaption">Fig.2. OpenSCADA role as OPC-UA server.</div></div></div></div>
+<table class="wikitable">
+
+<tr>
+<th colspan="2"> Acquisition and control of internal and external data (DAQ)
+</th></tr>
+<tr>
+<td> Different types of logical and physical sources that have data access utilities or accessible through simple and specialized network protocols. This is accomplished by writing a data acquisition procedure of <a class="external" href="http://oscada.org/wiki/Special:MyLanguage/Libs/User_protocol_devices" title="Special:MyLanguage/Libs/User protocol devices">the user protocol</a> in the user programming language
+</td>
+<td> Module of the user programming language <a href="Modules/JavaLikeCalc.html" title="Special:MyLanguage/Modules/JavaLikeCalc">JavaLikeCalc</a><br />Module <a href="Modules/LogicLev.html" title="Special:MyLanguage/Modules/LogicLev">LogicLev</a><br />Module of the user protocol <a href="Modules/UserProtocol.html" title="Special:MyLanguage/Modules/UserProtocol">UserProtocol</a>
+</td></tr>
+<tr>
+<td> Formation of logical sources and derivative parameters structures, based on templates of parameters and data of other sources </td>
+<td> Module <a href="Modules/LogicLev.html" title="Special:MyLanguage/Modules/LogicLev">LogicLev</a>
+</td></tr>
+<tr>
+<td> Formation of logical sources using block diagrams </td>
+<td> Module <a href="Modules/BlockCalc.html" title="Special:MyLanguage/Modules/BlockCalc">BlockCalc</a>
+</td></tr>
+<tr>
+<td> External servers and PLCs are built on OpenSCADA, possibly for duplication. </td>
+<td> Module <a href="Modules/DAQGate.html" title="Special:MyLanguage/Modules/DAQGate">DAQGate</a>
+</td></tr>
+<tr>
+<td> Information about hardware and software platform </td>
+<td> Module <a href="Modules/System.html" title="Special:MyLanguage/Modules/System">System</a>
+</td></tr>
+<tr>
+<td> Industrial controllers and other devices by the ModBus protocol </td>
+<td> Module <a href="Modules/ModBus.html" title="Special:MyLanguage/Modules/ModBus">ModBus</a>
+</td></tr>
+<tr>
+<td> Industrial controllers by the DCON protocol </td>
+<td> Module <a href="Modules/DCON.html" title="Special:MyLanguage/Modules/DCON">DCON</a>
+</td></tr>
+<tr>
+<td> Industrial controllers and other devices by the OPC-UA protocol </td>
+<td> Module <a href="Modules/OPC_UA.html" title="Special:MyLanguage/Modules/OPC UA">OPC-UA</a>
+</td></tr>
+<tr>
+<td> Industrial controllers and other devices by the MMS(IEC-9506) protocol </td>
+<td> Module <a class="external" href="http://oscada.org/wiki/Special:MyLanguage/Modules/MMS" title="Special:MyLanguage/Modules/MMS">MMS</a>
+</td></tr>
+<tr>
+<td> Network devices and other sources by the SNMP protocol (Simple Network Management Protocol) </td>
+<td> Module <a href="Modules/SNMP.html" title="Special:MyLanguage/Modules/SNMP">SNMP</a>
+</td></tr>
+<tr>
+<td> Industrial equipment of the firm <a class="external text" href="http://www.icpdas.com" rel="nofollow noreferrer noopener" target="_blank">ICP DAS</a>, modules of the series: I7k, I8k, I87K and other on the ISA bus </td>
+<td> Module <a href="Modules/ICP_DAS.html" title="Special:MyLanguage/Modules/ICP DAS">ICP_DAS</a>
+</td></tr>
+<tr>
+<td> Industrial controllers of the firm Siemens of the series S7 </td>
+<td> Module <a href="Modules/Siemens.html" title="Special:MyLanguage/Modules/Siemens">Siemens</a>
+</td></tr>
+<tr>
+<td> DAQ-boars of <a class="external text" href="http://diamondsystems.com/" rel="nofollow noreferrer noopener" target="_blank">Diamond Systems</a> </td>
+<td> Module <a href="Modules/DiamondBoards.html" title="Special:MyLanguage/Modules/DiamondBoards">DiamondBoards</a>
+</td></tr>
+<tr>
+<td> DAQ-boars on the buses ISA, PCI, PCMCIA and USB </td>
+<td> Library <a class="external text" href="http://comedi.org" rel="nofollow noreferrer noopener" target="_blank">Comedi</a><br />Module <a href="Modules/Comedi.html" title="Special:MyLanguage/Modules/Comedi">Comedi</a>
+</td></tr>
+<tr>
+<td> Input channels of the sound controllers </td>
+<td> Module <a href="Modules/SoundCard.html" title="Special:MyLanguage/Modules/SoundCard">SoundCard</a>
+</td></tr>
+<tr>
+<td> Automation of the "Big Dutchman" company </td>
+<td> Module <a href="Modules/BFN.html" title="Special:MyLanguage/Modules/BFN">BFN</a>
+</td></tr>
+<tr>
+<td> Discrete inputs/outputs of general purpose of different single-board computers </td>
+<td> Module <a href="Modules/GPIO.html" title="Special:MyLanguage/Modules/GPIO">GPIO</a>
+</td></tr></table>
+<h2><span class="mw-headline" id="Requirements_for_OpenSCADA"><span class="mw-headline-number">2</span> <span id="Demands" title="#Demands">Requirements for OpenSCADA</span></span></h2>
+<h3><span class="mw-headline" id="Execution"><span class="mw-headline-number">2.1</span> Execution</span></h3>
+<p>The hardware requirements of OpenSCADA for its execution in different roles are given in Table 1. The software requirements for execution OpenSCADA and its modules are presented in Table 2.
+</p><p><b>Table 1.</b> The hardware requirements of OpenSCADA and it modules.
+</p>
+<table class="wikitable">
+
+<tr>
+<th> Role </th>
+<th> Demands
+</th></tr>
+<tr>
+<td> SCADA server </td>
+<td>
+<p><b>CPU:</b> x86_32 (more than i586), x86_64 or ARM, with frequency more to 500 MHz<br />
+<b>MEM:</b> 128 MB<br />
+<b>HDD:</b> 10 GB include OS and space for archives
+</p>
+</td></tr>
+<tr>
+<td> Station of the operator of the technological process, the dispatcher board, the monitoring panel, etc. </td>
+<td>
+<p><b>CPU:</b> x86_32 (more than i586), x86_64 or ARM, with frequency more to 1 GHz<br />
+<b>MEM:</b> 512 MB<br />
+<b>HDD:</b> 4 GB include OS without any archive space
+</p>
+</td></tr>
+<tr>
+<td> Environment of execution of controllers (PLC) </td>
+<td>
+<p><b>CPU:</b> x86_32 (more than i586), x86_64 or ARM, with frequency more to 133 MHz<br />
+<b>MEM:</b> 32 MB<br />
+<b>HDD:</b> 32 MB include OS without any archive space
+</p>
+</td></tr></table>
+<p><b>Table 2.</b> Software requirements for running OpenSCADA and its modules.
+</p>
+<table class="wikitable">
+
+<tr>
+<th> Component </th>
+<th> Description
+</th></tr>
+<tr>
+<td colspan="2"> <i>Dependencies of the OpenSCADA core</i>
+</td></tr>
+<tr>
+<td> OS Linux </td>
+<td> Distribution kit of operating system Linux (Debian, Ubuntu, CentOs, SuSELinux, ...)
+</td></tr>
+<tr>
+<td> "Standard libraries" </td>
+<td> Standard set of libraries: GLibC (&gt;= 2.3) or uCLibC (&gt;= 0.9.32) and libstdc++ (&gt;= 3.3). Certainly this already allowed into the installed distribution. A special demand is using native thread library NPTL, already used for all modern distributions of Linux. </td>
+<td>
+</td></tr>
+<tr>
+<td> zlib </td>
+<td> Compression library.
+</td></tr>
+<tr>
+<td> libpcre </td>
+<td> Library of work with regular expressions, compatible with Perl.
+</td></tr>
+<tr>
+<td> libgd (opt: --enable-LibGD) </td>
+<td> Graphical library GD version 2, preferably without XPM support (X-server library dependency excluded) and FontConfig support.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DB.SQLite module</i>
+</td></tr>
+<tr>
+<td> libsqlite3 </td>
+<td> Library for access to embedded DB SQLite version 3.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DB.MySQL module</i>
+</td></tr>
+<tr>
+<td> libMySQL </td>
+<td> Library for access to MySQL DBMS.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DB.PostgreSQL module</i>
+</td></tr>
+<tr>
+<td> libpq </td>
+<td> Library for access to PostgreSQL DBMS version more 8.3.0.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DB.FireBird module</i>
+</td></tr>
+<tr>
+<td> FirebirdSS </td>
+<td> FireBird DBMS version 2. Often it is absent in distribution kits of Linux and demands individual loading from an official site (<a class="external free" href="http://www.firebirdsql.org" rel="nofollow noreferrer noopener" target="_blank">http://www.firebirdsql.org</a>)!
+</td></tr>
+<tr>
+<td colspan="2"> <i>DB.ODBC module</i>
+</td></tr>
+<tr>
+<td> iodbc </td>
+<td> iODBC Driver Manager library.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DAQ.System module</i>
+</td></tr>
+<tr>
+<td> libsensors (opt: auto) </td>
+<td> Hardware sensors' library versions 2 and 3.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DAQ.OPC_UA module</i>
+</td></tr>
+<tr>
+<td> libssl </td>
+<td> Library for codifying OpenSSL.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DAQ.SNMP module</i>
+</td></tr>
+<tr>
+<td> libsnmp </td>
+<td> Library for access to data of network devices under SNMP protocol.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DAQ.Comedi module</i>
+</td></tr>
+<tr>
+<td> libcomedi </td>
+<td> Library of realizing support for DAQ-boards different manufacturer on boards ISA, PCI, PCMCIA and USB.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DAQ.SoundCard module</i>
+</td></tr>
+<tr>
+<td> libportaudio </td>
+<td> Multiplatform library for access to sound controller version <span style="color:red">19 and higher (not 18)</span>.
+</td></tr>
+<tr>
+<td colspan="2"> <i>Transport.SSL module</i>
+</td></tr>
+<tr>
+<td> libssl </td>
+<td> Library for codifying OpenSSL.
+</td></tr>
+<tr>
+<td colspan="2"> <i>UI.QTStarter module</i>
+</td></tr>
+<tr>
+<td> libQt4 (libQtGui) or<br />libQt5 (libQt5Widgets,libQt5PrintSupport) </td>
+<td> Library Qt version 4.3 and higher or 5.1 and higher for construction of user graphical interfaces.
+</td></tr>
+<tr>
+<td> libQtSensors or libQt5Sensors (opt: auto) </td>
+<td> Library of the Qt sensors.
+</td></tr>
+<tr>
+<td colspan="2"> <i>UI.QTCfg module</i>
+</td></tr>
+<tr>
+<td> libQt4 (libQtGui) or<br />libQt5 (libQt5Widgets,libQt5PrintSupport) </td>
+<td> Library Qt version 4.3 and higher or 5.1 and higher for construction of user graphical interfaces.
+</td></tr>
+<tr>
+<td colspan="2"> <i>UI.Vision module</i>
+</td></tr>
+<tr>
+<td> libQt4 (libQtGui) or<br />libQt5 (libQt5Widgets,libQt5PrintSupport) </td>
+<td> Library Qt version 4.3 and higher or 5.1 and higher for construction of user graphical interfaces.
+</td></tr>
+<tr>
+<td> libQtWebKit or libqt5webkit5 (opt: auto) </td>
+<td> Library of Web-rendering engine WebKit.
+</td></tr>
+<tr>
+<td> libphonon or libphonon4qt5 (opt: auto) </td>
+<td> Library for full formatted video and audio playing.
+</td></tr>
+<tr>
+<td> libfftw3 (opt: auto) </td>
+<td> Library for fast Fourie transfer of signals.
+</td></tr>
+<tr>
+<td colspan="2"> <i>UI.WebCfgD module</i>
+</td></tr>
+<tr>
+<td> libgd (opt: --enable-LibGD) </td>
+<td> Graphical library GD version 2, preferably without XPM support (X-server library dependency excluded) and FontConfig support.
+</td></tr>
+<tr>
+<td colspan="2"> <i>UI.WebVision module</i>
+</td></tr>
+<tr>
+<td> libgd </td>
+<td> Graphical library GD version 2, preferably without XPM support (X-server library dependency excluded) and FontConfig support.
+</td></tr>
+<tr>
+<td> libfftw3 (opt: auto) </td>
+<td> Library for fast Fourie transfer of signals.
+</td></tr>
+<tr>
+<td colspan="2"> <i>Special.FLibSYS module</i>
+</td></tr>
+<tr>
+<td> libssl (opt: auto) </td>
+<td> Library for codifying OpenSSL.
+</td></tr>
+<tr>
+<td> libfftw3 (opt: auto) </td>
+<td> Library for fast Fourie transfer of signals.
+</td></tr></table>
+<p>* "opt: auto" — involves disabling the use of the library during building if it is not present.
+</p>
+<h3><span class="mw-headline" id="Building"><span class="mw-headline-number">2.2</span> <span id="Building" title="#Building">Building</span></span></h3>
+<p>The dependencies of OpenSCADA to build its core and modules are summarized in the table below.
+</p><p><b>Table 3.</b> Dependencies to build OpenSCADA and its modules.
+</p>
+<table class="wikitable">
+
+<tr>
+<th> Component </th>
+<th> Description
+</th></tr>
+<tr>
+<td colspan="2"> <i>The general requirements of OpenSCADA building</i>
+</td></tr>
+<tr>
+<td> OS Linux </td>
+<td> Distribution kit of operating system Linux (Debian, Ubuntu, CentOs, SuSELinux, ...)
+</td></tr>
+<tr>
+<td> g++ </td>
+<td> Compiler of language C++ version 3.3 and more from a collection of compilers GCC, including library GLibC (&gt;=2.3), uCLibC (&gt;= 0.9.32) or Android BioniC.
+</td></tr>
+<tr>
+<td> autotools (autoconf, automake, libtool, pkg-config) </td>
+<td> Tools to form a building environment of OpenSCADA. They are necessary only in the case of changing the building environment of OpenSCADA, for example at addition a new module or changing fixed parameters of the building. Automake &gt;= 1.9.
+</td></tr>
+<tr>
+<td> gettext </td>
+<td> A group of utilities for preparation and compilations of translations of the interface of programs on various languages in conformity with the internationalization standard I18N.
+</td></tr>
+<tr>
+<td> sqlite3 </td>
+<td> Control utility for DB SQLite3 files management.
+</td></tr>
+<tr>
+<td> zlib (devel) </td>
+<td> Compression library, a package for development.
+</td></tr>
+<tr>
+<td> libpcre (devel) </td>
+<td> Library of work with regular expressions, compatible with Perl, a package for development.
+</td></tr>
+<tr>
+<td> libgd (devel, opt: --enable-LibGD) </td>
+<td> Graphical library GD version 2, a package for development, preferably without XPM support (X-server library dependency excluded) and FontConfig support. It is used for construction of trends and other images in PNG, GIF and JPEG.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DB.SQLite module</i>
+</td></tr>
+<tr>
+<td> libsqlite3 (devel) </td>
+<td> Library for access to built in DB SQLite version 3, a package for development.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DB.MySQL module</i>
+</td></tr>
+<tr>
+<td> libMySQL (devel) </td>
+<td> Library for access to MySQL DBMS, a package for development on language C.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DB.PostgreSQL module</i>
+</td></tr>
+<tr>
+<td> libpq </td>
+<td> Library for access to PostgreSQL DBMS version more 8.3.0, a package for development.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DB.FireBird module</i>
+</td></tr>
+<tr>
+<td> FirebirdSS </td>
+<td> FireBird DBMS version 2, a package for development. Often it is absent in distribution kits of Linux and demands individual loading from an official site (<a class="external free" href="http://www.firebirdsql.org" rel="nofollow noreferrer noopener" target="_blank">http://www.firebirdsql.org</a>)!
+</td></tr>
+<tr>
+<td colspan="2"> <i>DB.ODBC module</i>
+</td></tr>
+<tr>
+<td> iodbc </td>
+<td> iODBC Driver Manager library, a package for development.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DAQ.JavaLikeCalc module</i>
+</td></tr>
+<tr>
+<td> bison </td>
+<td> The program for generation parsers on the basis of grammar of the language.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DAQ.System module</i>
+</td></tr>
+<tr>
+<td> libsensors (devel, opt: auto) </td>
+<td> Hardware sensors' library versions 2 and 3, a package for development.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DAQ.OPC_UA module</i>
+</td></tr>
+<tr>
+<td> libssl (devel) </td>
+<td> Library for codifying OpenSSL, a package for development.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DAQ.SNMP module</i>
+</td></tr>
+<tr>
+<td> libsnmp (devel) </td>
+<td> Library for access to data of network devices under SNMP protocol, a package for development.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DAQ.Comedi module</i>
+</td></tr>
+<tr>
+<td> libcomedi (devel) </td>
+<td> Library of realizing support for DAQ-boards different manufacturer on buses ISA, PCI, PCMCIA and USB, a package for development.
+</td></tr>
+<tr>
+<td colspan="2"> <i>DAQ.SoundCard module</i>
+</td></tr>
+<tr>
+<td> libportaudio (devel) </td>
+<td> Multiplatform library for access to sound controller, a package for development version <span style="color:red">19 and higher (not 18)</span>.
+</td></tr>
+<tr>
+<td colspan="2"> <i>Transport.SSL module</i>
+</td></tr>
+<tr>
+<td> libssl (devel) </td>
+<td> Library for codifying OpenSSL, a package for development.
+</td></tr>
+<tr>
+<td colspan="2"> <i>UI.QTStarter module</i>
+</td></tr>
+<tr>
+<td> libQt4 or libQt5 (devel) </td>
+<td> Library Qt version 4.3 and higher or 5.1 and higher for construction of user graphic interfaces, a package for development.
+</td></tr>
+<tr>
+<td> libQtSensors or libQt5Sensors (devel, opt: auto) </td>
+<td> Library of the Qt sensors, a package for development.
+</td></tr>
+<tr>
+<td colspan="2"> <i>UI.QTCfg module</i>
+</td></tr>
+<tr>
+<td> libQt4 or libQt5 (devel) </td>
+<td> Library Qt version 4.3 and higher or 5.1 and higher for construction of user graphic interfaces, a package for development.
+</td></tr>
+<tr>
+<td colspan="2"> <i>UI.Vision module</i>
+</td></tr>
+<tr>
+<td> libQt4 or libQt5 (devel) </td>
+<td> Library Qt version 4.3 and higher or 5.1 and higher for construction of user graphic interfaces, a package for development.
+</td></tr>
+<tr>
+<td> libQtWebKit or libqt5webkit5 (devel, opt: auto) </td>
+<td> Library of Web-rendering engine WebKit, a package for development.
+</td></tr>
+<tr>
+<td> libphonon or libphonon4qt5 (devel, opt: auto) </td>
+<td> Library for full formatted video and audio playing, a package for development.
+</td></tr>
+<tr>
+<td> libfftw3 (devel, opt: auto) </td>
+<td> Library for fast Fourie transfer of signals, a package for development.
+</td></tr>
+<tr>
+<td colspan="2"> <i>UI.WebCfgD module</i>
+</td></tr>
+<tr>
+<td> libgd (devel, opt: --enable-LibGD) </td>
+<td> Graphical library GD version 2, a package for development, preferably without XPM support (X-server library dependency excluded) and FontConfig support. It is used for construction of trends and other images in PNG, GIF and JPEG.
+</td></tr>
+<tr>
+<td colspan="2"> <i>UI.WebVision module</i>
+</td></tr>
+<tr>
+<td> libgd (devel) </td>
+<td> Graphical library GD version 2, a package for development, preferably without XPM support (X-server library dependency excluded) and FontConfig support. It is used for construction of trends and other images in PNG, GIF and JPEG.
+</td></tr>
+<tr>
+<td> libfftw3 (devel, opt: auto) </td>
+<td> Library for fast Fourie transfer of signals, package for development.
+</td></tr>
+<tr>
+<td colspan="2"> <i>Special.FLibSYS module</i>
+</td></tr>
+<tr>
+<td> libssl (devel, opt: auto) </td>
+<td> Library for codifying OpenSSL, a package for development.
+</td></tr>
+<tr>
+<td> libfftw3 (devel, opt: auto) </td>
+<td> Library for fast Fourie transfer of signals, package for development.
+</td></tr></table>
+<p>* "opt: auto" — provides for disable of using the library at build time on it absence.
+</p>
+<h2><span class="mw-headline" id="Links"><span class="mw-headline-number">3</span> Links</span></h2>
+<ul><li> <a class="external" href="http://oscada.org/wiki/File:Oscada_use.odg" title="File:Oscada use.odg">Diagram: Roles of OpenSCADA.</a></li>
+<li> <a class="external" href="http://oscada.org/wiki/File:Oscada_use_opcua.odg" title="File:Oscada use opcua.odg">Diagram: OpenSCADA roles as a "OPC-UA Server".</a></li></ul>
+
+
+
+
+
+
+</div></body>
+</html>

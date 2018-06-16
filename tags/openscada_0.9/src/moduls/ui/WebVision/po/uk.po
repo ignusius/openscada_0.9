@@ -1,0 +1,229 @@
+# OpenSCADA.UI.WebVision translate to Ukrainian.
+# This file is distributed under the same license as the OpenSCADA.UI.WebVision package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2007-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.UI.WebVision 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 23:30+0300\n"
+"PO-Revision-Date: 2007-11-06 20:42+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <uk@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Resource not found"
+msgstr "Ресурс не знайдено"
+
+#, c-format
+msgid "Unknown object of the command: %s."
+msgstr "Невідомий об'єкт команди: %s."
+
+#, c-format
+msgid "Unknown command: %s."
+msgstr "Невідома команда: %s."
+
+msgid "Content is missing."
+msgstr "Вміст відсутній."
+
+msgid "Fill image type is not supported."
+msgstr "Тип зображення заповнення не підтримується."
+
+msgid ""
+"At least one of the elementary figures, of which 'fill' is forming, is "
+"outside the boundary of the display area."
+msgstr ""
+"Хоча б одна з елементарних фігур, з яких 'заповнення' складається, поза "
+"кордоном області відображення."
+
+#, c-format
+msgid "gdImageStringFTEx: error for the font '%s': %s."
+msgstr "gdImageStringFTEx: помилка для шрифта '%s': %s."
+
+#, c-format
+msgid "%ds"
+msgstr "%dс"
+
+#, c-format
+msgid "%gs"
+msgstr "%gс"
+
+#, c-format
+msgid "%gms"
+msgstr "%gмс"
+
+#, c-format
+msgid "Creating time of the trend %gms"
+msgstr "Час створення тренду %gмс"
+
+#, c-format
+msgid "+ Creating time of the PNG-image(%d) %gms"
+msgstr "+ Час створення PNG-зображення (%d) %gмс"
+
+msgid "kHz"
+msgstr "кГц"
+
+msgid "Hz"
+msgstr "Гц"
+
+#, c-format
+msgid "Error parsing the document '%s': %s"
+msgstr "Помилка розбору документа '%s': %s"
+
+msgid "Operation user interface (WEB)"
+msgstr "Робочий інтерфейс користувача (WEB)"
+
+msgid "Roman Savochenko, Lysenko Maxim (2008-2012), Yashina Kseniya (2007)"
+msgstr "Роман Савоченко, Лисенко Максим (2008-2012), Яшина Ксенія (2007)"
+
+msgid ""
+"Visual operation user interface, based on the the WEB - front-end to the VCA "
+"engine."
+msgstr ""
+"Робочий інтерфейс користувача, заснований на WEB - зовнішній інтерфейс до "
+"рушія СВУ."
+
+msgid "Date and time"
+msgstr "Дата та час"
+
+msgid "Level"
+msgstr "Рівень"
+
+msgid "Category"
+msgstr "Категорія"
+
+msgid "Message"
+msgstr "Повідомлення"
+
+msgid "mcsec"
+msgstr "мкс"
+
+msgid "Ready"
+msgstr "Готовий"
+
+msgid "Today"
+msgstr "Сьогодні"
+
+msgid "Mon"
+msgstr "Пн"
+
+msgid "Tue"
+msgstr "Вт"
+
+msgid "Wed"
+msgstr "Ср"
+
+msgid "Thr"
+msgstr "Чт"
+
+msgid "Fri"
+msgstr "Пт"
+
+msgid "Sat"
+msgstr "Сб"
+
+msgid "Sun"
+msgstr "Нд"
+
+msgid "January"
+msgstr "Січень"
+
+msgid "February"
+msgstr "Лютий"
+
+msgid "March"
+msgstr "Березень"
+
+msgid "April"
+msgstr "Квітень"
+
+msgid "May"
+msgstr "Травень"
+
+msgid "June"
+msgstr "Червень"
+
+msgid "July"
+msgstr "Липень"
+
+msgid "August"
+msgstr "Серпень"
+
+msgid "September"
+msgstr "Вересень"
+
+msgid "October"
+msgstr "Жовтень"
+
+msgid "November"
+msgstr "Листопад"
+
+msgid "December"
+msgstr "Грудень"
+
+#, c-format
+msgid ""
+"======================= Module <%s:%s> options =======================\n"
+"---- Parameters of the module section '%s' of the configuration file ----\n"
+"SessTimeLife <min>      Lifetime of the sessions in minutes (by default, "
+"10).\n"
+"\n"
+msgstr ""
+"======================== Опції модуля <%s:%s> ============================\n"
+"------ Параметри модульної секції '%s' конфігураційного файлу ------\n"
+"SessTimeLife <хвил>     Час життя сеансів у хвилинах (по замовченню 10).\n"
+"\n"
+
+msgid "Connecting to the opened session"
+msgstr "Підключення до відкритої сесії"
+
+msgid "Creating a new session for the existing project"
+msgstr "Створення нової сесії для існуючого проекту"
+
+msgid "There is no session and project of the VCA engine for the user!"
+msgstr "Немає жодного сеансу та проекту рушія СВУ для користувача!"
+
+msgid "Sorry, the number of open sessions has reached a limit!"
+msgstr "Пробачте, кількість відкритих сеансів досягло обмеження!"
+
+#, c-format
+msgid "Going to the session '%s' for the project '%s' ..."
+msgstr "Перехід до сеансу '%s' для проекту '%s' ..."
+
+#, c-format
+msgid "The specified project/session '%s' is false!"
+msgstr "Вказаний проект/сеанс '%s' помилковий!"
+
+#, c-format
+msgid "Error the page '%s': %s"
+msgstr "Помилка сторінки '%s': %s"
+
+#, c-format
+msgid "Wrong session '%s'."
+msgstr "Помилковий сеанс '%s'."
+
+msgid "Module options"
+msgstr "Опції модуля"
+
+msgid "Lifetime of the sessions, minutes"
+msgstr "Час життя сеансів, хвилин"
+
+msgid "Sessions limit"
+msgstr "Обмеження кількості сеансів"
+
+msgid "Level of the PNG compression"
+msgstr "Рівень компресії PNG"
+
+msgid ""
+"Level of the PNG (ZLib) compression:\n"
+"  -1  - optimal speed-size;\n"
+"  0   - disable;\n"
+"  1-9 - direct level."
+msgstr ""
+"Рівень компресії PNG (ZLib):\n"
+"  -1  - оптимальна швидкість-розмір;\n"
+"  0   - вимкнено;\n"
+"  1-9 - прямий рівень."

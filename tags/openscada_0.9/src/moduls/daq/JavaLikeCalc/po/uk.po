@@ -1,0 +1,378 @@
+# OpenSCADA.DAQ.JavaLikeCalc translate to Ukrainian.
+# Copyright (C) 2005-2011 Roman Savochenko
+# This file is distributed under the same license as the OpenSCADA.DAQ.JavaLikeCalc module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2005-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DAQ.JavaLikeCalc 1.9.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-28 23:15+0300\n"
+"PO-Revision-Date: 2007-10-28 10:40+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <uk@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#, c-format
+msgid "Variable '%s' is used but undefined"
+msgstr "Змінна '%s' не визначена але використана"
+
+msgid "Array has more than 255 elements."
+msgstr "Масив має більш 255 елементів."
+
+msgid "RegExp requires one or two parameters."
+msgstr "RegExp вимагає одного або двох параметрів."
+
+#, c-format
+msgid "Operation code %d is not supported."
+msgstr "Код виконання %d не підтримується."
+
+#, c-format
+msgid ""
+"Number of external functions reached the limit of %d on the function '%s'"
+msgstr "Кількість зовнішніх функцій досягло ліміту у %d на функції '%s'"
+
+#, c-format
+msgid "More than %d(%d) parameters are specified for the function '%s'"
+msgstr "Вказано більш %d(%d) параметрів для функції '%s'"
+
+#, c-format
+msgid "Function '%s' is called, but it does not have the IO-return"
+msgstr "Викликано функцію '%s', але вона не має IO-повернення"
+
+msgid "Function name is longer than 254."
+msgstr "Ім'я функції довше за 254."
+
+msgid "Object function contains more than 255 parameters."
+msgstr "Функція об'єкту містить більш 255 параметрів."
+
+msgid "Obtaining an object from a non-object register"
+msgstr "Отримання об'єкту з не об'єктного регістру"
+
+msgid "Function is interrupted by an error"
+msgstr "Виконання функції перервано помилкою"
+
+#, c-format
+msgid "Calculation time has been exceeded %d > %d+%d"
+msgstr "Перевищено час обчислення функції %d > %d+%d"
+
+#, c-format
+msgid "Type %d, which is not supported by the 'Add' operation."
+msgstr "Тип %d, який не підтримується операцією 'Add'."
+
+#, c-format
+msgid "Error operation %c(%xh). Function '%s' stopped."
+msgstr "Помилка операції %c(%xh). Функція '%s' зупинена."
+
+msgid "Function: "
+msgstr "Функція: "
+
+msgid "Date of modification"
+msgstr "Дата модифікації"
+
+msgid "Name"
+msgstr "Ім'я"
+
+msgid "Description"
+msgstr "Опис"
+
+msgid "To start"
+msgstr "Запускати"
+
+msgid "Maximum calculation time, seconds"
+msgstr "Максимальний час обрахунку, секунд"
+
+msgid "Program"
+msgstr "Програма"
+
+msgid "IO"
+msgstr "ВВ"
+
+msgid "Identifier"
+msgstr "Ідентифікатор"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Real;Integer;Boolean;String;Text;Object"
+msgstr "Реальний;Цілий;Логічний;Рядок;Текст;Об'єкт"
+
+msgid "Mode"
+msgstr "Режим"
+
+msgid "Input;Output;Return"
+msgstr "Вхід;Вихід;Повернення"
+
+msgid "Hidden"
+msgstr "Приховано"
+
+msgid "Default"
+msgstr "Замовчення"
+
+msgid "New IO"
+msgstr "Нове IO"
+
+msgid "Empty value is not allowed."
+msgstr "Порожнє значення не припустиме."
+
+msgid "Library of the functions: "
+msgstr "Бібліотека функцій: "
+
+msgid "Function"
+msgstr "Функція"
+
+msgid "Library"
+msgstr "Бібліотека"
+
+msgid "State"
+msgstr "Стан"
+
+msgid "Accessing"
+msgstr "Доступно"
+
+msgid "Library DB"
+msgstr "БД бібліотеки"
+
+msgid ""
+"DB address in the format \"{DB module}.{DB name}.{Table name}\".\n"
+"To use the main working DB, set '*.*'."
+msgstr ""
+
+msgid "Configuration"
+msgstr "Конфігурація"
+
+msgid "Functions"
+msgstr "Функції"
+
+msgid "Calculator on the Java-like language"
+msgstr "Обчислювач на мові подібній до Java"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"Provides a calculator and libraries engine on the Java-like language. The "
+"user can create and modify functions and their libraries."
+msgstr ""
+"Надає обчислювач та рушій бібліотек на мові подібній до Java. Користувач "
+"може створювати та модифікувати функції та їх бібліотеки."
+
+msgid "Parameters table"
+msgstr "Таблиця параметрів"
+
+msgid "Controller function"
+msgstr "Функція контролера"
+
+msgid "Calculation schedule"
+msgstr "Планування обчислення"
+
+msgid "Priority of the calculation task"
+msgstr "Пріоритет задачі обчислення"
+
+msgid "Number of iterations in single calculation"
+msgstr "Кількість ітерацій у одному обчисленні"
+
+msgid "IO ID"
+msgstr "ВВ ID"
+
+msgid "IO value"
+msgstr "Значення IO"
+
+msgid "Standard"
+msgstr "Стандартний"
+
+msgid "Data fields"
+msgstr "Поля даних"
+
+msgid "Database"
+msgstr "База даних"
+
+msgid "Maximum calculate time, seconds"
+msgstr "Максимальний час обрахунку, секунд"
+
+msgid "Translate program"
+msgstr "Перекладати програму"
+
+msgid "Function ID"
+msgstr "ID функції"
+
+msgid "Default value"
+msgstr "Знач. по замовч."
+
+msgid "Hide"
+msgstr "Прихов."
+
+msgid "Position"
+msgstr "Позиція"
+
+#, c-format
+msgid "Compilation with the help of the program language %s is not supported."
+msgstr "Компіляція на мові програмування %s не підтримується."
+
+#, c-format
+msgid "Error compiling: %s"
+msgstr "Помилка компіляції: %s"
+
+msgid "Error loading for function libraries."
+msgstr "Помилка завантаження бібліотек функцій."
+
+msgid "Safety timeout, seconds"
+msgstr "Таймаут безпеки, секунд"
+
+msgid "Functions libraries"
+msgstr "Бібліотеки функцій"
+
+msgid "Libraries"
+msgstr "Бібліотеки"
+
+msgid "From DAQ template. "
+msgstr "З DAQ шаблону. "
+
+msgid "Calculation. "
+msgstr "Обчислення. "
+
+#, c-format
+msgid "Calculation with the period: %s. "
+msgstr "Обчислення за періодом: %s. "
+
+#, c-format
+msgid "Next calculation by the cron '%s'. "
+msgstr "Наступне обчислення за cron '%s'. "
+
+#, c-format
+msgid "Spent time: %s[%s]."
+msgstr "Витрачено часу: %s[%s]."
+
+msgid "{NewFunction}"
+msgstr "{НоваФункція}"
+
+#, c-format
+msgid "Enter your new function name instead '%s'!"
+msgstr "Введіть назву вашої нової функції замість '%s'!"
+
+#, c-format
+msgid "Function or DAQ template '%s' is not present or empty."
+msgstr "Функція або DAQ шаблон '%s' відсутня або порожня."
+
+#, c-format
+msgid "Creating a new function '%s'."
+msgstr "Створення нової функції '%s'."
+
+#, c-format
+msgid "Error path of the function or DAQ template '%s'."
+msgstr "Помилка шляху функції або DAQ шаблону '%s'."
+
+msgid "Error loading function and its IO."
+msgstr "Помилка завантаження функції та її ВВ."
+
+msgid "Frequency of calculation of the function (Hz)"
+msgstr "Частота обчислення функції (Гц)"
+
+msgid "Function start flag"
+msgstr "Прапорець запуску функції"
+
+msgid "Function stop flag"
+msgstr "Прапорець зупинки функції"
+
+msgid "Link to the object of this controller"
+msgstr "Зв'язок на об'єкт цього контролера"
+
+msgid "Error calculating controller function."
+msgstr "Помилка обчислення функції контролеру."
+
+msgid "Function is missing or not started."
+msgstr "Функція відсутня або не запущена."
+
+msgid "Go to the used function"
+msgstr "Перейти до використаної функції"
+
+msgid "Calculation"
+msgstr "Обчислення"
+
+msgid "Data"
+msgstr "Дані"
+
+msgid "Attribute mode"
+msgstr "Режим атрибуту"
+
+msgid "Read only;Read and Write;Read and Write"
+msgstr "Тільки читання;Читання та запис;Читання та запис"
+
+msgid "Value"
+msgstr "Значення"
+
+msgid "Deleting a locked attribute is not allowed."
+msgstr "Видалення заблокованого атрибуту не дозволене."
+
+msgid "Changing the locked attribute is not allowed."
+msgstr "Зміна заблокованого атрибуту не дозволена."
+
+msgid "2:Calculation is stopped"
+msgstr "2:Обчислення зупинено"
+
+msgid "1:Parameter is disabled"
+msgstr "1:Параметр вимкнено"
+
+msgid ""
+"List of configuration of the attributes. List must be written by lines in "
+"the format: \"{io}[:{aid}[:{anm}]]\"\n"
+"Where:\n"
+"  io - IO of the computable function;\n"
+"  aid - identifier of the created attribute;\n"
+"  anm - name of the created attribute.\n"
+"If 'aid' or 'anm' is not set then they will be generated from the selected "
+"IO of the function."
+msgstr ""
+"Перелік конфігурації атрибутів. Перелік має бути записаний рядками у "
+"форматі: \"{io}[:{aid}[:{anm}]]\"\n"
+"Де:\n"
+"  io - ВВ обчислюваної функції;\n"
+"  aid - ідентифікатор створюваного атрибута;\n"
+"  anm - ім'я створюваного атрибута.\n"
+"Якщо 'aid' або 'anm' не встановлено тоді вони будуть згенеровані з обраного "
+"ВВ функції."
+
+#, c-format
+msgid "Internal function inaccessible by offset %d > %d"
+msgstr "Внутрішня функція недосяжна через зміщення %d > %d"
+
+msgid "Error constant after constant"
+msgstr "Помилка константи після константи"
+
+#, c-format
+msgid "%s, pos: (%d,%d)-(%d,%d)."
+msgstr "%s, позиція: (%d,%d)-(%d,%d)."
+
+msgid "Unexpected end program, expect end string symbol '\"', "
+msgstr "Неочікуване завершення програми, очікувався символ кінця строки '\"', "
+
+msgid "The next line symbol failed into string, "
+msgstr "Символ переведення лінії не дозволено у рядку, "
+
+msgid "Using namespace is error or empty, "
+msgstr "Помилка площини найменувань або вона порожня, "
+
+msgid "Internal function declaration error, "
+msgstr "Помилка декларації внутрішньої функцій, "
+
+#, c-format
+msgid "Internal function '%s' defined early, "
+msgstr "Внутрішню функцію '%s' визначено раніш, "
+
+msgid "Do not include declaration of one internal function to other, "
+msgstr "Не включайте визначення однієї внутрішньої функції до іншої, "
+
+msgid "Build in function has too much parameters, "
+msgstr "Вбудована функція має дуже багато параметрів, "
+
+msgid "Function error, "
+msgstr "Помилка функції, "
+
+msgid "Symbol error, "
+msgstr "Помилка символу, "
+
+msgid "Object's properties too long, "
+msgstr "Властивості об'єкту дуже довгі, "

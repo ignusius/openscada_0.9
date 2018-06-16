@@ -1,0 +1,100 @@
+# OpenSCADA.Archive.DBArch translate to Ukrainian.
+# This file is distributed under the same license as the OpenSCADA.Archive.DBArch module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2007-2010, 2016-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.Archive.DBArch 0.9.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-19 11:36+0200\n"
+"PO-Revision-Date: 2007-10-21 22:40+0300\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <uk@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Archiver on the DB"
+msgstr "Архіватор до БД"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"The archiver module. Provides functions for messages and values archiving to "
+"the DB."
+msgstr ""
+"Модуль архіватору. Надає функції архівації повідомлень та значень на БД."
+
+#, c-format
+msgid "Check value archivator '%s' error."
+msgstr "Помилка перевірки архіватору '%s'."
+
+msgid "In minutes"
+msgstr "У хвилинах"
+
+msgid "Time, seconds"
+msgstr "Час, секунд"
+
+msgid "Time, microseconds"
+msgstr "Час, мікросекунд"
+
+msgid "Category"
+msgstr "Категорія"
+
+msgid "Message"
+msgstr "Повідомлення"
+
+msgid "Level"
+msgstr "Рівень"
+
+#, c-format
+msgid "Enable target DB error: %s"
+msgstr "Помилка ввімкнення цільової БД: %s"
+
+msgid "Archive is not started!"
+msgstr "Архів не запущено!"
+
+msgid "Archiving time (msek)"
+msgstr "Час архівування (мс)"
+
+msgid "Additional options"
+msgstr "Додаткові опції"
+
+msgid "Archive size (days)"
+msgstr "Розмір архіву (днів)"
+
+msgid "Set to 0 for the limit disable and some performance rise."
+msgstr ""
+"Встановити у 0 для вимкнення обмеження та деякого підвищення продуктивності."
+
+msgid "Force time as string"
+msgstr "Формувати час як рядок"
+
+msgid ""
+"Only for DBs it supports by a specific data type like to \"datetime\" into "
+"MySQL."
+msgstr ""
+"Тільки для БД які підтримують таке за посередництвом специфічних типів даних "
+"на кшталт \"datetime\" у MySQL."
+
+msgid "Mark, time/(10*per)"
+msgstr "Мітка, time/(10*per)"
+
+msgid "Set to 0 for the limit disable and some performance rise"
+msgstr ""
+"Встановити у 0 для вимкнення обмеження та деякого підвищення продуктивності"
+
+msgid "Grouping parameters limit"
+msgstr "Обмеження групування параметрів"
+
+msgid ""
+"Enable grouping arhivator's parameters into a single table. Set to '0' for "
+"one table per parameter."
+msgstr ""
+"Включити групування параметрів архіватору у одній таблиці. Встановити '0' "
+"для однієї таблиці на параметр."
+
+msgid "Value"
+msgstr "Значення"

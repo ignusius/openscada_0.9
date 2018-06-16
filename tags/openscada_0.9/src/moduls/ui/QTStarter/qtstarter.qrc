@@ -1,0 +1,13 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>images/exit.png</file>
+    <file>images/oscada_qt.png</file>
+    <file>images/splash.png</file>
+    <file>images/help.png</file>
+    <file>images/contexthelp.png</file>
+    <file>images/manual.png</file>
+    <file>images/logo.png</file>
+    <file>images/ok.png</file>
+    <file>images/it_add.png</file>
+</qresource>
+</RCC>

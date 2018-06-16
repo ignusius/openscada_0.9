@@ -1,0 +1,33 @@
+
+	     Welcome to OpenSCADA, an open SCADA system.
+
+You can find the documentation for the program in the Project Knowledge Base online at http://oscada.org/wiki and install offline
+with the package "openscada-doc-{lng}", which usually contains:
+  Release_*.html - announce of the program version.
+  Terms.html - terms, definitions and abbreviations.
+  FAQ.html - frequently asked questions about the program.
+  About.html - information about the program as a whole.
+  Functions_and_demands.html - functions and demands of OpenSCADA.
+  Program_manual.html - program manual.
+  User_API.html - user API of OpenSCADA
+  DAQ.html - concept of the data acquisition of OpenSCADA.
+  Quick_start.html - quick start of OpenSCADA.
+  Modules/* - directory with the modules documentation.
+
+To launch OpenSCADA, simply type the command <openscada> and start the program with the OpenSCADA project selection dialog.
+Configuration of the standard and the new project is sufficient for:
+ - working into the graphical configurator UI.QTCfg;
+ - working into the WEB-configurators (adress: http://localhost:10002 or http://localhost:10004)
+
+To start in the daemon mode (server), there is a project "server" in the openscada-server package that can be started by
+the <service openscada-server start> command.
+
+To facilitate the first experience with the program, a demonstration package (openscada-model-aglks) was created.
+This package contains a database with examples of configuration of the program and all its subsystems.
+To run the demo configuration, simply type the command <openscada_AGLKS>.
+
+In the process, you may need passwords to log in to the program. Standard and new projects contain the following users:
+ - root: system administrator, have password: "openscada";
+ - user: unprivileged user, have password: "user".
+
+If you have any questions, please contact the site http://oscada.org for more information.

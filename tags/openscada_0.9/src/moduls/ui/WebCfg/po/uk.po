@@ -1,0 +1,174 @@
+# OpenSCADA.UI.WebCfg translate to Ukrainian.
+# This file is distributed under the same license as the OpenSCADA.UI.WebCfg package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2004-2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.UI.WebCfg 1.5.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-23 16:44+0200\n"
+"PO-Revision-Date: 2007-10-29 22:29+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <uk@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Program configurator (WEB)"
+msgstr "Конфігуратор програми (WEB)"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid "Provides the WEB-based configurator of the OpenSCADA system."
+msgstr "Надає WEB базований конфігуратор системи OpenSCADA."
+
+msgid "Name: "
+msgstr "Ім'я: "
+
+msgid "Description: "
+msgstr "Опис: "
+
+msgid "License: "
+msgstr "Ліцензія: "
+
+msgid "Author: "
+msgstr "Автор: "
+
+msgid "Web site: "
+msgstr "Web сайт: "
+
+msgid "Load"
+msgstr "Завантаження"
+
+msgid "Save"
+msgstr "Збереження"
+
+msgid "Root page"
+msgstr "Коренева сторінка"
+
+msgid "Current page"
+msgstr "Поточна сторінка"
+
+msgid "Curent page"
+msgstr "Поточна сторінка"
+
+msgid "Previous page"
+msgstr "Попередня сторінка"
+
+msgid "About"
+msgstr "Про ..."
+
+msgid "user:"
+msgstr "користувач:"
+
+msgid "from:"
+msgstr "з:"
+
+msgid "Change"
+msgstr "Змінити"
+
+msgid "Exit"
+msgstr "Вихід"
+
+msgid "Apply"
+msgstr "Прийняти"
+
+msgid "Go"
+msgstr "Перейти"
+
+msgid "Add"
+msgstr "Додати"
+
+msgid "Insert"
+msgstr "Вставити"
+
+msgid "Edit"
+msgstr "Редагувати"
+
+msgid "Up"
+msgstr "Вгору"
+
+msgid "Down"
+msgstr "Вниз"
+
+msgid "Del"
+msgstr "Видалити"
+
+msgid "Add row"
+msgstr "Додати строку"
+
+msgid "Insert row"
+msgstr "Вставити строку"
+
+msgid "Delete row"
+msgstr "Видалити строку"
+
+msgid "Move up row"
+msgstr "Пересунути строку вгору"
+
+msgid "Move down row"
+msgstr "Пересунути строку донизу"
+
+msgid "Post request broken!"
+msgstr "Post запит пошкоджений!"
+
+#, c-format
+msgid "%s| Change <%s:%s> to %s"
+msgstr "%s| Змінено <%s:%s> у %s"
+
+#, c-format
+msgid "%s| Go to link '%s'"
+msgstr "%s| Перехід за посиланням '%s'"
+
+#, c-format
+msgid "Go to '%s'."
+msgstr "Перехід до '%s'."
+
+#, c-format
+msgid "%s| Put command <%s:%s>"
+msgstr "%s| Команда <%s:%s>"
+
+#, c-format
+msgid "%s| Delete '%s' element <%s:%s>."
+msgstr "%s| Видалено '%s' елемент <%s:%s>."
+
+#, c-format
+msgid "%s| Insert '%s' element <%s:%s> to %s."
+msgstr "%s| Вставлено '%s' елемент <%s:%s> у %s."
+
+#, c-format
+msgid "%s| Add '%s' element <%s:%s>."
+msgstr "%s| Додано '%s' елемент <%s:%s>."
+
+#, c-format
+msgid "%s| Set '%s' element %s to <%s:%s>."
+msgstr "%s| Встановлено '%s' елемент %s у <%s:%s>."
+
+#, c-format
+msgid "%s| Move '%s' from %s to %s."
+msgstr "%s| Пересунено '%s' з %s до %s."
+
+#, c-format
+msgid "%s| Set '%s' cell ('%s':%s) to: %s."
+msgstr "%s| Встановлено '%s' чарунку ('%s':%s) у: %s."
+
+#, c-format
+msgid "%s| Add '%s' record."
+msgstr "%s| Додано '%s' запис."
+
+#, c-format
+msgid "%s| Insert '%s' record %d."
+msgstr "%s| Вставлено '%s' запис %d."
+
+#, c-format
+msgid "%s| Delete '%s' record %d."
+msgstr "%s| Вилучено '%s' запис %d."
+
+#, c-format
+msgid "%s| Move '%s' record from %d to %d."
+msgstr "%s| Пересунено '%s' запис з %d у %d."
+
+msgid "System configurator (WEB)"
+msgstr "Системний конфігуратор (WEB)"

@@ -1,0 +1,470 @@
+# OpenSCADA.Archive.FSArch translate to Ukrainian.
+# This file is distributed under the same license as the OpenSCADA.Archive.FSArch module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2003-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.Archive.FSArch 1.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-04 16:45+0300\n"
+"PO-Revision-Date: 2007-10-21 22:21+0300\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <uk@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#, c-format
+msgid "Error compressing for '%s': %d!"
+msgstr "Помилка стиснення '%s': %d!"
+
+#, c-format
+msgid "Error decompressing for '%s': %d!"
+msgstr "Помилка розпакування '%s': %d!"
+
+#, c-format
+msgid ""
+"======================= Module <%s:%s> options =======================\n"
+"    --noArchLimit       Disable limit on number of files.\n"
+"                        Use for archive viewing mode, not for work.\n"
+"\n"
+msgstr ""
+"======================= Опції модуля <%s:%s> =============================\n"
+"    --noArchLimit       Вимкнути обмеження на кількість файлів.\n"
+"                        Використовуйте для режиму перегляду архівів, не для "
+"роботи.\n"
+"\n"
+
+#, c-format
+msgid "Error checking the message archiver '%s'."
+msgstr "Помилка перевірки архіватору повідомлень '%s'."
+
+#, c-format
+msgid "Error checking the value archiver '%s'."
+msgstr "Помилка перевірки архіватору значень '%s'."
+
+#, c-format
+msgid "The value archiver '%s' uses the same folder '%s' as an other archiver."
+msgstr "Архіватор значень '%s' використовую ту саму теку '%s' що й інший."
+
+#, c-format
+msgid "%s: Mess: %s: information"
+msgstr "%s: Повід.: %s: інформація"
+
+#, c-format
+msgid ""
+"Local information DB for the message archiver '%s'. Created automatically "
+"then don't modify, save and remove it!"
+msgstr ""
+"Локальна інформаційна БД для архіватору повідомлень '%s'. Створена "
+"автоматично, відтак не змінюйте, не зберігайте та не видаляйте її!"
+
+msgid "Archive is not started!"
+msgstr "Архів не запущено!"
+
+#, c-format
+msgid "Error creating a new archive file '%s'!"
+msgstr "Помилка створення нового архівного файлу '%s'!"
+
+#, c-format
+msgid "Can not create the directory '%s'."
+msgstr "Не можу створити директорію '%s'."
+
+msgid "Overall size of the archiver files"
+msgstr "Загальний розмір файлів архіватору"
+
+msgid "Archiving time"
+msgstr "Час архівування"
+
+msgid "Path to a directory for files of messages of the archivator."
+msgstr "Шлях до теки для файлів архіватору повідомлень."
+
+msgid "Additional options"
+msgstr "Додаткові опції"
+
+msgid "Files of the archive in XML"
+msgstr "Файли архіву у XML"
+
+msgid ""
+"Enables messages archiving by files in the XML-format, rather than plain "
+"text.\n"
+"Using XML-archiving requires more RAM as it requires full file download, XML "
+"parsing and memory holding at the time of use."
+msgstr ""
+"Включає архівацію повідомлень до файлів XML-формату, замість плаского "
+"тексту.\n"
+"Використання у архівації XML-формату потребує більше оперативної пам'яті "
+"оскільки потрібне повне завантаження файлу, XML-розбір та збереження у "
+"пам'яті на час використання."
+
+msgid "Prevent duplicates"
+msgstr "Запобігати дублікатам"
+
+msgid ""
+"Enables checking for duplicate messages at the time of putting a message "
+"into the archive.\n"
+"If there is a duplicate the message does not fit into the archive.\n"
+"This feature some increases the recording time to the archive, but in cases "
+"of placing messages in the archive by past time from external sources it "
+"allows to eliminate the duplicates."
+msgstr ""
+"Включає перевірку на наявність дублюючих повідомлень в момент розташування "
+"повідомлення у архіві.\n"
+"У випадку наявності дублікату повідомлення не розташовується у архіві. Ця "
+"функція дещо підвищує час запису до архіву, але у випадках розташування у "
+"архіві зворотнім числом та із зовнішніх джерел дозволяє виключити дублювання."
+
+msgid "Consider duplicates and prevent, for equal time, category, level"
+msgstr "Вважати дублікатами та запобігати, для рівного часу, категорії, рівня"
+
+msgid ""
+"Enables checking for duplicate messages at the time of putting a message "
+"into the archive.\n"
+"As the duplicates there considers messages which equal to time, category and "
+"level.\n"
+"If there is a duplicate then the new message will replace the old one into "
+"the archive.\n"
+"This feature mostly usable at message text changing in time, for alarm's "
+"state to example."
+msgstr ""
+"Включає перевірку на наявність дублюючих повідомлень в момент розташування "
+"повідомлення у архіві.\n"
+"Дублюючими вважаються повідомлення із рівним часом, категорією та рівнем.\n"
+"Нове дублююче повідомлення заміняє у архіві старе.\n"
+"Ця функція переважно корисна для зміни тексту запису повідомлення, "
+"наприклад, для статусу порушення."
+
+msgid "Maximum size of archive's file, kB"
+msgstr "Максимальний розмір файлу архіву, кБ"
+
+msgid ""
+"Sets limit on the size of one archive file.\n"
+"Disabling the restriction can be performed by setting the parameter to zero."
+msgstr ""
+"Встановлює обмеження на розмір одного файлу архіва.\n"
+"Виключити обмеження можна встановивши параметр у нуль."
+
+msgid "Maximum number of the files"
+msgstr "Максимальна кількість файлів"
+
+msgid ""
+"Limits the maximum number for files of the archive and additional with the "
+"size to single file it determines the size of the archive on disk.\n"
+"Completely removing this restriction can be performed by setting the "
+"parameter to zero."
+msgstr ""
+"Обмежує максимальну кількість файлів архіву та разом із розміром окремого "
+"файлу визначає розмір архіву на диску.\n"
+"Повністю зняти це обмеження можна встановивши параметр у нуль."
+
+msgid "Time size of the archive files, days"
+msgstr "Розмір файлів за часом, днів"
+
+msgid "Sets limit on the size of single archive file on time."
+msgstr "Встановлює обмеження на розмір одного файлу архіву за часом."
+
+msgid "Timeout packaging archive files, minutes"
+msgstr "Таймаут пакування файлів архіву, хвилин"
+
+msgid ""
+"Sets the time after which, in the absence of requests, the archive file will "
+"be packaged in a gzip archive.\n"
+"Set to zero for disabling the packing by gzip."
+msgstr ""
+"Встановлює проміжок часу за вичерпанням якого, та у випадку відсутності "
+"звернень, файли архівів будуть пакуватися у gzip архів.\n"
+"Встановити в нуль для виключення упакування gzip."
+
+msgid "Period of the archives checking, minutes"
+msgstr "Період перевірки архівів, хвилин"
+
+msgid ""
+"Sets the periodicity of checking the archives for the appearance or deletion "
+"files into the archive folder, as well as exceeding the limits and removing "
+"old archives files."
+msgstr ""
+"Встановлює періодичність перевірки архівів на предмет появи або видалення у "
+"теці файлів архівів, а також перевищення лімітів та видалення старих файлів "
+"архівів."
+
+msgid "Use info file for packaged archives"
+msgstr "Використовувати інф. файл для упакованих архівів"
+
+msgid ""
+"Specifies whether to create a file with information about the packed archive "
+"files by gzip-archiver.\n"
+"When copying the files of archive to another station, this info file can "
+"speed up the target station process of first run by eliminating the need to "
+"decompress by gzip-archiver in order to obtain the information."
+msgstr ""
+"Вказує на потребу створення файлу з інформацією про запаковані gzip-"
+"архіватором файли архіву.\n"
+"При копіюванні файлів архіву на іншу станцію цей інформаційний файл дозволяє "
+"прискорити процес першого запуску цільової станції за рахунок виключення "
+"потреби розпакування gzip-архівів для отримання інформації."
+
+msgid "Check now for the directory of the archiver"
+msgstr "Перевірити директорію архіватору зараз"
+
+msgid ""
+"The command, which allows you to immediately start for checking the "
+"archives, for example, after some manual changes into the directory of the "
+"archiver."
+msgstr ""
+"Команда, яка дозволяє запустити перевірку архівів негайно, наприклад, після "
+"ручних змін у теці архіватору."
+
+msgid "Files"
+msgstr "Файли"
+
+msgid "Name"
+msgstr "Ім'я"
+
+msgid "Begin"
+msgstr "Початок"
+
+msgid "End"
+msgstr "Кінець"
+
+msgid "Charset"
+msgstr "Кодування"
+
+msgid "Size"
+msgstr "Розмір"
+
+msgid "XML"
+msgstr "XML"
+
+msgid "Pack"
+msgstr "Пак."
+
+msgid "Error"
+msgstr "Помилка"
+
+#, c-format
+msgid "Error creating a file '%s': %s(%d)."
+msgstr "Помилка створення файлу '%s': %s(%d)."
+
+#, c-format
+msgid "Error header of the file '%s'!"
+msgstr "Помилка у заголовку файла '%s'!"
+
+#, c-format
+msgid "The archive file '%s' is not mine."
+msgstr "Не мій архівний файл: '%s'."
+
+#, c-format
+msgid "Error the archive file '%s'."
+msgstr "Помилка у файлі архіву '%s'."
+
+msgid "Messages inserting to an error archive file!"
+msgstr "Вставлення повідомлення до архівного файлу з помилкою!"
+
+#, c-format
+msgid "The archive file '%s' isn't attached!"
+msgstr "Файл архіву '%s' не під'єднано!"
+
+#, c-format
+msgid "Error writing to the archive file '%s': %s(%d)"
+msgstr "Помилка запису до файлу архіву '%s': %s(%d)"
+
+msgid "Messages getting from an error archive file!"
+msgstr "Отримання повідомлень з файлу архіву з помилкою!"
+
+msgid "Archive file isn't attached!"
+msgstr "Файл архіву не під'єднано!"
+
+#, c-format
+msgid "Error writing to '%s'!"
+msgstr "Помилка запису до '%s'!"
+
+#, c-format
+msgid "%s: Val: %s: information"
+msgstr "%s: Знач.: %s: інформація"
+
+#, c-format
+msgid ""
+"Local information DB for the value archiver '%s'. Created automatically then "
+"don't modify, save and remove it!"
+msgstr ""
+"Локальна інформаційна БД для архіватору значень '%s'. Створена автоматично, "
+"відтак не змінюйте, не зберігайте та не видаляйте її!"
+
+#, c-format
+msgid "Unpacking '%s' for information."
+msgstr "Розпакування '%s' для отримання інформації."
+
+msgid "Path to a directory for files to the value archiver."
+msgstr "Шлях до теки для файлів архіватору значень."
+
+msgid "Time size of the archive files, hours"
+msgstr "Розмір файлів архіву за часом, годин"
+
+msgid ""
+"The parameter is set automatically when changing the periodicity of the "
+"values of the archiver and in general proportional to the periodicity of the "
+"values of the archiver.\n"
+"WARNING! Large archive files will be longer processed due to the long "
+"unpacking of gzip files and primary indexing, while accessing archives is "
+"deeply in the history."
+msgstr ""
+"Параметр встановлюється автоматично під час зміни періодичності значень "
+"архіватору та в цілому э пропорційним до періодичності значень архіватору.\n"
+"Увага! Великі файли архіву будуть довше оброблятися у зв'язку із тривалим "
+"розпакуванням gzip-файлів та первинною індексацією, під час доступу до "
+"ділянок архіву глибоко у історії."
+
+msgid "Maximum number of files per archive"
+msgstr "Максимальна кількість файлів одного архіву"
+
+msgid ""
+"Limits the maximum number for files of the archive and additional with the "
+"size of single file it determines the size of archive on disk.\n"
+"Completely removing this restriction can be performed by setting the "
+"parameter to zero."
+msgstr ""
+"Обмежує максимальну кількість файлів архіву та разом із розміром окремого "
+"файлу визначає розмір архіву на диску.\n"
+"Повністю зняти це обмеження можна встановивши параметр у нуль."
+
+msgid "Maximum size of all archives, MB"
+msgstr "Максимальний розмір всіх архівів, МБ"
+
+msgid ""
+"Sets limit to maximum amount of the disk space of all arhive's files of the "
+"archiver.\n"
+"The check is carried out with periodicity of checking the archives, as a "
+"result, when the limit is exceeded, the oldest files of all archives are "
+"removed.\n"
+"To completely remove this restriction you can set it to zero."
+msgstr ""
+"Встановлює обмеження на максимально використаний об'єм дискового простору "
+"файлами всіх архівів архіватору.\n"
+"Перевірка здійснюється з періодичністю перевірки архівів, в результаті якой, "
+"при перевищені ліміту, відбувається видалення най старіших файлів всіх "
+"архівів.\n"
+"Повністю зняти це обмеження можна встановивши параметр у нуль."
+
+msgid "Rounding for numeric values (%)"
+msgstr "Округлення числових значень (%)"
+
+msgid ""
+"Sets the maximum percentage difference between the values of the parameters "
+"of the integer and the real types at which they are considered the same and "
+"are arranged in the archive as one value, through successive packaging.\n"
+"Allows you to pack lightly changing values beyond the limits of validity.\n"
+"To disable this property you can it set to zero."
+msgstr ""
+"Встановлює граничний відсоток різниці значень параметрів цілого та реального "
+"типів при которому вони рахуються однаковими та розташовуються у архіві як "
+"одне значення, за посередництвом послідовного упакування.\n"
+"Дозволяє добре упаковувати слабозмінні значення, за межами дійсності.\n"
+"Виключити цю властивість можна встановивши параметр у нуль."
+
+msgid "Files size"
+msgstr "Розмір файлів"
+
+msgid "Export"
+msgstr "Експорт"
+
+msgid "Archive"
+msgstr "Архів"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "To file"
+msgstr "До файлу"
+
+msgid "Period, us"
+msgstr "Період, мкс"
+
+msgid "Unknown"
+msgstr "Невідомий"
+
+msgid "Boolean"
+msgstr "Логічний"
+
+msgid "Int16"
+msgstr "Цілий16"
+
+msgid "Int32"
+msgstr "Цілий32"
+
+msgid "Int64"
+msgstr "Цілий64"
+
+msgid "Float"
+msgstr "Реальний"
+
+msgid "Double"
+msgstr "Подвіний, реал."
+
+msgid "String"
+msgstr "Рядок"
+
+#, c-format
+msgid "Error reading parameters of the archive file '%s'!"
+msgstr "Помилка читання параметрів архівного файлу '%s'!"
+
+#, c-format
+msgid "Error parameters of the archive file '%s'!"
+msgstr "Помилка параметрів архівного файлу '%s'!"
+
+#, c-format
+msgid "Archive file '%s' is not opened!"
+msgstr "Файл архіву '%s' не відкрито!"
+
+#, c-format
+msgid "Error attaching the file '%s'."
+msgstr "Помилка під'єднання файлу '%s'."
+
+msgid "Error archive file!"
+msgstr "Помилка у файлі архіву!"
+
+#, c-format
+msgid "Warning! Allocated buffer size %d for indexes lesser for used %d."
+msgstr ""
+"Попередження! Виділений розмір %d буферу індексу менше використаного %d."
+
+#, c-format
+msgid "Error writing to the archive '%s' file '%s': %s(%d)"
+msgstr "Помилка запису до архівного '%s' файлу '%s': %s(%d)"
+
+#, c-format
+msgid "Error reading the file '%s' for offset %d!"
+msgstr "Помилка читання файлу '%s' для зміщення %d!"
+
+#, c-format
+msgid "Error writing to the file '%s'!"
+msgstr "Помилка запису до файлу '%s'!"
+
+#, c-format
+msgid ""
+"Error archive file structure: '%s'. Margin = %d byte. Will try fix that!"
+msgstr ""
+"Помилка структури файлу: '%s'. Різниця = %d байт. Спробую виправити це!"
+
+#, c-format
+msgid "Error openning/creating an archive file for the copy here: %s"
+msgstr "Помилка відкриття/створення нового файлу архіву для копіювання: %s"
+
+#, c-format
+msgid ""
+"Last value for the actual archive file '%s' is not EVAL. Will try fix that!"
+msgstr ""
+"Останнє значення актуального файлу архіву '%s' не EVAL. Спробую виправити це!"
+
+msgid "Archiver on the file system"
+msgstr "Архіватор на файлову систему"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"The archiver module. Provides functions for messages and values archiving to "
+"the file system."
+msgstr ""
+"Модуль архіватору. Надає функції архівації повідомлень та значень на файлову "
+"систему."

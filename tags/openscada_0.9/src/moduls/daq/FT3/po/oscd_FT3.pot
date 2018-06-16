@@ -1,0 +1,939 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-01 11:17+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "State"
+msgstr ""
+
+#, c-format
+msgid "State %d"
+msgstr ""
+
+#, c-format
+msgid "Value %d"
+msgstr ""
+
+#, c-format
+msgid "Measure period %d"
+msgstr ""
+
+#, c-format
+msgid "Sensitivity %d"
+msgstr ""
+
+#, c-format
+msgid "Alarms %d"
+msgstr ""
+
+#, c-format
+msgid "Warning minimum %d"
+msgstr ""
+
+#, c-format
+msgid "Warning maximum %d"
+msgstr ""
+
+#, c-format
+msgid "Alarm minimum %d"
+msgstr ""
+
+#, c-format
+msgid "Alarm maximum %d"
+msgstr ""
+
+#, c-format
+msgid "Ki %d"
+msgstr ""
+
+#, c-format
+msgid "Ku %d"
+msgstr ""
+
+#, c-format
+msgid "A %d"
+msgstr ""
+
+msgid "Execution"
+msgstr ""
+
+msgid "Select TU"
+msgstr ""
+
+msgid "Configuration"
+msgstr ""
+
+msgid "Modification"
+msgstr ""
+
+msgid "Timer state"
+msgstr ""
+
+msgid "Current datetime"
+msgstr ""
+
+msgid "Stop datetime"
+msgstr ""
+
+msgid "Hard Reset"
+msgstr ""
+
+msgid "Channel reset"
+msgstr ""
+
+msgid "Data reset"
+msgstr ""
+
+msgid "10: Hard reset"
+msgstr ""
+
+msgid "0: Normal"
+msgstr ""
+
+msgid "11: Soft reset"
+msgstr ""
+
+msgid "12: Setup"
+msgstr ""
+
+msgid "13: Startup"
+msgstr ""
+
+msgid "Delay 1"
+msgstr ""
+
+msgid "Delay 2"
+msgstr ""
+
+#, c-format
+msgid "MakePacket one byte req %02X"
+msgstr ""
+
+msgid "VerifyPacket one byte req"
+msgstr ""
+
+#, c-format
+msgid "VerifyPacket bad packet pdu.size:%d raslen:%d VerCRC(pdu, pdu.size()):%d VerCRC(pdu, raslen):%d"
+msgstr ""
+
+msgid "VerifyPacket bad tail"
+msgstr ""
+
+msgid "VerifyPacket no header"
+msgstr ""
+
+msgid "VerifyPacket no packet"
+msgstr ""
+
+#, c-format
+msgid "ParsePacket one byte req C %02X A %02X"
+msgstr ""
+
+#, c-format
+msgid "new TProtIn %s"
+msgstr ""
+
+msgid "delete TProtIn"
+msgstr ""
+
+#, c-format
+msgid "request: %s"
+msgstr ""
+
+msgid "Correct packet found!"
+msgstr ""
+
+msgid "Packet parsed!"
+msgstr ""
+
+#, c-format
+msgid "L:%02d C:%02X A:%02d B:%02d "
+msgstr ""
+
+#, c-format
+msgid "ProcessMessage one byte req A %02X"
+msgstr ""
+
+msgid "ResetChan"
+msgstr ""
+
+msgid "ReqData BAD FCB!!!"
+msgstr ""
+
+#, c-format
+msgid "SetData FCB2 %02X newFCB2 %02X"
+msgstr ""
+
+msgid "SetData BAD FCB!!!"
+msgstr ""
+
+msgid "AddrReq"
+msgstr ""
+
+#, c-format
+msgid "AddrReq ID not found! %04X"
+msgstr ""
+
+#, c-format
+msgid "Too much data to answer %04X"
+msgstr ""
+
+msgid "ResData2"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Logic;DAQ"
+msgstr ""
+
+msgid "Protocol"
+msgstr ""
+
+msgid "GRS;KA"
+msgstr ""
+
+msgid "BUC Parameters table"
+msgstr ""
+
+msgid "BVTS Parameters table"
+msgstr ""
+
+msgid "BVT Parameters table"
+msgstr ""
+
+msgid "BVI Parameters table"
+msgstr ""
+
+msgid "BIP Parameters table"
+msgstr ""
+
+msgid "PAUK Parameters table"
+msgstr ""
+
+msgid "BTU Parameters table"
+msgstr ""
+
+msgid "ACCOUNT Parameters table"
+msgstr ""
+
+msgid "BTR Parameters table"
+msgstr ""
+
+msgid "BTE Parameters table"
+msgstr ""
+
+msgid "ODOR Parameters table"
+msgstr ""
+
+msgid "GZD Parameters table"
+msgstr ""
+
+msgid "GNS Parameters table"
+msgstr ""
+
+msgid "GKR Parameters table"
+msgstr ""
+
+msgid "TANK Parameters table"
+msgstr ""
+
+msgid "Acquisition schedule"
+msgstr ""
+
+msgid "Priority of the acquisition task"
+msgstr ""
+
+msgid "Addres"
+msgstr ""
+
+msgid "Transport address"
+msgstr ""
+
+msgid "Channels count/Stantion address"
+msgstr ""
+
+msgid "Ignore FCB2"
+msgstr ""
+
+msgid "BUC"
+msgstr ""
+
+msgid "Device address"
+msgstr ""
+
+msgid "BVTS"
+msgstr ""
+
+msgid "Channels count"
+msgstr ""
+
+msgid "With parameters"
+msgstr ""
+
+msgid "BVT"
+msgstr ""
+
+msgid "With correcting factor"
+msgstr ""
+
+msgid "With rate calculations"
+msgstr ""
+
+msgid "BVI"
+msgstr ""
+
+msgid "Ext period"
+msgstr ""
+
+msgid "BIP"
+msgstr ""
+
+msgid "PAUK"
+msgstr ""
+
+msgid "BTU"
+msgstr ""
+
+msgid "ACCOUNT"
+msgstr ""
+
+msgid "BTR"
+msgstr ""
+
+msgid "Channels count TU"
+msgstr ""
+
+msgid "Channels count TR"
+msgstr ""
+
+msgid "BTE"
+msgstr ""
+
+msgid "ODOR"
+msgstr ""
+
+msgid "GZD"
+msgstr ""
+
+msgid "Valve type"
+msgstr ""
+
+msgid "5 TU;6 TU"
+msgstr ""
+
+msgid "GNS"
+msgstr ""
+
+msgid "GKR"
+msgstr ""
+
+msgid "TANK"
+msgstr ""
+
+msgid "Parameter ID"
+msgstr ""
+
+msgid "Identifier"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Attribute value"
+msgstr ""
+
+#, c-format
+msgid "data arrived L:%d %s"
+msgstr ""
+
+#, c-format
+msgid "Unhandled data  %04X at %d"
+msgstr ""
+
+#, c-format
+msgid "%d, %s"
+msgstr ""
+
+msgid "bad header found!"
+msgstr ""
+
+#, c-format
+msgid "l %d"
+msgstr ""
+
+#, c-format
+msgid "io_buf: %s"
+msgstr ""
+
+#, c-format
+msgid "CRC %04X"
+msgstr ""
+
+#, c-format
+msgid "response: %s"
+msgstr ""
+
+#, c-format
+msgid "Parse error %d"
+msgstr ""
+
+#, c-format
+msgid "Verify error %d"
+msgstr ""
+
+#, c-format
+msgid "Receive error %d"
+msgstr ""
+
+msgid "messIO error"
+msgstr ""
+
+msgid "good header"
+msgstr ""
+
+msgid "bad packet"
+msgstr ""
+
+msgid "cutted packet"
+msgstr ""
+
+msgid "No connection"
+msgstr ""
+
+msgid "Unknown state"
+msgstr ""
+
+msgid "Hard reset"
+msgstr ""
+
+msgid "PreInit"
+msgstr ""
+
+msgid "Set Params"
+msgstr ""
+
+msgid "PostInit"
+msgstr ""
+
+msgid "Starting"
+msgstr ""
+
+msgid "Refresh data"
+msgstr ""
+
+msgid "Refresh params"
+msgstr ""
+
+msgid "Idle"
+msgstr ""
+
+#, c-format
+msgid ". Gather data time %.6g ms. "
+msgstr ""
+
+msgid "Soft reset"
+msgstr ""
+
+msgid "Setup Clock"
+msgstr ""
+
+msgid "No one device selected."
+msgstr ""
+
+msgid "Receiving block state error"
+msgstr ""
+
+msgid "Block SetParams error"
+msgstr ""
+
+#, c-format
+msgid "TMdPrm::vlSet name %s "
+msgstr ""
+
+msgid "Parameters configuration"
+msgstr ""
+
+msgid "Parameters"
+msgstr ""
+
+msgid "Valve select"
+msgstr ""
+
+msgid "Control"
+msgstr ""
+
+msgid "Errors"
+msgstr ""
+
+#, c-format
+msgid "Valve state %d"
+msgstr ""
+
+#, c-format
+msgid "Persistence time %d"
+msgstr ""
+
+#, c-format
+msgid "Persistence astime %d"
+msgstr ""
+
+#, c-format
+msgid "Sensors ID %d"
+msgstr ""
+
+#, c-format
+msgid "Service flow %d"
+msgstr ""
+
+#, c-format
+msgid "Contract hour %d"
+msgstr ""
+
+#, c-format
+msgid "Hourly flow %d"
+msgstr ""
+
+#, c-format
+msgid "Counter Q %d"
+msgstr ""
+
+#, c-format
+msgid "Hour Q %d"
+msgstr ""
+
+#, c-format
+msgid "Hour dP %d"
+msgstr ""
+
+#, c-format
+msgid "Hour T %d"
+msgstr ""
+
+#, c-format
+msgid "Hour P %d"
+msgstr ""
+
+#, c-format
+msgid "Hour E %d"
+msgstr ""
+
+#, c-format
+msgid "StartDate %d"
+msgstr ""
+
+#, c-format
+msgid "EndDate %d"
+msgstr ""
+
+#, c-format
+msgid "Avg Q %d"
+msgstr ""
+
+#, c-format
+msgid "Avg dP %d"
+msgstr ""
+
+#, c-format
+msgid "Avg T %d"
+msgstr ""
+
+#, c-format
+msgid "Avg P %d"
+msgstr ""
+
+#, c-format
+msgid "Avg E %d"
+msgstr ""
+
+#, c-format
+msgid "Periodically Q %d"
+msgstr ""
+
+#, c-format
+msgid "Density %d"
+msgstr ""
+
+#, c-format
+msgid "Equivalence asperity %d"
+msgstr ""
+
+#, c-format
+msgid "N concentration %d"
+msgstr ""
+
+#, c-format
+msgid "CO concentration %d"
+msgstr ""
+
+#, c-format
+msgid "Membrane diameter %d"
+msgstr ""
+
+#, c-format
+msgid "Membrane factor %d"
+msgstr ""
+
+#, c-format
+msgid "Pipe diameter %d"
+msgstr ""
+
+#, c-format
+msgid "Pipe factor %d"
+msgstr ""
+
+#, c-format
+msgid "Measure method %d"
+msgstr ""
+
+#, c-format
+msgid "Test dP/TI %d"
+msgstr ""
+
+#, c-format
+msgid "Test T %d"
+msgstr ""
+
+#, c-format
+msgid "Test P %d"
+msgstr ""
+
+#, c-format
+msgid "Test Q %d"
+msgstr ""
+
+#, c-format
+msgid "Membrane radius %d"
+msgstr ""
+
+#, c-format
+msgid "Atmospheric pressure %d"
+msgstr ""
+
+#, c-format
+msgid "dP %d"
+msgstr ""
+
+#, c-format
+msgid "T %d"
+msgstr ""
+
+#, c-format
+msgid "P %d"
+msgstr ""
+
+#, c-format
+msgid "E %d"
+msgstr ""
+
+#, c-format
+msgid "Dimension %d"
+msgstr ""
+
+#, c-format
+msgid "Sensor minimum %d"
+msgstr ""
+
+#, c-format
+msgid "Sensor maximum %d"
+msgstr ""
+
+#, c-format
+msgid "Frequency minimum %d"
+msgstr ""
+
+#, c-format
+msgid "Frequency maximum %d"
+msgstr ""
+
+#, c-format
+msgid "Range factor %d"
+msgstr ""
+
+#, c-format
+msgid "Line %d"
+msgstr ""
+
+#, c-format
+msgid "Time #%d %d"
+msgstr ""
+
+#, c-format
+msgid "On %d"
+msgstr ""
+
+#, c-format
+msgid "Off %d"
+msgstr ""
+
+#, c-format
+msgid "Run %d"
+msgstr ""
+
+#, c-format
+msgid "Reset %d"
+msgstr ""
+
+#, c-format
+msgid "Time %d"
+msgstr ""
+
+#, c-format
+msgid "TC %d"
+msgstr ""
+
+#, c-format
+msgid "ExTime %d"
+msgstr ""
+
+#, c-format
+msgid "Count %d"
+msgstr ""
+
+#, c-format
+msgid "Period TC %d"
+msgstr ""
+
+#, c-format
+msgid "Count TC %d"
+msgstr ""
+
+#, c-format
+msgid "Mask %d"
+msgstr ""
+
+#, c-format
+msgid "PV minimum %d"
+msgstr ""
+
+#, c-format
+msgid "PV maximum %d"
+msgstr ""
+
+#, c-format
+msgid "Adjustment %d"
+msgstr ""
+
+#, c-format
+msgid "Correcting factor %d"
+msgstr ""
+
+#, c-format
+msgid "Rate of change %d"
+msgstr ""
+
+#, c-format
+msgid "Calcs count %d"
+msgstr ""
+
+#, c-format
+msgid "Rate sensitivity %d"
+msgstr ""
+
+#, c-format
+msgid "Rate limit %d"
+msgstr ""
+
+msgid "FT3"
+msgstr ""
+
+msgid "Maxim Kochetkov"
+msgstr ""
+
+msgid "Allow realisation of FT3 protocols."
+msgstr ""
+
+#, c-format
+msgid "Lock %d"
+msgstr ""
+
+#, c-format
+msgid "Lubrication %d"
+msgstr ""
+
+#, c-format
+msgid "Time_Lub %d"
+msgstr ""
+
+#, c-format
+msgid "Timeout_PO %d"
+msgstr ""
+
+#, c-format
+msgid "Function %d"
+msgstr ""
+
+#, c-format
+msgid "TU on %d"
+msgstr ""
+
+#, c-format
+msgid "TU off %d"
+msgstr ""
+
+#, c-format
+msgid "TU stop %d"
+msgstr ""
+
+#, c-format
+msgid "TU remote %d"
+msgstr ""
+
+#, c-format
+msgid "TU manual %d"
+msgstr ""
+
+#, c-format
+msgid "On time %d"
+msgstr ""
+
+#, c-format
+msgid "Off time %d"
+msgstr ""
+
+#, c-format
+msgid "Stop time %d"
+msgstr ""
+
+#, c-format
+msgid "Remote time %d"
+msgstr ""
+
+#, c-format
+msgid "Manual time %d"
+msgstr ""
+
+#, c-format
+msgid "On TC %d"
+msgstr ""
+
+#, c-format
+msgid "Off TC %d"
+msgstr ""
+
+#, c-format
+msgid "Mode TC %d"
+msgstr ""
+
+#, c-format
+msgid "Work time %d"
+msgstr ""
+
+#, c-format
+msgid "TU open %d"
+msgstr ""
+
+#, c-format
+msgid "TU close %d"
+msgstr ""
+
+#, c-format
+msgid "TU stop Ex %d"
+msgstr ""
+
+#, c-format
+msgid "Open time %d"
+msgstr ""
+
+#, c-format
+msgid "Close time %d"
+msgstr ""
+
+#, c-format
+msgid "Stop time Ex %d"
+msgstr ""
+
+#, c-format
+msgid "Open TC %d"
+msgstr ""
+
+#, c-format
+msgid "Close TC %d"
+msgstr ""
+
+#, c-format
+msgid "Open error TC %d"
+msgstr ""
+
+#, c-format
+msgid "Close error TC %d"
+msgstr ""
+
+msgid "DAQ FT3"
+msgstr ""
+
+msgid "Maxim Kothetkov, Olga Avdeyeva, Olga Kuzmickaya"
+msgstr ""
+
+msgid "Allow realization of FT3 master/slave service"
+msgstr ""
+
+#, c-format
+msgid "Drop volume %d"
+msgstr ""
+
+#, c-format
+msgid "Sens1 TC %d"
+msgstr ""
+
+#, c-format
+msgid "Sens1 TC Not %d"
+msgstr ""
+
+#, c-format
+msgid "Sens2 TC %d"
+msgstr ""
+
+#, c-format
+msgid "Sens2 TC Not %d"
+msgstr ""
+
+#, c-format
+msgid "TU Light Alarm %d"
+msgstr ""
+
+#, c-format
+msgid "TU Sound Alarm %d"
+msgstr ""
+
+#, c-format
+msgid "TU Relay Off %d"
+msgstr ""
+
+#, c-format
+msgid "Delay time %d"
+msgstr ""
+
+#, c-format
+msgid "False alarm time %d"
+msgstr ""
+
+#, c-format
+msgid "State Sens1 TC %d"
+msgstr ""
+
+#, c-format
+msgid "State Sens1 TC Not %d"
+msgstr ""
+
+#, c-format
+msgid "State Sens2 TC %d"
+msgstr ""
+
+#, c-format
+msgid "State Sens2 TC Not %d"
+msgstr ""

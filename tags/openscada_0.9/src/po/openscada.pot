@@ -1,0 +1,2249 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 22:36+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Error opening the semaphore!"
+msgstr ""
+
+msgid "The resource tries to tightly block the thread!"
+msgstr ""
+
+msgid "Resource is timeouted!"
+msgstr ""
+
+msgid "Archives-History"
+msgstr ""
+
+msgid "Identifier"
+msgstr ""
+
+msgid "Module(plugin) name"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "To start"
+msgstr ""
+
+msgid "Messages categories"
+msgstr ""
+
+msgid "Messages level"
+msgstr ""
+
+msgid "Debug (0);Information (1);Notice (2);Warning (3);Error (4);Critical (5);Alert (6);Emergency (7)"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Redundant"
+msgstr ""
+
+msgid "Preferable run"
+msgstr ""
+
+msgid "Period of the values, seconds"
+msgstr ""
+
+msgid "Period of the archiving, seconds"
+msgstr ""
+
+msgid "Selection priority"
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+msgid "Passive;Passive param. attribute;Active param. attribute"
+msgstr ""
+
+msgid "Data combining mode"
+msgstr ""
+
+msgid "Moving average;Single;Minimum;Maximum"
+msgstr ""
+
+msgid "Value type"
+msgstr ""
+
+msgid "Boolean;Integer;Real;String;Int16;Int32;Int64;Real(Float);Real(Double)"
+msgstr ""
+
+msgid "Buffer period, seconds"
+msgstr ""
+
+msgid "Buffer size, items"
+msgstr ""
+
+msgid "Buffer in the hard time grid"
+msgstr ""
+
+msgid "Buffer in the high time resolution"
+msgstr ""
+
+msgid "Filling the passage points with the last value"
+msgstr ""
+
+msgid "Process into archivers"
+msgstr ""
+
+msgid "Error loading the message archivers."
+msgstr ""
+
+msgid "Error loading the value archivers."
+msgstr ""
+
+msgid "Value archives load error."
+msgstr ""
+
+#, c-format
+msgid ""
+"======================== Subsystem \"Archives-History\" options ===================\n"
+"------ Parameters of the section '%s' of the configuration file ------\n"
+"MessBufSize <items>     Size of the messages buffer.\n"
+"MessPeriod <sec>        Period of the messages archiving.\n"
+"ValPeriod  <msec>       Period of active archiving of values.\n"
+"ValPriority <level>     Level of priority of the task of active archiving of values.\n"
+"RdRestDtOverTm <hours>  Depth of the forced overloading of the reserve history at startup, in hours.\n"
+"\n"
+msgstr ""
+
+msgid "Start/update subsystem."
+msgstr ""
+
+#, c-format
+msgid "Error starting the message archiver '%s'."
+msgstr ""
+
+#, c-format
+msgid "Error starting the value archiver '%s'."
+msgstr ""
+
+#, c-format
+msgid "Error starting the value archive '%s'."
+msgstr ""
+
+#, c-format
+msgid "Error stopping the value archiver '%s'."
+msgstr ""
+
+#, c-format
+msgid "Error stopping the message archiver '%s'."
+msgstr ""
+
+#, c-format
+msgid "Value archive '%s' stop error."
+msgstr ""
+
+#, c-format
+msgid "Put message to the archiver '%s' error: %s"
+msgstr ""
+
+msgid "Message buffer process error."
+msgstr ""
+
+msgid "Value archive"
+msgstr ""
+
+msgid "Redundancy"
+msgstr ""
+
+msgid "Overtime of the reserve history reload at start, days"
+msgstr ""
+
+msgid "Message archivers"
+msgstr ""
+
+msgid "Archiver"
+msgstr ""
+
+msgid "Run."
+msgstr ""
+
+msgid "Redund."
+msgstr ""
+
+msgid "Pref. to run"
+msgstr ""
+
+msgid "Remote"
+msgstr ""
+
+msgid "Messages"
+msgstr ""
+
+msgid "Buffer size"
+msgstr ""
+
+msgid "Archiving period, seconds"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Time, size (seconds) and level"
+msgstr ""
+
+msgid "Debug (0);Information (1);Notice (2);Warning (3);Error (4);Critical (5);Alert (6);Emergency (7);Information (1), ALARMS;Notice (2), ALARMS;Warning (3), ALARMS;Error (4), ALARMS;Critical (5), ALARMS;Alert (6), ALARMS;Emergency (7), ALARMS"
+msgstr ""
+
+msgid "Receiving messages with a level greater or equal to the specified."
+msgstr ""
+
+msgid "Category pattern"
+msgstr ""
+
+msgid "Archivers"
+msgstr ""
+
+msgid ""
+"Message archivers.\n"
+"Do not set the field for processing the request by the buffer and all archivers.\n"
+"Set '<buffer>' for processing by the buffer."
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "mcsec"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "Level"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Clear the current alarms table"
+msgstr ""
+
+msgid "Values"
+msgstr ""
+
+msgid "Period of the data receiving, milliseconds"
+msgstr ""
+
+msgid "Level of priority of the data receiving task"
+msgstr ""
+
+msgid "Forced to set timestampes in the current time"
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid "Value archives"
+msgstr ""
+
+#, c-format
+msgid "All: %d; Enabled: %d"
+msgstr ""
+
+msgid "<High level>"
+msgstr ""
+
+msgid "<Low level>"
+msgstr ""
+
+msgid "<Optimal>"
+msgstr ""
+
+msgid "Message archiver"
+msgstr ""
+
+msgid "Value archiver"
+msgstr ""
+
+msgid "Value archivers"
+msgstr ""
+
+msgid "Message archiver: "
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+msgid "Archiver DB"
+msgstr ""
+
+msgid "End"
+msgstr ""
+
+msgid "Begin"
+msgstr ""
+
+msgid "Configuration"
+msgstr ""
+
+#, c-format
+msgid "Requested %d records for time %s."
+msgstr ""
+
+msgid "No value."
+msgstr ""
+
+#, c-format
+msgid "Grid mode doesn't support inserting too old values %lld (%lld-%lld)."
+msgstr ""
+
+msgid "Grid mode doesn't support inserting old values."
+msgstr ""
+
+msgid "Insert a very old value to the buffer."
+msgstr ""
+
+#, c-format
+msgid "Error connecting to source '%s'."
+msgstr ""
+
+#, c-format
+msgid "Archive '%s' is already connected to the target parameter '%s'."
+msgstr ""
+
+#, c-format
+msgid "gdImageStringFT error for font '%s': %s."
+msgstr ""
+
+#, c-format
+msgid "%ds"
+msgstr ""
+
+#, c-format
+msgid "%gs"
+msgstr ""
+
+#, c-format
+msgid "%gms"
+msgstr ""
+
+msgid "Range error"
+msgstr ""
+
+#, c-format
+msgid "Data mode '%d' is not supported"
+msgstr ""
+
+msgid "Binary mode is not supported for strings data"
+msgstr ""
+
+msgid "Value archive: "
+msgstr ""
+
+msgid "Archive"
+msgstr ""
+
+msgid "Buffer end"
+msgstr ""
+
+msgid "Buffer begin"
+msgstr ""
+
+msgid "Archive DB"
+msgstr ""
+
+msgid ""
+"The size of the buffer of values should be large enough for the periodicity of the archivers.\n"
+"By default, this value is automatically configured for periodicity of the values of this archive and periodicity of archivers in 60 seconds."
+msgstr ""
+
+msgid "Default for fast processing of archiving values."
+msgstr ""
+
+msgid "Set in case of periodicity of values in less than a second."
+msgstr ""
+
+msgid "The passage values mostly fill by EVAL but sometime data periodicity of the source greater to the archive's one and it is normal."
+msgstr ""
+
+msgid "Processing"
+msgstr ""
+
+msgid "Period, seconds"
+msgstr ""
+
+msgid "Microseconds"
+msgstr ""
+
+msgid "Size, seconds"
+msgstr ""
+
+msgid ""
+"Values archiver.\n"
+"If the value is empty, the request will be processed for the buffer and for all archivers.\n"
+"If \"<buffer>\" is specified then the request will be processed only for the archive buffer."
+msgstr ""
+
+msgid "Show trend"
+msgstr ""
+
+msgid "Table of the values"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Image size"
+msgstr ""
+
+msgid "Image width in pixels."
+msgstr ""
+
+msgid "Image height in pixels."
+msgstr ""
+
+msgid "Scale of the values"
+msgstr ""
+
+msgid "Image minimum value."
+msgstr ""
+
+msgid "Image maximum value."
+msgstr ""
+
+msgid "Trend of the values"
+msgstr ""
+
+msgid "Value archiver: "
+msgstr ""
+
+msgid "Archiving time"
+msgstr ""
+
+msgid "Set a zero period to disable the use of the archiver in processing the buffer - just a direct recording."
+msgstr ""
+
+msgid "Selection of a priority of the archiver for using in the source mode \"All\". Set to zero for full the selection disabling."
+msgstr ""
+
+msgid "Archives"
+msgstr ""
+
+msgid "Last read buffer"
+msgstr ""
+
+msgid "Data Bases"
+msgstr ""
+
+msgid "Value ID"
+msgstr ""
+
+msgid "DB type (module)"
+msgstr ""
+
+msgid "Code page"
+msgstr ""
+
+msgid "To enable"
+msgstr ""
+
+#, c-format
+msgid "Error closing database '%s'!"
+msgstr ""
+
+msgid "The requested entry is missing."
+msgstr ""
+
+msgid "Error writing to DB or configuration file."
+msgstr ""
+
+#, c-format
+msgid ""
+"========================= Subsystem \"DB\" options ========================\n"
+"------ Parameters of the section '%s' of the configuration file ------\n"
+"SYSStPref  <0|1>        Use the station ID in the common table (SYS).\n"
+"\n"
+msgstr ""
+
+msgid "Error finding and opening a new database."
+msgstr ""
+
+msgid "DB"
+msgstr ""
+
+msgid "Complete DB removal"
+msgstr ""
+
+msgid "Select to completely remove the database when closing, otherwise the DB will simply be closed."
+msgstr ""
+
+msgid "Data base: "
+msgstr ""
+
+msgid "Opened table"
+msgstr ""
+
+msgid "Data base"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Accessible tables"
+msgstr ""
+
+msgid "Tables in the database, but not open at this time."
+msgstr ""
+
+msgid "Load the program from this DB"
+msgstr ""
+
+msgid "Codepage of data into the DB. For example it is: UTF-8, KOI8-R, KOI8-U ... ."
+msgstr ""
+
+msgid "Tables"
+msgstr ""
+
+msgid "Opened tables"
+msgstr ""
+
+msgid ""
+"Opened tables list.\n"
+"Adding and removing tables actually consists of opening and closing tables."
+msgstr ""
+
+msgid "Request"
+msgstr ""
+
+msgid "Transaction"
+msgstr ""
+
+msgid "Out;Into;No matter"
+msgstr ""
+
+msgid "Send"
+msgstr ""
+
+msgid "Result"
+msgstr ""
+
+msgid "Table: "
+msgstr ""
+
+msgid "Table"
+msgstr ""
+
+msgid "Table offset, size"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+#, c-format
+msgid "Field id = %s(%s) is missing!"
+msgstr ""
+
+#, c-format
+msgid "%s:%s:> Error in the control item '%s'!"
+msgstr ""
+
+msgid "The node is already being processed!"
+msgstr ""
+
+#, c-format
+msgid "Waiting time exceeded. The object is used by %d users. Release the object first!"
+msgstr ""
+
+msgid ""
+"Error blocking node.\n"
+"The node forced to disable which can cause to crash.\n"
+"This problem mostly in user procedure, if the program exits!"
+msgstr ""
+
+#, c-format
+msgid "Expecting release %d users!"
+msgstr ""
+
+msgid "Error turning off node. Turning on back the node."
+msgstr ""
+
+msgid "Node is disabled!"
+msgstr ""
+
+#, c-format
+msgid "The node '%s' is missing!"
+msgstr ""
+
+#, c-format
+msgid "Copy from '%s' to '%s' is not possible."
+msgstr ""
+
+msgid "Target node has no branches."
+msgstr ""
+
+msgid "Target node does not have the required branch."
+msgstr ""
+
+#, c-format
+msgid "Error group of branches '%d'."
+msgstr ""
+
+#, c-format
+msgid "Error group of childs %d!"
+msgstr ""
+
+msgid "Node is not enabled!"
+msgstr ""
+
+msgid "Id the child that is added is empty!"
+msgstr ""
+
+#, c-format
+msgid "The node '%s' is already present."
+msgstr ""
+
+msgid "Node is being processed now for enable!"
+msgstr ""
+
+msgid "Node root or not connected!"
+msgstr ""
+
+#, c-format
+msgid "Element '%s' is missing!"
+msgstr ""
+
+#, c-format
+msgid "Element '%s' is disabled!"
+msgstr ""
+
+msgid "Very many users at the node!!!"
+msgstr ""
+
+#, c-format
+msgid "Error function '%s' or missing parameters for it."
+msgstr ""
+
+#, c-format
+msgid "Item %d of the path '%s' is missing!"
+msgstr ""
+
+#, c-format
+msgid "Error accessing item '%s'!"
+msgstr ""
+
+#, c-format
+msgid "Warning element '%s'! %s"
+msgstr ""
+
+#, c-format
+msgid "Node: %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error loading:\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error saving:\n"
+"%s"
+msgstr ""
+
+msgid "[TableName]"
+msgstr ""
+
+#, c-format
+msgid "Attribute '%s' is not present!"
+msgstr ""
+
+msgid "Element type is not selective!"
+msgstr ""
+
+msgid "Element type is not String!"
+msgstr ""
+
+msgid "Element type is not Real!"
+msgstr ""
+
+msgid "Element type is not Integer!"
+msgstr ""
+
+msgid "Element type is not Boolean!"
+msgstr ""
+
+msgid "Running. "
+msgstr ""
+
+msgid "Acquisition data from a remote station: "
+msgstr ""
+
+msgid "Your redundancy settings are incorrect and the controller often enables-disables the redundancy!"
+msgstr ""
+
+msgid "Enabled. "
+msgstr ""
+
+msgid "Disabled. "
+msgstr ""
+
+msgid "Controller configuration loading."
+msgstr ""
+
+msgid "Controller configuration saving."
+msgstr ""
+
+msgid "Controller starting."
+msgstr ""
+
+msgid "Controller stopping."
+msgstr ""
+
+msgid "Controller enabling."
+msgstr ""
+
+#, c-format
+msgid "Error turning on the parameter '%s'."
+msgstr ""
+
+msgid "Error turning on some parameters."
+msgstr ""
+
+msgid "Controller disabling."
+msgstr ""
+
+#, c-format
+msgid "Error turning off the parameter '%s'."
+msgstr ""
+
+#, c-format
+msgid "Error adding the parameter '%s'."
+msgstr ""
+
+msgid "Error finding and creating new parameters."
+msgstr ""
+
+msgid "Controller: "
+msgstr ""
+
+msgid "Controller"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Controller DB"
+msgstr ""
+
+msgid "Parameter"
+msgstr ""
+
+msgid "Parameters"
+msgstr ""
+
+msgid "Add parameters to the type"
+msgstr ""
+
+msgid "Diagnostics"
+msgstr ""
+
+msgid ""
+"Display messages for larger or even levels.\n"
+"Also affects to specific-diagnostic messages generation by the data sources."
+msgstr ""
+
+msgid "Data Acquisition"
+msgstr ""
+
+msgid "Maximum calculate time, seconds"
+msgstr ""
+
+msgid "Translate program"
+msgstr ""
+
+msgid "Program"
+msgstr ""
+
+msgid "Date of modification"
+msgstr ""
+
+msgid "Template identifier"
+msgstr ""
+
+msgid "Flags"
+msgstr ""
+
+msgid "Real position"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "=== Attributes ==="
+msgstr ""
+
+msgid "Error loading template libraries."
+msgstr ""
+
+#, c-format
+msgid "Error adding controller '%s'."
+msgstr ""
+
+#, c-format
+msgid "Error starting the templates library '%s'."
+msgstr ""
+
+#, c-format
+msgid "Error enabling the templates library '%s'."
+msgstr ""
+
+#, c-format
+msgid "Error stopping the templates library '%s'."
+msgstr ""
+
+#, c-format
+msgid "Error disabling the templates library '%s'."
+msgstr ""
+
+#, c-format
+msgid "Missing the DAQ node '%s'."
+msgstr ""
+
+#, c-format
+msgid "The specified node is not the parameter '%s'."
+msgstr ""
+
+#, c-format
+msgid "The specified node is not the attribute '%s'."
+msgstr ""
+
+#, c-format
+msgid ""
+"=================== Subsystem \"Data acquisition\" options ================\n"
+"------ Parameters of the section '%s' of the configuration file ------\n"
+"RdRestDtTm <hour>       Depth of recovery time of archive data from the reserve station, when startup, in hours.\n"
+"\n"
+msgstr ""
+
+msgid "Templates library"
+msgstr ""
+
+msgid "Depth time of restoring data at the starting, hours"
+msgstr ""
+
+msgid "Controllers"
+msgstr ""
+
+msgid "Off;Asymmetric;Only alarms"
+msgstr ""
+
+msgid "Template libraries"
+msgstr ""
+
+msgid "Error ID!"
+msgstr ""
+
+msgid "Container element already connected!"
+msgstr ""
+
+#, c-format
+msgid "Element '%s' is not present!"
+msgstr ""
+
+msgid "Field is not String."
+msgstr ""
+
+msgid "Field is not Integer."
+msgstr ""
+
+msgid "Field is not Real."
+msgstr ""
+
+msgid "Field is not Boolean."
+msgstr ""
+
+msgid "Field is not selective!"
+msgstr ""
+
+msgid "Empty"
+msgstr ""
+
+#, c-format
+msgid "Error selecting! Value: '%s'."
+msgstr ""
+
+#, c-format
+msgid "Function used: %s"
+msgstr ""
+
+#, c-format
+msgid "Index %d is broken!"
+msgstr ""
+
+#, c-format
+msgid "Error removing IO %d."
+msgstr ""
+
+#, c-format
+msgid "Error moving IO from %d to %d."
+msgstr ""
+
+#, c-format
+msgid "Changes are not possible because the function is used: %s"
+msgstr ""
+
+#, c-format
+msgid "The value '%s' is already connected!"
+msgstr ""
+
+msgid "Function: "
+msgstr ""
+
+msgid "Function"
+msgstr ""
+
+msgid "Accessing"
+msgstr ""
+
+msgid "Used"
+msgstr ""
+
+msgid "IO"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Mode"
+msgstr ""
+
+msgid "Hide"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Execute"
+msgstr ""
+
+msgid "Number of calculations"
+msgstr ""
+
+msgid "Spent time"
+msgstr ""
+
+msgid "String"
+msgstr ""
+
+msgid "Integer"
+msgstr ""
+
+msgid "Real"
+msgstr ""
+
+msgid "Bool"
+msgstr ""
+
+msgid "Object"
+msgstr ""
+
+msgid "Return"
+msgstr ""
+
+msgid "Output"
+msgstr ""
+
+msgid "Input"
+msgstr ""
+
+#, c-format
+msgid "IO '%s' is not present!"
+msgstr ""
+
+msgid "Function is not attached!"
+msgstr ""
+
+#, c-format
+msgid "%s: Error with ID or IO %d!"
+msgstr ""
+
+#, c-format
+msgid "Error getting object from non-object IO %d!"
+msgstr ""
+
+msgid ""
+"DB address in format \"{DB module}.{DB name}\".\n"
+"Set '*.*' for use the main work DB."
+msgstr ""
+
+msgid ""
+"Schedule wrotes in seconds periodic form or in the standard CRON form.\n"
+"The seconds periodic form is one real number (1.5, 1e-3).\n"
+"Cron is the standard form \"* * * * *\".\n"
+"  Where items by order:\n"
+"    - minutes (0-59);\n"
+"    - hours (0-23);\n"
+"    - days (1-31);\n"
+"    - month (1-12);\n"
+"    - week day (0[Sunday]-6).\n"
+"  Where an item variants:\n"
+"    - \"*\" - any value;\n"
+"    - \"1,2,3\" - allowed values list;\n"
+"    - \"1-5\" - raw range of allowed values;\n"
+"    - \"*/2\" - range divider for allowed values.\n"
+"Examples:\n"
+"  \"1e-3\" - call with a period of one millisecond;\n"
+"  \"* * * * *\" - each minute;\n"
+"  \"10 23 * * *\" - only at 23 hour and 10 minute for any day and month;\n"
+"  \"*/2 * * * *\" - for minutes: 0,2,4,...,56,58;\n"
+"  \"* 2-4 * * *\" - for any minutes in hours from 2 to 4(include)."
+msgstr ""
+
+msgid ""
+"Task priority level (-1...199), where:\n"
+"  -1        - lowest priority batch policy;\n"
+"  0         - standard userspace priority;\n"
+"  1...99    - realtime priority level (round-robin), often allowed only for \"root\";\n"
+"  100...199 - realtime priority level (FIFO), often allowed only for \"root\"."
+msgstr ""
+
+msgid ""
+"Specifies the category of the requested messages.\n"
+"Use template's symbols for group selection:\n"
+"  '*' - any substring;\n"
+"  '?' - any character.\n"
+"Regular expression enclosed between the symbols '/' (/mod_(System|LogicLev)/)."
+msgstr ""
+
+msgid "Modules scheduler"
+msgstr ""
+
+#, c-format
+msgid ""
+"=================== Subsystem \"Modules scheduler\" options =================\n"
+"    --modPath=<path>    Directories with the modules, separated by ';', they can include a files' template at the end.\n"
+"------ Parameters of the section '%s' of the configuration file ------\n"
+"ModPath    <path>       Directories with the modules, separated by ';', they can include a files' template at the end.\n"
+"                        This is a synonym of the system wide parameter \"ModDir\"\n"
+"ModAllow   <list>       List of the shared libraries allowed for the automatic loading, attaching and starting (bd_DBF.so;daq_JavaLikeCalc.so).\n"
+"                        Uses '*' value to allow all the modules.\n"
+"ModDeny    <list>       List of the shared libraries denied for the automatic loading, attaching and starting (bd_DBF.so;daq_JavaLikeCalc.so).\n"
+"ChkPer     <sec>        Period of the checking for new shared libraries(modules), in seconds. Set zero to disable.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "SO '%s' is missing!"
+msgstr ""
+
+#, c-format
+msgid "SO '%s' is already connected!"
+msgstr ""
+
+#, c-format
+msgid "Error SO '%s': %s"
+msgstr ""
+
+#, c-format
+msgid "%s for type '%s' does not support the version %d of the module!"
+msgstr ""
+
+#, c-format
+msgid "Module '%s' already exists!"
+msgstr ""
+
+#, c-format
+msgid "Error connecting module '%s'!"
+msgstr ""
+
+#, c-format
+msgid "Can not detach the library '%s'."
+msgstr ""
+
+msgid "Subsystem"
+msgstr ""
+
+msgid "Path to the shared libraries(modules)"
+msgstr ""
+
+msgid "Denied modules"
+msgstr ""
+
+msgid ""
+"The list of shared libraries (modules) denied for automatic connection.\n"
+"Elements are separated by the symbol ';'."
+msgstr ""
+
+msgid "Allowed modules"
+msgstr ""
+
+msgid ""
+"The list of shared libraries (modules) allowed for automatic connection.\n"
+"Elements are separated by the symbol ';'.\n"
+"The value '*' is used to allow all modules."
+msgstr ""
+
+msgid "Period of checking of the modules, seconds"
+msgstr ""
+
+msgid "Check the modules now."
+msgstr ""
+
+msgid "Shared libraries(modules)"
+msgstr ""
+
+msgid "Path"
+msgstr ""
+
+msgid "Modules"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "License"
+msgstr ""
+
+msgid "Module enabling."
+msgstr ""
+
+msgid "Module disabling."
+msgstr ""
+
+msgid "Module starting."
+msgstr ""
+
+msgid "Module stopping."
+msgstr ""
+
+#, c-format
+msgid "Function '%s' is not in the module!"
+msgstr ""
+
+msgid "Module: "
+msgstr ""
+
+msgid "Module"
+msgstr ""
+
+msgid "Module information"
+msgstr ""
+
+#, c-format
+msgid "Error adding parameter '%s'."
+msgstr ""
+
+msgid "1:Parameter disabled."
+msgstr ""
+
+msgid "2:Acquisition stopped."
+msgstr ""
+
+msgid "Parameter: "
+msgstr ""
+
+msgid "The type changing leads to lose some data of the specific configurations."
+msgstr ""
+
+msgid "Inclusion"
+msgstr ""
+
+msgid "Controller is not running!"
+msgstr ""
+
+msgid "Frequency of calculation of the function (Hz)"
+msgstr ""
+
+msgid "Function start flag"
+msgstr ""
+
+msgid "Function stop flag"
+msgstr ""
+
+msgid "Function error"
+msgstr ""
+
+msgid "Template is off."
+msgstr ""
+
+msgid "Parameter template: "
+msgstr ""
+
+msgid "Template"
+msgstr ""
+
+msgid "Real;Integer;Boolean;String;Text;Object"
+msgstr ""
+
+msgid "Input;Output"
+msgstr ""
+
+msgid "Attribute"
+msgstr ""
+
+msgid "Not attribute;Read only;Full access"
+msgstr ""
+
+msgid "Variable;Constant;Link"
+msgstr ""
+
+msgid "Program language"
+msgstr ""
+
+msgid "New IO"
+msgstr ""
+
+msgid "Deleting a locked attribute is not allowed."
+msgstr ""
+
+msgid "Changing locked attribute is not allowed."
+msgstr ""
+
+msgid "Empty value is not allowed."
+msgstr ""
+
+msgid "Error of parameter ID."
+msgstr ""
+
+msgid "Template configuration"
+msgstr ""
+
+msgid "Only attributes are to be shown"
+msgstr ""
+
+msgid "Error, recursive linking."
+msgstr ""
+
+#, c-format
+msgid "Error starting the template '%s'."
+msgstr ""
+
+msgid "Error starting some templates."
+msgstr ""
+
+msgid "Parameter templates library: "
+msgstr ""
+
+msgid "Library"
+msgstr ""
+
+msgid "Library DB"
+msgstr ""
+
+msgid ""
+"DB address in format \"{DB module}.{DB name}.{Table name}\".\n"
+"Set '*.*.{Table name}' for use the main work DB."
+msgstr ""
+
+msgid "Parameter templates"
+msgstr ""
+
+msgid "Templates"
+msgstr ""
+
+msgid "Transport Protocols"
+msgstr ""
+
+msgid ""
+"=============== Subsystem \"Transport protocols\" options =================\n"
+"\n"
+msgstr ""
+
+msgid "Security"
+msgstr ""
+
+msgid "Full name"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "User picture"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "System user removal is not possible."
+msgstr ""
+
+msgid "System group removal is not possible."
+msgstr ""
+
+msgid "Error finding and creating new users."
+msgstr ""
+
+msgid "Error finding and creating new user groups."
+msgstr ""
+
+msgid "Administrator (superuser)!!!"
+msgstr ""
+
+msgid "Simple user."
+msgstr ""
+
+msgid "Administrators group."
+msgstr ""
+
+msgid "Users group."
+msgstr ""
+
+msgid ""
+"======================= Subsystem \"Security\" options ====================\n"
+"\n"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Users and groups"
+msgstr ""
+
+msgid "Groups"
+msgstr ""
+
+#, c-format
+msgid "Error crypt_r(): %s (%d)"
+msgstr ""
+
+#, c-format
+msgid "Error crypt(): %s (%d)"
+msgstr ""
+
+msgid "User "
+msgstr ""
+
+msgid "Include"
+msgstr ""
+
+msgid "User DB"
+msgstr ""
+
+msgid "Group "
+msgstr ""
+
+msgid "User group DB"
+msgstr ""
+
+msgid "Specials"
+msgstr ""
+
+msgid ""
+"======================= Subsystem \"Specials\" options =====================\n"
+"\n"
+msgstr ""
+
+msgid "Special"
+msgstr ""
+
+msgid "Subsystem is not modular!"
+msgstr ""
+
+#, c-format
+msgid "Module '%s' connecting."
+msgstr ""
+
+#, c-format
+msgid "Module '%s' disconnecting."
+msgstr ""
+
+msgid "Subsystem starting."
+msgstr ""
+
+#, c-format
+msgid "Error starting the module '%s'."
+msgstr ""
+
+msgid "Subsystem stopping."
+msgstr ""
+
+#, c-format
+msgid "Error stopping the module '%s'."
+msgstr ""
+
+msgid "Subsystem: "
+msgstr ""
+
+msgid "Initial Station"
+msgstr ""
+
+#, c-format
+msgid "Program counters at the exit time: %s"
+msgstr ""
+
+#, c-format
+msgid "Error changing working directory in '%s': %s. Perhaps the current directory is already correctly set to %s'."
+msgstr ""
+
+#, c-format
+msgid "Read-only access to file '%s'."
+msgstr ""
+
+msgid "day"
+msgstr ""
+
+msgid "hour"
+msgstr ""
+
+msgid "min"
+msgstr ""
+
+msgid "s"
+msgstr ""
+
+msgid "ms"
+msgstr ""
+
+msgid "us"
+msgstr ""
+
+msgid "ns"
+msgstr ""
+
+msgid "YiB"
+msgstr ""
+
+msgid "ZiB"
+msgstr ""
+
+msgid "EiB"
+msgstr ""
+
+msgid "PiB"
+msgstr ""
+
+msgid "TiB"
+msgstr ""
+
+msgid "GiB"
+msgstr ""
+
+msgid "MiB"
+msgstr ""
+
+msgid "KiB"
+msgstr ""
+
+msgid "B"
+msgstr ""
+
+#, c-format
+msgid ""
+"***************************************************************************\n"
+"********** %s v%s (%s-%s). *********\n"
+"***************************************************************************\n"
+"\n"
+"===========================================================================\n"
+"==================== Generic options ======================================\n"
+"===========================================================================\n"
+"-h, --help\t\tThis help text about the program command-line options and configuration file parameters.\n"
+"    --projName=<name>\tOpenSCADA project name to switch it.\n"
+"\t\t\tFor this feature there also uses an environment variable \"OSCADA_ProjName\" and the program binary name \"openscada_{ProjName}\".\n"
+"    --projUserDir={dir} Directory of user projects (writeable) of OpenSCADA, \"~/.openscada\" by default.\n"
+"    --projLock={per}\tUses the projects locking by creation the \"lock\" file into the project folder and update it in the period <per>,\n"
+"\t\t\tby default it is enabled and the updating period <per> is 60 seconds. To disable set the updating period <per> to zero.\n"
+"    --lang=<LANG>\tStation language, in the view \"en_US.UTF-8\".\n"
+"    --config=<file>\tStation configuration file.\n"
+"    --station=<id>\tStation identifier.\n"
+"    --statName=<name>\tStation name.\n"
+"    --modDir=<path>\tDirectories with the modules, separated by ';', they can include a files' template at the end.\n"
+"    --messLev=<level>\tLevel of the processing messages (0-7).\n"
+"    --log=<direct>\tDirect messages to, by the bitfield:\n"
+"\t\t\t  0x1 - syslogd;\n"
+"\t\t\t  0x2 - stdout;\n"
+"\t\t\t  0x4 - stderr;\n"
+"\t\t\t  0x8 - the messages archive.\n"
+"    --consoleCharSet={CharSet} Forcing to the console <CharSet> for the console messages, by default it is system one.\n"
+"    --demon, --daemon\tRun in the daemon mode.\n"
+"    --pidFile=<file>\tFile for the program process ID placing here.\n"
+"    --noCoreDump\tPrevents from the core dump creation at crashes - don't set the limit to the unlimited value.\n"
+"    --permCrtFiles={perm} Permissions of the created OpenSCADA files, by default it is 0755 (RWXRW_RW_).\n"
+"----------- Station '%s(%s)' settings in the configuration file -----------\n"
+"StName     <nm>\tStation name.\n"
+"WorkDB     <Type.Name> Working DB (<type> and <name>).\n"
+"WorkDir    <path>\tWorking directory.\n"
+"ModDir     <path>\tDirectories with the modules, separated by ';', they can include a files' template at the end.\n"
+"IcoDir     <path>\tIcons directory.\n"
+"DocDir     <path>\tDocuments directory.\n"
+"MessLev    <level>\tLevel of the processing messages (0-7).\n"
+"SelDebCats <list>\tDebug categories list, separated by ';'.\n"
+"LogTarget  <direction> Direct messages to, by the bitfield:\n"
+"\t\t\t  0x1 - syslogd;\n"
+"\t\t\t  0x2 - stdout;\n"
+"\t\t\t  0x4 - stderr;\n"
+"\t\t\t  0x8 - the messages archive.\n"
+"Lang       <lang>\tStation language, in the view \"uk_UA.UTF-8\".\n"
+"Lang2CodeBase <lang>\tBase language for variable texts translation, in the two symbols code.\n"
+"MainCPUs   <list>\tMain list of the using CPUs, separated by ':'.\n"
+"ClockRT    <0|1>\tSets the clock source to use to REALTIME (otherwise MONOTONIC), which is problematic one at the system clock modification.\n"
+"SaveAtExit <0|1>\tSave the program at exit.\n"
+"SavePeriod <sec>\tPeriod of the program saving, in seconds. Set zero to disable.\n"
+"RdStLevel  <lev>\tLevel of the redundancy of the current station.\n"
+"RdTaskPer  <sec>\tCall period of the redundancy task, in seconds.\n"
+"RdRestConnTm <sec>\tTime to restore connection to \"dead\" reserve station, in seconds.\n"
+"RdStList   <list>\tRedundant stations list, separated symbol ';' (st1;st2).\n"
+"RdPrimCmdTr <0|1>\tEnables the transmission of primary commands to the reserve stations.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "Error the configuration file '%s': %s"
+msgstr ""
+
+#, c-format
+msgid "Error loading the configuration file '%s'."
+msgstr ""
+
+#, c-format
+msgid "Station '%s' is not in the configuration file. The configuration of the station '%s' has been used!"
+msgstr ""
+
+#, c-format
+msgid "Error configuration '%s'!"
+msgstr ""
+
+#, c-format
+msgid "Error writing the configuration file '%s': %s"
+msgstr ""
+
+#, c-format
+msgid "Impossible to hold the project lock! Seems the project '%s' already running."
+msgstr ""
+
+msgid "Loading."
+msgstr ""
+
+msgid "No module has been loaded, your configuration is likely to be broken!"
+msgstr ""
+
+#, c-format
+msgid "Error loading the subsystem '%s'."
+msgstr ""
+
+msgid "Saving."
+msgstr ""
+
+msgid "Starting."
+msgstr ""
+
+#, c-format
+msgid "Error starting the subsystem '%s'."
+msgstr ""
+
+msgid "Running is complete!"
+msgstr ""
+
+msgid "Stopping."
+msgstr ""
+
+#, c-format
+msgid "Error stopping the subsystem '%s'."
+msgstr ""
+
+msgid "Termination signal is received. Stopping the program!"
+msgstr ""
+
+msgid "Floating point exception is caught!"
+msgstr ""
+
+#, c-format
+msgid "Close the process %d of the child!"
+msgstr ""
+
+msgid "Segmentation fault signal!"
+msgstr ""
+
+msgid "Program aborted!"
+msgstr ""
+
+#, c-format
+msgid "Unknown signal %d!"
+msgstr ""
+
+msgid "Timeouted !!!"
+msgstr ""
+
+msgid "Waiting for event ..."
+msgstr ""
+
+#, c-format
+msgid "Task '%s' is already present!"
+msgstr ""
+
+#, c-format
+msgid "There is no access to create a real-time task for '%s'. An ordinal task is created!"
+msgstr ""
+
+#, c-format
+msgid "Error %d creation a task."
+msgstr ""
+
+#, c-format
+msgid "Timeout of starting the task '%s'!"
+msgstr ""
+
+#, c-format
+msgid "Timeout of the task '%s' !!!"
+msgstr ""
+
+#, c-format
+msgid "Task '%s' is not stopped!"
+msgstr ""
+
+#, c-format
+msgid "Waiting for an event of the task '%s' ..."
+msgstr ""
+
+msgid "It isn't OpenSCADA task!"
+msgstr ""
+
+#, c-format
+msgid "Task %u unexpected terminated by an exception."
+msgstr ""
+
+#, c-format
+msgid "Redundant station '%s' up."
+msgstr ""
+
+#, c-format
+msgid "Redundant station '%s' down."
+msgstr ""
+
+#, c-format
+msgid "System clock changed to '%s'. Correction the cron '%s' target!"
+msgstr ""
+
+msgid "1:Request is not an object!"
+msgstr ""
+
+#, c-format
+msgid "%s station: \"%s\""
+msgstr ""
+
+msgid "Station"
+msgstr ""
+
+msgid "Station name"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Host name"
+msgstr ""
+
+msgid "System user"
+msgstr ""
+
+msgid "Operation system"
+msgstr ""
+
+msgid "CPU"
+msgstr ""
+
+msgid "Main CPUs set"
+msgstr ""
+
+msgid ""
+"To set up the processors you use, write a row of numbers separated by a ':' character.\n"
+"Processor numbers start at 0."
+msgstr ""
+
+msgid "Tasks planning clock"
+msgstr ""
+
+msgid "Internal charset"
+msgstr ""
+
+msgid "Configuration file"
+msgstr ""
+
+msgid "Work directory"
+msgstr ""
+
+msgid "Modules directory"
+msgstr ""
+
+msgid "Icons directory"
+msgstr ""
+
+msgid "Separate directory paths with icons by symbol ';'."
+msgstr ""
+
+msgid "Documents directory"
+msgstr ""
+
+msgid "Separate directory paths with documents by symbol ';'."
+msgstr ""
+
+msgid "Work DB"
+msgstr ""
+
+msgid ""
+"Work DB address in format \"{DB module}.{DB name}\".\n"
+"Change this field if you want to save or to reload all the program from other DB."
+msgstr ""
+
+msgid "Save the program at exit"
+msgstr ""
+
+msgid "Select for the program automatic saving to DB on exit."
+msgstr ""
+
+msgid "Period the program saving"
+msgstr ""
+
+msgid "Use not a zero period (seconds) to periodically save program changes to the DB."
+msgstr ""
+
+msgid "Least level"
+msgstr ""
+
+msgid "Least messages level which is procesed by the program."
+msgstr ""
+
+msgid "To syslog"
+msgstr ""
+
+msgid "To stdout"
+msgstr ""
+
+msgid "To stderr"
+msgstr ""
+
+msgid "To archive"
+msgstr ""
+
+msgid "Subsystems"
+msgstr ""
+
+msgid "Station level"
+msgstr ""
+
+msgid "Redundant task period, seconds"
+msgstr ""
+
+msgid "Restore connection timeout, seconds"
+msgstr ""
+
+msgid "Local primary commands transfer"
+msgstr ""
+
+msgid "Stations"
+msgstr ""
+
+msgid "Live"
+msgstr ""
+
+msgid "Counter"
+msgstr ""
+
+msgid "Go to the configuration of the list of remote stations"
+msgstr ""
+
+msgid "Tasks"
+msgstr ""
+
+msgid "Thread"
+msgstr ""
+
+msgid "TID"
+msgstr ""
+
+msgid "Policy"
+msgstr ""
+
+msgid "Prior."
+msgstr ""
+
+msgid "CPU set"
+msgstr ""
+
+msgid "Translations"
+msgstr ""
+
+msgid "Base language of the text variables"
+msgstr ""
+
+msgid "Enables the multilingual support for text variables by selecting the base language."
+msgstr ""
+
+msgid "Dynamic translation"
+msgstr ""
+
+msgid "Current state of the dynamic translation."
+msgstr ""
+
+msgid "Dynamic translation scheduling for next startup."
+msgstr ""
+
+msgid "Enable the manager"
+msgstr ""
+
+msgid "Enables the generic translation manager which cause full reloading for all built messages obtain."
+msgstr ""
+
+msgid "Languages"
+msgstr ""
+
+msgid "List of processed languages, in a two-character representation and separated by the character ';'."
+msgstr ""
+
+msgid "Source filter"
+msgstr ""
+
+msgid "Check for mismatch"
+msgstr ""
+
+msgid "Debug"
+msgstr ""
+
+msgid "Counters"
+msgstr ""
+
+msgid "Debug categories"
+msgstr ""
+
+msgid "Process"
+msgstr ""
+
+msgid "See to the messages"
+msgstr ""
+
+#, c-format
+msgid "%dx%0.3gGHz"
+msgstr ""
+
+#, c-format
+msgid "Real-time %s"
+msgstr ""
+
+#, c-format
+msgid "Monotonic %s"
+msgstr ""
+
+#, c-format
+msgid "Spent time: %s[%s]."
+msgstr ""
+
+msgid "<newStat>"
+msgstr ""
+
+msgid "Finished. "
+msgstr ""
+
+#, c-format
+msgid "Last: %s. Consumed: %3.1f[%3.1f]%% (%s from %s). Lag: %s[%s]. Lost cycles: %g."
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "RT FIFO"
+msgstr ""
+
+msgid "RT Round-robin"
+msgstr ""
+
+msgid "Style \"batch\""
+msgstr ""
+
+#, c-format
+msgid "The task '%s' is missing."
+msgstr ""
+
+msgid "Attempt to set missing processor."
+msgstr ""
+
+msgid "Error installing processors for the thread."
+msgstr ""
+
+msgid "<<<Unmatched sources!!!>>>\n"
+msgstr ""
+
+msgid "Transports"
+msgstr ""
+
+msgid "Transport type"
+msgstr ""
+
+msgid "Transport protocol"
+msgstr ""
+
+msgid "User that opens"
+msgstr ""
+
+msgid "Transport"
+msgstr ""
+
+msgid "Transport address"
+msgstr ""
+
+msgid "User of the requests"
+msgstr ""
+
+msgid "Password of the requests"
+msgstr ""
+
+msgid "Level of lifting"
+msgstr ""
+
+msgid "Error finding and creating new input transports."
+msgstr ""
+
+msgid "Error finding and creating new output transports."
+msgstr ""
+
+msgid "Error finding and loading external hosts."
+msgstr ""
+
+#, c-format
+msgid "Error starting the input transport '%s'."
+msgstr ""
+
+#, c-format
+msgid "Error starting the output transport '%s'."
+msgstr ""
+
+#, c-format
+msgid "Error stopping the input transport '%s'."
+msgstr ""
+
+#, c-format
+msgid "Error stopping the output transport '%s'."
+msgstr ""
+
+msgid ""
+"======================= Subsystem \"Transports\" options ==================\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "Error the remote host '%s'!"
+msgstr ""
+
+#, c-format
+msgid "External hosts of %s"
+msgstr ""
+
+msgid "User;System;User and System"
+msgstr ""
+
+msgid "New external host"
+msgstr ""
+
+msgid "Lifted hosts are not available for control here!"
+msgstr ""
+
+msgid "Input transport"
+msgstr ""
+
+msgid "Output transport"
+msgstr ""
+
+msgid "Started. "
+msgstr ""
+
+msgid "Stoped. "
+msgstr ""
+
+#, c-format
+msgid "Error deletion the node: %s"
+msgstr ""
+
+msgid "Input transport: "
+msgstr ""
+
+msgid "Transport DB"
+msgstr ""
+
+msgid "IO log"
+msgstr ""
+
+msgid "Log length"
+msgstr ""
+
+msgid "Use zero for the log disabling."
+msgstr ""
+
+msgid "Log"
+msgstr ""
+
+#, c-format
+msgid "Established: %s. "
+msgstr ""
+
+#, c-format
+msgid "Transport protocol '%s' is missing"
+msgstr ""
+
+msgid "Output transport: "
+msgstr ""
+
+msgid "Binary;Text(LF);Text(CR);Text(CR/LF)"
+msgstr ""
+
+msgid "Wait timeout"
+msgstr ""
+
+msgid ""
+"A sign of waiting timeout when receiving an answer.\n"
+"Many systems, when responding to different protocols (such as HTTP), can send response data in several parts.\n"
+"Without this, only the first part will be received and displayed.\n"
+"When this flag is set, all parts of the response will be waiting up to missing data during the transport timeout."
+msgstr ""
+
+msgid "Input buffer size, bytes"
+msgstr ""
+
+msgid "Direct set the input buffer size. Use 0 to disable waiting and reading for a data - only to write."
+msgstr ""
+
+msgid "Answer"
+msgstr ""
+
+msgid "Off;Asymmetric"
+msgstr ""
+
+msgid "Preference for running"
+msgstr ""
+
+#, c-format
+msgid "Error starting the controller '%s'."
+msgstr ""
+
+msgid "Error ID of the parameter type!"
+msgstr ""
+
+#, c-format
+msgid "Parameter type '%s' is not present."
+msgstr ""
+
+#, c-format
+msgid "Error attaching the new controller '%s'."
+msgstr ""
+
+msgid "Module does not support compilation of the programming language."
+msgstr ""
+
+msgid "Owner"
+msgstr ""
+
+msgid "User Interfaces"
+msgstr ""
+
+msgid ""
+"===================== Subsystem \"User interfaces\" options ===============\n"
+"\n"
+msgstr ""
+
+msgid "User interface"
+msgstr ""
+
+#, c-format
+msgid "Parameter: %s"
+msgstr ""
+
+msgid "Attributes"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Boolean"
+msgstr ""
+
+msgid "-select"
+msgstr ""
+
+#, c-format
+msgid ""
+"Parameter attribute\n"
+"  ID: '%s'\n"
+"  Name: '%s'\n"
+"  Type: '%s'\n"
+"  Read only: %d"
+msgstr ""
+
+msgid ""
+"\n"
+"  Values: "
+msgstr ""
+
+msgid ""
+"\n"
+"  Names for selection: "
+msgstr ""
+
+msgid "Archiving"
+msgstr ""
+
+msgid "Not selective type!"
+msgstr ""
+
+#, c-format
+msgid "Error writing a value to the archive: %s"
+msgstr ""
+
+msgid "Attribute does not have an archive"
+msgstr ""
+
+msgid "Very large string for non STL string (> 30 MB)!"
+msgstr ""
+
+#, c-format
+msgid "Error allocating memory for large string (%d)!"
+msgstr ""
+
+msgid "Attempt to double disconnect!"
+msgstr ""
+
+#, c-format
+msgid "Error deleting the child '%d'."
+msgstr ""
+
+#, c-format
+msgid "Child '%d' is not allowed."
+msgstr ""
+
+#, c-format
+msgid "Child %s:%d is not found!"
+msgstr ""
+
+#, c-format
+msgid "2:Error opening the file '%s': %s"
+msgstr ""
+
+#, c-format
+msgid "3:Error loading the file '%s'."
+msgstr ""
+
+msgid "Object is not connected to a node of the OpenSCADA tree."
+msgstr ""
+
+#, c-format
+msgid "Child %d is not present."
+msgstr ""
+
+#, c-format
+msgid "Child with the attribute %s=%s is not present."
+msgstr ""
+
+#, c-format
+msgid "Unexpected end. Pos: %d"
+msgstr ""
+
+#, c-format
+msgid "No comment block completion. Pos: %d"
+msgstr ""
+
+#, c-format
+msgid "Unfinished '!DOCTYPE' block. Pos: %d"
+msgstr ""
+
+#, c-format
+msgid "Unfinished '!DOCTYPE [ ]' container. Pos: %d"
+msgstr ""
+
+#, c-format
+msgid "Unexpected or error end tag. Pos: %d"
+msgstr ""
+
+#, c-format
+msgid "Unfinished start of comment or unknown block. Pos: %d"
+msgstr ""
+
+#, c-format
+msgid "Start tag error. Pos: %d"
+msgstr ""
+
+#, c-format
+msgid "Unfinished attribute. Pos: %d"
+msgstr ""
+
+#, c-format
+msgid "Error entity. Pos: %d"
+msgstr ""
+
+#, c-format
+msgid "Unknown entity '%s'. Pos: %d"
+msgstr ""
+
+msgid "Message archiver is not supported!"
+msgstr ""
+
+msgid "Value archiver is not supported!"
+msgstr ""
+
+#, c-format
+msgid "Function '%s' is not supported!"
+msgstr ""
+
+#, c-format
+msgid "%s: No function set!"
+msgstr ""
+
+#, c-format
+msgid "%s: Error with ID or IO %d for the function '%s'!"
+msgstr ""
+
+msgid "Open Supervisory Control And Data Acquisition"
+msgstr ""
+
+msgid "Roman Savochenko"
+msgstr ""
+
+msgid "Input transport is not supported!"
+msgstr ""
+
+msgid "Output transport is not supported!"
+msgstr ""
+
+msgid "New project"
+msgstr ""
+
+msgid "User directory copy projects"
+msgstr ""
+
+msgid "Pre-installed projects"
+msgstr ""
+
+msgid "Select project for start."
+msgstr ""
+
+msgid "OpenSCADA start"
+msgstr ""
+
+msgid "Enter new project ID. Do not use spaces!"
+msgstr ""
+
+msgid "No a project set!"
+msgstr ""
+
+msgid "Set the project name to:"
+msgstr ""
+
+msgid "already started."
+msgstr ""

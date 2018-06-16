@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 23:30+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Resource not found"
+msgstr ""
+
+#, c-format
+msgid "Unknown object of the command: %s."
+msgstr ""
+
+#, c-format
+msgid "Unknown command: %s."
+msgstr ""
+
+msgid "Content is missing."
+msgstr ""
+
+msgid "Fill image type is not supported."
+msgstr ""
+
+msgid "At least one of the elementary figures, of which 'fill' is forming, is outside the boundary of the display area."
+msgstr ""
+
+#, c-format
+msgid "gdImageStringFTEx: error for the font '%s': %s."
+msgstr ""
+
+#, c-format
+msgid "%ds"
+msgstr ""
+
+#, c-format
+msgid "%gs"
+msgstr ""
+
+#, c-format
+msgid "%gms"
+msgstr ""
+
+#, c-format
+msgid "Creating time of the trend %gms"
+msgstr ""
+
+#, c-format
+msgid "+ Creating time of the PNG-image(%d) %gms"
+msgstr ""
+
+msgid "kHz"
+msgstr ""
+
+msgid "Hz"
+msgstr ""
+
+#, c-format
+msgid "Error parsing the document '%s': %s"
+msgstr ""
+
+msgid "Operation user interface (WEB)"
+msgstr ""
+
+msgid "Roman Savochenko, Lysenko Maxim (2008-2012), Yashina Kseniya (2007)"
+msgstr ""
+
+msgid "Visual operation user interface, based on the the WEB - front-end to the VCA engine."
+msgstr ""
+
+msgid "Date and time"
+msgstr ""
+
+msgid "Level"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "mcsec"
+msgstr ""
+
+msgid "Ready"
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid "Mon"
+msgstr ""
+
+msgid "Tue"
+msgstr ""
+
+msgid "Wed"
+msgstr ""
+
+msgid "Thr"
+msgstr ""
+
+msgid "Fri"
+msgstr ""
+
+msgid "Sat"
+msgstr ""
+
+msgid "Sun"
+msgstr ""
+
+msgid "January"
+msgstr ""
+
+msgid "February"
+msgstr ""
+
+msgid "March"
+msgstr ""
+
+msgid "April"
+msgstr ""
+
+msgid "May"
+msgstr ""
+
+msgid "June"
+msgstr ""
+
+msgid "July"
+msgstr ""
+
+msgid "August"
+msgstr ""
+
+msgid "September"
+msgstr ""
+
+msgid "October"
+msgstr ""
+
+msgid "November"
+msgstr ""
+
+msgid "December"
+msgstr ""
+
+#, c-format
+msgid ""
+"======================= Module <%s:%s> options =======================\n"
+"---- Parameters of the module section '%s' of the configuration file ----\n"
+"SessTimeLife <min>      Lifetime of the sessions in minutes (by default, 10).\n"
+"\n"
+msgstr ""
+
+msgid "Connecting to the opened session"
+msgstr ""
+
+msgid "Creating a new session for the existing project"
+msgstr ""
+
+msgid "There is no session and project of the VCA engine for the user!"
+msgstr ""
+
+msgid "Sorry, the number of open sessions has reached a limit!"
+msgstr ""
+
+#, c-format
+msgid "Going to the session '%s' for the project '%s' ..."
+msgstr ""
+
+#, c-format
+msgid "The specified project/session '%s' is false!"
+msgstr ""
+
+#, c-format
+msgid "Error the page '%s': %s"
+msgstr ""
+
+#, c-format
+msgid "Wrong session '%s'."
+msgstr ""
+
+msgid "Module options"
+msgstr ""
+
+msgid "Lifetime of the sessions, minutes"
+msgstr ""
+
+msgid "Sessions limit"
+msgstr ""
+
+msgid "Level of the PNG compression"
+msgstr ""
+
+msgid ""
+"Level of the PNG (ZLib) compression:\n"
+"  -1  - optimal speed-size;\n"
+"  0   - disable;\n"
+"  1-9 - direct level."
+msgstr ""
