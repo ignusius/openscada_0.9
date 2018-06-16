@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<title>Modules/HTTP - OpenSCADAWiki</title>
+<meta content="MediaWiki 1.26.4" name="generator" />
+<link href="https://www.gnu.org/copyleft/fdl.html" rel="copyright" />
+<link href="../files/doc.css" rel="stylesheet" /></head>
+<body><div id="mw_header">
+			<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" lang="en">Modules/HTTP</h1>
+		</div><div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="mw-pt-languages noprint" dir="ltr" lang="en"><div class="mw-pt-languages-label">Other languages:</div><div class="mw-pt-languages-list autonym"><span class="mw-pt-languages-ui mw-pt-languages-selected mw-pt-progress mw-pt-progress--complete">English</span>&nbsp;• ‎<a class="mw-pt-progress mw-pt-progress--complete" href="http://oscada.org/wiki/Modules/HTTP/ru" title="Модули/HTTP (100% translated)">российский</a>&nbsp;• ‎<a class="mw-pt-progress mw-pt-progress--complete" href="http://oscada.org/wiki/Modules/HTTP/uk" title="Модулі/HTTP (100% translated)">українська</a></div></div>
+<table class="wikitable">
+
+<tr>
+<th> Module </th>
+<th> Name </th>
+<th> Version </th>
+<th> License </th>
+<th> Source </th>
+<th> Languages </th>
+<th> Platforms </th>
+<th> Type </th>
+<th> Author </th>
+<th> Description
+</th></tr>
+
+<tr>
+<td> <a href="../Modules/HTTP.html" title="Special:MyLanguage/Modules/HTTP">HTTP</a> </td>
+<td> HTTP-realization
+</td>
+<td> 3.1 </td>
+<td> GPL2 </td>
+<td> prot_HTTP.so </td>
+<td> en,uk,ru,de </td>
+<td> x86,x86_64,ARM
+</td>
+<td> Protocol </td>
+<td> Roman Savochenko<br /><font size="-2"><i>Maxim Lysenko (2009) — the page translation</i></font> </td>
+<td> Provides support for the HTTP protocol for WWW-based user interfaces.
+</td></tr></table>
+<div class="toc" id="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Authentication"><span class="tocnumber">1</span> <span class="toctext">Authentication</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Modules_of_the_WEB-interface"><span class="tocnumber">2</span> <span class="toctext"><span>Modules of the WEB-interface</span></span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Function_of_the_output_requests_of_the_user_API"><span class="tocnumber">3</span> <span class="toctext">Function of the output requests of the user API</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#User_programming_API"><span class="tocnumber">4</span> <span class="toctext">User programming API</span></a></li>
+</ul>
+</div>
+
+<p>Module of the transport protocol HTTP is designed to support the implementation of the network protocol HTTP (Hypertext Transfer Protocol) in OpenSCADA.
+</p><p>HTTP protocol is used to transfer the WWW content. For example, via HTTP the following types of documents are transmitted: html, xhtml, png, javascript, and many others. Support HTTP in OpenSCADA together with the transport <a href="../Modules/Sockets.html" title="Special:MyLanguage/Modules/Sockets">Sockets</a> allows to implement various user functions based on the WWW interface. The module implements two main methods of the HTTP protocol: "GET" and "POST". The module provides control of the integrity of HTTP-queries and, jointly with "Sockets" transport, allows to "collect" whole requests from their fragments, as well as hold of the connection "alive" (Keep-Alive).
+</p><p>For flexible connection of the user interfaces to this module, the modular mechanism within the module itself is used. In the role of modules the modules of the subsystem "User interfaces" are used with the additional information field "SubType", with the value of "WWW".
+</p><p>In the requests for the Web resources the URL(Universal Resource Locator) are commonly used. Hence, the URL is passed as the main parameter via HTTP. The first element of the requested URL is used to identify the module UI. For example, the URL "http://localhost:10002/WebCfg" means requesting to the module "WebCfg" on the host "http://localhost:10002". In the case of an incorrect indication of the module ID, or when you address without identifier of the module at all, the module generates the information dialogue on the entry and the choice of one of the available user interfaces. Example of the dialogue is shown in Figure 1. 
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:629px;"><a class="image" href="http://oscada.org/wiki/File:HTTP_select.png"><img class="thumbimage" height="456" src="../files/HTTP_select.png" width="627" /></a>  <div class="thumbcaption">Fig.1. Dialogue of the WWW-interface module choice.</div></div></div></div>
+<p>The module supports multi-language which one enabled by the <a class="external" href="http://oscada.org/wiki/Documents/Program_manual#ConfigTr" title="Documents/Program manual">dynamic messages translation of OpenSCADA</a>.
+</p><p>The language of the final user interface is determined by and in sequence:
+</p>
+<ul><li> URL's parameter "lang".</li>
+<li> Authenticated user's language.</li>
+<li> Language of the Web-browser from the HTTP property "Accept-Language".</li>
+<li> Generic language of the OpenSCADA process.</li></ul>
+<p>Gotten in the way language used for building interfaces of the module and passes to the WWW sub-modules into the HTTP property "oscd_lang" of the argument "vars" of <a href="#ModsHTTP">the "GET" and "POST" functions</a>.
+</p><p>To configure and control this module, you will have the configuration page of the OpenSCADA control interface (Fig. 3) where you can perform:
+</p>
+<ul><li> Control for the active authentication sessions.</li>
+<li> Configuring:
+<ul><li> Rules of accessing for deny and allow. Any line of the rules of accessing is a different rule and you can use here templates, like to "*/WebVision/*"), or regular expressions, like to "/[^/]+/WebVision/.+/".</li>
+<li> HTML-template of the user interface and user main-page. In the HTML-template's fields you must specify an address of the file HTML/XHTML, which will be used for formation of the internal-service and main-page interfaces. Internal-service interfaces for example, it's the WEB-modules selection, the login page and like ones of the WEB-modules. From the template required correct XHTML, allowing parse the file by XML-parser, and the presence of the tag "#####CONTEXT#####" at the location of the dynamic content, for internal-service interfaces it's necessarily. Resource files of the templates represented by images, CSS and JavaScript files and their are searching from the directory in which located the specified template file and from the current directory. If errors are found in the template there will be use a standard builtin interface. For different, to the language, template file you can add the language suffix to the file end like "{My template}_{lang}.html" but select the generic-base template file "{My template}.html" into these configuration fields. For the templates example you can see to the most used templates:
+<ul><li> <a class="external" href="http://oscada.org/wiki/File:HTTP_webopenscada.html.gz" title="File:HTTP webopenscada.html.gz">Internal-service and main-page interfaces template, includes the modules index</a>.</li>
+<li> <a class="external" href="http://oscada.org/wiki/File:HTTP_webopenscada_main.html.gz" title="File:HTTP webopenscada main.html.gz">Main-page's template</a> with a direct link to the <a class="external" href="http://oscada.org/wiki/Special:MyLanguage/Using/Model_AGLKS" title="Special:MyLanguage/Using/Model AGLKS">AGLKS</a> main interface by <a href="../Modules/WebVision.html" title="Special:MyLanguage/Modules/WebVision">UI.WebVision</a> and without the WEB-modules index.</li>
+<li> <a class="external" href="http://oscada.org/wiki/File:HTTP_webopenscada_goto.html.gz" title="File:HTTP webopenscada goto.html.gz">Main-page's template</a> with a strong redirection to the <a class="external" href="http://oscada.org/wiki/Special:MyLanguage/Using/Model_AGLKS" title="Special:MyLanguage/Using/Model AGLKS">AGLKS</a> main interface by <a href="../Modules/WebVision.html" title="Special:MyLanguage/Modules/WebVision">UI.WebVision</a>.</li></ul></li>
+<li> The lifetime of the authentication, list of the users allowed for authentication and set up of the automatic login. </li></ul></li></ul>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:886px;"><a class="image" href="http://oscada.org/wiki/File:HTTP_mod.png"><img class="thumbimage" height="735" src="../files/HTTP_mod.png" width="884" /></a>  <div class="thumbcaption">Fig.3. The module configuring page.</div></div></div></div>
+<h2><span class="mw-headline" id="Authentication"><span class="mw-headline-number">1</span> Authentication</span></h2>
+<p>The module supports authentication in OpenSCADA while providing access to the WEB-interface modules (Fig.2).
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:619px;"><a class="image" href="http://oscada.org/wiki/File:HTTP_auth.png"><img class="thumbimage" height="302" src="../files/HTTP_auth.png" width="617" /></a>  <div class="thumbcaption">Fig.2. Authentication dialogue in OpenSCADA.</div></div></div></div>
+<p>To facilitate with Web-based interfaces, the module provides for automatic login from the specified user's name. Configuring for the automatic login makes by the module settings page (Fig.3). Automatic login performs by matching the address indicated in the column "Address", and on behalf of the user specified in the column "User".
+</p><p>For greater security, you can only identify Web users in the list of users allowed to authenticate.
+</p>
+<h2><span class="mw-headline" id="Modules_of_the_WEB-interface"><span class="mw-headline-number">2</span> <span id="ModsHTTP" title="#ModsHTTP">Modules of the WEB-interface</span></span></h2>
+<p>Modules of the user interface (UI) designed to work with HTTP module, should indicate the information field "SubType" with the value "WWW" and "Auth" field with the value "1", if the module requires an authentication at login. For communication of HTTP module and UI modules an advanced communication mechanism is used. This mechanism involves the export of interface functions. In this case, the UI modules must export the following function:
+</p>
+<ul><li> <b>void HTTP_GET(const string &amp;url, string &amp;page, vector&lt;string&gt; &amp;vars, const string &amp;user, TProtocolIn *iprt);</b> OR</li></ul>
+<dl><dd><b>void HttpGet( const string &amp;url, string &amp;page, const string &amp;sender, vector&lt;string&gt; &amp;vars, const string &amp;user );</b> — GET method with the parameters:
+<dl><dd><i>url</i> — address of the request;</dd>
+<dd><i>page</i> — page with the answer;</dd>
+<dd><i>sender</i> — address of the sender;</dd>
+<dd><i>vars</i> — variables of the request;</dd>
+<dd><i>user</i> — user;</dd>
+<dd><i>iprt</i> — pointer to an input part object of the protocol.</dd></dl></dd></dl>
+<ul><li> <b>void HTTP_POST(const string &amp;url, string &amp;page, vector&lt;string&gt; &amp;vars, const string &amp;user, TProtocolIn *iprt);</b> OR</li></ul>
+<dl><dd><b>void HttpPost( const string &amp;url, string &amp;page, const string &amp;sender, vector&lt;string&gt; &amp;vars, const string &amp;user );</b> — POST method with the parameters:
+<dl><dd><i>url</i> — address of the request;</dd>
+<dd><i>page</i> — page with the answer and with the content of the body of the POST request;</dd>
+<dd><i>sender</i> — address of the sender;</dd>
+<dd><i>vars</i> — variables of the request;</dd>
+<dd><i>user</i> — user;</dd>
+<dd><i>iprt</i> — pointer to an input part object of the protocol.</dd></dl></dd></dl>
+<p>Then, in the case of the HTTP "GET" request, the function "HTTP_GET" or "HttpGet" will be called, and in the case of the "POST" request, the function "HTTP_POST" or "HttpPost" will be called in the appropriate UI module.
+</p>
+<h2><span class="mw-headline" id="Function_of_the_output_requests_of_the_user_API"><span class="mw-headline-number">3</span> Function of the output requests of the user API</span></h2>
+<p>The output request function (<a class="external" href="http://oscada.org/wiki/Documents/Program_manual#SYSTransport" title="Documents/Program manual">messIO()</a>) operates the exchange of contents of HTTP requests wrapped in XML packets. The query structure has the form:
+</p>
+<pre style="white-space: pre-wrap;">
+&lt;req Host="host" URI="uri"&gt;
+  &lt;prm id="pId"&gt;pVal&lt;/prm&gt;
+  &lt;cnt name="cName" filename="cFileName"&gt;
+    &lt;prm id="cpId"&gt;cpVal&lt;/prm&gt;
+    cVal
+  &lt;/cnt&gt;
+  reqVal
+&lt;/req&gt;
+</pre>
+<dl><dd>Where:
+<ul><li> <i>req</i> — request method, supported methods "GET" and "POST".</li>
+<li> <i>host</i> — http-server address in the format <i>{HostAddr}:{HostIp}</i>. If this field is omitted, then the host address specified in the transport address field is used.</li>
+<li> <i>uri</i> — resource address at the http server, file or directory.</li>
+<li> <i>pId</i>, <i>pVal</i> — identifier and value of addition http-parameters. You can set multiply http-parameters setting different <i>prm</i> tags.</li>
+<li> <i>cName</i>, <i>cFileName</i>, <i>cVal</i> — name, file-name and value of the content-element of the POST-request. You can set multiply content-elements setting different <i>cnt</i> tags.</li>
+<li> <i>cpId</i>, <i>cpVal</i> — identifier and value of addition content-parameters. You can set multiply content-parameters setting different <i>prm</i> tags;</li>
+<li> <i>reqVal</i> — single content of the POST request.</li></ul></dd></dl>
+<p>The query result is the response structure:
+</p>
+<pre style="white-space: pre-wrap;">
+&lt;req Host="host" URI="uri" err="err" Protocol="prt" RezCod="rCod" RezStr="rStr"&gt;
+  &lt;prm id="pId"&gt;pVal&lt;/prm&gt;
+  respVal
+&lt;/req&gt;
+</pre>
+<dl><dd>Where:
+<ul><li> <i>req</i> — request method.</li>
+<li> <i>host</i> — http-server address.</li>
+<li> <i>uri</i> — resource address.</li>
+<li> <i>err</i> — error occurring during the request. In the case of a successful request, this field is empty.</li>
+<li> <i>RezCod</i>, <i>RezStr</i> — query result in the form of code and text.</li>
+<li> <i>pId</i>, <i>pVal</i> — identifier and value of the addition http-parameter. Http-parameters can be many, defined by the individual <i>prm</i> tags.</li>
+<li> <i>respVal</i> — content of the response.</li></ul></dd></dl>
+<p>Here is the formation of GET and POST requests in the JavaLikeCalc.JavaScript language, as an example of using this function in user procedures:
+</p>
+<pre style="white-space: pre-wrap;">
+//GET request for a HTML-page
+req = SYS.XMLNode("GET");
+req.setAttr("URI","/");
+SYS.Transport.Sockets.out_testHTTP.messIO(req,"HTTP");
+test = req.text();
+
+//GET request and saving a file
+req = SYS.XMLNode("GET");
+req.setAttr("URI","/oscadaArch/Work/openscada-0.9-r2188.tar.lzma");
+SYS.Transport.Sockets.out_testHTTP.messIO(req,"HTTP");
+if(!req.attr("err").length) SYS.fileWrite("/var/tmp/recvFile.tmp", req.text());
+
+//POST request
+req = SYS.XMLNode("POST");
+req.setAttr("URI","/WebUser/FlowTec.txt");
+cntNode = req.childAdd("cnt").setAttr("name","pole0").setAttr("filename","Object2-k001-100309-17.txt");
+cntNode.childAdd("prm").setAttr("id","Content-Type").setText("text/plain");
+cntText = "Object2-k001\r\n";
+cntText += "\r\n";
+cntText += "v002\r\n";
+cntText += " n1\r\n";
+cntText += "  09.03.10 16   Polnyj    7155.25    216.0  32.000  17.5\r\n";
+cntText += "v005\r\n";
+cntText += " n1\r\n";
+cntText += "  09.03.10 16   Polnyj     188.81    350.0   4.000  40.0\r\n";
+cntText += "\r\n";
+cntNode.setText(cntText);
+SYS.Transport.Sockets.out_testHTTP.messIO(req,"HTTP");
+</pre>
+<h2><span class="mw-headline" id="User_programming_API"><span class="mw-headline-number">4</span> User programming API</span></h2>
+<p><b>The module object (SYS.Protocol.HTTP)</b>
+</p>
+<ul><li> <i>bool pgAccess(string URL)</i> — checks for accessing the page, pointed by the <i>URL</i>.
+<ul><li> <i>URL</i> — URL of the checking page.</li></ul></li>
+<li> <i>string pgCreator(string cnt, string rcode = "200 OK", string httpattrs = "Content-Type: text/html;charset={SYS}", string htmlHeadEls = "", string forceTmplFile = "", string lang = "" )</i> — forms for a page or a resource from the content <i>cnt</i>, wrapped to HTTP with the result <i>rcode</i>, with HTTP additional attributes <i>httpattrs</i>, HTML additional head's element <i>htmlHeadEls</i>, forced to template file <i>forceTmplFile</i> and language <i>lang</i>.
+<ul><li> <i>cnt</i> — content of the page or the resource (images, XML, CSS, JavaScript, ...)&nbsp;;</li>
+<li> <i>rcode</i> — HTTP result code, like to "200 OK"; empty value there disables addition of the HTTP header;</li>
+<li> <i>httpattrs</i> — additional HTTP-attributes, mostly this is "Content-Type" which by default sets to "text/html;charset={SYS}"; only for "Content-Type: text/html" will be wrapped to internal/service or force <i>forceTmplFile</i> HTML-template;</li>
+<li> <i>htmlHeadEls</i> — additional HTML-header's tag, it's mostly META with "Refresh" to the specified URL;</li>
+<li> <i>forceTmplFile</i> — force template file to override the internal/service or the main-page template.</li>
+<li> <i>lang</i> — language of the forming interface.</li></ul></li></ul>
+
+
+
+
+
+
+</div></body>
+</html>

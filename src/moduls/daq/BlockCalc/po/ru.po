@@ -1,0 +1,273 @@
+# OpenSCADA.DAQ.BlockCalc translate to Russian.
+# This file is distributed under the same license as the OpenSCADA.DAQ.BlockCalc package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2005-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DAQ.BlockCalc 1.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-04 10:38+0200\n"
+"PO-Revision-Date: 2007-10-28 08:44+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#, c-format
+msgid "Block link '%s' save error."
+msgstr "Ошибка сохранения блочной связи '%s'."
+
+#, c-format
+msgid "Node '%s' is not function."
+msgstr "Узел '%s' не функция."
+
+#, c-format
+msgid "Link %d error!"
+msgstr "Ошибка в связке %d!"
+
+#, c-format
+msgid "Error reading block's '%s' links."
+msgstr "Ошибка чтения связей блока '%s'."
+
+#, c-format
+msgid "Error writing block's '%s' links."
+msgstr "Ошибка записи связей блока '%s'."
+
+msgid "Block disabled or error."
+msgstr "Блок отключен или ошибка."
+
+msgid "Block: "
+msgstr "Блок: "
+
+msgid "Block"
+msgstr "Блок"
+
+msgid "State"
+msgstr "Состояние"
+
+msgid "Enabled"
+msgstr "Включен"
+
+msgid "Process"
+msgstr "Обрабатывается"
+
+msgid "Configuration"
+msgstr "Конфигурация"
+
+msgid ""
+"Priority block(s) calculate before this block. Blocks list is separated by "
+"symbol ';'."
+msgstr ""
+"Приоритетный блок(и) вычисляемый перед данным. Список блоков разделяется "
+"символом ';'."
+
+msgid "Go to function"
+msgstr "Перейти к функции"
+
+msgid "IO"
+msgstr "ВВ"
+
+msgid "Show"
+msgstr "Показать"
+
+msgid "Hidden"
+msgstr "Скрытые"
+
+msgid "Links"
+msgstr "Связи"
+
+msgid "Free"
+msgstr "Свободна"
+
+msgid "Local"
+msgstr "Локальная"
+
+msgid "Global"
+msgstr "Глобальная"
+
+msgid "Parameter"
+msgstr "Параметр"
+
+msgid "Local out"
+msgstr "Локальный выход"
+
+msgid "Global out"
+msgstr "Глобальный выход"
+
+msgid "Parameter out"
+msgstr "Параметр выход"
+
+msgid "Local in"
+msgstr "Локальный вход"
+
+msgid "Global in"
+msgstr "Глобальный вход"
+
+msgid "Parameter in"
+msgstr "Параметр вход"
+
+msgid "Block based calculator"
+msgstr "Блочный вычислитель"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid "Provides a block based calculator."
+msgstr "Предоставляет блочный вычислитель."
+
+msgid "Parameters table"
+msgstr "Таблица параметров"
+
+msgid "Block's table"
+msgstr "Таблица блоков"
+
+msgid "Schedule of the calculation"
+msgstr "Планирование вычисления"
+
+msgid "Calculate task priority"
+msgstr "Приоритет задачи вычисления"
+
+msgid "Iteration number into calculate period"
+msgstr "Число итераций в одном периоде обсчёта"
+
+msgid "Standard"
+msgstr "Стандартный"
+
+msgid "Blocks' IOs"
+msgstr "Параметры блока"
+
+msgid "Identifier"
+msgstr "Идентификатор"
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "To enable"
+msgstr "Включать"
+
+msgid "To process"
+msgstr "Обрабатывать"
+
+msgid "Prior block"
+msgstr "Предшествующий блок"
+
+msgid "Write to output links only at changes"
+msgstr "Записывать по выходным связям только при изменениях"
+
+msgid "Function"
+msgstr "Функция"
+
+msgid "Block's ID"
+msgstr "Id блока"
+
+msgid "IO ID"
+msgstr "ВВ ID"
+
+msgid "Link's type"
+msgstr "Тип связи"
+
+msgid "Link"
+msgstr "Связь"
+
+msgid "Link's value"
+msgstr "Значение связи"
+
+msgid "Calculation. "
+msgstr "Вычисление. "
+
+msgid "Calculation with the period: %s. "
+msgstr "Вычисление с периодом: %s. "
+
+#, c-format
+msgid "Next calculation by the cron '%s'. "
+msgstr "Следующее вычисление по cron '%s'. "
+
+#, c-format
+msgid "Spent time: %s[%s]. "
+msgstr "Затрачено времени: %s[%s]. "
+
+#, c-format
+msgid "Enable block '%s' error."
+msgstr "Ошибка включения блока '%s'."
+
+msgid "Start stage 1: set all blocks to process."
+msgstr "Этап запуска 1: установка всех блоков в обработку."
+
+#, c-format
+msgid "Process block '%s' error."
+msgstr "Ошибка обработки блока '%s'."
+
+msgid "Start stage 2: sort blocks for need sequence."
+msgstr "Этап запуска 2: сортировка блоков в нужной последовательности."
+
+#, c-format
+msgid "Reshuffle blocks '%s'(%d) <-> '%s'(%d)."
+msgstr "Перестановка блоков '%s'(%d) <-> '%s'(%d)."
+
+#, c-format
+msgid "Start stage 3: task create: prcSt=%d."
+msgstr "Этап запуска 3: создание задачи: prcSt=%d."
+
+#, c-format
+msgid "Block '%s' calc error."
+msgstr "Ошибка '%s' вычисления блока."
+
+#, c-format
+msgid "Block '%s' is stopped."
+msgstr "Блок '%s' остановлен."
+
+msgid "Blocks scheme"
+msgstr "Схема блоков"
+
+msgid "Number"
+msgstr "Количество"
+
+msgid "Blocks"
+msgstr "Блоки"
+
+#, c-format
+msgid "All: %u; Enabled: %u; Process: %u"
+msgstr "Всего: %u; Включено: %u; Обрабатывается: %u"
+
+msgid "1:Parameter disabled."
+msgstr "1:Параметр отключен."
+
+msgid "2:Calculation stopped."
+msgstr "2:Вычисление остановлено."
+
+msgid ""
+"Attributes configuration list. List must be written by lines in format: "
+"\"{blk}.{blk_io}[:{aid}:{anm}]\"\n"
+"Where:\n"
+"  blk - block identifier from block's scheme; for constant value set to:\n"
+"    '*s' - String type;\n"
+"    '*i' - Integer type;\n"
+"    '*r' - Real type;\n"
+"    '*b' - Boolean type.\n"
+"  blk_io - block's parameter from block's scheme; for constant value set to "
+"attribute value;\n"
+"  aid - created attribute identifier;\n"
+"  anm - created attribute name.\n"
+"If 'aid' or 'anm' are not set they will be generated from selected block's "
+"parameter."
+msgstr ""
+"Список конфигурации атрибутов. Список формируется строками в формате: "
+"\"{blk}.{blk_io}[:{aid}:{anm}]\"\n"
+"Где:\n"
+"  blk - идентификатор блока, блочной схемы; для постоянной значение "
+"устанавливается:\n"
+"    '*s' - строковый тип;\n"
+"    '*i' - целочисленный тип;\n"
+"    '*r' - вещественный тип;\n"
+"    '*b' - логический тип.\n"
+"  blk_io - параметр блока, блочной схемы; для постоянной значений "
+"устанавливается в значение атрибута;\n"
+"  aid - идентификатор создаваемого атрибута;\n"
+"  anm - имя создаваемого атрибута.\n"
+"Если 'aid' или 'anm' не установлены то выполняется их генерация из "
+"выбранного параметра блока."

@@ -1,0 +1,159 @@
+# OpenSCADA.DAQ.MMS translate to Ukrainian.
+# This file is distributed under the same license as the OpenSCADA.DAQ.MMS module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2013-2014, 2017-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DAQ.MMS 0.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-27 20:07+0300\n"
+"PO-Revision-Date: 2013-10-20 11:50+0300\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <uk@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "MMS(IEC-9506)"
+msgstr "MMS(IEC-9506)"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid "MMS(IEC-9506) client implementation."
+msgstr "Реалізація клієнта MMS(IEC-9506)"
+
+msgid "Parameters table"
+msgstr "Таблиця параметрів"
+
+msgid "Acquisition schedule"
+msgstr "Планування збору"
+
+msgid "Priority of the acquisition task"
+msgstr "Пріорітет задачі збору даних"
+
+msgid "Restore timeout, seconds"
+msgstr "Час відновлення, секунд"
+
+msgid "Sync inter remote station period, seconds"
+msgstr "Період синхронізації з віддаленою станцією, секунд"
+
+msgid "Server address"
+msgstr "Адреса серверу"
+
+msgid "Variables into read request"
+msgstr "Змінних у запиті читання"
+
+msgid "Destination TSAP"
+msgstr "TSAP призначення"
+
+msgid "Standard"
+msgstr "Стандарт"
+
+msgid "Variables list (next line separated)"
+msgstr "Перелік змінних (поділено наступним рядком)"
+
+msgid "No activity data."
+msgstr "Немає активності даних."
+
+#, c-format
+msgid "Connection error. Restoring in %.6g s."
+msgstr "Помилка з'єднання. Відновлення за %.6g с."
+
+msgid "Acquisition. "
+msgstr "Збір. "
+
+#, c-format
+msgid "Acquisition with the period: %s. "
+msgstr "Збір з періодом: %s."
+
+#, c-format
+msgid "Next acquisition by the cron '%s'. "
+msgstr "Наступний збір за cron '%s'. "
+
+msgid "Spent time: %s[%s]. Requests %.6g."
+msgstr "Витрачено часу: %s[%s]. Запитів %.6g."
+
+msgid "Remote host error"
+msgstr "Помилка віддаленого хосту"
+
+#, c-format
+msgid "MMS automatic created transport for '%s' controller."
+msgstr "Автоматично створений транспорт MMS для контролеру '%s'."
+
+#, c-format
+msgid "DAQ.%s.%s: connect to data source: %s."
+msgstr "DAQ.%s.%s: підключення до джерела даних: %s."
+
+msgid "STOP"
+msgstr "ЗУПИНЕНО"
+
+msgid "OK"
+msgstr "НОРМА"
+
+#, c-format
+msgid "Value '%s' type '%s' read is not implemented."
+msgstr "Читання значення '%s' типу '%s' не реалізовано."
+
+msgid "No data"
+msgstr "Немає даних"
+
+msgid "Zero for disable periodic sync."
+msgstr "Нуль для виключення періодичної синхронізації."
+
+#, c-format
+msgid "Value type '%s' is not implemented for '%s'."
+msgstr "Тип значення '%s' не реалізовано для '%s'."
+
+msgid ""
+"Attributes configuration list. List must be written by lines in format: "
+"\"{MMS_domain}/{MMS_var}[:{opt}[:{tp}[:{id}[:{name}]]]]\".\n"
+"Where:\n"
+"  {MMS_domain} - MMS domain or '*' for global.\n"
+"  {MMS_var} - MMS variable name into domain or global.\n"
+"  {opt} - Options:\n"
+"    w - writable;\n"
+"    s - single request;\n"
+"    /{NN} - call at cycle even to number {N} [2...99].\n"
+"  {tp} - force type:\n"
+"    bool - boolean;\n"
+"    real - real;\n"
+"    int - integer;\n"
+"    string - string;\n"
+"    struct - structure;\n"
+"    array - array;\n"
+"  {id} - force attribute ID.\n"
+"  {name} - force attribute name."
+msgstr ""
+"Перелік конфігурації атрибутів. Перелік має записуватися рядками формату: "
+"\"{MMS_domain}/{MMS_var}[:{opt}[:{tp}[:{id}[:{name}]]]]\".\n"
+"Де:\n"
+"  {MMS_domain} - MMS домен або '*' для глобального.\n"
+"  {MMS_var} - MMS ім'я змінної у домені або глобально.\n"
+"  {opt} - Опції:\n"
+"    w - дозволений для запису;\n"
+"    s - одиночний запит;\n"
+"    /{NN} - запит у циклі кратному до номеру {N} [2...99].\n"
+"  {tp} - примусовий тип:\n"
+"    bool - логічний;\n"
+"    real - реальний;\n"
+"    int - цілий;\n"
+"    string - рядок;\n"
+"    struct - структура;\n"
+"    array - масив;\n"
+"  {id} - примусовий ID атрибуту.\n"
+"  {name} - примусове ім'я атрибуту."
+
+msgid "Variable append"
+msgstr "Додавання змінної"
+
+msgid "1:Parameter disabled."
+msgstr "1:Параметр вимкнено."
+
+msgid "2:Acquisition stopped."
+msgstr "2:Збір зупинено."
+
+#, c-format
+msgid "Write to '%s' error: %s."
+msgstr "Помилка запису до '%s': %s."

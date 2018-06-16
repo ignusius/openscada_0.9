@@ -1,0 +1,2113 @@
+# OpenSCADA.UI.VCAEngine translate to Russian.
+# This file is distributed under the same license as the OpenSCADA.UI.VCAEngine package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2006-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.UI.VCAEngine 1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-28 20:27+0300\n"
+"PO-Revision-Date: 2007-10-30 10:48+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Loading widgets library."
+msgstr "Загрузка библиотеки виджетов."
+
+msgid "Saving widgets library."
+msgstr "Сохранение библиотеки виджетов."
+
+msgid "Enabling widgets library."
+msgstr "Включение библиотеки виджетов."
+
+msgid "Disabling widgets library."
+msgstr "Отключение библиотеки виджетов."
+
+#, c-format
+msgid "Error enabling/disabling widget '%s': %s."
+msgstr "Ошибка включения/отключения виджета '%s': %s."
+
+msgid "Widgets library: "
+msgstr "Библиотека виджетов: "
+
+msgid "Widget"
+msgstr "Виджет"
+
+msgid "Library"
+msgstr "Библиотека"
+
+msgid "State"
+msgstr "Состояние"
+
+msgid "Enabled"
+msgstr "Включен"
+
+msgid "Library DB"
+msgstr "БД библиотеки"
+
+msgid ""
+"DB address in the format \"{DB module}.{DB name}.{Table name}\".\n"
+"To use the main working DB, set '*.*'."
+msgstr ""
+"Адрес БД в формате \"{Модуль БД}.{Имя БД}.{Имя таблицы}\".\n"
+"Для использования основной рабочей БД установить '*.*'."
+
+msgid "Date of modification"
+msgstr "Дата модификации"
+
+msgid "Used"
+msgstr "Использован"
+
+msgid "Configuration"
+msgstr "Конфигурация"
+
+msgid "Identifier"
+msgstr "Идентификатор"
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Icon"
+msgstr "Иконка"
+
+msgid "Widgets"
+msgstr "Виджет"
+
+msgid "Mime data"
+msgstr "Mime данные"
+
+msgid "Mime type"
+msgstr "Mime тип"
+
+msgid "Data"
+msgstr "Данные"
+
+#, c-format
+msgid "Widget '%s' is already present!"
+msgstr "Виджет '%s' уже присутствует!"
+
+msgid "Widget is not container!"
+msgstr "Виджет не контейнер!"
+
+#, c-format
+msgid "Restoring '%s' from the base container!"
+msgstr "Восстановление '%s' из базового контейнера!"
+
+msgid "Library widget: "
+msgstr "Библиотечный виджет: "
+
+#, c-format
+msgid "Error enabling the inheriting widget '%s'."
+msgstr "Ошибка включения наследующего виджета '%s'."
+
+#, c-format
+msgid "Link to the widget '%s'."
+msgstr "Ссылка на виджет '%s'."
+
+msgid "Impossible deleting the base primitive-widget."
+msgstr "Невозможно удаления базового виджета-примитива."
+
+#, c-format
+msgid "Base widget '%s'."
+msgstr "Базовый виджет '%s'."
+
+msgid "Parent"
+msgstr "Родитель"
+
+msgid "Elementary figure"
+msgstr "Элементарная фигура"
+
+msgid "Widget of the elementary figure of the finite visualization."
+msgstr "Виджет элементарной фигуры конечной визуализации."
+
+msgid "Line: width"
+msgstr "Линия: ширина"
+
+msgid "Line: color"
+msgstr "Линия: цвет"
+
+msgid "Line: style"
+msgstr "Линия: стиль"
+
+msgid "Solid;Dashed;Dotted"
+msgstr "Сплошная;Пунктир;Точечная"
+
+msgid "Border: width"
+msgstr "Граница: ширина"
+
+msgid "Border: color"
+msgstr "Граница: цвет"
+
+msgid "Fill: color"
+msgstr "Заполнение: цвет"
+
+msgid "Fill: image"
+msgstr "Заполнение: изображение"
+
+msgid "Orientation angle"
+msgstr "Угол поворота"
+
+msgid "Mirroring"
+msgstr "Отражение"
+
+msgid "Elements list"
+msgstr "Список элементов"
+
+msgid "Attributes"
+msgstr "Атрибуты"
+
+msgid ""
+"The elements list can contain:\n"
+"  line:({x}|{y}):({x}|{y})[:{width}[:{color}[:{bord_w}[:{bord_clr}[:"
+"{line_stl}]]]]]\n"
+"  line:{p1}:{p2}[:w{n}[:c{n}[:w{n}[:c{n}[:s{n}]]]]]\n"
+"  arc:({x}|{y}):({x}|{y}):({x}|{y}):({x}|{y}):({x}|{y})[:{width}[:{color}[:"
+"{bord_w}[:{bord_clr}[:{line_stl}]]]]]\n"
+"  arc:{p1}:{p2}:{p3}:{p4}:{p5}[:w{n}[:c{n}[:w{n}[:c{n}[:s{n}]]]]]\n"
+"  bezier:({x}|{y}):({x}|{y}):({x}|{y}):({x}|{y})[:{width}[:{color}[:{bord_w}"
+"[:{bord_clr}[:{line_stl}]]]]]\n"
+"  bezier:{p1}:{p2}:{p3}:{p4}[:w{n}[:c{n}[:w{n}[:c{n}[:s{n}]]]]]\n"
+"  fill:({x}|{y}):({x}|{y}):...:({x}|{y})[:{fill_clr}[:{fill_img}]]\n"
+"  fill:{p1}:{p2}:...:{pN}[:c{n}[:i{n}]]\n"
+"Where:\n"
+"  x, y            - direct point (x,y), coordinate in float point pixels;\n"
+"  p1 ... pN       - dynamic point 1...n;\n"
+"  width, bord_w   - direct line and border width in float point pixels;\n"
+"  w{n}            - dynamic width 'n';\n"
+"  color, bord_clr, fill_clr - direct line, border and fill color name or "
+"32bit code whith alpha: {name}[-{AAA}], #RRGGBB-AAA;\n"
+"  c{n}            - dynamic color 'n';\n"
+"  line_stl        - direct line style: 0-Solid, 1-Dashed, 2-Dotted;\n"
+"  s{n}            - dynamic style 'n';\n"
+"  fill_img        - direct image of the filling in the form \"[{src}:]"
+"{name}\", where:\n"
+"     \"src\"      - image source:\n"
+"        file      - directly from a local file by the path;\n"
+"        res       - from table of DB-mime resources.\n"
+"     \"name\"     - file path or mime-resource identifier.\n"
+"  i{n}            - dynamic image of the filling 'n'.\n"
+"For example:\n"
+"  line:(50|25):(90.5|25):2:yellow:3:green:2\n"
+"  arc:(25|50):(25|50):1:4:(25|50)::#000000-0\n"
+"  fill:(25|50):(25|50):c2:i2\n"
+"  fill:(50|25):(90.5|25):(90|50):(50|50):#d3d3d3:h_31"
+msgstr ""
+"Список элементов может содержать:\n"
+"  line:({x}|{y}):({x}|{y})[:{width}[:{color}[:{bord_w}[:{bord_clr}[:"
+"{line_stl}]]]]]\n"
+"  line:{p1}:{p2}[:w{n}[:c{n}[:w{n}[:c{n}[:s{n}]]]]]\n"
+"  arc:({x}|{y}):({x}|{y}):({x}|{y}):({x}|{y}):({x}|{y})[:{width}[:{color}[:"
+"{bord_w}[:{bord_clr}[:{line_stl}]]]]]\n"
+"  arc:{p1}:{p2}:{p3}:{p4}:{p5}[:w{n}[:c{n}[:w{n}[:c{n}[:s{n}]]]]]\n"
+"  bezier:({x}|{y}):({x}|{y}):({x}|{y}):({x}|{y})[:{width}[:{color}[:{bord_w}"
+"[:{bord_clr}[:{line_stl}]]]]]\n"
+"  bezier:{p1}:{p2}:{p3}:{p4}[:w{n}[:c{n}[:w{n}[:c{n}[:s{n}]]]]]\n"
+"  fill:({x}|{y}):({x}|{y}):...:({x}|{y})[:{fill_clr}[:{fill_img}]]\n"
+"  fill:{p1}:{p2}:...:{pN}[:c{n}[:i{n}]]\n"
+"Где:\n"
+"  x, y            - прямая точка (x,y), координаты в пикселах с плавающей "
+"точкой;\n"
+"  p1 ... pN       - динамические точки 1...n;\n"
+"  width, bord_w   - прямая ширина линии и бордюра в пикселах с плавающей "
+"точкой;\n"
+"  w{n}            - динамическая ширина 'n';\n"
+"  color, bord_clr, fill_clr - прямой цвет линии, бордюра и заполнения в виде "
+"имени или 32-битного кода с альфа: {имя}[-{AAA}], #RRGGBB-AAA;\n"
+"  c{n}            - динамический цвет 'n';\n"
+"  line_stl        - прямой стиль линии: 0-Сплошная, 1-Пунктирная, 2-"
+"Точечная;\n"
+"  s{n}            - динамический стиль 'n';\n"
+"  fill_img        - прямое изображение заполнения в формате \"[{src}:]"
+"{name}]\", где:\n"
+"     \"src\"      - источник изображения:\n"
+"         file     - непосредственно из локального файла по пути;\n"
+"         res      - из таблицы mime-ресурсов БД.\n"
+"     \"name\"     - путь файла или идентификатор mime-ресурса.\n"
+"  i{n}            - динамическое изображение заполнения 'n'.\n"
+"Например:\n"
+"  line:(50|25):(90.5|25):2:yellow:3:green:2\n"
+"  arc:(25|50):(25|50):1:4:(25|50)::#000000-0\n"
+"  fill:(25|50):(25|50):c2:i2\n"
+"  fill:(50|25):(90.5|25):(90|50):(50|50):#d3d3d3:h_31"
+
+msgid "Point "
+msgstr "Точка "
+
+msgid "Width "
+msgstr "Ширина "
+
+msgid "Color "
+msgstr "Цвет "
+
+msgid "Image "
+msgstr "Изображение "
+
+msgid "Style "
+msgstr "Стиль "
+
+msgid "Form element"
+msgstr "Элементы формы"
+
+msgid "Form element widget of the finite visualization."
+msgstr "Виджет элемента формы конечной визуализации."
+
+msgid "Element type"
+msgstr "Тип элемента"
+
+msgid ""
+"Line edit;Text edit;Check box;Button;Combo box;List;Tree;Table;Slider;Scroll "
+"Bar"
+msgstr ""
+"Строка редактирования;Текстовый редактор;Check Box;Кнопка;Combo Box;Список;"
+"Дерево;Таблица;Слайдер;Полоса прокрутки"
+
+msgid "Value"
+msgstr "Значение"
+
+msgid "View"
+msgstr "Вид"
+
+msgid "Text;Combo;Integer;Real;Time;Date;Date and time"
+msgstr "Текст;Combo;Целое;Вещественное;Время;Дата;Дата и время"
+
+msgid "Confirm"
+msgstr "Подтверждать"
+
+msgid "Font"
+msgstr "Шрифт"
+
+msgid "Word wrap"
+msgstr "Перенос слов"
+
+msgid "Repeat"
+msgstr "Повтор"
+
+msgid "Image"
+msgstr "Изображение"
+
+msgid "Color: button"
+msgstr "Цвет: кнопка"
+
+msgid "Color: text"
+msgstr "Цвет: текст"
+
+msgid "Mode"
+msgstr "Режим"
+
+msgid "Standard;Checkable;Menu;Load;Save"
+msgstr "Стандарт;Переключатель;Меню;Загрузка;Сохранение"
+
+msgid "Items"
+msgstr "Элементы"
+
+msgid "Set value"
+msgstr "Установл. значение"
+
+msgid "Multiple selection"
+msgstr "Множественный выбор"
+
+msgid "Check"
+msgstr "Выбор"
+
+msgid "File content"
+msgstr "Содержимое файла"
+
+msgid ""
+"Enter text line by the template with the char items:\n"
+"  'A' - ASCII alphabetic character required. A-Z, a-z.\n"
+"  'a' - ASCII alphabetic character permitted but not required.\n"
+"  'N' - ASCII alphanumeric character required. A-Z, a-z, 0-9.\n"
+"  'n' - ASCII alphanumeric character permitted but not required.\n"
+"  'X' - Any character required.\n"
+"  'x' - Any character permitted but not required.\n"
+"  '9' - ASCII digit required. 0-9.\n"
+"  '0' - ASCII digit permitted but not required.\n"
+"  'D' - ASCII digit required. 1-9.\n"
+"  'd' - ASCII digit permitted but not required (1-9).\n"
+"  '#' - ASCII digit or plus/minus sign permitted but not required.\n"
+"  'H' - Hexadecimal character required. A-F, a-f, 0-9.\n"
+"  'h' - Hexadecimal character permitted but not required.\n"
+"  'B' - Binary character required. 0-1.\n"
+"  'b' - Binary character permitted but not required.\n"
+"  '>' - All following alphabetic characters are uppercased.\n"
+"  '<' - All following alphabetic characters are lowercased.\n"
+"  '!' - Switch off case conversion.\n"
+"  '\\' - Use to escape the special characters listed above to use them as "
+"separators."
+msgstr ""
+"Ввод строки текста по шаблону с символьными элементами:\n"
+"  'A' - Необходим ASCII алфавитный символ. A-Z, a-z.\n"
+"  'a' - Разрешён но не необходим ASCII алфавитный символ.\n"
+"  'N' - Необходим ASCII алфавитно-цифровой символ. A-Z, a-z, 0-9.\n"
+"  'n' - Разрешён но не необходим ASCII алфавитно-цифровой символ.\n"
+"  'X' - Необходим любой символ.\n"
+"  'x' - Разрешён но не необходим любой символ.\n"
+"  '9' - ASCII цифра необходима. 0-9.\n"
+"  '0' - ASCII цифра разрешена но не необходима.\n"
+"  'D' - ASCII цифра необходима. 1-9.\n"
+"  'd' - ASCII цифра разрешена но не необходима (1-9).\n"
+"  '#' - ASCII цифра или знаки плюс/минус разрешены но не необходимы.\n"
+"  'H' - Необходим символ шестнадцатеричного числа. A-F, a-f, 0-9.\n"
+"  'h' - Разрешён но не необходим символ шестнадцатеричного числа.\n"
+"  'B' - Необходим бинарный символ. 0-1.\n"
+"  'b' - Разрешён но не необходим бинарный символ.\n"
+"  '>' - Все следующие алфавитные символы в верхнем регистре.\n"
+"  '<' - Все следующие алфавитные символы в нижнем регистре.\n"
+"  '!' - Выключение преобразования регистра.\n"
+"  '\\' - Используйте в разделителях для экранирования специальных символов, "
+"которые перечислены."
+
+msgid "List of values the editable combobox by lines."
+msgstr "Список значений редактируемого комбо-бокса по строкам."
+
+msgid ""
+"Integer value configuration in the form: \"{Min}:{Max}:{ChangeStep}:{Prefix}:"
+"{Suffix}\"."
+msgstr ""
+"Значение целого числа в форме: \"{Минимум}:{Максимум}:{ШагИзменения}:"
+"{Префикс}:{Суффикс}\"."
+
+msgid ""
+"Real value configuration in the form: \"{Min}:{Max}:{ChangeStep}:{Prefix}:"
+"{Suffix}:{SignsAfterDot}\"."
+msgstr ""
+"Значение вещественного числа в форме: \"{Минимум}:{Максимум}:{ШагИзменения}:"
+"{Префикс}:{Суффикс}:{ЗнаковПослеТочки}\"."
+
+msgid ""
+"Enter date and/or time by the template with the items:\n"
+"  \"d\" - number of the day (1-31);\n"
+"  \"dd\" - number of the day (01-31);\n"
+"  \"ddd\" - acronym of the day ('Mon' ... 'Sun');\n"
+"  \"dddd\" - the full name of the day ('Monday' ... 'Sunday');\n"
+"  \"M\" - number of the month (1-12);\n"
+"  \"MM\" - number of the month (01-12);\n"
+"  \"MMM\" - acronym of the month ('Jan' ... 'Dec');\n"
+"  \"MMMM\" - the full name of the month ('January' ... 'December');\n"
+"  \"yy\" - the last two digits of the year;\n"
+"  \"yyyy\" - the full year;\n"
+"  \"h\" - hour (0-23);\n"
+"  \"hh\" - hour (00-23);\n"
+"  \"m\" - minutes (0-59);\n"
+"  \"mm\" - minutes (00-59);\n"
+"  \"s\" - seconds (0-59);\n"
+"  \"ss\" - seconds (00-59);\n"
+"  \"AP,ap\" - to display AM/PM or am/pm."
+msgstr ""
+"Ввод даты и/или времени по шаблону с элементами:\n"
+"  \"d\" - номер дня (1-31);\n"
+"  \"dd\" - номер дня (01-31);\n"
+"  \"ddd\" - сокращённое наименование дня ('Mon' ... 'Sun');\n"
+"  \"dddd\" - полное наименование дня ('Monday' ... 'Sunday');\n"
+"  \"M\" - номер месяца (1-12);\n"
+"  \"MM\" - номер месяца (01-12);\n"
+"  \"MMM\" - сокращённое наименование месяца ('Jan' ... 'Dec');\n"
+"  \"MMMM\" - полное наименование месяца ('January' ... 'December');\n"
+"  \"yy\" - последние две цифры года;\n"
+"  \"yyyy\" - год полностью;\n"
+"  \"h\" - час (0-23);\n"
+"  \"hh\" - час (00-23);\n"
+"  \"m\" - минуты (0-59);\n"
+"  \"mm\" - минуты (00-59);\n"
+"  \"s\" - секунды (0-59);\n"
+"  \"ss\" - секунды (00-59);\n"
+"  \"AP,ap\" - отображать AM/PM или am/pm."
+
+msgid ""
+"Operation modes of the button:\n"
+"  \"Standard\" - standard button with the ability to repeat the events when "
+"hold (the parameters in \"value\");\n"
+"  \"Checkable\" - checkable button (the value in \"value\");\n"
+"  \"Menu\" - opening menu by click (the list of items in \"value\");\n"
+"  \"Load\" - provides user downloading of small files through the "
+"visualization interface;\n"
+"             at the push of a button, in this mode, the dialog opens the "
+"file selection for download,\n"
+"             and the content of the selected file is loaded to the attribute "
+"\"value\";\n"
+"  \"Save\" - provides user saving small files through the interface of "
+"visualization;\n"
+"             after the contents of the file have been written to the \"value"
+"\" attribute,\n"
+"             a dialog will be opened for selecting-defining a file to save, "
+"after which the contents\n"
+"             of the attribute \"value\" will be saved to the file and it "
+"will be cleared itself."
+msgstr ""
+"Режим работы кнопки:\n"
+"  \"Стандарт\" - обычная кнопка с возможностью повтора событий при удержании "
+"(параметры в \"value\");\n"
+"  \"Переключатель\" - кнопка с фиксацией (значение в \"value\");\n"
+"  \"Меню\" - открытие меню по нажатию (перечень элементов в \"value\");\n"
+"  \"Загрузка\" - организация пользовательской загрузки небольших файлов "
+"через интерфейс визуализации;\n"
+"                 при нажатии кнопки в этом режиме открывается диалог выбора "
+"файла для загрузки,\n"
+"                 а содержимое выбранного файла загружается в атрибут \"value"
+"\";\n"
+"  \"Сохранение\" - организация пользовательского сохранения небольших файлов "
+"через интерфейс визуализации;\n"
+"                 при записи содержимого файла в атрибут \"value\" "
+"пользователю будет открыт диалог выбора/указания\n"
+"                 файла для сохранения, после выбора содержимое атрибута "
+"\"value\" сохранится в файл, а \"value\" очистится."
+
+msgid ""
+"Parameters of the repeating of the events at holding the button \"{delay}-"
+"{interval}\", time in milliseconds."
+msgstr ""
+"Параметры повтора событий при удержании \"{задержка}-{интервал}\", время в "
+"миллисекундах."
+
+msgid "Value of the toggle."
+msgstr "Значение переключателя."
+
+msgid "List of menu items in the form \"/grp1/grp2/item1\"."
+msgstr "Cписок адресов элементов меню вида \"/grp1/grp2/item1\"."
+
+msgid ""
+"First line of the descriptor \"{FilesTemplate}|{Header}|"
+"{FileByDefaultAndLoaded}|{FileMime}\" and the loaded file content from the "
+"next line.\n"
+"The files template writing like to \"Images (*.png *.xpm *.jpg);;CSV-file (*."
+"csv)\"."
+msgstr ""
+"Первая строка описания \"{ШаблонФайлов}|{Заголовок}|{ФайлПоУмолчаниюИЗагруж}|"
+"{MimeФайла}\" и содержимое загруженного файла начиная со следующей строки.\n"
+"Шаблон файлов в виде \"Изображение (*.png *.xpm *.jpg);;CSV-файл (*.csv)\"."
+
+msgid ""
+"First line of the descriptor \"{FilesTemplate}|{Header}|{FileByDefault}|"
+"{FileMime}\" and the saving file content from the next line.\n"
+"The files template writing like to \"Images (*.png *.xpm *.jpg);;CSV-file (*."
+"csv)\"."
+msgstr ""
+"Строка описания \"{ШаблонФайлов}|{Заголовок}|{ФайлПоУмолчанию}|{MimeФайла}\" "
+"и содержимое загруженного файла начиная со следующей строки.\n"
+"Шаблон файлов в виде \"Изображение (*.png *.xpm *.jpg);;CSV-файл (*.csv)\"."
+
+msgid ""
+"List of the hierarchical items by the path \"/{DIR}/{DIR}/{ITEM}\" per line."
+msgstr ""
+"Список иерархических элементов в виде пути \"/{КАТ}/{КАТ}/{ЭЛЕМ}\" по "
+"строкам."
+
+msgid "List of items-values by lines."
+msgstr "Список элементов-значений по строкам."
+
+msgid ""
+"Configuration of the slider in the format: \"{VertOrient}:{Min}:{Max}:"
+"{SinglStep}:{PageStep}\".\n"
+"Where:\n"
+"  \"VertOrient\" - sign of the vertical orientation, the default one is the "
+"horizontal orientation;\n"
+"  \"Min\" - minimum value;\n"
+"  \"Max\" - maximum value;\n"
+"  \"SinglStep\" - the size of a single step;\n"
+"  \"PageStep\" - the size of the page step."
+msgstr ""
+"Конфигурация слайдера в формате: \"{ВертОриент}:{Минимум}:{Максимум}:"
+"{ОдинШаг}:{СтрШаг}\".\n"
+"Где:\n"
+"  \"ВертОриент\" - признак вертикальной ориентации, по умолчанию ориентация "
+"горизонтальная;\n"
+"  \"Минимум\" - минимальное значение;\n"
+"  \"Максимум\" - максимальное значение;\n"
+"  \"ОдинШаг\" - размер одного шага;\n"
+"  \"СтрШаг\" - размер страничного шага."
+
+msgid ""
+"XML tag \"tbl\" for the table fill:\n"
+"  <tbl>\n"
+"    <h><s>{Header1}</s><s>{Header2}</s></h>\n"
+"    <r><s>{Row1Column1String}</s><i>{Row1Column1Integer}</i></r>\n"
+"    <r><b>{Row2Column1Logical}</b><r>{Row2Column2Real}</r></r>\n"
+"  </tbl>\n"
+"Tags:\n"
+"  tbl - Table, the properties at all:\n"
+"    sel         - selection mode of the table items:\n"
+"                 \"row\" - by rows, \"col\" - by columns, \"cell\" - by "
+"cells (by default);\n"
+"    keyID       - row-column number of the key, for the selection value "
+"get;\n"
+"    colsWdthFit - fits the columns (in the unfixed size) size to fill the "
+"full width of the table;\n"
+"    hHdrVis, vHdrVis - visibility of the headers, for horizontal and "
+"vertical;\n"
+"    sortEn - enables sorting directly by the columns.\n"
+"  h   - Row of the headers. Possible attributes of the header cell tag for "
+"the column as a whole:\n"
+"    width - column width, in pixels or percents (10%);\n"
+"    edit  - allowing to the cells of the row edition (0 or 1), by default - "
+"no (0);\n"
+"    color - column color as a whole into the color name or code;\n"
+"    colorText - color of the column text as a whole into the color name or "
+"code;\n"
+"    font - font of the column text in the typical OpenSCADA string;\n"
+"    sort - sorting by the column [0 - Descending; 1 - Ascending].\n"
+"  r   - Row of the values. Possible attributes of the row cell tag for the "
+"row as a whole:\n"
+"    color - row color as a whole into the color name or code;\n"
+"    colorText - color of the row text as a whole into the color name or "
+"code;\n"
+"    font - font of the row text in the typical OpenSCADA string.\n"
+"  s, i, r, b - cells of the data types \"String\", \"Integer\", \"Real\" and "
+"\"Logical\". Possible attributes:\n"
+"    color - cell color;\n"
+"    colorText - color of the cell text into the color name or code;\n"
+"    font - font of the cell text in the typical OpenSCADA string;\n"
+"    img - image of the cell into the form \"[{src}:]{name}\";\n"
+"    edit - allowing the cell edition (0 or 1), by default - no (0)."
+msgstr ""
+"XML тег \"tbl\" для заполнения таблицы:\n"
+"  <tbl>\n"
+"    <h><s>{Заголовок1}</s><s>{Заголовок2}</s></h>\n"
+"    <r><s>{Ряд1Колонка1Строка}</s><i>{Ряд1Колонка2Целое}</i></r>\n"
+"    <r><b>{Ряд2Колонка1Логическое}</b><r>{Ряд2Колонка2Вещественное}</r></r>\n"
+"  </tbl>\n"
+"Теги:\n"
+"  tbl - Таблица, свойства таблицы в целом:\n"
+"    sel         - режим выбора-выделения элементов таблицы:\n"
+"                 \"row\" - по строкам, \"col\" - по колонкам, \"cell\" - "
+"ячейками (по умолчанию);\n"
+"    keyID       - номер ключевой строки-колонки, для получения значения "
+"выбора;\n"
+"    colsWdthFit - подстраивать размер колонок (размер которых не фиксирован) "
+"под заполнение всей ширины таблицы;\n"
+"    hHdrVis, vHdrVis - установка видимости горизонтального, вертикального "
+"заголовков;\n"
+"    sortEn - включение прямой сортировки по колонкам.\n"
+"  h   - Строка заголовков. Возможные атрибуты тегов ячеек заголовка для "
+"колонки в целом:\n"
+"    width - ширина колонки, в пикселах или процентах (10%);\n"
+"    edit  - возможность редактирования (0 или 1) ячеек колонки, по умолчанию "
+"— нет (0);\n"
+"    color - цвет колонки в целом, в виде имени цвета или его кода;\n"
+"    colorText - цвет текста колонки в целом, в виде имени цвета или его "
+"кода;\n"
+"    font - шрифт текста колонки в целом, в виде типовой строки OpenSCADA;\n"
+"    sort - сортировка по данной колонке [0 - по убыванию; 1 - по "
+"возрастанию].\n"
+"  r   - Ряд значений. Возможные атрибуты тегов ячеек ряда для ряда в целом:\n"
+"    color - цвет ряда в целом, в виде имени цвета или его кода;\n"
+"    colorText - цвет текста ряда в целом, в виде имени цвета или его кода;\n"
+"    font - шрифт текста ряда в целом, в виде типовой строки OpenSCADA.\n"
+"  s, i, r, b - ячейки типов данных \"Строка\", \"Целое\", \"Вещественное\" и "
+"\"Логическое\". Возможные атрибуты:\n"
+"    color - цвет фона ячейки;\n"
+"    colorText - цвет текста ячейки, в виде имени цвета или его кода;\n"
+"    font - шрифт текста ячейки, в виде типовой строки OpenSCADA;\n"
+"    img - изображение ячейки в форме \"[{src}:]{name}\";\n"
+"    edit - возможность редактирования (0 или 1) ячейки колонки, по умолчанию "
+"— нет (0)."
+
+msgid "Text field"
+msgstr "Текстовое поле"
+
+msgid "Text field widget of the finite visualization."
+msgstr "Виджет текстового поля конечной визуализации."
+
+msgid "Background: color"
+msgstr "Фон: цвет"
+
+msgid "Background: image"
+msgstr "Фон: изображение"
+
+msgid "Border: style"
+msgstr "Граница: стиль"
+
+msgid "None;Dotted;Dashed;Solid;Double;Groove;Ridge;Inset;Outset"
+msgstr ""
+"Нет;Точечный;Пунктирный;Сплошной;Двойной;Канавка;Кромка;Вдавлен;Выступающий"
+
+msgid "Color"
+msgstr "Цвет"
+
+msgid "Alignment"
+msgstr "Выравнивание"
+
+msgid ""
+"Top left;Top right;Top center;Top justify;Bottom left;Bottom right;Bottom "
+"center;Bottom justify;V center left;V center right;Center;V center justify"
+msgstr ""
+"Вверху слева;Вверху справа;Вверху в центре;Вверху по ширине;Внизу слева;"
+"Внизу справа;Внизу в центре;Внизу по ширине;В центре слева;В центре справа;В "
+"центре;В центре по ширине"
+
+msgid "In HTML"
+msgstr "В HTML"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "Arguments number"
+msgstr "Количество аргументов"
+
+msgid "Argument "
+msgstr "Аргумент "
+
+msgid ": type"
+msgstr ": тип"
+
+msgid "Integer;Real;String"
+msgstr "Целый;Вещественный;Строка"
+
+msgid ": value"
+msgstr ": значение"
+
+msgid ": config"
+msgstr ": конфигурация"
+
+msgid ""
+"Text value in HTML. Use \"%{x}\" for argument \"x\" (from 1) value insert."
+msgstr ""
+"Значение текста в HTML. Используйте \"%{n}\" для помещения значения "
+"аргумента \"n\" (от 1)."
+
+msgid "Text value. Use \"%{x}\" for argument \"x\" (from 1) value insert."
+msgstr ""
+"Значение текста. Используйте \"%{n}\" для помещения значения аргумента \"n"
+"\" (от 1)."
+
+msgid "Integer value configuration in the form \"{len}\"."
+msgstr "Конфигурация целого значения в форме \"{длина}\"."
+
+msgid ""
+"Real value configuration in the form: \"{width};{form};{prec}\".\n"
+"Where \"form\" is 'g', 'e' or 'f'."
+msgstr ""
+"Конфигурация вещественного значения в форме: \"{ширина};{форма};"
+"{точность}\".\n"
+"Где \"форма\" это 'g', 'e' или 'f'."
+
+msgid "String value configuration in the form \"{len}\"."
+msgstr "Конфигурация строкового значения в форме \"{длина}\"."
+
+msgid "Media"
+msgstr "Медиа"
+
+msgid "Media widget of the finite visualization."
+msgstr "Медиа виджет конечной визуализации."
+
+msgid "Source"
+msgstr "Источник"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Image;Animation;Full video"
+msgstr "Изображение;Анимация;Полное видео"
+
+msgid "Map areas"
+msgstr "Области карты"
+
+msgid "Fit to the widget size"
+msgstr "Вписывать в размеры виджета"
+
+msgid "Play speed"
+msgstr "Скорость проигрывания"
+
+msgid "Play"
+msgstr "Играть"
+
+msgid "Roll play"
+msgstr "Завор. проигр."
+
+msgid "Pause"
+msgstr "Пауза"
+
+msgid "Size"
+msgstr "Размер"
+
+msgid "Seek"
+msgstr "Положение"
+
+msgid "Volume"
+msgstr "Громкость"
+
+msgid "Area "
+msgstr "Область "
+
+msgid ": shape"
+msgstr ": образ"
+
+msgid "Rect;Poly;Circle"
+msgstr "Квадрат;Полилиния;Окружность"
+
+msgid ": coordinates"
+msgstr ": координаты"
+
+msgid ": title"
+msgstr ": заголовок"
+
+msgid ""
+"Name of the media source in the form \"[{src}:]{name}\", where:\n"
+"  \"src\" - source:\n"
+"    file - directly from a local file (for visualizator or engine) by the "
+"path;\n"
+"    res - from table of DB-mime resources;\n"
+"    stream - stream URL to play video and audio.\n"
+"  \"name\" - file path or mime-resource identifier.\n"
+"Examples:\n"
+"  \"res:workMedia\" - from the table of DB-mime resources for the ID "
+"\"workMedia\";\n"
+"  \"workMedia\" - like to the previous;\n"
+"  \"file:/var/tmp/workMedia.mng\" - from a local file by the path \"/var/tmp/"
+"workMedia.mng\";\n"
+"  \"stream:http://localhost.localhost:5050\" - playing the stream video and "
+"audio from the URL."
+msgstr ""
+"Имя источника медиа в форме \"[{src}:]{name}\", где:\n"
+"  \"src\" - источник:\n"
+"    file - прямо из локального (визуализатор и движок) файла по пути;\n"
+"    res - из таблицы mime-ресурсов БД;\n"
+"    stream - URL потока проигрывания видео или аудио.\n"
+"  \"name\" - путь файла или идентификатор mime-ресурса.\n"
+"Примеры:\n"
+"  \"res:workMedia\" - из таблицы mime-ресурсов БД для идентификатора "
+"\"workMedia\";\n"
+"  \"workMedia\" - как и предыдущий;\n"
+"  \"file:/var/tmp/workMedia.mng\" - из локального файла по пути \"/var/tmp/"
+"workMedia.mng\";\n"
+"  \"stream:http://localhost.localhost:5050\" - проигрывание видео или аудио "
+"из URL."
+
+msgid ""
+"Media type variant:\n"
+"  \"Image\" - raster or vector image, like to: PNG, JPEG, GIF, SVG;\n"
+"  \"Animation\" - simple animation image, like to: GIF, MNG;\n"
+"  \"Full video\" - full video, audio or stream, like to: OGG, OGM, AVI, MKV, "
+"MPG, MP3, MP4."
+msgstr ""
+"Тип медиа, вариант:\n"
+"  \"Изображение\" - растровое или векторное изображение, вроде: PNG, JPEG, "
+"GIF, SVG;\n"
+"  \"Анимация\" - простое анимированное изображение, вроде: GIF, MNG;\n"
+"  \"Полное видео\" - полное видео, аудио или поток, вроде: OGG, OGM, AVI, "
+"MKV, MPG, MP3, MP4."
+
+msgid "Rectangle area in the form \"x1,y1,x2,y2\"."
+msgstr "Прямоугольная область в форме \"x1,y1,x2,y2\"."
+
+msgid "Polygon area in the form \"x1,y1,x2,y2,xN,yN\"."
+msgstr "Полигонная область в форме \"x1,y1,x2,y2,xN,yN\"."
+
+msgid "Circle area in the form \"x,y,r\"."
+msgstr "Круговая область в форме \"x,y,r\"."
+
+msgid "Diagram"
+msgstr "Диаграмма"
+
+msgid "Diagram widget of the finite visualization."
+msgstr "Виджет диаграммы конечной визуализации."
+
+msgid "Tracing period, seconds"
+msgstr "Период слежения, секунд"
+
+msgid "Trend;Spectrum;XY"
+msgstr "График;Спектр;XY"
+
+msgid "Cursor: seconds"
+msgstr "Курсор: секунды"
+
+msgid "Cursor: microseconds"
+msgstr "Курсор: микросекунды"
+
+msgid "Cursor: color"
+msgstr "Курсор: цвет"
+
+msgid "Scale: horizontal grid size, seconds"
+msgstr "Шкала: размер гор. решетки, секунды"
+
+msgid "Time: seconds"
+msgstr "Время: секунды"
+
+msgid "Time: microseconds"
+msgstr "Время: микросекунды"
+
+msgid "Size, seconds"
+msgstr "Размер, секунды"
+
+msgid "Scale: color"
+msgstr "Шкала: цвет"
+
+msgid "Scale: horizontal"
+msgstr "Шкала: горизонтальная"
+
+msgid ""
+"No draw;Grid;Markers;Grid and markers;Grid (log);Markers (log);Grid and "
+"markers (log)"
+msgstr ""
+"Не рисовать;Решетка;Маркеры;Решетка и маркеры;Решетка (лог);Маркеры (лог);"
+"Решетка и маркеры (лог)"
+
+msgid "Scale: horizontal scale (%)"
+msgstr "Шкала: гориз. масштаб (%)"
+
+msgid "Scale: horizontal scale offset (%)"
+msgstr "Шкала: смещ. гориз. масштаба (%)"
+
+msgid "Scale: vertical"
+msgstr "Шкала: вертикальная"
+
+msgid "Scale: vertical scale (%)"
+msgstr "Шкала: верт. масштаб (%)"
+
+msgid "Scale: vertical scale offset (%)"
+msgstr "Шкала: смещ. верт. масштаба (%)"
+
+msgid "Scale: Markers: color"
+msgstr "Шкала: Маркеры: цвет"
+
+msgid "Scale: Markers: font"
+msgstr "Шкала: Маркеры: шрифт"
+
+msgid "Value archiver"
+msgstr "Архиватор значений"
+
+msgid "Values per pixel"
+msgstr "Значений на пиксель"
+
+msgid "Parameters number"
+msgstr "Количество параметров"
+
+msgid "Parameter "
+msgstr "Параметр "
+
+msgid ": address"
+msgstr ": адрес"
+
+msgid ": view border: lower"
+msgstr ": граница отображ.: нижняя"
+
+msgid ": view border: upper"
+msgstr ": граница отображ.: верхняя"
+
+msgid ": color"
+msgstr ": цвет"
+
+msgid ": width"
+msgstr ": ширина"
+
+msgid ": scale"
+msgstr ": шкала"
+
+msgid "Global;Markers;Grid and markers;Markers (log);Grid and markers (log)"
+msgstr ""
+"Глобально;Маркеры;Решетка и маркеры;Маркеры (лог);Решетка и маркеры (лог)"
+
+msgid ": properties"
+msgstr ": свойства"
+
+msgid "Value archiver in the form \"{ArchMod}.{ArchiverId}\"."
+msgstr "Архиватор значений в форме \"{МодульАрхивов}.{IdАрхиватора}\"."
+
+msgid ""
+"Number of the values per pixel. Increase to enhance the export accuracy at "
+"large time intervals."
+msgstr ""
+"Количество значений на пиксел. Увеличить для расширения точности экспорта на "
+"больших интервалах времени."
+
+msgid ""
+"Full address to the DAQ attribute of the parameter or to the archive.\n"
+"Data installation by the direct prefix is supported:\n"
+"  \"data:{XMLNodeData}\" - drawing from the direct set data;\n"
+"  \"line:{value}\" - drawing horizontal line by the value, no sense have for "
+"the type \"XY\".\n"
+"Example:\n"
+"  \"/DAQ/System/AutoDA/MemInfo/use\" - address to the attribute \"use\" of "
+"the parameter \"MemInfo\"\n"
+"    of the controller \"AutoDA\" of the DAQ module \"System\";\n"
+"  \"/Archive/va_CPULoad_load\" - address to the archive \"CPULoad_load\";\n"
+"  \"data:<d s=\"1\" tm=\"1369465209\" tm_grnd=\"1369465200\" per=\"1\">\n"
+"    0 3.14\n"
+"    1 3.141\n"
+"    5 3.1415</d> - data for 10 seconds and period in 1 second from "
+"\"25.05.2013 10:00:00\";\n"
+"      in the absence of \"tm\" and \"tm_grnd\" they will be set from the "
+"range of the diagram,\n"
+"      and setting the attribute \"s\" will allow you to specify the time in "
+"seconds;\n"
+"  \"line:3.14159265\" - horizontal line for the value \"3.14159265\"."
+msgstr ""
+"Полный адрес к атрибуту параметра DAQ или архиву.\n"
+"Также поддерживается прямая установка данных по префиксу:\n"
+"  \"data:{XMLNodeData}\" - отрисовка из прямо установленных данных;\n"
+"  \"line:{значение}\" - отрисовка горизонтальной линии по значению, не имеет "
+"смысла для типа \"XY\".\n"
+"Пример:\n"
+"  \"/DAQ/System/AutoDA/MemInfo/use\" - адрес к атрибуту \"use\" параметра "
+"\"MemInfo\"\n"
+"\t    контроллера \"AutoDA\" DAQ модуля \"System\";\n"
+"  \"/Archive/va_CPULoad_load\" - адрес к архиву \"CPULoad_load\";\n"
+"  \"data:<d s=\"1\" tm=\"1369465209\" tm_grnd=\"1369465200\" per=\"1\">\n"
+"    0 3.14\n"
+"    1 3.141\n"
+"    5 3.1415</d> - 10 секунд данных с периодом 1 секунда от \"25.05.2013 "
+"10:00:00\";\n"
+"      по отсутствию \"tm\" и \"tm_grnd\" они будут установлены в диапазон "
+"диаграммы,\n"
+"      и установка атрибута \"s\" позволит указывать время в секундах;\n"
+"  \"line:3.14159265\" - горизонтальная линия по значению \"3.14159265\"."
+
+msgid ""
+"Actual archive properties in the form \"{BegArh}:{EndArh}:{DataPeriod}\", "
+"where:\n"
+"  \"BegArh\", \"EndArh\", \"DataPeriod\" - begin, end and period of data of "
+"the archive in seconds,\n"
+"                  it is the real value up to the microseconds deep (1e-6)."
+msgstr ""
+"Свойства актуального архива в виде \"{BegArh}:{EndArh}:{DataPeriod}\", где:\n"
+"  \"BegArh\", \"EndArh\", \"DataPeriod\" - начало, конец и период данных "
+"архива в секундах,\n"
+"                  в реальном представлении глубиной до микросекунд (1e-6)."
+
+msgid "Protocol"
+msgstr "Протокол"
+
+msgid "Protocol widget of the finite visualization."
+msgstr "Виджет формирования протокола конечной визуализации."
+
+msgid "Header visible"
+msgstr "Заголовок видим"
+
+msgid "Time, seconds"
+msgstr "Время, секунды"
+
+msgid "Archiver"
+msgstr "Архиватор"
+
+msgid "Template"
+msgstr "Шаблон"
+
+msgid "Level"
+msgstr "Уровень"
+
+msgid "View order"
+msgstr "Порядок отображения"
+
+msgid ""
+"On time;On level;On category;On messages;On time (reverse);On level "
+"(reverse);On category (reverse);On messages (reverse)"
+msgstr ""
+"По времени;По уровню;По категории;По сообщению;По времени (обратный);По "
+"уровню (обратный);По категории (обратный);По сообщению (обратный)"
+
+msgid "Show columns"
+msgstr "Показать колонки"
+
+msgid "Item properties"
+msgstr "Свойства элемента"
+
+msgid "Item "
+msgstr "Элемент "
+
+msgid ": level"
+msgstr ": уровень"
+
+msgid ": template"
+msgstr ": шаблон"
+
+msgid ": font"
+msgstr ": шрифт"
+
+msgid "Messages archiver in the form \"{ArchMod}.{ArchiverId}\"."
+msgstr "Архиватор сообщений в форме \"{МодульАрхивов}.{IdАрхиватора}\"."
+
+msgid "Set value to \"< 0\" for get the current alarms."
+msgstr "Установите значение \"< 0\" для получения текущих нарушений."
+
+msgid "Set value to \"0\" for get all alarms, for \"lev\" < 0."
+msgstr ""
+"Установите значение в \"0\" для получения всех нарушений, для \"lev\" < 0."
+
+msgid ""
+"Category template or the regular expression \"/{re}/\". For the template "
+"there reserved the special symbols:\n"
+"  '*' - any multiply symbols group;\n"
+"  '?' - any one symbol;\n"
+"  '\\' - use to shield the special simbols."
+msgstr ""
+"Шаблон категории или регулярное выражение \"/{re}/\". Для шаблона "
+"зарезервированы символы:\n"
+"  '*' - множество любых - группа символов;\n"
+"  '?' - любой - один символ;\n"
+"  '\\' - используйте для экранирования специальных символов."
+
+msgid ""
+"List of visible and the columns order separated by the symbol ';'. Supported "
+"columns:\n"
+"  \"pos\" - row number;\n"
+"  \"tm\" - date and time of the message;\n"
+"  \"utm\" - microseconds part of the message time;\n"
+"  \"lev\" - level of the message;\n"
+"  \"cat\" - category of the message;\n"
+"  \"mess\" - text of the message."
+msgstr ""
+"Список видимых и порядок колонок, разделённый символом ';'. Поддерживаются "
+"колонки:\n"
+"  \"pos\" - номер строки;\n"
+"  \"tm\" - дата и время сообщения;\n"
+"  \"utm\" - микросекундная часть времени сообщения;\n"
+"  \"lev\" - уровень сообщения;\n"
+"  \"cat\" - категория сообщения;\n"
+"  \"mess\" - текст сообщения."
+
+msgid "Document"
+msgstr "Документ"
+
+msgid "Document widget of the finite visualization."
+msgstr "Виджет формирования документа конечной визуализации."
+
+msgid "Time: begin"
+msgstr "Время: начало"
+
+msgid "Time: current"
+msgstr "Время: текущее"
+
+msgid "In the process"
+msgstr "В процессе"
+
+msgid "Archive size"
+msgstr "Размер архива"
+
+msgid "Archive: cursor: view"
+msgstr "Архив: курсор: вид"
+
+msgid "Archive: cursor: current"
+msgstr "Архив: курсор: текущий"
+
+msgid "Archive: current document"
+msgstr "Архив: текущий документ"
+
+msgid "Archive: size"
+msgstr "Архив: размер"
+
+msgid "CSS rules in the rows like to \"body { background-color:#818181; }\""
+msgstr "Правила CSS в строках вроде \"body { background-color:#818181; }\""
+
+msgid ""
+"Document template in XHTML. Starts from the tag \"body\" and include the "
+"procedures parts:\n"
+"<body docProcLang=\"JavaLikeCalc.JavaScript\">\n"
+"<h1>Value<?dp return wCod+1.314;?></h1>\n"
+"</body>"
+msgstr ""
+"Шаблон документа в XHTML. Начинается с тега \"body\" и включает процедурные "
+"вставки:\n"
+"<body docProcLang=\"JavaLikeCalc.JavaScript\">\n"
+"<h1>Значение<?dp return wCod+1.314;?></h1>\n"
+"</body>"
+
+msgid "Final document in XHTML, starting from the tag \"body\"."
+msgstr "Финальный документ в XHTML, начинается с тега \"body\"."
+
+msgid ""
+"Write the time for the document generation from the specified one or zero "
+"for regeneration."
+msgstr ""
+"Записать время для генерации документа от этой точки или нуль для "
+"регенерации."
+
+msgid "Current archive document in XHTML, starting from the tag \"body\"."
+msgstr "Текущий документ архива в XHTML, начинается с тега \"body\"."
+
+#, c-format
+msgid "Error parsing the document: %s."
+msgstr "Ошибка разбора документа: %s."
+
+msgid "Result"
+msgstr "Результат"
+
+msgid "Document time"
+msgstr "Время документа"
+
+msgid "Document begin time"
+msgstr "Время начала документа"
+
+msgid "Last time"
+msgstr "Последнее время"
+
+msgid "Repeat time, seconds"
+msgstr "Время повтора, секунд"
+
+msgid "Repeat time, microseconds"
+msgstr "Время повтора, микросекунд"
+
+msgid "Repeat period"
+msgstr "Период повтора"
+
+msgid "Message time, seconds"
+msgstr "Время сообщения, секунд"
+
+msgid "Message time, microseconds"
+msgstr "Время сообщения, микросекунд"
+
+msgid "Message level"
+msgstr "Уровень сообщения"
+
+msgid "Message category"
+msgstr "Категория сообщения"
+
+msgid "Message value"
+msgstr "Значение сообщения"
+
+#, c-format
+msgid "Error compiling function for the document: %s"
+msgstr "Ошибка компиляции функции для документа: %s"
+
+#, c-format
+msgid ""
+"<BODY>\n"
+"  <H1>The document is forming now ...</H1>\n"
+"  <P>The document is too big for generating into the standard user interface "
+"timeout (%ds). And for now the document is into the building. You can wait "
+"the forming finish or terminate the process by select lesser time interval "
+"for the document.</P>\n"
+"  <P>The building progress:\n"
+"    <ul id='progress' />\n"
+"  </P>\n"
+"</BODY>"
+msgstr ""
+"<BODY>\n"
+"  <H1>Документ формируется ...</H1>\n"
+"  <P>Этот документ очень большой для генерации в стандартном таймауте "
+"пользовательского интерфейса (%dс). Сейчас этот документ формируется. Вы "
+"можете подождать завершения формирования или прервать процесс, выбрав "
+"меньший интервал для документа.</P>\n"
+"  <P>Прогресс формирования:\n"
+"    <ul id='progress' />\n"
+"  </P>\n"
+"</BODY>"
+
+#, c-format
+msgid "Error executing instruction '%s': %s"
+msgstr "Ошибка исполнения инструкции '%s': %s"
+
+#, c-format
+msgid "Error code: %s"
+msgstr "Код с ошибкой: %s"
+
+#, c-format
+msgid "Data block %d: %0.2f%% loaded."
+msgstr "Блок данных %d: %0.2f%% загружено."
+
+#, c-format
+msgid "Messages block %d: %0.2f%% loaded."
+msgstr "Блок сообщений %d: %0.2f%% загружено."
+
+msgid "Document generation terminated."
+msgstr "Прервана генерация документа."
+
+msgid "Built-in function"
+msgstr "Встроенная функция"
+
+msgid "Built-in function widget."
+msgstr "Виджет встроенной функции"
+
+msgid "Group of elements"
+msgstr "Группа элементов"
+
+msgid "Widget of the group of elements of the finite visualization."
+msgstr "Виджет группы элементов конечной визуализации."
+
+msgid "Page: source of the opening"
+msgstr "Стр.: источник открытия"
+
+msgid "Page: group"
+msgstr "Стр.: группа"
+
+#, c-format
+msgid "The project '%s' is used now by %d sessions!"
+msgstr "Проект '%s' используется %d сеансами!"
+
+msgid "Loading the project."
+msgstr "Загрузка проекта."
+
+msgid "Enabling the project."
+msgstr "Включение проекта."
+
+msgid "Disabling the project."
+msgstr "Отключение проекта."
+
+msgid "Project: "
+msgstr "Проект: "
+
+msgid "Page"
+msgstr "Страница"
+
+msgid "Project"
+msgstr "Проект"
+
+msgid "Project DB"
+msgstr "БД проекта"
+
+msgid "Owner and group"
+msgstr "Владелец и группа"
+
+msgid "Access"
+msgstr "Доступ"
+
+msgid "No access;View;View and control"
+msgstr "Нет доступа;Обзор;Обзор и управление"
+
+msgid "Period of calculation"
+msgstr "Период вычисления"
+
+msgid "Project's session calculate period on milliseconds."
+msgstr "Период вычисления сессии проекта в миллисекундах."
+
+msgid "Enable as needed"
+msgstr "Включать по надобности"
+
+msgid "Pages"
+msgstr "Страницы"
+
+msgid "Number"
+msgstr "Количество"
+
+msgid "Styles"
+msgstr "Стили"
+
+msgid "Style"
+msgstr "Стиль"
+
+msgid "Properties"
+msgstr "Свойства"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Diagnostics"
+msgstr "Диагностика"
+
+msgid "Time"
+msgstr "Время"
+
+msgid "Messages"
+msgstr "Сообщение"
+
+msgid "mcsec"
+msgstr "мксек"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Message"
+msgstr "Сообщение"
+
+#, c-format
+msgid "Page '%s' is already present!"
+msgstr "Страница '%s' уже присутствует!"
+
+#, c-format
+msgid "All: %d; Enabled: %d"
+msgstr "Всего: %d; Включено: %d"
+
+msgid "New style"
+msgstr "Новый стиль"
+
+msgid "No style"
+msgstr "Нет стиля"
+
+msgid "Create a new style"
+msgstr "Создать новый стиль"
+
+msgid "Page: opened"
+msgstr "Стр.: открыта"
+
+msgid "Page: process not opened"
+msgstr "Стр.: обрабатывать не открытой"
+
+msgid "As a page, only a box based widget can be used!"
+msgstr "Для страниц может быть использован только основанный на Боксе виджет!"
+
+msgid "The widget is not a container!"
+msgstr "Виджет не контейнер!"
+
+msgid "Page is not a container or template!"
+msgstr "Страница не контейнер или шаблон!"
+
+msgid "Project page: "
+msgstr "Страница проекта: "
+
+msgid "Page type"
+msgstr "Тип страницы"
+
+msgid "Standard"
+msgstr "Стандарт"
+
+msgid "Container"
+msgstr "Контейнер"
+
+msgid "Logical container"
+msgstr "Логический контейнер"
+
+msgid "Container and template"
+msgstr "Контейнер и шаблон"
+
+msgid "The variable is not a link"
+msgstr "Переменная не является связью"
+
+msgid "val:Constant value"
+msgstr "val:Постоянная"
+
+msgid "=== Pages ==="
+msgstr "=== Страницы ==="
+
+msgid "=== Widgets ==="
+msgstr "=== Виджеты ==="
+
+msgid "=== Attributes ==="
+msgstr "=== Атрибуты ==="
+
+msgid "Widget link: "
+msgstr "Виджет ссылка: "
+
+msgid "Enabling the session."
+msgstr "Включение сеанса."
+
+#, c-format
+msgid "Time of the previous style loading: %f ms."
+msgstr "Время загрузки предыдущего стиля: %f мс."
+
+#, c-format
+msgid "Time of the root pages creating: %f ms."
+msgstr "Время создания корневых страниц: %f мс."
+
+#, c-format
+msgid "Time of the root pages enabling: %f ms."
+msgstr "Время включения корневых страниц: %f мс."
+
+msgid "Disabling the session."
+msgstr "Отключение сеанса."
+
+msgid "Starting the session."
+msgstr "Запуск сеанса."
+
+#, c-format
+msgid "Time of the styles loading from the project: %f ms."
+msgstr "Время загрузки стилей из проекта: %f мс."
+
+#, c-format
+msgid "Time of the processing all the root pages: %f ms."
+msgstr "Время включения в обработку для всех корневых страниц: %f мс."
+
+#, c-format
+msgid "Time of the processing task starting: %f ms."
+msgstr "Время запуска задачи обработки: %f мс."
+
+msgid "Stopping the session."
+msgstr "Останов сеанса."
+
+#, c-format
+msgid "Error calculating the session '%s'."
+msgstr "Ошибка вычисления сессии '%s'."
+
+#, c-format
+msgid "Unregistered connection %d on the session."
+msgstr "Незарегистрированное подключени %d на сеансе."
+
+msgid "Session: "
+msgstr "Сеанс: "
+
+msgid "Session"
+msgstr "Сеанс"
+
+msgid "Running"
+msgstr "Исполнение"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "Owner"
+msgstr "Владелец"
+
+msgid "Group"
+msgstr "Группа"
+
+msgid "Background execution mode"
+msgstr "Фоновый режим исполнения"
+
+msgid "Time of the session calculating"
+msgstr "Время вычисления сеанса"
+
+msgid "Connections counter"
+msgstr "Счётчик подключений"
+
+msgid "Last request time, user, language"
+msgstr "Время, пользователь, язык последн. запроса"
+
+msgid "Last user action"
+msgstr "Последнее действие пользователя"
+
+msgid "Remained to the forced closing, seconds"
+msgstr "Осталось до принудительного закрытия, секунд"
+
+msgid "Period, milliseconds"
+msgstr "Период, миллисекунд"
+
+msgid "Opened pages"
+msgstr "Открытые страницы"
+
+#, c-format
+msgid "Error function '%s' of the notificator: %s"
+msgstr "Ошибка функции уведомителя '%s': %s"
+
+msgid "Enabled notification"
+msgstr "Уведомление включено"
+
+msgid "Performing the notification"
+msgstr "Осуществление уведомления"
+
+msgid "Making the resource"
+msgstr "Создание ресурса"
+
+msgid "Resource stream"
+msgstr "Поток ресурса"
+
+msgid "Notification message"
+msgstr "Сообщение уведомления"
+
+msgid "Language of the notification message"
+msgstr "Язык сообщения уведомления"
+
+msgid "Enabling the page."
+msgstr "Включение страницы."
+
+msgid "Disabling the page."
+msgstr "Отключение страницы."
+
+msgid "Session page: "
+msgstr "Страница сеанса: "
+
+msgid "Opened"
+msgstr "Открыт"
+
+#, c-format
+msgid ""
+"Error compiling the function '%s' by the language '%s' for the widget: %s"
+msgstr "Ошибка компиляции функции '%s' на языке '%s' для виджета: %s"
+
+msgid "Error calculating the widget. Process is disabled."
+msgstr "Ошибка вычисления виджета. Обработка отключена."
+
+msgid "Process"
+msgstr "Обработка"
+
+msgid "Spent time"
+msgstr "Использовано время"
+
+msgid "Subtree="
+msgstr "Поддерево="
+
+msgid "Item="
+msgstr "Элемент="
+
+msgid "Engine of the visual control area"
+msgstr "Движок среды визуализации и управления"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid "The main engine of the visual control area."
+msgstr "Общий движок среды визуализации и управления."
+
+msgid "DB table"
+msgstr "Таблица БД"
+
+msgid "Parent widget"
+msgstr "Родительский виджет"
+
+msgid "Translate procedure"
+msgstr "Переводить процедуру"
+
+msgid "Procedure text and language"
+msgstr "Текст и язык программирования процедуры"
+
+msgid "Period of the procedure calculating"
+msgstr "Период вычисления процедуры"
+
+msgid "Changed attributes"
+msgstr "Изменённые атрибуты"
+
+msgid "Widget identifier"
+msgstr "Идентификатор виджета"
+
+msgid "Child ID"
+msgstr "Дочерний ID"
+
+msgid "Attribute value"
+msgstr "Значение атрибута"
+
+msgid "Attribute flags"
+msgstr "Флаги атрибута"
+
+msgid "Configuration template"
+msgstr "Конфигурационный шаблон"
+
+msgid "Configuration value"
+msgstr "Значение конфигурации"
+
+msgid "Child identifier"
+msgstr "Дочерний идентификатор"
+
+msgid "Attribute generic flags and type"
+msgstr "Основные флаги и тип атрибута"
+
+msgid "Permission"
+msgstr "Права доступа"
+
+msgid "Period of calculating, milliseconds"
+msgstr "Период вычисления, миллисекунд"
+
+msgid "Work style"
+msgstr "Рабочий стиль"
+
+msgid "Flags"
+msgstr "Флаги"
+
+msgid "Value 0"
+msgstr "Значение 0"
+
+msgid "Value 1"
+msgstr "Значение 1"
+
+msgid "Value 2"
+msgstr "Значение 2"
+
+msgid "Value 3"
+msgstr "Значение 3"
+
+msgid "Value 4"
+msgstr "Значение 4"
+
+msgid "Value 5"
+msgstr "Значение 5"
+
+msgid "Value 6"
+msgstr "Значение 6"
+
+msgid "Value 7"
+msgstr "Значение 7"
+
+msgid "Value 8"
+msgstr "Значение 8"
+
+msgid "Value 9"
+msgstr "Значение 9"
+
+msgid "Original widgets"
+msgstr "Базовые виджеты"
+
+#, c-format
+msgid "Time of the library '%s' loading: %f ms."
+msgstr "Время загрузки библиотеки '%s': %f мс."
+
+msgid "Error loading the widgets libraries."
+msgstr "Ошибка загрузки библиотеки виджетов."
+
+#, c-format
+msgid "Time of the project '%s' loading: %f ms."
+msgstr "Время загрузки проекта '%s': %f мс."
+
+msgid "Error loading the projects."
+msgstr "Ошибка загрузки проектов."
+
+#, c-format
+msgid "Time of the library '%s' enabling: %f ms."
+msgstr "Время включения библиотеки '%s': %f мс."
+
+#, c-format
+msgid "Time of the project '%s' enabling: %f ms."
+msgstr "Время включения проекта '%s': %f мс."
+
+#, c-format
+msgid "Connecting to the session is not permitted for '%s'."
+msgstr "Недопустимо подключение к сеансу для пользователя '%s'."
+
+#, c-format
+msgid "User was changed to '%s' on the station '%s'."
+msgstr "Сменился пользователь на '%s', на станции '%s'."
+
+#, c-format
+msgid "User '%s' has been connected on '%s'."
+msgstr "Подключился пользователь '%s', на '%s'."
+
+msgid "Error arguments of the session connecting/creating."
+msgstr "Ошибка аргументов подключения/создания сеанса."
+
+#, c-format
+msgid "User '%s' has been disconnected on '%s'."
+msgstr "Отключился пользователь '%s', на '%s'."
+
+msgid "Widgets library"
+msgstr "Библиотека виджетов"
+
+msgid "Functions"
+msgstr "Функции"
+
+msgid "Widgets libraries"
+msgstr "Библиотеки виджетов"
+
+msgid "Sessions"
+msgstr "Сеансы"
+
+msgid "Auto created and started"
+msgstr "Автоматически созданный и запущенный"
+
+#, c-format
+msgid "Project '%s' is already present!"
+msgstr "Проект '%s' уже присутствует!"
+
+#, c-format
+msgid "Widgets library '%s' is already present!"
+msgstr "Библиотека виджетов '%s' уже присутствует!"
+
+#, c-format
+msgid "Session '%s' is already present!"
+msgstr "Сеанс '%s' уже присутствует!"
+
+#, c-format
+msgid "The attribute '%s' is not released. Forced removal!"
+msgstr "Атрибут '%s' не освобождён. Принудительное удаление!"
+
+msgid "Path"
+msgstr "Путь"
+
+msgid ""
+"No access;R_____;R_R___;R_R_R_;RW____;RWR___;RWR_R_;RWRW__;RWRWR_;RWRWRW;"
+"Inheritance;Inherit.(R_____);Inherit.(R_R___);Inherit.(R_R_R_);Inherit."
+"(RW____);Inherit.(RWR___);Inherit.(RWR_R_);Inherit.(RWRW__);Inherit.(RWRWR_);"
+"Inherit.(RWRWRW)"
+msgstr ""
+"Нет доступа;R_____;R_R___;R_R_R_;RW____;RWR___;RWR_R_;RWRW__;RWRWR_;RWRWRW;"
+"Наследование;Наследов.(R_____);Наследов.(R_R___);Наследов.(R_R_R_);Наследов."
+"(RW____);Наследов.(RWR___);Наследов.(RWR_R_);Наследов.(RWRW__);Наследов."
+"(RWRWR_);Наследов.(RWRWRW)"
+
+msgid "Root"
+msgstr "Корень"
+
+msgid "Active"
+msgstr "Активный"
+
+msgid "Geometry: x"
+msgstr "Геометрия: x"
+
+msgid "Geometry: y"
+msgstr "Геометрия: y"
+
+msgid "Geometry: width"
+msgstr "Геометрия: ширина"
+
+msgid "Geometry: height"
+msgstr "Геометрия: высота"
+
+msgid "Geometry: x scale"
+msgstr "Геометрия: x масштаб"
+
+msgid "Geometry: y scale"
+msgstr "Геометрия: y масштаб"
+
+msgid "Geometry: z"
+msgstr "Геометрия: z"
+
+msgid "Geometry: margin"
+msgstr "Геометрия: отступ"
+
+msgid "Tip: tool"
+msgstr "Помощь: подсказка"
+
+msgid "Tip: status"
+msgstr "Помощь: состояние"
+
+msgid "Context menu"
+msgstr "Контекстное меню"
+
+msgid "Events processing"
+msgstr "Обработка событий"
+
+msgid "Parent item is empty or equal to itself!"
+msgstr "Родительский элемент пуст или идентичен себе!"
+
+msgid "Parent is identical to the owner for the link!"
+msgstr "Родитель идентичен владельцу для связи!"
+
+#, c-format
+msgid "Error enabling the widget: %s"
+msgstr "Ошибка включения виджета: %s"
+
+msgid "Disabling the widget."
+msgstr "Отключение виджета."
+
+#, c-format
+msgid "Error disabling the inheriting widget '%s'."
+msgstr "Ошибка отключения наследующего виджета '%s'."
+
+#, c-format
+msgid "Error enabling/disabling the child widget '%s'."
+msgstr "Ошибка включения/отключения дочернего виджета '%s'."
+
+#, c-format
+msgid ""
+"Impossible to lower down the changes of the widget '%s' to '%s' but it has "
+"the cyclic inheritance!"
+msgstr ""
+"Невозможно опустить изменения виджета '%s' в '%s' из-за цикличной "
+"наследственности!"
+
+#, c-format
+msgid "Adding a new attribute '%s' exceeds the number %d!"
+msgstr "Добавление нового атрибута '%s' превышает количество %d!"
+
+#, c-format
+msgid "Attribute '%s' is not present!"
+msgstr "Атрибут '%s' отсутствует!"
+
+#, c-format
+msgid "Deleting attribute '%s' has not been released!"
+msgstr "Удаляемый атрибут '%s' не освобождён!"
+
+msgid ""
+"Image name in the form \"[{src}:]{name}\", where:\n"
+"  \"src\" - image source:\n"
+"    file - directly from a local file by the path;\n"
+"    res - from table of DB-mime resources.\n"
+"  \"name\" - file path or mime-resource identifier.\n"
+"Examples:\n"
+"  \"res:backLogo\" - from the table of DB-mime resources for the ID "
+"\"backLogo\";\n"
+"  \"backLogo\" - like to the previous;\n"
+"  \"file:/var/tmp/backLogo.png\" - from a local file by the path \"/var/tmp/"
+"backLogo.png\"."
+msgstr ""
+"Имя изображения в форме \"[{src}:]{name}\", где:\n"
+"  \"src\" - источник изображения:\n"
+"    file - прямо из локального файла по пути;\n"
+"    res - из таблицы mime-ресурсов БД.\n"
+"  \"name\" - путь файла или идентификатор mime-ресурса.\n"
+"Примеры:\n"
+"  \"res:backLogo\" - из таблицы mime-ресурсов БД для идентификатора "
+"\"backLogo\";\n"
+"  \"backLogo\" - как и предыдущий;\n"
+"  \"file:/var/tmp/backLogo.png\" - из локального файла по пути \"/var/tmp/"
+"backLogo.png\"."
+
+msgid ""
+"Color name in the form \"{color}[-{alpha}]\", where:\n"
+"  \"color\" - standard color name or its numeric representation \"#RRGGBB"
+"\";\n"
+"  \"alpha\" - alpha-channel level [0...255], where 0 - fully transparent.\n"
+"Examples:\n"
+"  \"red\" - solid red color;\n"
+"  \"#FF0000\" - solid red color by the numeric representation;\n"
+"  \"red-127\" - half transparent red color."
+msgstr ""
+"Имя цвета в виде \"{color}[-{alpha}]\", где:\n"
+"  \"color\" - стандартное имя цвета или числовое представление \"#RRGGBB\";\n"
+"  \"alpha\" - уровень альфа-канала [0...255], где 0 - полностью прозрачный.\n"
+"Примеры:\n"
+"  \"red\" - сплошной красный цвет;\n"
+"  \"#FF0000\" - сплошной красный цвет в числовом коде;\n"
+"  \"red-127\" - полупрозрачный красный цвет."
+
+msgid ""
+"Font name in the form \"{family} {size} {bold} {italic} {underline} "
+"{strike}\", where:\n"
+"  \"family\" - font family, for spaces use symbol '_', like to: \"Arial\", "
+"\"Courier\", \"Times_New_Roman\";\n"
+"  \"size\" - font size in pixels;\n"
+"  \"bold\" - font bold (0 or 1);\n"
+"  \"italic\" - font italic (0 or 1);\n"
+"  \"underline\" - font underlined (0 or 1);\n"
+"  \"strike\" - font striked (0 or 1).\n"
+"Examples:\n"
+"  \"Arial 10 1 0 0 0\" - Arial font, size 10 pixels and bolded."
+msgstr ""
+"Имя шрифта в виде \"{family} {size} {bold} {italic} {underline} {strike}\", "
+"где:\n"
+"  \"family\" - семейство шрифта, для пробелов используйте символ '_', вроде: "
+"\"Arial\", \"Courier\", \"Times_New_Roman\";\n"
+"  \"size\" - размер шрифта в пикселах;\n"
+"  \"bold\" - усиление шрифта (0 или 1);\n"
+"  \"italic\" - наклонность шрифта (0 или 1);\n"
+"  \"underline\" - подчёркивание шрифта (0 или 1);\n"
+"  \"strike\" - перечёркивание шрифта (0 или 1).\n"
+"Примеры:\n"
+"  \"Arial 10 1 0 0 0\" - Arial шрифт, размером 10 пикселов и усиленный."
+
+msgid "Widget: "
+msgstr "Виджет: "
+
+msgid "Go to the parent"
+msgstr "Перейти к родителю"
+
+msgid "Clear the widget changes"
+msgstr "Очистка изменений виджета"
+
+msgid "Lower down the widget changes to its parent"
+msgstr "Опустить изменения виджета его предку"
+
+msgid "Included widgets"
+msgstr "Вложенные виджеты"
+
+msgid "Path to the widget."
+msgstr "Путь к этому виджету."
+
+msgid "Path to the parent widget."
+msgstr "Путь к родительскому виджету."
+
+msgid ""
+"Owner and groups (separated by ',') of the widget in the form \"{owner}:"
+"{groups}\"."
+msgstr ""
+"Владелец и группы (разделённые ',') виджета в форме \"{владелец}:{группы}\"."
+
+msgid ""
+"Widget permission in the form \"{user}{group}{other}\".\n"
+"Where, \"user\", \"group\" and \"other\" is:\n"
+"  \"__\" - no access;\n"
+"  \"R_\" - read only;\n"
+"  \"RW\" - read and write."
+msgstr ""
+"Права доступа к виджету в форме \"{польз.}{группа}{другие}\".\n"
+"Где \"польз.\", \"группа\" и \"другие\" это:\n"
+"  \"__\" - нет доступа;\n"
+"  \"R_\" - только на чтение;\n"
+"  \"RW\" - чтение и запись."
+
+msgid ""
+"Direct events processing for manipulating pages in the form:\n"
+"      \"{event}:{evSrc}:{com}:{prm}\". Where:\n"
+"  \"event\" - waiting event;\n"
+"  \"evSrc\" - event source;\n"
+"  \"com\" - command of the session (open, next, prev);\n"
+"  \"prm\" - command parameter, where used:\n"
+"      pg_so - direct name of the desired page, with the prefix;\n"
+"      1 - name of a new page in the common path, without a prefix;\n"
+"      * - the page name is taken from the name of the previous open page;\n"
+"      $ - indicates the position of the relative selection of the page to "
+"open.\n"
+"Examples:\n"
+"  ws_BtPress:/prev:prev:/pg_so/*/*/$\n"
+"  ws_BtPress:/next:next:/pg_so/*/*/$\n"
+"  ws_BtPress:/go_mn:open:/pg_so/*/mn/*\n"
+"  ws_BtPress:/go_graph:open:/pg_so/*/ggraph"
+msgstr ""
+"Прямая обработка событий для управления страницами в форме:\n"
+"      \"{event}:{evSrc}:{com}:{prm}\". Где:\n"
+"  \"event\" - ожидаемое событие;\n"
+"  \"evSrc\" - источник события;\n"
+"  \"com\" - команда сеанса (open, next, prev);\n"
+"  \"prm\" - параметр команды, где используется:\n"
+"      pg_so - прямое имя желаемой страницы, с префиксом;\n"
+"      1 - имя новой страницы в общем пути, без префикса;\n"
+"      * - имя страницы берётся из имени предыдущей страницы;\n"
+"      $ - указывает на место относительно которого открывается страница.\n"
+"Примеры:\n"
+"  ws_BtPress:/prev:prev:/pg_so/*/*/$\n"
+"  ws_BtPress:/next:next:/pg_so/*/*/$\n"
+"  ws_BtPress:/go_mn:open:/pg_so/*/mn/*\n"
+"  ws_BtPress:/go_graph:open:/pg_so/*/ggraph"
+
+msgid "Primitive identifier that underlie the widget."
+msgstr "Идентификатор примитива в основе этого виджета."
+
+msgid ""
+"Context menu in the form of the strings list: \"{ItName}:{Signal}\".\n"
+"Where:\n"
+"  \"ItName\" - item name;\n"
+"  \"Signal\" - signal name, where the result signal name is \"usr_{Signal}\"."
+msgstr ""
+"Контекстное меню в форме списка строк: \"{ItName}:{Signal}\".\n"
+"Где:\n"
+"  \"ItName\" - имя элемента;\n"
+"  \"Signal\" - имя сигнала, где результирующее имя сигнала: \"usr_{Signal}\"."
+
+msgid "Links"
+msgstr "Связи"
+
+msgid "Show attributes"
+msgstr "Показывать атрибуты"
+
+msgid "Custom"
+msgstr "Раздельно"
+
+msgid "Work area"
+msgstr "Рабочая область"
+
+msgid "Calculation"
+msgstr "Вычисление"
+
+msgid "Procedure language"
+msgstr "Язык процедуры"
+
+msgid "Period of the calculating, milliseconds"
+msgstr "Период вычисления, миллисекунд"
+
+msgid "Procedure"
+msgstr "Процедура"
+
+msgid "New attribute"
+msgstr "Новый атрибут"
+
+#, c-format
+msgid "Attribute '%s' is not present."
+msgstr "Атрибут '%s' отсутствует!"
+
+#, c-format
+msgid "Unable to delete non-user attribute '%s'."
+msgstr "Невозможно удаление непользовательского атрибута '%s'."
+
+#, c-format
+msgid "Unable to change non-user attribute '%s'."
+msgstr "Невозможно изменение непользовательского атрибута '%s'."
+
+msgid "The new attribute identifier is empty!"
+msgstr "Новый идентификатор атрибута пуст!"
+
+#, c-format
+msgid "The new attribute identifier '%s' is already present!"
+msgstr "Новый идентификатор атрибута '%s' уже присутствует!"
+
+msgid "Boolean"
+msgstr "Логический"
+
+msgid "Integer"
+msgstr "Целый"
+
+msgid "Real"
+msgstr "Вещественный"
+
+msgid "String"
+msgstr "Строка"
+
+msgid "Object"
+msgstr "Объект"
+
+msgid "Integer numbers selection"
+msgstr "Выбор целых чисел"
+
+msgid "Real numbers selection"
+msgstr "Выбор вещественных чисел"
+
+msgid "Strings selection"
+msgstr "Выбор строк"
+
+msgid "DateTime"
+msgstr "ДатаВремя"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "Constant"
+msgstr "Постоянная"
+
+msgid "Input link"
+msgstr "Входная связь"
+
+msgid "Output link"
+msgstr "Выходная связь"
+
+msgid "Full link"
+msgstr "Полная связь"
+
+msgid "From style"
+msgstr "Из стиля"
+
+msgid "Element type is not selective!"
+msgstr "Элемент не выборного типа!"
+
+#, c-format
+msgid "Connects to the attribute '%s' is more than %d!"
+msgstr "Подключений к атрибуту '%s' более %d!"
+
+#, c-format
+msgid "Disconnects from the attribute '%s' more than connections!"
+msgstr "Отключений от атрибута '%s' больше подключений!"
+
+msgid "Root primitive"
+msgstr "Корневой примитив"
+
+msgid "Abstract root primitive"
+msgstr "Абстрактный корневой примитив"
+
+msgid "Session user"
+msgstr "Пользователь сеанса"
+
+msgid "Returns the session user by the session widget path."
+msgstr "Возвращает пользователя сеанса по пути к виджету сеанса."
+
+msgid "List"
+msgstr "Список"
+
+msgid "Widgets list"
+msgstr "Список виджетов"
+
+msgid ""
+"Returns a list of the widgets, into the widgets container, or the child "
+"list. If set <pg> then returns the pages list for projects and sessions."
+msgstr ""
+"Возвращает список виджетов, в контейнере виджетов, или дочерних виджетов. "
+"Если установлено <pg>, то возвращается список страниц проектов и сеанса."
+
+msgid "Node presence"
+msgstr "Присутствие узла"
+
+msgid ""
+"Checking for the node presence, including widgets, attributes and other."
+msgstr "Проверка узла на присутствие, включая виджеты, атрибуты и другие."
+
+msgid "Not user"
+msgstr "Без пользовательских"
+
+msgid "Attributes list"
+msgstr "Список атрибутов"
+
+msgid ""
+"Returns an attributes list of the widget. If set <noUser> then returns only "
+"not user attributes."
+msgstr ""
+"Возвращает список атрибутов виджета. Если установлен <noUser> тогда "
+"возвращаются только не пользовательские атрибуты."
+
+msgid "Attribute"
+msgstr "Атрибут"
+
+msgid "Get the attribute"
+msgstr "Получить атрибут"
+
+msgid ""
+"Getting value of the widget attribute. The request can be done as by "
+"indicating the full address of the attribute in <addr>, and by: indicating "
+"separately the address of the widget in <addr> and the the attribute "
+"identifier in the <attr>."
+msgstr ""
+"Запрос значения атрибута виджета. Запрос может осуществляться как указанием "
+"полного адреса атрибута в <addr>, так и: отдельно адрес виджета в <addr> и "
+"идентификатор атрибута в <attr>."
+
+msgid "Set the attribute"
+msgstr "Установить атрибут"
+
+msgid ""
+"Setting value of the widget attribute. Setting can be done as by indicating "
+"the full address of the attribute in <addr>, and by: indicating separately "
+"the address of the widget in <addr> and the the attribute identifier in the "
+"<attr>."
+msgstr ""
+"Установка значения атрибута виджета. Установка может осуществляться как "
+"указанием полного адреса атрибута в <addr>, так и: отдельно адрес виджета в "
+"<addr> и идентификатор атрибута в <attr>."

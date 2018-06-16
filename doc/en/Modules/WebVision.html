@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<title>Modules/WebVision - OpenSCADAWiki</title>
+<meta content="MediaWiki 1.26.4" name="generator" />
+<link href="https://www.gnu.org/copyleft/fdl.html" rel="copyright" />
+<link href="../files/doc.css" rel="stylesheet" /></head>
+<body><div id="mw_header">
+			<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" lang="en">Modules/WebVision</h1>
+		</div><div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="mw-pt-languages noprint" dir="ltr" lang="en"><div class="mw-pt-languages-label">Other languages:</div><div class="mw-pt-languages-list autonym"><span class="mw-pt-languages-ui mw-pt-languages-selected mw-pt-progress mw-pt-progress--complete">English</span>&nbsp;• ‎<a class="mw-pt-progress mw-pt-progress--complete" href="http://oscada.org/wiki/Modules/WebVision/ru" title="Модули/WebVision (100% translated)">российский</a>&nbsp;• ‎<a class="mw-pt-progress mw-pt-progress--complete" href="http://oscada.org/wiki/Modules/WebVision/uk" title="Модулі/WebVision (100% translated)">українська</a></div></div>
+<table class="wikitable">
+
+<tr>
+<th> Module </th>
+<th> Name </th>
+<th> Version </th>
+<th> License </th>
+<th> Source </th>
+<th> Languages </th>
+<th> Platforms </th>
+<th> Type </th>
+<th> Author </th>
+<th> Description
+</th></tr>
+
+<tr>
+<td> <a href="../Modules/WebVision.html" title="Special:MyLanguage/Modules/WebVision">WebVision</a> </td>
+<td> Operation user interface (WEB)
+</td>
+<td> 2.6 </td>
+<td> GPL2 </td>
+<td> ui_WebVision.so </td>
+<td> en,uk,ru,de </td>
+<td> x86,x86_64,ARM
+</td>
+<td> UI </td>
+<td> Roman Savochenko<br /><font size="-2"><i>Maxim Lysenko (2007-2012), Ksenia Yashina (2007-2008)</i></font> </td>
+<td> Visual operation user interface, based on the the WEB — front-end to the VCA engine.
+</td></tr></table>
+<div class="toc" id="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Purpose"><span class="tocnumber">1</span> <span class="toctext">Purpose</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Execution_of_the_VCA_interfaces"><span class="tocnumber">2</span> <span class="toctext">Execution of the VCA interfaces</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Presentation_of_the_basic_elements_.28primitives.29"><span class="tocnumber">3</span> <span class="toctext">Presentation of the basic elements (primitives)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Elementary_figure_primitive_.28ElFigure.29"><span class="tocnumber">3.1</span> <span class="toctext">Elementary figure primitive (ElFigure)</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Text_primitive_.28Text.29"><span class="tocnumber">3.2</span> <span class="toctext">Text primitive (Text)</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Primitive_of_the_form_element_.28FormEl.29"><span class="tocnumber">3.3</span> <span class="toctext">Primitive of the form element (FormEl)</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Primitive_of_the_displaying_the_media-materials_.28Media.29"><span class="tocnumber">3.4</span> <span class="toctext">Primitive of the displaying the media-materials (Media)</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Primitive_of_constructing_diagrams_.28Diagram.29"><span class="tocnumber">3.5</span> <span class="toctext">Primitive of constructing diagrams (Diagram)</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Primitive_of_the_protocol_formation_.28Protocol.29"><span class="tocnumber">3.6</span> <span class="toctext">Primitive of the protocol formation (Protocol)</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Primitive_of_the_report_formation_.28Document.29"><span class="tocnumber">3.7</span> <span class="toctext">Primitive of the report formation (Document)</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Primitive_of_the_box-container_.28Box.29"><span class="tocnumber">3.8</span> <span class="toctext">Primitive of the box-container (Box)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#Overall_configuration_of_the_module"><span class="tocnumber">4</span> <span class="toctext">Overall configuration of the module</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Notes"><span class="tocnumber">5</span> <span class="toctext">Notes</span></a></li>
+</ul>
+</div>
+
+<p>The module provides in OpenSCADA a mechanism of the final visualization of the visual control area (VCA). The module is based on WEB technologies (XHTML, JavaScript, CSS, AJAX). In its work, the module uses the data from the VCA engine — module <a href="../Modules/VCAEngine.html" title="Special:MyLanguage/Modules/VCAEngine">VCAEngine</a>.
+</p><p>Visual control area (VCA) is an integral part of the SCADA system. It applies to the client stations with a view to providing accessible information about the control object and to for the the issuance of the control actions to the object. In various practical situations and conditions the VCA, based on different principles of visualization, may by applied. For example, this may be the library of widgets Qt, GTK+, WxWidgets or hypertext mechanisms based on the technologies HTML, XHTML, XML, CSS and JavaScript, or third-party applications of visualization, realized in various programming languages Java, Python, etc. Any of these principles has its advantages and disadvantages, the combination of which could become an insurmountable obstacle to the use of VCA in a practical case. For example, technologies like the Qt library can create highly-productive VCA, which will undoubtedly important for the operator station for control the technological processes (TP). However, the need for installation of that client software in some cases may make using of it impossible. On the other hand, Web-technology does not require installation on client systems and is extremely multi-platform (it is enough to create a link to the Web-server at any Web-browser) that is most important for various engineering and administrative stations, but the productivity and reliability of such interfaces is lower, that actually eliminates the using of them at the operator stations of TP.
+</p><p>OpenSCADA has extremely flexible architecture that allows you to create external interfaces, including user, in any manner and taste. For example, the OpenSCADA configuration environment available now as by means of the Qt-library, and also the Web-based.
+</p><p>At the same time, independent creation of the VCA implementations in different basis may cause the inability to use the configuration of one VCA into another one. That is inconvenient and limited from the user side, as well as costly in terms of implementation and follow-up support.
+</p><p>In order to avoid these problems, as well as to create as soon as possible the full spectrum of different types of VCA, <a class="external" href="http://oscada.org/wiki/Special:MyLanguage/Sub-projects/VCA" title="Special:MyLanguage/Sub-projects/VCA">the generic concept of VCA</a> is established. The result of this project — this direct visualization module (based on the Web-technologies), direct visualization module <a href="../Modules/Vision.html" title="Special:MyLanguage/Modules/Vision">Vision</a> and the VCA engine <a href="../Modules/VCAEngine.html" title="Special:MyLanguage/Modules/VCAEngine">VCAEngine</a>.
+</p>
+<h2><span class="mw-headline" id="Purpose"><span class="mw-headline-number">1</span> Purpose</span></h2>
+<p>This module of the direct visualization of the VCA serves only for the execution of the VCA interfaces in the area of WEB-technologies!
+</p><p>The user interface forms in WEB-browser, by reference to the WEB-server and receiving from it XHTML-document over HTTP. In this case, the WEB-server — OpenSCADA, which supports standard communication mechanisms of the TCP-networks (module <a href="../Modules/Sockets.html" title="Special:MyLanguage/Modules/Sockets">Transport.Sockets</a>), hypertext transfer protocol (module <a href="../Modules/HTTP.html" title="Special:MyLanguage/Modules/HTTP">Protocol.HTTP</a>), as well as encryption of the traffic between the browser and the server (<a href="../Modules/SSL.html" title="Special:MyLanguage/Modules/SSL">Transport.SSL</a>). Therefore, in order to access the user interface provided by this module, OpenSCADA must configure transport (Transport.Sockets or Transport.SSL) in conjunction with the HTTP protocol (Protocol.HTTP). OpenSCADA comes with configuration files that contain the Transport.Sockets configuration for ports 10002 and 10004. Consequently, the module interface, in the default, will be available at URL: "http://localhost:10002" and "http://localhost:10004".
+</p><p>The final version of this VCA module, built on the basis of this module, will provide:
+</p>
+<ul><li> three levels of difficulty in the formation of the visualization interface, which allow organically to develop and apply the tools by the principle — from simple to complex:</li></ul>
+<dl><dd><ol><li> formation from the template frames, by assigning the dynamics and without the graphical configuration;</li>
+<li> graphical formation of new frames, using ready-made visualization elements from the library - mnemosmes;</li>
+<li> forming, in the library, new ones: frames, template frames and display elements.</li></ol></dd></dl>
+<ul><li> construction of interfaces for visualization of practically any complexity (limited by the "discreteness" of the primitive functions), ranging from simple monitoring interfaces, and to complete hierarchical interfaces used in SCADA systems;</li>
+<li> providing the different ways of forming and configuration of the user interface, based on different interfaces of graphical representation (Qt, Web, ...), or-through the standard interface of OpenSCADA control;</li>
+<li> construction and correction of the interface, appointment and change of the dynamics in the process of the execution;</li>
+<li> construction, at the user level, of new template frames and the formation of specialized ones, under the scope, libraries of frames (e.g. the inclusion of parameters frames, diagrams and other elements linking them to each other), according to the idea of secondary use, accumulation and improvement;</li>
+<li> construction of new custom visualization elements and the formation of specialized, at the field of application, libraries of frames, according to the idea of secondary use, accumulation and improvement;</li>
+<li> description of the logic of new template frames and user visualization elements as by the simple links as well by the compact and full-featured user programming language;</li>
+<li> possibility of inclusion, to the user's visualization elements, the functions (or frames of functions' calculation) of the object model of OpenSCADA, practically linking the presentation with the algorithm of computation, for example, visualizing the library of the apparatus of TP models for subsequent visual building of the TP models;</li>
+<li> separation the data of the user interfaces and presentation interfaces of these data, allowing to build the user interface in the one environment, and execute in many others (Qt, Web, ...);</li>
+<li> ability to connect to the executable interface for monitoring and correction of actions; for example, training operators and monitoring their actions in real time;</li>
+<li> visual construction of various schemes with overlapping logical connections and subsequent centralized execution in the background - visual construction and execution of mathematical models, logic circuits, relay circuits and other;</li>
+<li> providing, to OpenSCADA, object API functions; can be used to control the properties of the visualization interface from user procedures;</li>
+<li> server construction for: frames, visualization elements and visualization interface projects; with the ability to service multiple client connections;</li>
+<li> simple organization of client stations on different bases (Qt, Web, ...) with the connection to the central server;</li>
+<li> full-featured mechanism for distributing authorities between users that allows you to create and execute projects with different rights to access their components;</li>
+<li> flexible formation of rules of alarms and notifications, with the support of various methods of the notification;</li>
+<li> support of custom formation of the palette and font preferences for the visualization interface, in styles;</li>
+<li> support of the user forming of the events maps under various control equipment and user's preferences;</li>
+<li> support for user profiles, allowing the identification of various properties of the visualization interface (colors, font features, the preferred card of events);</li>
+<li> flexible storage and distribution of libraries of widgets, frames and projects of the visualization interfaces in the databases, supported by OpenSCADA; practically, the user only has to register the received database with the data.</li></ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Execution_of_the_VCA_interfaces"><span class="mw-headline-number">2</span> Execution of the VCA interfaces</span></h2>
+<p>Execution of the VCA interface is to run a new project session, or connect to the existing one, on the level of the VCA engine (Fig.2). Before the connection request to the session the user authentication request (Fig.1) is done. Then the module of direct visualization displays and controls the data of the session. The main window of the execution mode of this module has the form presented at Figure 3.
+</p><p>The interface of the execution window is built fully dynamically by the JavaScript script on the basis of the contents of the project session through direct XML requests to the server.
+</p><p>Update of the contents of the open pages of the visual interface with periodicity of the project session is implemented. During the upgrade process:
+</p>
+<dl><dd>- request, in the model, of opened pages list and checking consistency of the really opened pages to this list;</dd>
+<dd>- requests of modified data on each opened page and its widgets;</dd>
+<dd>- updating content of the pages and their widgets in accordance with the received modified data.</dd></dl>
+<p>The mechanism of the request for only modified data is based on the absolute counter of the session execution. When you make real changes in the attributes of widgets the remembering of the value of this counter is made, which allows us to identify the modified attributes. This approach allows to increase productivity and reduce the load on the traffic in case of access to the model through the network.
+</p><p>Hierarchically, the module assumes the possibility of placing pages of the project as in the main window of execution (Fig. 3), and by placing inside the container widgets, as well as by opening additional windows over the main one.
+</p><p>The module supports multi-language which one enabled by the <a class="external" href="http://oscada.org/wiki/Special:MyLanguage/Documents/Program_manual#ConfigTr" title="Special:MyLanguage/Documents/Program manual">dynamic messages translation of OpenSCADA</a>. The gotten language passes by the module <a href="../Modules/HTTP.html" title="Special:MyLanguage/Modules/HTTP">Protocol.HTTP</a> and detects in way and by the order:
+</p>
+<ul><li> URL's parameter "lang".</li>
+<li> Authenticated user's language.</li>
+<li> Language of the Web-browser from the HTTP property "Accept-Language".</li>
+<li> Generic language of the OpenSCADA process.</li></ul>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:619px;"><a class="image" href="http://oscada.org/wiki/File:HTTP_auth.png"><img class="thumbimage" height="302" src="../files/HTTP_auth.png" width="617" /></a>  <div class="thumbcaption">Fig.1. Authentication page.</div></div></div></div>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:618px;"><a class="image" href="http://oscada.org/wiki/File:WebVision_wvis_connect.png"><img class="thumbimage" height="423" src="../files/WebVision_wvis_connect.png" width="616" /></a>  <div class="thumbcaption">Fig.2. Connection or creation of a new session of the execution project of the VCA.</div></div></div></div>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:1048px;"><a class="image" href="http://oscada.org/wiki/File:WebVision_wvis_run.png"><img class="thumbimage" height="784" src="../files/WebVision_wvis_run.png" width="1046" /></a>  <div class="thumbcaption">Fig.3. Main execution window.</div></div></div></div>
+<h2><span class="mw-headline" id="Presentation_of_the_basic_elements_.28primitives.29"><span class="mw-headline-number">3</span> Presentation of the basic elements (primitives)</span></h2>
+<p>This version of the module does not implement all the shapes of the primitives laid by the project. In general, the project provides the following primitives:
+</p>
+<table class="wikitable">
+
+<tr>
+<th> Identifier </th>
+<th> Name </th>
+<th> Function
+</th></tr>
+<tr>
+<td> ElFigure </td>
+<td> Elementary graphical figure </td>
+<td>
+<p>The primitive is the basis for drawing elementary graphical shapes with their possible combinations in a single object. The support of the following elementary figures is provided:
+</p>
+<ul><li> Line.</li>
+<li> Arc.</li>
+<li> Bézier curve.</li>
+<li> Fill of the enclosed space.<br /></li></ul>
+<p>For all the figures, contained in the widget, set the common properties of thickness, color, etc., provides the possibility to specify the above-mentioned attributes for each figure separately and their dynamization.
+</p>
+</td></tr>
+<tr>
+<td> FormEl </td>
+<td> Element of the form </td>
+<td>
+<p>Includes support for the standard form components:
+</p>
+<ul><li> Line edit.</li>
+<li> Text edit.</li>
+<li> Check box.</li>
+<li> Button.</li>
+<li> Combo box.</li>
+<li> List.</li>
+<li> Tree.</li>
+<li> Table.</li>
+<li> Slider.</li>
+<li> Scroll bar. </li></ul>
+</td></tr>
+<tr>
+<td> Text </td>
+<td> Text </td>
+<td> Text element-label. Characterized by the font type, color, orientation and alignment. Support for arguments is provided.
+</td></tr>
+<tr>
+<td> Media </td>
+<td> Media </td>
+<td> Element of the visualization of raster and vector images of various formats, playback of the animated images, playback of the audio fragments and view of the video fragments.
+</td></tr>
+<tr>
+<td> Diagram </td>
+<td> Diagram </td>
+<td> Element of the diagram with the support of the visualization in the real-time for the flow of several: trends (time charts), spectrum, XY diagrams.
+</td></tr>
+<tr>
+<td> Protocol </td>
+<td> Protocol </td>
+<td> Element of the protocol — visualizer of the program messages, with support of the multiple operating modes.
+</td></tr>
+<tr>
+<td> Document </td>
+<td> Document </td>
+<td> Element of the generating reports, journals and other documentation on the basis of available data.
+</td></tr>
+<tr>
+<td> Box </td>
+<td> Container </td>
+<td> Contains the mechanism for other widgets placement-including with the purpose of creation of new, more complex, widgets and pages of the end visualization.
+</td></tr>
+<tr>
+<td> Function, <span style="color: red">in plane</span> </td>
+<td> Function of API of the object model of OpenSCADA </td>
+<td> Not visual widget, on the runtime side, which allows to include a computing function of the object model of OpenSCADA in the VCA.
+</td></tr></table>
+<p><span id="SpecAttrs" title="#SpecAttrs">The visualizer module provides and uses set of specific attributes</span> of the generic means, the information of which is given in the table. These attributes are automatically created by the visualizer in their absence and during the first run, or created by the user in the frame of the specified area, as needed.
+</p>
+<table class="wikitable">
+
+<tr>
+<th> Identifier (area) </th>
+<th> Name </th>
+<th> Appointment
+</th></tr>
+<tr>
+<td> keepAspectRatio (main page) </td>
+<td> Keep aspect ratio on scale </td>
+<td> Keep aspect ratio of the pages on scale.
+</td></tr>
+<tr>
+<td> stBarNoShow (main page) </td>
+<td> Do not show the status bar </td>
+<td> Hide the status bar of the main window.
+</td></tr></table>
+<p>Consider the implementation of each primitive in more detail.
+</p>
+<h3><span class="mw-headline" id="Elementary_figure_primitive_.28ElFigure.29"><span class="mw-headline-number">3.1</span> Elementary figure primitive (ElFigure)</span></h3>
+<p>Support of the elementary figures is implemented: lines, elliptical arcs, Bézier curves and fill of the enclosed space with the color and image with the properties:
+</p>
+<ul><li> Formation of arbitrary images from three elemental shapes and fillings of closed spaces with color or image.</li>
+<li> There is the possibility of determination of the figures' properties both in general and individual to each one: line width, color and style, line border's width and color, filling's color and image.</li>
+<li> Arbitrary rotation of the generic figure about its center.</li>
+<li> User's attributes support for dynamic: points, widths, colors, styles and images.</li>
+<li> Formation of events by action of the mouse manipulator in a closed space and in general.</li></ul>
+<p>Figure shows a part of the screen with a frame containing the elementary figures.
+</p>
+<div class="center"><div class="floatnone"><a class="image" href="http://oscada.org/wiki/File:WebVision_wvis_run_elfig.png"><img alt="WebVision wvis run elfig.png" height="311" src="../files/WebVision_wvis_run_elfig.png" width="222" /></a></div></div>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="Text_primitive_.28Text.29"><span class="mw-headline-number">3.2</span> Text primitive (Text)</span></h3>
+<p>Support of the text element with the following properties is implemented:
+</p>
+<ul><li> Font with the properties: type-class, size, bold, italic, strikeout and underline.</li>
+<li> Text color.</li>
+<li> Text orientation.</li>
+<li> Automatic word wrap.</li>
+<li> Alignment of the text horizontally and vertically with all variants.</li>
+<li> Displaying the background as the color and image.</li>
+<li> Displaying the border around the text, with the specified color, width and style.</li>
+<li> Displaying HTML. </li>
+<li> Addition of the text by arguments of different type and properties.</li></ul>
+<p>Figure represents a part of the screen with the frame containing the text examples using various parameters.
+</p>
+<div class="center"><div class="floatnone"><a class="image" href="http://oscada.org/wiki/File:WebVision_wvis_run_txt.png"><img alt="WebVision wvis run txt.png" height="157" src="../files/WebVision_wvis_run_txt.png" width="228" /></a></div></div>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="Primitive_of_the_form_element_.28FormEl.29"><span class="mw-headline-number">3.3</span> Primitive of the form element (FormEl)</span></h3>
+<p>Provides support for the form elements on the VCA frames with the planed properties, including the types:
+</p>
+<ul><li> <i>Line edit</i> — Represented by the following types: "Text", "Combo", "Integer", "Real", "Time", "Date", "Date and time". All kinds of line editor support the confirmation of entry.</li>
+<li> <i>Text edit</i> — Provides the flat-text editor with the confirmation or denial of entry.</li>
+<li> <i>Check box</i> — Provides a field of binary flag.</li>
+<li> <i>Button</i> — Provides the button with support of the button color, image in the button and the modes:
+<ul><li> standard;</li>
+<li> checkable;</li>
+<li> call the menu;</li>
+<li> call the file loading;</li>
+<li> call the file saving.</li></ul></li>
+<li> <i>Combo box</i> — Provides a field for selecting an item from the list of specified items</li>
+<li> <i>List</i> — Provides the list box with the control of the current item.</li>
+<li> <i>Tree</i> — Provides the tree element with possibility of an item selection.</li>
+<li> <i>Table</i> — Provides the table element with the possibility of selecting for cells, rows or columns and editing the cell content.</li>
+<li> <i>Slider</i> — Slider element.</li>
+<li> <i>Scroll bar</i> — Scroll bar (Equal to Slider).</li></ul>
+<p>The "Enabled" and "Active" modes are implemented, as well as the transfer of changes and events to the data model of the VCA — engine.
+</p><p>Figure represents a part of the screen with the frame containing the above-listed elements of the form.
+</p>
+<div class="center"><div class="floatnone"><a class="image" href="http://oscada.org/wiki/File:WebVision_wvis_run_formel.png"><img alt="WebVision wvis run formel.png" height="259" src="../files/WebVision_wvis_run_formel.png" width="597" /></a></div></div>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="Primitive_of_the_displaying_the_media-materials_.28Media.29"><span class="mw-headline-number">3.4</span> Primitive of the displaying the media-materials (Media)</span></h3>
+<p>Support of the element of the displaying of the media-materials with the following properties is provided:
+</p>
+<ul><li> Indication of the media data source: images or video-material.</li>
+<li> Review of the images of most well-known formats with the possibility of fitting of it in the size of the widget.</li>
+<li> Playback of the simple animated images and video formats with the possibility to control the playback speed (<font color="red">inaccessible</font>).</li>
+<li> Playback of the full-formatted video and audio (<font color="red">inaccessible</font>).</li>
+<li> Displaying the background as the color and image.</li>
+<li> Displaying the border along the perimeter of the widget, with the specified color, width and style.</li>
+<li> Formation of the active areas and generating the events when they are activated.</li></ul>
+<p>Figure represents a part of the screen with the frame containing examples of reviewing/playback of the media-data.
+</p>
+<div class="center"><div class="floatnone"><a class="image" href="http://oscada.org/wiki/File:WebVision_wvis_run_media.png"><img alt="WebVision wvis run media.png" height="216" src="../files/WebVision_wvis_run_media.png" width="245" /></a></div></div>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="Primitive_of_constructing_diagrams_.28Diagram.29"><span class="mw-headline-number">3.5</span> Primitive of constructing diagrams (Diagram)</span></h3>
+<p>The diagrams construction element releases for types: "Graph", "Spectrum" and "XY", with properties:
+</p>
+<ul><li> General properties of the diagram types "Graph", "Spectrum" and "XY":
+<ul><li> possibility to select the archiver, the archive buffer or all their, at working with the archiving data;</li>
+<li> adaptation of the parameter graph to real data values by adjusting the scale, in the absence of a directly specified range of values;</li>
+<li> controlling by axis ranges in way increasing, decreasing and shifting;</li>
+<li> wide range of scaling and adapting the time axis with automatic fitting the requested data to quality pretty for imaging, or needed for export — specifying the maximum number of measurements per pixel;</li>
+<li> imaging dimensional grid and markers in horizontal and vertical with adapting to the imaging range;</li>
+<li> tracing mode of the current time by periodically updating and shifting the time of the diagram to the current time — the time of the last data in the archive buffer.</li></ul></li>
+<li> Properties of the diagram type "Graph":
+<ul><li> constructing graphics up to 100 parameters per diagram in a percentage scale and displaying the selected parameters in its own scale;</li>
+<li> constructing graph for: current, archiving and users data;</li>
+<li> forming of an intermediate display buffer for current values;</li>
+<li> support for the active mode with cursor and getting values under the cursor;</li>
+<li> possibility of construction graphics as into both linear and logarithmic scale of the values.</li></ul></li>
+<li> Properties of the diagram type "Spectrum":
+<ul><li> construction of graphics of the frequency spectrum of parameters up to 100 on one diagram in a percentage scale and the ability to display selected parameters in its own scale;</li>
+<li> constructing graph for: archiving and users data;</li>
+<li> support for the active mode with cursor and getting values under the cursor;</li></ul></li>
+<li> Properties of the diagram type "XY":
+<ul><li> construction of XY graphs of parameters up to 50 on one diagram in a percentage scale and the ability to display selected parameters on its own scale;</li>
+<li> constructing graph for: current, archiving and users data;</li>
+<li> forming of an intermediate display buffer for current values;</li>
+<li> the parameters distributed by pairs at one graph, where paired by axis Y (0,2,4...) and unpaired by axis X (1,3,5...);</li>
+<li> possibility of construction graphics as into both linear and logarithmic scale of the values.</li></ul></li></ul>
+<p>Figure represents a part of the screen with the frame containing examples of the diagrams: "Graph", "Spectrum" and "XY".
+</p>
+<div class="center"><div class="floatnone"><a class="image" href="http://oscada.org/wiki/File:WebVision_wvis_run_diag.png"><img alt="WebVision wvis run diag.png" height="448" src="../files/WebVision_wvis_run_diag.png" width="348" /></a></div></div>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="Primitive_of_the_protocol_formation_.28Protocol.29"><span class="mw-headline-number">3.6</span> Primitive of the protocol formation (Protocol)</span></h3>
+<p>Provides for support of the element of the protocol formation with the following properties:
+</p>
+<ul><li> Protocol formation from the message archive for the specified time and depth.</li>
+<li> Request of the data from the message archivers.</li>
+<li> Selection of the data from the archives by the level of importance and the template of the message category.</li>
+<li> Support the mode of the tracking for the messages appearance in the message archive.</li></ul>
+<p>Figure represents a part of the screen with the frame containing an example of the protocol.
+</p>
+<div class="center"><div class="floatnone"><a class="image" href="http://oscada.org/wiki/File:WebVision_wvis_run_prot.png"><img alt="WebVision wvis run prot.png" height="242" src="../files/WebVision_wvis_run_prot.png" width="456" /></a></div></div>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="Primitive_of_the_report_formation_.28Document.29"><span class="mw-headline-number">3.7</span> Primitive of the report formation (Document)</span></h3>
+<p>Provides for support element of the report formation with the following properties:
+</p>
+<ul><li> Flexible formation of document structure based on HyperText Markup Language, which provides support for a wide range of features in the documents formatting.</li>
+<li> Formation of the documents at a command or a schedule, which necessary for creation of reports to the archive and then reviewing the archive.</li>
+<li> Formation of the documents in real time, to provide them completely dynamically and on the basis of archives at the specified time.</li>
+<li> Using the widget attributes for transmission to the document of values and addresses to the archives, which allows you to use the document widget as a template when generating reports with other input data.</li></ul>
+<p>The basis of any document is the XHTML template. The XHTML-template is the tag "body" of the WEB-page which contains the document's static in the standard XHTML 1.0 and elements of the executable instructions in the user programming language of OpenSCADA in the view <b>&lt;?dp {procedure}&nbsp;?&gt;</b>. The resulting document is formed by the procedures execution and insertion of their result into the document.
+</p><p>The source for values of the executable instructions are the widget attributes of the primitive, as well as all the mechanisms of the user programming language OpenSCADA. Attributes may be added by the user and they can be linked to the actual attributes or parameters or they can be autonomous, values of which will be formed in the widget procedure. In the case of linked attributes the values can be extracted from the archive-history.
+</p><p>Figure represents the frame, containing a sample of the document.
+</p>
+<div class="center"><div class="floatnone"><a class="image" href="http://oscada.org/wiki/File:WebVision_wvis_run_doc.png"><img alt="WebVision wvis run doc.png" height="578" src="../files/WebVision_wvis_run_doc.png" width="900" /></a></div></div>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="Primitive_of_the_box-container_.28Box.29"><span class="mw-headline-number">3.8</span> Primitive of the box-container (Box)</span></h3>
+<p>Provides for support of the container primitive, which, in combination, plays the role of project pages. This primitive is the only container-element, which can itself include links to frames from the library, thus forming the user elements of the desired configuration. The primitive implements the properties provided by the project. Let's list, in points, the properties of this primitive:
+</p>
+<ul><li> <i>Container</i> — Allows forming the desired objects by grouping in the primitive borders.</li>
+<li> <i>Page</i> — Elements, constructed on the basis of the primitive, may serve as a page of the user interface.</li>
+<li> <i>Container of pages</i> — Property of substitution, in the execution process, of its own content by another page. Used to create frames on the pages of the user interface. For example, the main page of the typical SCADA-system with signal objects is constructed in this way.</li>
+<li> <i>Background</i> — Supports for ability to specify the background as color and image.</li>
+<li> <i>Border</i> — Supports for displaying of the border with the specified color, width and style.</li></ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Overall_configuration_of_the_module"><span class="mw-headline-number">4</span> Overall configuration of the module</span></h2>
+<p>To configure the general behavior, the module provides the ability to configure a number of parameters through the control interface of OpenSCADA (Fig.4):
+</p>
+<ul><li> Lifetime of the sessions, in minutes.</li>
+<li> Overall sessions limit.</li>
+<li> Level of the PNG-images compression. The optimum is the minimum level 1, since large files get uncompressed, and higher compression levels create a higher load on the processor.</li></ul>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:750px;"><a class="image" href="http://oscada.org/wiki/File:WebVision_wvis_cfg.png"><img class="thumbimage" height="503" src="../files/WebVision_wvis_cfg.png" width="748" /></a>  <div class="thumbcaption">Fig.4. Configuration page of the module.</div></div></div></div>
+<h2><span class="mw-headline" id="Notes"><span class="mw-headline-number">5</span> Notes</span></h2>
+<p>At this stage, the module can be used to construct real user interfaces with support for the main functions. However, some problems may arise due to the differences between browsers. At this time, provided enough quality performance on browsers: Chromium (Google Chrome), FireFox, Opera, Konqueror.
+</p>
+
+
+
+
+
+</div></body>
+</html>

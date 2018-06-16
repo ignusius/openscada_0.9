@@ -1,0 +1,302 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-04 13:53+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Load (%)"
+msgstr ""
+
+msgid "System (%)"
+msgstr ""
+
+msgid "User (%)"
+msgstr ""
+
+msgid "Idle (%)"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "10:Device is not available."
+msgstr ""
+
+msgid "Full CPU Load"
+msgstr ""
+
+msgid "CPU Load: "
+msgstr ""
+
+msgid "Total (GB)"
+msgstr ""
+
+msgid "Used (GB)"
+msgstr ""
+
+msgid "Free (GB)"
+msgstr ""
+
+msgid "Total file nodes"
+msgstr ""
+
+msgid "Used file nodes"
+msgstr ""
+
+msgid "Free file nodes"
+msgstr ""
+
+msgid "Mount point"
+msgstr ""
+
+msgid "10:Mountpoint isn't available."
+msgstr ""
+
+#, c-format
+msgid "File system: '%s'"
+msgstr ""
+
+msgid "Read (B)"
+msgstr ""
+
+msgid "Read speed (B/s)"
+msgstr ""
+
+msgid "Write (B)"
+msgstr ""
+
+msgid "Write speed (B/s)"
+msgstr ""
+
+msgid "Disk(part)"
+msgstr ""
+
+msgid "HD statistic: "
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Measure unit"
+msgstr ""
+
+msgid "Temperature"
+msgstr ""
+
+msgid "Disk"
+msgstr ""
+
+msgid "Parameter Hddtemp"
+msgstr ""
+
+msgid "HD temperature: "
+msgstr ""
+
+msgid "Free (KiB)"
+msgstr ""
+
+msgid "Total (KiB)"
+msgstr ""
+
+msgid "Used (KiB)"
+msgstr ""
+
+msgid "Buffers (KiB)"
+msgstr ""
+
+msgid "Cached (KiB)"
+msgstr ""
+
+msgid "Swap free (KiB)"
+msgstr ""
+
+msgid "Swap total (KiB)"
+msgstr ""
+
+msgid "Swap used (KiB)"
+msgstr ""
+
+msgid "Memory info"
+msgstr ""
+
+msgid "Received (B)"
+msgstr ""
+
+msgid "Receive speed (B/s)"
+msgstr ""
+
+msgid "Transmitted (B)"
+msgstr ""
+
+msgid "Transmit speed (B/s)"
+msgstr ""
+
+msgid "Interface"
+msgstr ""
+
+msgid "Interface statistic: "
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+#, c-format
+msgid "Connected=%d; Active=%d; Busy=%d; Error=%d"
+msgstr ""
+
+msgid "Property "
+msgstr ""
+
+msgid "Data sensors"
+msgstr ""
+
+msgid "HDD SMART: "
+msgstr ""
+
+msgid "UPS"
+msgstr ""
+
+#, c-format
+msgid "REQ -> '%s'"
+msgstr ""
+
+#, c-format
+msgid "RESP -> '%s'"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "UPS: "
+msgstr ""
+
+msgid "Full seconds"
+msgstr ""
+
+msgid "Seconds"
+msgstr ""
+
+msgid "Minutes"
+msgstr ""
+
+msgid "Hours"
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "System"
+msgstr ""
+
+msgid "Station"
+msgstr ""
+
+msgid "System up time"
+msgstr ""
+
+msgid "Station up time"
+msgstr ""
+
+msgid "System DA"
+msgstr ""
+
+msgid "Roman Savochenko"
+msgstr ""
+
+msgid "Provides data acquisition from the OS. Supported OS Linux data sources: HDDTemp, Sensors, Uptime, Memory, CPU, UPS etc."
+msgstr ""
+
+msgid "Auto create active data sources"
+msgstr ""
+
+msgid "Manual;Fast sources;Slow sources;All sources"
+msgstr ""
+
+msgid "Table of system parameters"
+msgstr ""
+
+msgid "Acquisition schedule"
+msgstr ""
+
+msgid "Priority of the acquisition task"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "System part"
+msgstr ""
+
+msgid "Additional parameters"
+msgstr ""
+
+msgid "Acquisition. "
+msgstr ""
+
+#, c-format
+msgid "Acquisition with the period: %s. "
+msgstr ""
+
+#, c-format
+msgid "Next acquisition by the cron '%s'. "
+msgstr ""
+
+#, c-format
+msgid "Spent time: %s[%s]. "
+msgstr ""
+
+msgid "2:Controller stopped"
+msgstr ""
+
+msgid "1:Parameter disabled"
+msgstr ""
+
+#, c-format
+msgid "Error writing value to attribute '%s': %s"
+msgstr ""
+
+msgid "CPU"
+msgstr ""
+
+msgid "File Systems"
+msgstr ""
+
+msgid "HDD statistic"
+msgstr ""
+
+msgid "HDD temperature"
+msgstr ""
+
+msgid "Memory"
+msgstr ""
+
+msgid "Network statistic"
+msgstr ""
+
+msgid "Qt sensors"
+msgstr ""
+
+msgid "Sensors"
+msgstr ""
+
+msgid "UPS (NUT)"
+msgstr ""
+
+msgid "Up time"
+msgstr ""

@@ -1,0 +1,302 @@
+# OpenSCADA.DAQ.System translate to Russian.
+# This file is distributed under the same license as the OpenSCADA.DAQ.System package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2005-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DAQ.System 1.7.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-04 13:53+0200\n"
+"PO-Revision-Date: OpenSCADA.DAQ.System 1.2.0\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: LANGUAGE <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Load (%)"
+msgstr "Загрузка (%)"
+
+msgid "System (%)"
+msgstr "Система (%)"
+
+msgid "User (%)"
+msgstr "Пользователь (%)"
+
+msgid "Idle (%)"
+msgstr "Простой (%)"
+
+msgid "General"
+msgstr "В общем"
+
+msgid "10:Device is not available."
+msgstr "10:Устройство недоступно."
+
+msgid "Full CPU Load"
+msgstr "Общая нагрузка процессора"
+
+msgid "CPU Load: "
+msgstr "Нагрузка процессора: "
+
+msgid "Total (GB)"
+msgstr "Всего (ГБ)"
+
+msgid "Used (GB)"
+msgstr "Использовано (ГБ)"
+
+msgid "Free (GB)"
+msgstr "Свободно (ГБ)"
+
+msgid "Total file nodes"
+msgstr "Всего файловых узлов"
+
+msgid "Used file nodes"
+msgstr "Использовано файловых узлов"
+
+msgid "Free file nodes"
+msgstr "Свободно файловых узлов"
+
+msgid "Mount point"
+msgstr "Точка монтирования"
+
+msgid "10:Mountpoint isn't available."
+msgstr "10:Точка монтирования не доступна."
+
+#, c-format
+msgid "File system: '%s'"
+msgstr "Файловая система: '%s'"
+
+msgid "Read (B)"
+msgstr "Прочитано (Б)"
+
+msgid "Read speed (B/s)"
+msgstr "Скорость чтения (Б/c)"
+
+msgid "Write (B)"
+msgstr "Записано (Б)"
+
+msgid "Write speed (B/s)"
+msgstr "Скорость записи (Б/c)"
+
+msgid "Disk(part)"
+msgstr "Диск(раздел)"
+
+msgid "HD statistic: "
+msgstr "Статистика НЖМД: "
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Measure unit"
+msgstr "Единица измерения"
+
+msgid "Temperature"
+msgstr "Температура"
+
+msgid "Disk"
+msgstr "Диск"
+
+msgid "Parameter Hddtemp"
+msgstr "Параметр Hddtemp"
+
+msgid "HD temperature: "
+msgstr "Температура НЖМД: "
+
+msgid "Free (KiB)"
+msgstr "Свободно (ГиБ)"
+
+msgid "Total (KiB)"
+msgstr "Всего (ГиБ)"
+
+msgid "Used (KiB)"
+msgstr "Использовано (ГиБ)"
+
+msgid "Buffers (KiB)"
+msgstr "Буфера (КиБ)"
+
+msgid "Cached (KiB)"
+msgstr "Кеши (КиБ)"
+
+msgid "Swap free (KiB)"
+msgstr "Своп свободно (КиБ)"
+
+msgid "Swap total (KiB)"
+msgstr "Своп всего (КиБ)"
+
+msgid "Swap used (KiB)"
+msgstr "Своп использовано (КиБ)"
+
+msgid "Memory info"
+msgstr "Информация про память"
+
+msgid "Received (B)"
+msgstr "Принято (Б)"
+
+msgid "Receive speed (B/s)"
+msgstr "Скорость приёма (Б/с)"
+
+msgid "Transmitted (B)"
+msgstr "Передано (Б)"
+
+msgid "Transmit speed (B/s)"
+msgstr "Скорость передачи (Б/с)"
+
+msgid "Interface"
+msgstr "Интерфейс"
+
+msgid "Interface statistic: "
+msgstr "Статистика интерфейсов: "
+
+msgid "State"
+msgstr "Состояние"
+
+#, c-format
+msgid "Connected=%d; Active=%d; Busy=%d; Error=%d"
+msgstr "Подключен=%d; Активный=%d; Занятый=%d; Ошибка=%d"
+
+msgid "Property "
+msgstr "Свойство "
+
+msgid "Data sensors"
+msgstr "Данные сенсоров"
+
+msgid "HDD SMART: "
+msgstr "SMART НЖМД: "
+
+msgid "UPS"
+msgstr "ИБП"
+
+#, c-format
+msgid "REQ -> '%s'"
+msgstr "ЗАПР. -> '%s'"
+
+#, c-format
+msgid "RESP -> '%s'"
+msgstr "ОТВ -> '%s'"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "UPS: "
+msgstr "ИБП: "
+
+msgid "Full seconds"
+msgstr "Секунды полные"
+
+msgid "Seconds"
+msgstr "Секунды"
+
+msgid "Minutes"
+msgstr "Минуты"
+
+msgid "Hours"
+msgstr "Часы"
+
+msgid "Days"
+msgstr "Дни"
+
+msgid "System"
+msgstr "Система"
+
+msgid "Station"
+msgstr "Станция"
+
+msgid "System up time"
+msgstr "Время работы системы"
+
+msgid "Station up time"
+msgstr "Время работы станции"
+
+msgid "System DA"
+msgstr "Сбор данных системы"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"Provides data acquisition from the OS. Supported OS Linux data sources: "
+"HDDTemp, Sensors, Uptime, Memory, CPU, UPS etc."
+msgstr ""
+"Предоставляет сбор данных операционной системы. Поддерживаются источники "
+"данных ОС Linux: HDDTemp, Sensors, Uptime, Memory, CPU, UPS и другие."
+
+msgid "Auto create active data sources"
+msgstr "Авт. создавать активные источники данных"
+
+msgid "Manual;Fast sources;Slow sources;All sources"
+msgstr "Ручной;Быстрые источники;Медленные источники;Все источники"
+
+msgid "Table of system parameters"
+msgstr "Таблица системных параметров"
+
+msgid "Acquisition schedule"
+msgstr "Планирование сбора"
+
+msgid "Priority of the acquisition task"
+msgstr "Приоритет задачи получения данных"
+
+msgid "Standard"
+msgstr "Стандартный"
+
+msgid "System part"
+msgstr "Часть системы"
+
+msgid "Additional parameters"
+msgstr "Дополнительные параметры"
+
+msgid "Acquisition. "
+msgstr "Сбор. "
+
+#, c-format
+msgid "Acquisition with the period: %s. "
+msgstr "Сбор с периодом: %s."
+
+msgid "Next acquisition by the cron '%s'. "
+msgstr "Следующий сбор по cron '%s'. "
+
+#, c-format
+msgid "Spent time: %s[%s]. "
+msgstr "Затрачено времени: %s[%s]. "
+
+msgid "2:Controller stopped"
+msgstr "2:Контроллер остановлен"
+
+msgid "1:Parameter disabled"
+msgstr "1:Параметр отключен"
+
+msgid "Error writing value to attribute '%s': %s"
+msgstr "Ошибка записи значения в атрибут '%s': %s"
+
+msgid "CPU"
+msgstr "Процессор"
+
+msgid "File Systems"
+msgstr "Файловые Системы"
+
+msgid "HDD statistic"
+msgstr "Статистика HDD"
+
+msgid "HDD temperature"
+msgstr "Температура HDD"
+
+msgid "Memory"
+msgstr "Память"
+
+msgid "Network statistic"
+msgstr "Статистика сети"
+
+msgid "Qt sensors"
+msgstr "Сенсоры Qt"
+
+msgid "Sensors"
+msgstr "Сенсоры"
+
+msgid "UPS (NUT)"
+msgstr "ИБП (NUT)"
+
+msgid "Up time"
+msgstr "Время работы"

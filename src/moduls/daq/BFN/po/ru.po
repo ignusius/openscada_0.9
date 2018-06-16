@@ -1,0 +1,143 @@
+# OpenSCADA.DAQ.BFN translate to Russian.
+# Copyright (C) 2010 Roman Savochenko
+# This file is distributed under the same license as the OpenSCADA.DAQ.BFN package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2010, 2017-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DAQ.BFN 0.5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 22:44+0300\n"
+"PO-Revision-Date: 2010-04-30 11:50+0300\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "BFN module"
+msgstr "Модуль BFN"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"Support Big Farm Net (BFN) modules for Viper CT/BAS and other from \"Big "
+"Dutchman\" (http://www.bigdutchman.com)."
+msgstr ""
+"Поддержка Big Farm Net (BFN) модулей для Viper CT/BAS и других от \"Big "
+"Dutchman\" (http://www.bigdutchman.com)."
+
+msgid "Acquisition schedule"
+msgstr "Планирование сбора"
+
+msgid "Priority of the acquisition task"
+msgstr "Приоритет задачи сбора данных"
+
+msgid "Period of sync with the remote station, seconds"
+msgstr "Период синхронизации с удалённой станцией, секунд"
+
+msgid "Transport address"
+msgstr "Адрес транспорта"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Standard"
+msgstr "Стандарт"
+
+#, c-format
+msgid "Code %s"
+msgstr "Код %s"
+
+msgid "Symbols"
+msgstr "Символы"
+
+msgid "Symbols DB"
+msgstr "БД символов"
+
+msgid "Codes"
+msgstr "Коды"
+
+msgid "Identifier"
+msgstr "Идентификатор"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "Alarms"
+msgstr "Нарушения"
+
+msgid "Code"
+msgstr "Код"
+
+msgid "New symbol for code"
+msgstr "Новый символ для кода"
+
+msgid "New symbol for alarm"
+msgstr "Новый символ для нарушения"
+
+#, c-format
+msgid "Error: '%s'. "
+msgstr "Ошибка: '%s'. "
+
+msgid "Acquisition. "
+msgstr "Сбор. "
+
+#, c-format
+msgid "Acquisition with the period: %s. "
+msgstr "Сбор с периодом: %s. "
+
+#, c-format
+msgid "Next acquisition by the cron '%s'. "
+msgstr "Следующий сбор по cron '%s'. "
+
+#, c-format
+msgid "Spent time: %s."
+msgstr "Затрачено времени: %s."
+
+msgid "House:\n"
+msgstr "Помещение:\n"
+
+msgid "House computer:\n"
+msgstr "Компьютер помещения:\n"
+
+#, c-format
+msgid "DAQ.%s.%s: connect to the data source: %s."
+msgstr "DAQ.%s.%s: подключение к источнику данных: %s."
+
+msgid "STOP"
+msgstr "ОСТАНОВЛЕН"
+
+#, c-format
+msgid "Error connecting to the transport '%s'."
+msgstr "Ошибка подключения к транспорту '%s'."
+
+msgid "Error parsing the respond. The respond seems incomplete."
+msgstr "Ошибка разбора ответа. Похоже ответ не полный."
+
+#, c-format
+msgid "Unknown alarm '%s'."
+msgstr "Неизвестное нарушение '%s'."
+
+msgid "Main"
+msgstr "Общий"
+
+msgid "Alarm: "
+msgstr "Нарушение: "
+
+msgid "Norma: "
+msgstr "Норма: "
+
+msgid "OK"
+msgstr "НОРМА"
+
+msgid "1:Parameter disabled."
+msgstr "1:Параметр отключен."
+
+msgid "2:Acquisition stopped."
+msgstr "2:Сбор остановлен."

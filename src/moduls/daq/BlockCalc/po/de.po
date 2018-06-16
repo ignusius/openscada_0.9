@@ -1,0 +1,279 @@
+# OpenSCADA.DAQ.BlockCalc translate to German.
+# Copyright (C) 2008-2009 Irina Popkova
+# This file is distributed under the same license as the OpenSCADA.DAQ.BlockCalc module.
+#
+# Irina Popkova <IrischkaPopkova@yandex.ru>, 2008-2010.
+# Klaus Fetscher <k.fetscher@fetron.de>, 2009.
+# Roman Savochenko <rom_as@oscada.org>, 2011-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DAQ.BlockCalc 1.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-04 10:38+0200\n"
+"PO-Revision-Date: 2010-10-09 22:40+0400\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: German <de@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, c-format
+msgid "Block link '%s' save error."
+msgstr "Fehler beim Speichern der Blockverbindung '%s'."
+
+#, c-format
+msgid "Node '%s' is not function."
+msgstr "Knoten '%s' ist keine Funktion."
+
+#, c-format
+msgid "Link %d error!"
+msgstr "Fehler in der Verbindung %d!"
+
+#, c-format
+msgid "Error reading block's '%s' links."
+msgstr "Fehler beim Lesen der Blockverbindung '%s'."
+
+#, c-format
+msgid "Error writing block's '%s' links."
+msgstr "Fehler beim Schreiben der Blockverbindung '%s'."
+
+msgid "Block disabled or error."
+msgstr "Block abgeschaltet oder Fehler."
+
+msgid "Block: "
+msgstr "Block: "
+
+msgid "Block"
+msgstr "Block"
+
+msgid "State"
+msgstr "Zustand"
+
+msgid "Enabled"
+msgstr "Aktiviert"
+
+msgid "Process"
+msgstr "Bearbeitung"
+
+msgid "Configuration"
+msgstr "Konfiguration"
+
+msgid ""
+"Priority block(s) calculate before this block. Blocks list is separated by "
+"symbol ';'."
+msgstr ""
+"Priorität Block(e) vor diesem Block berechnet. Blockiert Liste wird von "
+"Symbol getrennt ';'."
+
+msgid "Go to function"
+msgstr "Zur Funktion"
+
+msgid "IO"
+msgstr ""
+
+msgid "Show"
+msgstr "Zeigen"
+
+msgid "Hidden"
+msgstr "Unsichtbar"
+
+msgid "Links"
+msgstr "Verbindungen"
+
+msgid "Free"
+msgstr "Frei"
+
+msgid "Local"
+msgstr "Lokal"
+
+msgid "Global"
+msgstr "Global"
+
+msgid "Parameter"
+msgstr "Parameter"
+
+msgid "Local out"
+msgstr "Lokal"
+
+msgid "Global out"
+msgstr "Globaler Ausgang"
+
+msgid "Parameter out"
+msgstr "Parameter-ein"
+
+msgid "Local in"
+msgstr "Lokaler Eingang"
+
+msgid "Global in"
+msgstr "Globaler Eingang"
+
+msgid "Parameter in"
+msgstr "Parameter-aus"
+
+msgid "Block based calculator"
+msgstr "Blockrechner"
+
+msgid "Roman Savochenko"
+msgstr "Roman Savotschenko"
+
+msgid "Provides a block based calculator."
+msgstr "Erlaubt Berechnungen mit dem Blockrechner."
+
+msgid "Parameters table"
+msgstr "Tabelle der Parameter"
+
+msgid "Block's table"
+msgstr "Tabelle des Blocks"
+
+msgid "Schedule of the calculation"
+msgstr "Zeitplan der Berechnung"
+
+msgid "Calculate task priority"
+msgstr "Priorität der Berechnung"
+
+msgid "Iteration number into calculate period"
+msgstr "Anzahl der Iterationen in der Rechenzeit"
+
+msgid "Standard"
+msgstr "Standard"
+
+msgid "Blocks' IOs"
+msgstr "IO-Parameter des Blocks"
+
+msgid "Identifier"
+msgstr "Identifikator"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "To enable"
+msgstr "Einschalten"
+
+msgid "To process"
+msgstr "Bearbeiten"
+
+msgid "Prior block"
+msgstr "Priorität Block"
+
+msgid "Write to output links only at changes"
+msgstr "Schreiben Ausgangsverbindungen nur bei Änderungen"
+
+msgid "Function"
+msgstr "Funktion"
+
+msgid "Block's ID"
+msgstr "Id des Blocks"
+
+msgid "IO ID"
+msgstr ""
+
+msgid "Link's type"
+msgstr "Verbindungstyp"
+
+msgid "Link"
+msgstr "Verbindung"
+
+msgid "Link's value"
+msgstr "Verbindungswert"
+
+msgid "Calculation. "
+msgstr "Berechnung. "
+
+msgid "Calculation with the period: %s. "
+msgstr "Berechnung mit einer Periode: %s. "
+
+#, c-format
+msgid "Next calculation by the cron '%s'. "
+msgstr "Berechnung nächsten durch cron '%s'. "
+
+#, c-format
+msgid "Spent time: %s[%s]. "
+msgstr "Verbrauchte Zeit: %s[%s]. "
+
+#, c-format
+msgid "Enable block '%s' error."
+msgstr "Fehler beim Einschalten des Blocks '%s'."
+
+msgid "Start stage 1: set all blocks to process."
+msgstr "Startstufe 1: setzen Sie alle Blöcke zu verarbeiten."
+
+#, c-format
+msgid "Process block '%s' error."
+msgstr "Fehler bei der Bearbeitung des Blocks '%s'."
+
+msgid "Start stage 2: sort blocks for need sequence."
+msgstr "Startstufe 2: kurze Blöcke für Not-Sequenz."
+
+#, c-format
+msgid "Reshuffle blocks '%s'(%d) <-> '%s'(%d)."
+msgstr "Umprogrammieren Blöcke '%s'(%d) <-> '%s'(%d)."
+
+#, c-format
+msgid "Start stage 3: task create: prcSt=%d."
+msgstr "Startstufe 3: Aufgabe erstellen: prcSt=%d."
+
+#, c-format
+msgid "Block '%s' calc error."
+msgstr "Berechnungsfehler im Blocks '%s'."
+
+#, c-format
+msgid "Block '%s' is stopped."
+msgstr "Block '%s' ist angehalten."
+
+msgid "Blocks scheme"
+msgstr "Blockschema"
+
+msgid "Number"
+msgstr "Zahl"
+
+msgid "Blocks"
+msgstr "Blöcke"
+
+#, c-format
+msgid "All: %u; Enabled: %u; Process: %u"
+msgstr "Alle: %u; Eingeschaltet: %u; Bearbeitung: %u"
+
+msgid "1:Parameter disabled."
+msgstr "1:Parameter ist abgeschaltet."
+
+msgid "2:Calculation stopped."
+msgstr "2:Berechnung ist angehalten."
+
+msgid ""
+"Attributes configuration list. List must be written by lines in format: "
+"\"{blk}.{blk_io}[:{aid}:{anm}]\"\n"
+"Where:\n"
+"  blk - block identifier from block's scheme; for constant value set to:\n"
+"    '*s' - String type;\n"
+"    '*i' - Integer type;\n"
+"    '*r' - Real type;\n"
+"    '*b' - Boolean type.\n"
+"  blk_io - block's parameter from block's scheme; for constant value set to "
+"attribute value;\n"
+"  aid - created attribute identifier;\n"
+"  anm - created attribute name.\n"
+"If 'aid' or 'anm' are not set they will be generated from selected block's "
+"parameter."
+msgstr ""
+"Liste der Konfiguration der Attribute. Die Liste wird gemacht zeilenweise im "
+"Format: \"{blk}.{blk_io}[:{aid}:{anm}]\"\n"
+"Wo:\n"
+"  blk - Blockbezeichner, des Blockschemas; für die Konstante wird die "
+"Bedeutung  bestimmt:\n"
+"    '*s' - Zeilentyp;\n"
+"    '*i' - integer-bedeutend;\n"
+"    '*r' - sachlicher Typ;\n"
+"    '*b' - logischer Typ.\n"
+"  blk_io - Blocksparameter, des Blockschemas; für die Konstante die "
+"Bedeutungwird im Sinne eines Attributs bestimmt;\n"
+"  aid - Bezeichner des gebildeten Attributs;\n"
+"  anm - Name des gebildeten Attributs.\n"
+"Falls 'aid' oder 'anm' nicht eingesetzt sind werden sie aus dem gewählten "
+"Blocksparameter generiert."

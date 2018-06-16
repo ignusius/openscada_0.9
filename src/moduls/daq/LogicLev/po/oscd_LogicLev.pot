@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-05 19:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Logical level"
+msgstr ""
+
+msgid "Roman Savochenko"
+msgstr ""
+
+msgid "Provides the pure logical level of the DAQ parameters."
+msgstr ""
+
+msgid "Parameters table by template"
+msgstr ""
+
+msgid "Parameters table for reflection"
+msgstr ""
+
+msgid "Schedule of the calculation"
+msgstr ""
+
+msgid "Priority of the acquisition task"
+msgstr ""
+
+msgid "Logical"
+msgstr ""
+
+msgid "Parameter template"
+msgstr ""
+
+msgid "Parameter ID"
+msgstr ""
+
+msgid "Identifier"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Parameter reflection"
+msgstr ""
+
+msgid "Source parameter"
+msgstr ""
+
+msgid "Calculation. "
+msgstr ""
+
+#, c-format
+msgid "Calculation with the period: %s. "
+msgstr ""
+
+#, c-format
+msgid "Next calculation by the cron '%s'. "
+msgstr ""
+
+#, c-format
+msgid "Spent time: %s[%s]. "
+msgstr ""
+
+msgid "1:Parameter disabled."
+msgstr ""
+
+msgid "2:Calculation stopped."
+msgstr ""
+
+#, c-format
+msgid "Spent time %s[%s]"
+msgstr ""
+
+msgid "Parameter is disabled or is not based on the template."
+msgstr ""
+
+msgid "Error of parameter ID."
+msgstr ""
+
+msgid "Error calculating template."
+msgstr ""
+
+msgid "Error or non-template parameter."
+msgstr ""
+
+msgid "Template configuration"
+msgstr ""
+
+msgid "Only attributes are to be shown"
+msgstr ""
+
+msgid "Parameters"
+msgstr ""
+
+msgid "Error, recursive linking."
+msgstr ""

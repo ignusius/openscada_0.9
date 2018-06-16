@@ -1,0 +1,2130 @@
+# OpenSCADA.UI.VCAEngine translate to German.
+# This file is distributed under the same license as the OpenSCADA.UI.VCAEngine package module.
+#
+# Irina Popkova <IrischkaPopkova@yandex.ru>, 2009-2013.
+# Klaus Fetscher <k.fetscher@fetron.de>, 2009.
+# Roman Savochenko <rom_as@oscada.org>, 2011-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.UI.VCAEngine 1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-28 20:27+0300\n"
+"PO-Revision-Date: 2013-10-21 20:56+0400\n"
+"Last-Translator: irina\n"
+"Language-Team: German <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Loading widgets library."
+msgstr "Widgetsbibliothek laden."
+
+msgid "Saving widgets library."
+msgstr "Widgetsbibliothek speichern."
+
+msgid "Enabling widgets library."
+msgstr "Widgetsbibliothek einschalten."
+
+msgid "Disabling widgets library."
+msgstr "Widgetsbibliothek abschalten."
+
+#, c-format
+msgid "Error enabling/disabling widget '%s': %s."
+msgstr "Fehler beim Ein-/Abschaltens des Widgets '%s': %s."
+
+msgid "Widgets library: "
+msgstr "Widgetsbibliothek: "
+
+msgid "Widget"
+msgstr "Widget"
+
+msgid "Library"
+msgstr "Bibliothek"
+
+msgid "State"
+msgstr "Zustand"
+
+msgid "Enabled"
+msgstr "Aktiviert"
+
+msgid "Library DB"
+msgstr "Datenbank der Bibliothek"
+
+msgid ""
+"DB address in the format \"{DB module}.{DB name}.{Table name}\".\n"
+"To use the main working DB, set '*.*'."
+msgstr ""
+"Datenbank Parameter im Format \"{DB-Modul}.{DB-Name}.{Name der Tabelle}\".\n"
+"Für die Hauptdatenbank '*.*' verwenden."
+
+msgid "Date of modification"
+msgstr "Änderungsdatum"
+
+msgid "Used"
+msgstr "Gebraucht"
+
+msgid "Configuration"
+msgstr "Konfig"
+
+msgid "Identifier"
+msgstr "Identifikator"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "Icon"
+msgstr "Icon"
+
+msgid "Widgets"
+msgstr "Widgets"
+
+msgid "Mime data"
+msgstr "Mime Daten"
+
+msgid "Mime type"
+msgstr "Mime Typ"
+
+msgid "Data"
+msgstr "Daten"
+
+#, c-format
+msgid "Widget '%s' is already present!"
+msgstr "Widget '%s' ist bereits vorhanden!"
+
+msgid "Widget is not container!"
+msgstr "Widget ist kein Container!"
+
+#, c-format
+msgid "Restoring '%s' from the base container!"
+msgstr "Wiederherstellen von '%s' aus dem Basiscontainer!"
+
+msgid "Library widget: "
+msgstr "Bibliothekenwidget: "
+
+#, c-format
+msgid "Error enabling the inheriting widget '%s'."
+msgstr "Fehler beim Aktivieren des erbenden Widgets '%s'."
+
+#, c-format
+msgid "Link to the widget '%s'."
+msgstr "Verknüpfen Sie mit dem Widget '%s'."
+
+msgid "Impossible deleting the base primitive-widget."
+msgstr "Fehler beim Löschens des Grundprimitivwidgets."
+
+#, c-format
+msgid "Base widget '%s'."
+msgstr "Basis Widget '%s'."
+
+msgid "Parent"
+msgstr "Eltern"
+
+msgid "Elementary figure"
+msgstr "Elementarfigur"
+
+msgid "Widget of the elementary figure of the finite visualization."
+msgstr "Widget der elementaren Figur der endlichen Visualisierung."
+
+msgid "Line: width"
+msgstr "Linie: Stärke"
+
+msgid "Line: color"
+msgstr "Linie: Farbe"
+
+msgid "Line: style"
+msgstr "Linie: Stil"
+
+msgid "Solid;Dashed;Dotted"
+msgstr "Durchgehend;Gestrichelt;Gepunktet"
+
+msgid "Border: width"
+msgstr "Rand: Breite"
+
+msgid "Border: color"
+msgstr "Rand: Farbe"
+
+msgid "Fill: color"
+msgstr "Ausfüllen: Farbe"
+
+msgid "Fill: image"
+msgstr "Ausfüllen: Bild"
+
+msgid "Orientation angle"
+msgstr "Drehwinkel"
+
+msgid "Mirroring"
+msgstr "Mirroring"
+
+msgid "Elements list"
+msgstr "Liste von Elementen"
+
+msgid "Attributes"
+msgstr "Attribute"
+
+msgid ""
+"The elements list can contain:\n"
+"  line:({x}|{y}):({x}|{y})[:{width}[:{color}[:{bord_w}[:{bord_clr}[:"
+"{line_stl}]]]]]\n"
+"  line:{p1}:{p2}[:w{n}[:c{n}[:w{n}[:c{n}[:s{n}]]]]]\n"
+"  arc:({x}|{y}):({x}|{y}):({x}|{y}):({x}|{y}):({x}|{y})[:{width}[:{color}[:"
+"{bord_w}[:{bord_clr}[:{line_stl}]]]]]\n"
+"  arc:{p1}:{p2}:{p3}:{p4}:{p5}[:w{n}[:c{n}[:w{n}[:c{n}[:s{n}]]]]]\n"
+"  bezier:({x}|{y}):({x}|{y}):({x}|{y}):({x}|{y})[:{width}[:{color}[:{bord_w}"
+"[:{bord_clr}[:{line_stl}]]]]]\n"
+"  bezier:{p1}:{p2}:{p3}:{p4}[:w{n}[:c{n}[:w{n}[:c{n}[:s{n}]]]]]\n"
+"  fill:({x}|{y}):({x}|{y}):...:({x}|{y})[:{fill_clr}[:{fill_img}]]\n"
+"  fill:{p1}:{p2}:...:{pN}[:c{n}[:i{n}]]\n"
+"Where:\n"
+"  x, y            - direct point (x,y), coordinate in float point pixels;\n"
+"  p1 ... pN       - dynamic point 1...n;\n"
+"  width, bord_w   - direct line and border width in float point pixels;\n"
+"  w{n}            - dynamic width 'n';\n"
+"  color, bord_clr, fill_clr - direct line, border and fill color name or "
+"32bit code whith alpha: {name}[-{AAA}], #RRGGBB-AAA;\n"
+"  c{n}            - dynamic color 'n';\n"
+"  line_stl        - direct line style: 0-Solid, 1-Dashed, 2-Dotted;\n"
+"  s{n}            - dynamic style 'n';\n"
+"  fill_img        - direct image of the filling in the form \"[{src}:]"
+"{name}\", where:\n"
+"     \"src\"      - image source:\n"
+"        file      - directly from a local file by the path;\n"
+"        res       - from table of DB-mime resources.\n"
+"     \"name\"     - file path or mime-resource identifier.\n"
+"  i{n}            - dynamic image of the filling 'n'.\n"
+"For example:\n"
+"  line:(50|25):(90.5|25):2:yellow:3:green:2\n"
+"  arc:(25|50):(25|50):1:4:(25|50)::#000000-0\n"
+"  fill:(25|50):(25|50):c2:i2\n"
+"  fill:(50|25):(90.5|25):(90|50):(50|50):#d3d3d3:h_31"
+msgstr ""
+"Die Liste der Elemente enthalten kann:\n"
+"  line:({x}|{y}):({x}|{y})[:{width}[:{color}[:{bord_w}[:{bord_clr}[:"
+"{line_stl}]]]]]\n"
+"  line:{p1}:{p2}[:w{n}[:c{n}[:w{n}[:c{n}[:s{n}]]]]]\n"
+"  arc:({x}|{y}):({x}|{y}):({x}|{y}):({x}|{y}):({x}|{y})[:{width}[:{color}[:"
+"{bord_w}[:{bord_clr}[:{line_stl}]]]]]\n"
+"  arc:{p1}:{p2}:{p3}:{p4}:{p5}[:w{n}[:c{n}[:w{n}[:c{n}[:s{n}]]]]]\n"
+"  bezier:({x}|{y}):({x}|{y}):({x}|{y}):({x}|{y})[:{width}[:{color}[:{bord_w}"
+"[:{bord_clr}[:{line_stl}]]]]]\n"
+"  bezier:{p1}:{p2}:{p3}:{p4}[:w{n}[:c{n}[:w{n}[:c{n}[:s{n}]]]]]\n"
+"  fill:({x}|{y}):({x}|{y}):...:({x}|{y})[:{fill_clr}[:{fill_img}]]\n"
+"  fill:{p1}:{p2}:...:{pN}[:c{n}[:i{n}]]\n"
+"Wo:\n"
+"  x, y            - Gerade Punkt (x,y)-Koordinaten des Pixels floating "
+"point;\n"
+"  p1 ... pN       - dynamische Punkt 1 ... n;\n"
+"  width, bord_w   - linienbreite der Grenze, in Pixel, und schwimmt;\n"
+"  w{n}            - dynamische Breite 'n';\n"
+"  color, bord_clr, fill_clr - gerade Farbe, Rahmen und Füllung in Form eines "
+"Namens oder einer 32-Bit-Code mit alpha {name}[-{AAA}], #RRGGBB-AAA;\n"
+"  c{n}            - dynamische Farbe 'n';\n"
+"  line_stl        - gerade Stil: 0-solid, 1-punktiert, 2-Punkt;\n"
+"  s{n}            - dynamischen Stil 'n';\n"
+"  fill_img        - direktes Bild im Format füllen \"[{src}%3A]{name}\", "
+"wo:\n"
+"     \"src\"      - Bildquelle:\n"
+"         file     - direkt aus einer lokalen Datei auf den Weg;\n"
+"         res      - Tabelle of mime-Datenbank-Ressourcen.\n"
+"     \"name\"     - dateipfad oder Kennung mime-Ressource.\n"
+"  i{n}            - dynamisches Bild füllen 'n'.\n"
+"Zum Beispiel:\n"
+"  line:(50|25):(90.5|25):2:yellow:3:green:2\n"
+"  arc:(25|50):(25|50):1:4:(25|50)::#000000-0\n"
+"  fill:(25|50):(25|50):c2:i2\n"
+"  fill:(50|25):(90.5|25):(90|50):(50|50):#d3d3d3:h_31"
+
+msgid "Point "
+msgstr "Punkt "
+
+msgid "Width "
+msgstr "Breite "
+
+msgid "Color "
+msgstr "Farbe"
+
+msgid "Image "
+msgstr "Bild"
+
+msgid "Style "
+msgstr "Stil"
+
+msgid "Form element"
+msgstr "Formularelement"
+
+msgid "Form element widget of the finite visualization."
+msgstr "Formularelement Widget der endlichen Visualisierung."
+
+msgid "Element type"
+msgstr "Typ des Elements"
+
+msgid ""
+"Line edit;Text edit;Check box;Button;Combo box;List;Tree;Table;Slider;Scroll "
+"Bar"
+msgstr ""
+"Zeilenbearbeitung;Textbearbeitung;Check Box;Schaltfläche;Combo Box;Liste;"
+"Baum;Tabelle;Schieber;Schieberegler"
+
+msgid "Value"
+msgstr "Wert"
+
+msgid "View"
+msgstr "Ansicht"
+
+msgid "Text;Combo;Integer;Real;Time;Date;Date and time"
+msgstr "Text;Combo;Ganzzahl;Reelle Zahl;Uhrzeit;Datum;Datum und Uhrzeit"
+
+msgid "Confirm"
+msgstr "Bestätigen"
+
+msgid "Font"
+msgstr "Schrift"
+
+msgid "Word wrap"
+msgstr "Zeichenumbruch"
+
+msgid "Repeat"
+msgstr "Wiederholen"
+
+msgid "Image"
+msgstr "Bild"
+
+msgid "Color: button"
+msgstr "Farbe: Taster"
+
+msgid "Color: text"
+msgstr "Farbe: Text"
+
+msgid "Mode"
+msgstr "Modus"
+
+msgid "Standard;Checkable;Menu;Load;Save"
+msgstr "Standard;Checkable;Menü;Laden;Speichern"
+
+msgid "Items"
+msgstr "Elemente"
+
+msgid "Set value"
+msgstr "Sollwert"
+
+msgid "Multiple selection"
+msgstr "Mehrfachauswahl"
+
+msgid "Check"
+msgstr "Prüfung"
+
+msgid "File content"
+msgstr "Datei-Inhalt"
+
+msgid ""
+"Enter text line by the template with the char items:\n"
+"  'A' - ASCII alphabetic character required. A-Z, a-z.\n"
+"  'a' - ASCII alphabetic character permitted but not required.\n"
+"  'N' - ASCII alphanumeric character required. A-Z, a-z, 0-9.\n"
+"  'n' - ASCII alphanumeric character permitted but not required.\n"
+"  'X' - Any character required.\n"
+"  'x' - Any character permitted but not required.\n"
+"  '9' - ASCII digit required. 0-9.\n"
+"  '0' - ASCII digit permitted but not required.\n"
+"  'D' - ASCII digit required. 1-9.\n"
+"  'd' - ASCII digit permitted but not required (1-9).\n"
+"  '#' - ASCII digit or plus/minus sign permitted but not required.\n"
+"  'H' - Hexadecimal character required. A-F, a-f, 0-9.\n"
+"  'h' - Hexadecimal character permitted but not required.\n"
+"  'B' - Binary character required. 0-1.\n"
+"  'b' - Binary character permitted but not required.\n"
+"  '>' - All following alphabetic characters are uppercased.\n"
+"  '<' - All following alphabetic characters are lowercased.\n"
+"  '!' - Switch off case conversion.\n"
+"  '\\' - Use to escape the special characters listed above to use them as "
+"separators."
+msgstr ""
+"Geben Sie den Text Zeile Template mit dem char Begriffe:\n"
+"  'A' - ASCII alphabetischen Zeichen erforderlich. Von A-Z, a-z.\n"
+"  'a' - ASCII alphabetischen Zeichen erlaubt, aber nicht erforderlich.\n"
+"  'N' - ASCII alphanumerische Zeichen erforderlich. A-Z, a-z, 0-9.\n"
+"  'n' - ASCII alphanumerische Zeichen erlaubt, aber nicht erforderlich.\n"
+"  'X' - Jedes Zeichen benötigt.\n"
+"  'x' - Jedes Zeichen erlaubt, aber nicht erforderlich.\n"
+"  '9' - ASCII Ziffer erforderlich. 0-9.\n"
+"  '0' - ASCII Ziffer erlaubt aber nicht erforderlich.\n"
+"  'D' - ASCII Ziffer erforderlich. 1-9.\n"
+"  'd' - ASCII Ziffer erlaubt aber nicht erforderlich (1-9).\n"
+"  '#' - ASCII Ziffer oder Vorzeichen zulässig, aber nicht erforderlich.\n"
+"  'H' - Hexadezimale Zeichen erforderlich. A-F, a-f, 0-9.\n"
+"  'h' - Hexadezimale Zeichen erlaubt, aber nicht erforderlich.\n"
+"  'B' - Binärzeichenraten erforderlich. 0-1.\n"
+"  'b' - Binary Charakter erlaubt aber nicht erforderlich.\n"
+"  '>' - Alle folgenden Buchstaben sind Großbuchstaben.\n"
+"  '<' - Alle folgenden Buchstaben sind kleingeschrieben.\n"
+"  '!' - Schalten Sie Groß-/Kleinumschaltung.\n"
+"  '\\' - Verwenden Sie die Sonderzeichen oben aufgeführten sie als "
+"Trennzeichen verwenden zu entkommen."
+
+msgid "List of values the editable combobox by lines."
+msgstr "Liste der Werte der bearbeitbaren ComboBox durch Linien."
+
+msgid ""
+"Integer value configuration in the form: \"{Min}:{Max}:{ChangeStep}:{Prefix}:"
+"{Suffix}\"."
+msgstr ""
+"Integer-Wert-Konfiguration in Form: \"{Min}:{Max}:{ChangeStep}:{Prefix}:"
+"{Suffix}\"."
+
+msgid ""
+"Real value configuration in the form: \"{Min}:{Max}:{ChangeStep}:{Prefix}:"
+"{Suffix}:{SignsAfterDot}\"."
+msgstr ""
+"Realer-Wert-Konfiguration in Form: \"{Min}:{Max}:{ChangeStep}:{Prefix}:"
+"{Suffix}:{SignsAfterDot}\"."
+
+msgid ""
+"Enter date and/or time by the template with the items:\n"
+"  \"d\" - number of the day (1-31);\n"
+"  \"dd\" - number of the day (01-31);\n"
+"  \"ddd\" - acronym of the day ('Mon' ... 'Sun');\n"
+"  \"dddd\" - the full name of the day ('Monday' ... 'Sunday');\n"
+"  \"M\" - number of the month (1-12);\n"
+"  \"MM\" - number of the month (01-12);\n"
+"  \"MMM\" - acronym of the month ('Jan' ... 'Dec');\n"
+"  \"MMMM\" - the full name of the month ('January' ... 'December');\n"
+"  \"yy\" - the last two digits of the year;\n"
+"  \"yyyy\" - the full year;\n"
+"  \"h\" - hour (0-23);\n"
+"  \"hh\" - hour (00-23);\n"
+"  \"m\" - minutes (0-59);\n"
+"  \"mm\" - minutes (00-59);\n"
+"  \"s\" - seconds (0-59);\n"
+"  \"ss\" - seconds (00-59);\n"
+"  \"AP,ap\" - to display AM/PM or am/pm."
+msgstr ""
+"Geben Sie Datum und / oder Zeit durch Vorlage mit den Elementen:\n"
+"  \"d\" - Zahl am Tag (1-31);\n"
+"  \"dd\" - Zahl am Tag (01-31);\n"
+"  \"ddd\" - Abkürzung am Tag ('Mo' ... 'Son');\n"
+"  \"dddd\" - den vollständigen Namen am Tag ('Montag' ... 'Sonntag');\n"
+"  \"M\" - Zahl im Monat (1-12);\n"
+"  \"MM\" - Zahl im Monat (01-12);\n"
+"  \"MMM\" - Abkürzung im Monat ('Jan ' ... 'Dec ');\n"
+"  \"MMMM\" - der vollständige Name im Monat ('Januar' ... 'Dezember');\n"
+"  \"yy\" - letzten beiden Ziffern des Jahres;\n"
+"  \"yyyy\" - ganzes Jahr;\n"
+"  \"h\" - Stunde (0-23);\n"
+"  \"hh\" - Stunde (00-23);\n"
+"  \"m\" - Minuten (0-59);\n"
+"  \"mm\" - Minuten (00-59);\n"
+"  \"s\" - Sekunden (0-59);\n"
+"  \"ss\" - Sekunden (00-59);\n"
+"  \"AP,ap\" - auf AM/PM-Anzeige oder am/pm."
+
+msgid ""
+"Operation modes of the button:\n"
+"  \"Standard\" - standard button with the ability to repeat the events when "
+"hold (the parameters in \"value\");\n"
+"  \"Checkable\" - checkable button (the value in \"value\");\n"
+"  \"Menu\" - opening menu by click (the list of items in \"value\");\n"
+"  \"Load\" - provides user downloading of small files through the "
+"visualization interface;\n"
+"             at the push of a button, in this mode, the dialog opens the "
+"file selection for download,\n"
+"             and the content of the selected file is loaded to the attribute "
+"\"value\";\n"
+"  \"Save\" - provides user saving small files through the interface of "
+"visualization;\n"
+"             after the contents of the file have been written to the \"value"
+"\" attribute,\n"
+"             a dialog will be opened for selecting-defining a file to save, "
+"after which the contents\n"
+"             of the attribute \"value\" will be saved to the file and it "
+"will be cleared itself."
+msgstr ""
+"Der Modus des Arbeitsganges der Taste:\n"
+"\"Standard\" - Standard-Schaltfläche mit der Fähigkeit, die Ereignisse zu "
+"wiederholen, wenn sie gehalten werden (die Parameter in \"value\");\n"
+"\"Checkable\" - Checkable Button (der Wert in \"value\");\n"
+"\"Menu\" - Öffnen des Menüs durch Klicken (die Liste der Elemente in \"value"
+"\");\n"
+"\"Load\" - bietet Benutzern das Herunterladen von kleinen Dateien über die "
+"Visualisierungsoberfläche;\n"
+"             auf Knopfdruck öffnet der Dialog in diesem Modus die "
+"Dateiauswahl zum Download und\n"
+"             der Inhalt der ausgewählten Datei wird in das Attribut \"value"
+"\" geladen;\n"
+"\"Save\" - bietet dem Benutzer das Speichern von kleinen Dateien über die "
+"Schnittstelle der Visualisierung;\n"
+"             Nachdem der Inhalt der Datei in das \"value\" -Attribut "
+"geschrieben wurde, wird ein Dialog geöffnet,\n"
+"             in dem eine zu speichernde Datei ausgewählt wird. Danach wird "
+"der Inhalt des Attributs \"value\"\n"
+"             in der Datei gespeichert und es wird sich selbst klären."
+
+msgid ""
+"Parameters of the repeating of the events at holding the button \"{delay}-"
+"{interval}\", time in milliseconds."
+msgstr ""
+"Parameter vom Vorgangswiederholen beim Halten \"{delay}-{interval}\", Zeit "
+"in Millisekunden"
+
+msgid "Value of the toggle."
+msgstr "Wert des Schalters."
+
+msgid "List of menu items in the form \"/grp1/grp2/item1\"."
+msgstr "Die Liste von Elementenadressen-Menu gleich \"/grp1/grp2/item1\"."
+
+msgid ""
+"First line of the descriptor \"{FilesTemplate}|{Header}|"
+"{FileByDefaultAndLoaded}|{FileMime}\" and the loaded file content from the "
+"next line.\n"
+"The files template writing like to \"Images (*.png *.xpm *.jpg);;CSV-file (*."
+"csv)\"."
+msgstr ""
+"Erste Zeile des Deskriptors \"{FilesTemplate}|{Header}|"
+"{FileByDefaultAndLoaded}|{FileMime}\" und der Inhalt der geladenen Datei aus "
+"der nächsten Zeile.\n"
+"Die Dateivorlage schreibt sich wie in \"Images (*.png *.xpm *.jpg);;CSV-"
+"Datei (*.csv)\"."
+
+msgid ""
+"First line of the descriptor \"{FilesTemplate}|{Header}|{FileByDefault}|"
+"{FileMime}\" and the saving file content from the next line.\n"
+"The files template writing like to \"Images (*.png *.xpm *.jpg);;CSV-file (*."
+"csv)\"."
+msgstr ""
+"Erste Zeile des Deskriptors \"{FilesTemplate}|{Header}|{FileByDefault}|"
+"{FileMime}\" und der Inhalt der geladenen Datei aus der nächsten Zeile.\n"
+"Die Dateivorlage schreibt sich wie in \"Images (*.png *.xpm *.jpg);;CSV-"
+"Datei (*.csv)\"."
+
+msgid ""
+"List of the hierarchical items by the path \"/{DIR}/{DIR}/{ITEM}\" per line."
+msgstr ""
+"Liste von hierarchischen Elementen gleich \"/{DIR}/{DIR}/{ITEM}\" in Zeilen."
+
+msgid "List of items-values by lines."
+msgstr "Liste der Werke-Werte durch Linien."
+
+msgid ""
+"Configuration of the slider in the format: \"{VertOrient}:{Min}:{Max}:"
+"{SinglStep}:{PageStep}\".\n"
+"Where:\n"
+"  \"VertOrient\" - sign of the vertical orientation, the default one is the "
+"horizontal orientation;\n"
+"  \"Min\" - minimum value;\n"
+"  \"Max\" - maximum value;\n"
+"  \"SinglStep\" - the size of a single step;\n"
+"  \"PageStep\" - the size of the page step."
+msgstr ""
+"Konfiguration der Regler im Format: \"{VertOrient}:{Min}:{Max}:{SinglStep}:"
+"{PageStep}\".\n"
+"Wo:\n"
+"  \"VertOrient\" - Zeichen einer vertikalen Ausrichtung, ist die "
+"Standardeinstellung der horizontalen Ausrichtung;\n"
+"  \"Min\" - Minimalwert;\n"
+"  \"Max\" - Maximalwert;\n"
+"  \"SinglStep\" - von der Größe eines einzigen Schritt;\n"
+"  \"PageStep\" - die Größe der Seite Schritt."
+
+msgid ""
+"XML tag \"tbl\" for the table fill:\n"
+"  <tbl>\n"
+"    <h><s>{Header1}</s><s>{Header2}</s></h>\n"
+"    <r><s>{Row1Column1String}</s><i>{Row1Column1Integer}</i></r>\n"
+"    <r><b>{Row2Column1Logical}</b><r>{Row2Column2Real}</r></r>\n"
+"  </tbl>\n"
+"Tags:\n"
+"  tbl - Table, the properties at all:\n"
+"    sel         - selection mode of the table items:\n"
+"                 \"row\" - by rows, \"col\" - by columns, \"cell\" - by "
+"cells (by default);\n"
+"    keyID       - row-column number of the key, for the selection value "
+"get;\n"
+"    colsWdthFit - fits the columns (in the unfixed size) size to fill the "
+"full width of the table;\n"
+"    hHdrVis, vHdrVis - visibility of the headers, for horizontal and "
+"vertical;\n"
+"    sortEn - enables sorting directly by the columns.\n"
+"  h   - Row of the headers. Possible attributes of the header cell tag for "
+"the column as a whole:\n"
+"    width - column width, in pixels or percents (10%);\n"
+"    edit  - allowing to the cells of the row edition (0 or 1), by default - "
+"no (0);\n"
+"    color - column color as a whole into the color name or code;\n"
+"    colorText - color of the column text as a whole into the color name or "
+"code;\n"
+"    font - font of the column text in the typical OpenSCADA string;\n"
+"    sort - sorting by the column [0 - Descending; 1 - Ascending].\n"
+"  r   - Row of the values. Possible attributes of the row cell tag for the "
+"row as a whole:\n"
+"    color - row color as a whole into the color name or code;\n"
+"    colorText - color of the row text as a whole into the color name or "
+"code;\n"
+"    font - font of the row text in the typical OpenSCADA string.\n"
+"  s, i, r, b - cells of the data types \"String\", \"Integer\", \"Real\" and "
+"\"Logical\". Possible attributes:\n"
+"    color - cell color;\n"
+"    colorText - color of the cell text into the color name or code;\n"
+"    font - font of the cell text in the typical OpenSCADA string;\n"
+"    img - image of the cell into the form \"[{src}:]{name}\";\n"
+"    edit - allowing the cell edition (0 or 1), by default - no (0)."
+msgstr ""
+"XML-Tag \"tbl\" für die Tabelle fill:\n"
+"  <tbl>\n"
+"    <h><s>{Kopfzeile1}</s><s>{Kopfzeile2}</s></h>\n"
+"    <r><s>{Zeile1Spalte1Saite}</s><i>{Zeile1Spalte1Integer}</i></r>\n"
+"    <r><b>{Zeile2Spalte1Logisch}</b><r>{Zeile2Spalte2Real}</r></r>\n"
+"  </tbl>\n"
+"Die Tags:\n"
+"  tbl - Tabelle, die Eigenschaften überhaupt:\n"
+"    sel         - der Auswahlmodus der Tabelle Einzelteile:\n"
+"                 \"row\" - durch Reihen, \"col\" - nach Spalten, \"cell\" - "
+"von Zellen (standardmäßig);\n"
+"    keyID       - Zeilen-Spalten-Nummer des Schlüssels, bei der Auswahl Wert "
+"zu erhalten;\n"
+"    colsWdthFit - passen Sie die Spalten (welche Größe nicht fixierte) Größe "
+"für volle Breite der Tabelle zu füllen;\n"
+"    hHdrVis, vHdrVis - horizontale, vertikale Kopf Sichtbarkeit Satz.\n"
+"    sortEn - direkte Sortierung von Spalten ermöglichen.\n"
+"  h   - Reihe der Überschriften. Mögliche Attribute des Kopfzeilen-Tags für "
+"die gesamte Spalte:\n"
+"    width - die Spaltenbreite in Pixeln oder Prozent (10%);\n"
+"    edit  - ermöglicht die Zellen der Reihe edition (0 oder 1), "
+"standardmäßig - nicht (0);\n"
+"    color - die Spalte Farbe als Ganzes in den Farbnamen oder Code;\n"
+"    colorText - die Spalten Textfarbe als Ganzes in den Farbnamen oder "
+"Code;\n"
+"    font - die Spalten Text Schriftart in typischen OpenSCADA Zeichenfolge;\n"
+"    sort - Sortierung durch die Spalte [0 - Absteigend; 1 - Aufsteigend].\n"
+"  r   - Reihe der Werte. Mögliche Attribute des Zeilenzellen-Tags für die "
+"Zeile als Ganzes:\n"
+"    color - die Zeilenfarbe als Ganzes in die Farb Name oder Code.\n"
+"    colorText - die Zeilenfarbe Textfarbe als Ganzes in den Farbnamen oder "
+"Code;\n"
+"    font - die Zeilenfarbe Text Schriftart in typischen OpenSCADA "
+"Zeichenfolge.\n"
+"  s, i, r, b - Zellen des Datentyps \"String\", \"Integer\", \"Real\" und "
+"\"Logical\". Erlaubt Attribute:\n"
+"    color - Hintergrundfarbe der Zelle;\n"
+"    colorText - der Zelle Textfarbe in den Farbnamen oder Code;\n"
+"    font - der Zelle Text Schriftart in typischen OpenSCADA Zeichenfolge;\n"
+"    img - Bild der Zelle in Form \"[{src}:]{Name}\";\n"
+"    edit - ermöglicht auf die Zelle der Zeile Ausgabe (0 oder 1), "
+"standardmäßig - nicht (0)."
+
+msgid "Text field"
+msgstr "Textfeld"
+
+msgid "Text field widget of the finite visualization."
+msgstr "Textfeld Widget der endlichen Visualisierung."
+
+msgid "Background: color"
+msgstr "Hintergrund: Farbe"
+
+msgid "Background: image"
+msgstr "Hintergrund: Bild"
+
+msgid "Border: style"
+msgstr "Rand: Stil"
+
+msgid "None;Dotted;Dashed;Solid;Double;Groove;Ridge;Inset;Outset"
+msgstr ""
+"Keine;Gepunktet;Gestrichelt;Durchgehend;Doppelt;Rille;Grat;Einsatz;Anfang"
+
+msgid "Color"
+msgstr "Farbe"
+
+msgid "Alignment"
+msgstr "Ausrichtung "
+
+msgid ""
+"Top left;Top right;Top center;Top justify;Bottom left;Bottom right;Bottom "
+"center;Bottom justify;V center left;V center right;Center;V center justify"
+msgstr ""
+"Oben links;Oben rechts;Oben Mitte;Oben bündig;Unten links;Unten rechts;Unten "
+"Mitte;Unten bündig;Mitte links;Mitte rechts;Mitte;Mitte bündig"
+
+msgid "In HTML"
+msgstr "In HTML"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "Arguments number"
+msgstr "Anzahl der Argumente"
+
+msgid "Argument "
+msgstr "Argument "
+
+msgid ": type"
+msgstr ": Typ"
+
+msgid "Integer;Real;String"
+msgstr "Ganzzahl;Reele Zahl;Text"
+
+msgid ": value"
+msgstr ": Wert"
+
+msgid ": config"
+msgstr ": Konfiguration"
+
+msgid ""
+"Text value in HTML. Use \"%{x}\" for argument \"x\" (from 1) value insert."
+msgstr ""
+"Textwert in HTML. Verwenden Sie \"%{n}\" die Werte der Argumente \"n\" (aus "
+"1) zu halten."
+
+msgid "Text value. Use \"%{x}\" for argument \"x\" (from 1) value insert."
+msgstr ""
+"Textwert. Verwenden Sie \"%{n}\" die Werte der Argumente \"n\" (aus 1) zu "
+"halten."
+
+msgid "Integer value configuration in the form \"{len}\"."
+msgstr "Integer-Wert-Konfiguration in Form \"{len}\"."
+
+msgid ""
+"Real value configuration in the form: \"{width};{form};{prec}\".\n"
+"Where \"form\" is 'g', 'e' or 'f'."
+msgstr ""
+"Realer Wert Konfiguration in Form: \"{width};{form};{prec}\".\n"
+"Wo \"Form\", die 'g', 'e' oder 'f'."
+
+msgid "String value configuration in the form \"{len}\"."
+msgstr "String-Wert-Konfiguration in Form \"{len}\"."
+
+msgid "Media"
+msgstr "Media"
+
+msgid "Media widget of the finite visualization."
+msgstr "Widget für die Media der Visualisierung."
+
+msgid "Source"
+msgstr "Quelle"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Image;Animation;Full video"
+msgstr "Bild;Animation;Full Video"
+
+msgid "Map areas"
+msgstr "Kartenbereiche"
+
+msgid "Fit to the widget size"
+msgstr "Passen Sie auf die Widgetgröße an"
+
+msgid "Play speed"
+msgstr "Geschwindigkeit der Wiedergabe"
+
+msgid "Play"
+msgstr "Abspielen"
+
+msgid "Roll play"
+msgstr "Roll spielen"
+
+msgid "Pause"
+msgstr "Pause"
+
+msgid "Size"
+msgstr "Größe"
+
+msgid "Seek"
+msgstr "Suchen"
+
+msgid "Volume"
+msgstr "Volumen"
+
+msgid "Area "
+msgstr "Bereich "
+
+msgid ": shape"
+msgstr ": Gestalt"
+
+msgid "Rect;Poly;Circle"
+msgstr "Quadrat;Poly;Kreis"
+
+msgid ": coordinates"
+msgstr ": Koordinaten"
+
+msgid ": title"
+msgstr ": Titel"
+
+msgid ""
+"Name of the media source in the form \"[{src}:]{name}\", where:\n"
+"  \"src\" - source:\n"
+"    file - directly from a local file (for visualizator or engine) by the "
+"path;\n"
+"    res - from table of DB-mime resources;\n"
+"    stream - stream URL to play video and audio.\n"
+"  \"name\" - file path or mime-resource identifier.\n"
+"Examples:\n"
+"  \"res:workMedia\" - from the table of DB-mime resources for the ID "
+"\"workMedia\";\n"
+"  \"workMedia\" - like to the previous;\n"
+"  \"file:/var/tmp/workMedia.mng\" - from a local file by the path \"/var/tmp/"
+"workMedia.mng\";\n"
+"  \"stream:http://localhost.localhost:5050\" - playing the stream video and "
+"audio from the URL."
+msgstr ""
+"Media Quelle Name in Form \"[{src}:]{name}\", wo:\n"
+"  \"src\" - Quelle:\n"
+"    file - direkt vom lokalen (Visualizer und der Motor) Dateisystem von "
+"Pfad;\n"
+"    res - von DB Mime Ressourcen-Tabelle;\n"
+"    stream - Stream-URL für Video-und Audio-Wiedergabe.\n"
+"  \"name\" - Dateipfad oder Ressource Mime Id.\n"
+"Beispiele:\n"
+"  \"res:workMedia\" - von DB Mime Ressourcen-Tabelle für ID \"workMedia\";\n"
+"  \"workMedia\" - wie frühere;\n"
+"  \"file:/var/tmp/workMedia.mng\" - von der lokalen Datei-Pfad \"/var/tmp/"
+"workMedia.mng\";\n"
+"  \"stream:http://localhost.localhost:5050\" - Video-und Audio-Stream Play-"
+"URL aus."
+
+msgid ""
+"Media type variant:\n"
+"  \"Image\" - raster or vector image, like to: PNG, JPEG, GIF, SVG;\n"
+"  \"Animation\" - simple animation image, like to: GIF, MNG;\n"
+"  \"Full video\" - full video, audio or stream, like to: OGG, OGM, AVI, MKV, "
+"MPG, MP3, MP4."
+msgstr ""
+"Typ der Medien-Option:\n"
+"  \"Bild\" - Raster-oder Vektordaten auf das Bild, wie: PNG, JPEG, GIF, "
+"SVG;\n"
+"  \"Animation\" - einfaches animiertes Bild, wie: GIF, MNG;\n"
+"  \"Full Video\" - volle Video, Audio oder Strom, wie: OGG, OGM, AVI, MKV, "
+"MPG, MP3, MP4."
+
+msgid "Rectangle area in the form \"x1,y1,x2,y2\"."
+msgstr "Rechteck Bereich in Form \"x1,y1,x2,y2\"."
+
+msgid "Polygon area in the form \"x1,y1,x2,y2,xN,yN\"."
+msgstr "Polygon-Bereich in Form \"x1,y1,x2,y2,xN,yN\"."
+
+msgid "Circle area in the form \"x,y,r\"."
+msgstr "Kreisfläche in Form \"x,y,r\"."
+
+msgid "Diagram"
+msgstr "Diagramm"
+
+msgid "Diagram widget of the finite visualization."
+msgstr "Widget für das Diagramm der Visualisierung."
+
+msgid "Tracing period, seconds"
+msgstr "Trackingszeit, Sekunden"
+
+msgid "Trend;Spectrum;XY"
+msgstr "Plan;Spektrum;XY"
+
+msgid "Cursor: seconds"
+msgstr "Cursor: Sekunden"
+
+msgid "Cursor: microseconds"
+msgstr "Cursor: Mikrosekunden"
+
+msgid "Cursor: color"
+msgstr "Cursor: Farbe"
+
+msgid "Scale: horizontal grid size, seconds"
+msgstr "Skala: Horiz. Gitterlinien Größe, Sekunden"
+
+msgid "Time: seconds"
+msgstr "Zeit: Sekunden"
+
+msgid "Time: microseconds"
+msgstr "Zeit: Mikrosekunden"
+
+msgid "Size, seconds"
+msgstr "Größe, Sekunden"
+
+msgid "Scale: color"
+msgstr "Skala: Farbe"
+
+msgid "Scale: horizontal"
+msgstr "Skala: waagerecht"
+
+msgid ""
+"No draw;Grid;Markers;Grid and markers;Grid (log);Markers (log);Grid and "
+"markers (log)"
+msgstr ""
+"Zeichnen nicht;Gitter;Markierung;Gitter und Markierung;Gitter (log);"
+"Markierung (log);Gitter und Markierung (log)"
+
+msgid "Scale: horizontal scale (%)"
+msgstr "Skala: horizontalen Maßstab (%)"
+
+msgid "Scale: horizontal scale offset (%)"
+msgstr "Skala: senkrecht. Maßstab horizontalen (%)"
+
+msgid "Scale: vertical"
+msgstr "Skala: senkrecht"
+
+msgid "Scale: vertical scale (%)"
+msgstr "Skala: senkrechter Maßstab (%)"
+
+msgid "Scale: vertical scale offset (%)"
+msgstr "Skala: senkrecht. Maßstab verschieben (%)"
+
+msgid "Scale: Markers: color"
+msgstr "Skala: Markierung: Farbe"
+
+msgid "Scale: Markers: font"
+msgstr "Skala: Markierung: Schrift"
+
+msgid "Value archiver"
+msgstr "Wertarchivierer"
+
+msgid "Values per pixel"
+msgstr "Werte pro Pixel"
+
+msgid "Parameters number"
+msgstr "Anzahl der Parameter"
+
+msgid "Parameter "
+msgstr "Parameter "
+
+msgid ": address"
+msgstr ": Adresse"
+
+msgid ": view border: lower"
+msgstr ": Sicht Grenze: untere"
+
+msgid ": view border: upper"
+msgstr ": Sicht Grenze: obere"
+
+msgid ": color"
+msgstr ": Farbe"
+
+msgid ": width"
+msgstr ": Stärke"
+
+msgid ": scale"
+msgstr ": Skale"
+
+msgid "Global;Markers;Grid and markers;Markers (log);Grid and markers (log)"
+msgstr ""
+"Globally;Markierung;Gitter und Markierung;Markierung (log);Gitter und "
+"Markierung (log)"
+
+msgid ": properties"
+msgstr ": Eigenschaften"
+
+msgid "Value archiver in the form \"{ArchMod}.{ArchiverId}\"."
+msgstr "Wertarchivierer im Formular \"{ArchMod}.{ArchivatorId}\"."
+
+msgid ""
+"Number of the values per pixel. Increase to enhance the export accuracy at "
+"large time intervals."
+msgstr ""
+"Die Anzahl der Werte pro Pixel. Zoom, um die Genauigkeit der Ausführen in "
+"die großen Zeitabständen zu erhöhen."
+
+msgid ""
+"Full address to the DAQ attribute of the parameter or to the archive.\n"
+"Data installation by the direct prefix is supported:\n"
+"  \"data:{XMLNodeData}\" - drawing from the direct set data;\n"
+"  \"line:{value}\" - drawing horizontal line by the value, no sense have for "
+"the type \"XY\".\n"
+"Example:\n"
+"  \"/DAQ/System/AutoDA/MemInfo/use\" - address to the attribute \"use\" of "
+"the parameter \"MemInfo\"\n"
+"    of the controller \"AutoDA\" of the DAQ module \"System\";\n"
+"  \"/Archive/va_CPULoad_load\" - address to the archive \"CPULoad_load\";\n"
+"  \"data:<d s=\"1\" tm=\"1369465209\" tm_grnd=\"1369465200\" per=\"1\">\n"
+"    0 3.14\n"
+"    1 3.141\n"
+"    5 3.1415</d> - data for 10 seconds and period in 1 second from "
+"\"25.05.2013 10:00:00\";\n"
+"      in the absence of \"tm\" and \"tm_grnd\" they will be set from the "
+"range of the diagram,\n"
+"      and setting the attribute \"s\" will allow you to specify the time in "
+"seconds;\n"
+"  \"line:3.14159265\" - horizontal line for the value \"3.14159265\"."
+msgstr ""
+"Vollständige Adresse zu DAQ Attribut eines Parameters oder in ein Archiv.\n"
+"Außerdem unterstützt direkten Montage Daten auf dem Präfix:\n"
+"  \"data:{XMLNodeData}\" - zeichnung direkt aus dem Datensatz;\n"
+"  \"line:{Wert}\" - zeichnung eine horizontale Linie sinnvoll, Keinen Sinn "
+"haben für Typ \"XY\".\n"
+"Beispiel:\n"
+"  \"/DAQ/System/AutoDA/MemInfo/use\" - Adresse Attribut \"use\" des "
+"Parameters \"MemInfo\"\n"
+"\t    des Controllers \"AutoDA\" des DAQ-Modul \"System\";\n"
+"  \"/Archive/va_CPULoad_load\" - Adresse zu archivieren \"CPULoad_load\";\n"
+"  \"data:<d s=\"1\" tm=\"1369465209\" tm_grnd=\"1369465200\" per=\"1\">\n"
+"    0 3.14\n"
+"    1 3.141\n"
+"    5 3.1415</d> - 10 Sekunden Daten bei 1 Sekunde von \"25.05.2013 "
+"10:00:00\";\n"
+"      bei Pass \"tm\" und \"tm_grnd\" Es wird Sätze Werte aus dem Diagramm-"
+"Bereich,\n"
+"      und auch von Set Attribute \"s\" wird es ermöglicht die Zeit in "
+"Sekunden eingestellt\n"
+"  \"line:3.14159265\" - eine horizontale Linie auf dem Wert \"3.14159265\"."
+
+msgid ""
+"Actual archive properties in the form \"{BegArh}:{EndArh}:{DataPeriod}\", "
+"where:\n"
+"  \"BegArh\", \"EndArh\", \"DataPeriod\" - begin, end and period of data of "
+"the archive in seconds,\n"
+"                  it is the real value up to the microseconds deep (1e-6)."
+msgstr ""
+"Die Eigenschaften des echten Archive in Form \"{BegArh}:{EndArh}:"
+"{DataPeriod}\", wo:\n"
+"  \"BegArh\", \"EndArh\", \"DataPeriod\" - Anfang, Ende und während der "
+"Daten-Archiv in Sekunden,\n"
+"                  es ist der wahre Wert bis in die Mikrosekunden Tiefe "
+"(1e-6)."
+
+msgid "Protocol"
+msgstr "Protokoll"
+
+msgid "Protocol widget of the finite visualization."
+msgstr "Widget für das Protokoll der Visualisierung."
+
+msgid "Header visible"
+msgstr "Titel sichtbar"
+
+msgid "Time, seconds"
+msgstr "Zeit, Sekunden"
+
+msgid "Archiver"
+msgstr "Archiver"
+
+msgid "Template"
+msgstr "Vorlage"
+
+msgid "Level"
+msgstr "Level"
+
+msgid "View order"
+msgstr "Ordnung der Widerspiegelung"
+
+msgid ""
+"On time;On level;On category;On messages;On time (reverse);On level "
+"(reverse);On category (reverse);On messages (reverse)"
+msgstr ""
+"Nach der Zeit;Nach dem Niveau;Nach der Kategorie;Nach der Nachricht;Nach der "
+"Zeit;Nach dem Niveau;Nach der Kategorie (reziprok);Nach der Kategorie "
+"(reziprok);Nach der Nachricht(reziprok)"
+
+msgid "Show columns"
+msgstr "Spalten anzeigen"
+
+msgid "Item properties"
+msgstr "Eigenschaften des Elements"
+
+msgid "Item "
+msgstr "Element "
+
+msgid ": level"
+msgstr ": Level"
+
+msgid ": template"
+msgstr ": Vorlage"
+
+msgid ": font"
+msgstr ": Schrift"
+
+msgid "Messages archiver in the form \"{ArchMod}.{ArchiverId}\"."
+msgstr "Nachrichten archivieren im Formular \"{ArchMod}.{ArchivatorId}\"."
+
+msgid "Set value to \"< 0\" for get the current alarms."
+msgstr "Einstellen der Werte \"< 0\" für sich aktuelle Meldungen."
+
+msgid "Set value to \"0\" for get all alarms, for \"lev\" < 0."
+msgstr "Set Wert auf \"0\" für alle Alarme erhalten, zu \"lev\" < 0 ist."
+
+msgid ""
+"Category template or the regular expression \"/{re}/\". For the template "
+"there reserved the special symbols:\n"
+"  '*' - any multiply symbols group;\n"
+"  '?' - any one symbol;\n"
+"  '\\' - use to shield the special simbols."
+msgstr ""
+"Kategorie Vorlage oder reguläre Ausdruck \"/{re}/\". Die Vorlage für "
+"reservierte Zeichen:\n"
+"  '*' - alle Symbole multiplizieren Gruppe;\n"
+"  '?' - einem Symbol;\n"
+"  '\\' - Einsatz für spezielle Abschirmung simbols."
+
+msgid ""
+"List of visible and the columns order separated by the symbol ';'. Supported "
+"columns:\n"
+"  \"pos\" - row number;\n"
+"  \"tm\" - date and time of the message;\n"
+"  \"utm\" - microseconds part of the message time;\n"
+"  \"lev\" - level of the message;\n"
+"  \"cat\" - category of the message;\n"
+"  \"mess\" - text of the message."
+msgstr ""
+"Sichtbare und Ordnung Spalten Liste von Symbol getrennt ';'. Unterstützte "
+"Spalten:\n"
+"  \"pos\" - Zeilennummer;\n"
+"  \"tm\" - Datum und Uhrzeit der Nachricht;\n"
+"  \"utm\" - Mikrosekunden Teil der Zeit der Meldung;\n"
+"  \"lev\" - Ebene der Nachricht;\n"
+"  \"cat\" - Kategorie der Meldung;\n"
+"  \"mess\" - den Nachrichtentext ein."
+
+msgid "Document"
+msgstr "Dokument"
+
+msgid "Document widget of the finite visualization."
+msgstr "Widget für das Dokument der Visualisierung."
+
+msgid "Time: begin"
+msgstr "Zeit: Beginn"
+
+msgid "Time: current"
+msgstr "Zeit: laufend"
+
+msgid "In the process"
+msgstr "In dem Prozess"
+
+msgid "Archive size"
+msgstr "Archivgrösse"
+
+msgid "Archive: cursor: view"
+msgstr "Archiv: Cursor: Aussehen"
+
+msgid "Archive: cursor: current"
+msgstr "Archiv: Cursor: Strom"
+
+msgid "Archive: current document"
+msgstr "Archiv: Strom Dokument"
+
+msgid "Archive: size"
+msgstr "Archiv: grösse"
+
+msgid "CSS rules in the rows like to \"body { background-color:#818181; }\""
+msgstr "CSS-Regeln in den Zeilen mögen \"body { background-color:#818181; }\""
+
+msgid ""
+"Document template in XHTML. Starts from the tag \"body\" and include the "
+"procedures parts:\n"
+"<body docProcLang=\"JavaLikeCalc.JavaScript\">\n"
+"<h1>Value<?dp return wCod+1.314;?></h1>\n"
+"</body>"
+msgstr ""
+"Dokument der Vorlage in XHTML. Start von Tag \"body\" und auch Verfahren "
+"Teilen:\n"
+"<body docProcLang=\"JavaLikeCalc.JavaScript\">\n"
+"<h1>Value<?dp return wCod+1.314;?></h1>\n"
+"</body>"
+
+msgid "Final document in XHTML, starting from the tag \"body\"."
+msgstr "Final-Dokument in XHTML, start von Tag \"body\"."
+
+msgid ""
+"Write the time for the document generation from the specified one or zero "
+"for regeneration."
+msgstr ""
+"Schreiben Sie Zeit für Dokumentenerstellung von diesem Punkt aus oder Null "
+"für die Regeneration."
+
+msgid "Current archive document in XHTML, starting from the tag \"body\"."
+msgstr "Aktuelles Archivdokument in XHTML, beginnend mit dem Tag \"Körper\"."
+
+#, c-format
+msgid "Error parsing the document: %s."
+msgstr "Fehler beim Parsen des Dokuments: %s."
+
+msgid "Result"
+msgstr "Ergebnis"
+
+msgid "Document time"
+msgstr "Zeit des Dokuments"
+
+msgid "Document begin time"
+msgstr "Startzeit des Dokuments"
+
+msgid "Last time"
+msgstr "Das letzte Mal"
+
+msgid "Repeat time, seconds"
+msgstr "Wiederholungszeit, Sekunden"
+
+msgid "Repeat time, microseconds"
+msgstr "Wiederholungszeit, Mikrosekunden"
+
+msgid "Repeat period"
+msgstr "Wiederholungsperiode"
+
+msgid "Message time, seconds"
+msgstr "Nachrichtenzeit, Sekunden"
+
+msgid "Message time, microseconds"
+msgstr "Nachrichtenzeit, Mikrosekunden"
+
+msgid "Message level"
+msgstr "Stufe der Nachricht"
+
+msgid "Message category"
+msgstr "Kategorie der Nachricht"
+
+msgid "Message value"
+msgstr "Wert der Nachricht"
+
+#, c-format
+msgid "Error compiling function for the document: %s"
+msgstr "Fehler beim Kompilieren der Funktion für das Dokument: %s"
+
+#, c-format
+msgid ""
+"<BODY>\n"
+"  <H1>The document is forming now ...</H1>\n"
+"  <P>The document is too big for generating into the standard user interface "
+"timeout (%ds). And for now the document is into the building. You can wait "
+"the forming finish or terminate the process by select lesser time interval "
+"for the document.</P>\n"
+"  <P>The building progress:\n"
+"    <ul id='progress' />\n"
+"  </P>\n"
+"</BODY>"
+msgstr ""
+"<BODY>\n"
+"  <H1>Das Dokument wird gebildet ...</H1>\n"
+"  <P>Dieses Dokument ist sehr groß für eine Generation in der Standard-"
+"Timeout-Benutzeroberfläche (%ds). Nun ist die Dokument gebildet ist. Sie "
+"könnten für die Beendigung der Ausbildung warten oder den Vorgang abbrechen, "
+"indem Sie einen kleineren Bereich für das Dokument.</P>\n"
+"  <P>Fortschritt Bildung:\n"
+"    <ul id='progress' />\n"
+"  </P>\n"
+"</BODY>"
+
+#, c-format
+msgid "Error executing instruction '%s': %s"
+msgstr "Fehler beim Ausführen der Anweisung '%s': %s"
+
+#, c-format
+msgid "Error code: %s"
+msgstr "Fehlercode : %s"
+
+#, c-format
+msgid "Data block %d: %0.2f%% loaded."
+msgstr "Datenbaustein %d: %0.2f%% beladen."
+
+#, c-format
+msgid "Messages block %d: %0.2f%% loaded."
+msgstr "Meldeblock %d: %0.2f%% beladen."
+
+msgid "Document generation terminated."
+msgstr "Dokumentenerstellung kündigen."
+
+msgid "Built-in function"
+msgstr "Installierte Funktion"
+
+msgid "Built-in function widget."
+msgstr "Widget für die installierte Funktion"
+
+msgid "Group of elements"
+msgstr "Gruppe von Elementen"
+
+msgid "Widget of the group of elements of the finite visualization."
+msgstr "Widget der Elementgruppe der endlichen Visualisierung."
+
+msgid "Page: source of the opening"
+msgstr "Seite: Quelle der Eröffnung"
+
+msgid "Page: group"
+msgstr "Seite: Gruppe"
+
+#, c-format
+msgid "The project '%s' is used now by %d sessions!"
+msgstr "Das Projekt '%s' wird jetzt von %d Sitzungen verwendet!"
+
+msgid "Loading the project."
+msgstr "Projekt laden."
+
+msgid "Enabling the project."
+msgstr "Projekt einschalten."
+
+msgid "Disabling the project."
+msgstr "Projekt abschalten."
+
+msgid "Project: "
+msgstr "Projekt: "
+
+msgid "Page"
+msgstr "Seite"
+
+msgid "Project"
+msgstr "Projekt"
+
+msgid "Project DB"
+msgstr "Datenbank des Projekts"
+
+msgid "Owner and group"
+msgstr "Besitzer und Gruppe"
+
+msgid "Access"
+msgstr "Berechtigung"
+
+msgid "No access;View;View and control"
+msgstr "Kein Zugriff;Ansicht;Ansicht und Bedienung"
+
+msgid "Period of calculation"
+msgstr "Zeitraum der Berechnung"
+
+msgid "Project's session calculate period on milliseconds."
+msgstr "Rechenzeit der Projektsitzung in Millisek."
+
+msgid "Enable as needed"
+msgstr "Befähigen von Notwendigkeit"
+
+msgid "Pages"
+msgstr "Seiten"
+
+msgid "Number"
+msgstr "Anzahl"
+
+msgid "Styles"
+msgstr "Stile"
+
+msgid "Style"
+msgstr "Stil"
+
+msgid "Properties"
+msgstr "Beschaffenheiten"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Diagnostics"
+msgstr "Diagnostik"
+
+msgid "Time"
+msgstr "Zeit"
+
+msgid "Messages"
+msgstr "Nachrichten"
+
+msgid "mcsec"
+msgstr "mcsec"
+
+msgid "Category"
+msgstr "Kategorie"
+
+msgid "Message"
+msgstr "Nachricht"
+
+#, c-format
+msgid "Page '%s' is already present!"
+msgstr "Seite '%s' ist vorhanden!"
+
+#, c-format
+msgid "All: %d; Enabled: %d"
+msgstr "Alle: %d; Aktiviert: %d"
+
+msgid "New style"
+msgstr "Neuer Stil"
+
+msgid "No style"
+msgstr "Kein Stil"
+
+msgid "Create a new style"
+msgstr "Neuen Stil schaffen"
+
+msgid "Page: opened"
+msgstr "Seite: geöffnet"
+
+msgid "Page: process not opened"
+msgstr "Seite: Prozess nicht geöffnet"
+
+msgid "As a page, only a box based widget can be used!"
+msgstr "Für Seiten kann nur das Box-basierte Widget benutzt werden!"
+
+msgid "The widget is not a container!"
+msgstr "Widget ist kein Container!"
+
+msgid "Page is not a container or template!"
+msgstr "Seite ist kein Container oder Vorlage!"
+
+msgid "Project page: "
+msgstr "Seite des Projekts: "
+
+msgid "Page type"
+msgstr "Typ der Seite"
+
+msgid "Standard"
+msgstr "Standard"
+
+msgid "Container"
+msgstr "Container"
+
+msgid "Logical container"
+msgstr "Logischer Container"
+
+msgid "Container and template"
+msgstr "Container und Vorlage"
+
+msgid "The variable is not a link"
+msgstr "Die Variable ist kein Lnk"
+
+msgid "val:Constant value"
+msgstr "val:Konstante"
+
+msgid "=== Pages ==="
+msgstr "=== Seite ==="
+
+msgid "=== Widgets ==="
+msgstr "=== Widgets ==="
+
+msgid "=== Attributes ==="
+msgstr "=== Attribute ==="
+
+msgid "Widget link: "
+msgstr "Widget Link: "
+
+msgid "Enabling the session."
+msgstr "Einschalten der Session."
+
+#, c-format
+msgid "Time of the previous style loading: %f ms."
+msgstr "Ladezeit des vorherigen Styles: %f ms."
+
+#, c-format
+msgid "Time of the root pages creating: %f ms."
+msgstr "Zeit, um die Root-Seite erstellen: %f ms."
+
+#, c-format
+msgid "Time of the root pages enabling: %f ms."
+msgstr "Zeit, um die Root-Seite erstellen: %f ms."
+
+msgid "Disabling the session."
+msgstr "Abschalten der Session."
+
+msgid "Starting the session."
+msgstr "Start der Session."
+
+#, c-format
+msgid "Time of the styles loading from the project: %f ms."
+msgstr "Download-Zeit Blatt des Projekts: %f ms."
+
+#, c-format
+msgid "Time of the processing all the root pages: %f ms."
+msgstr "Schließzeit in der Behandlung für alle Root-Seiten: %f ms."
+
+#, c-format
+msgid "Time of the processing task starting: %f ms."
+msgstr "Uhrzeit des Beginns der Verarbeitungstask: %f ms."
+
+msgid "Stopping the session."
+msgstr "Stoppen der Sitzung."
+
+#, c-format
+msgid "Error calculating the session '%s'."
+msgstr "Fehler beim Berechnen der Sitzung '%s'."
+
+#, c-format
+msgid "Unregistered connection %d on the session."
+msgstr "Unregistrierte Verbindung %d auf der Sitzung."
+
+msgid "Session: "
+msgstr "Sitzung: "
+
+msgid "Session"
+msgstr "Sitzung"
+
+msgid "Running"
+msgstr "Laufen"
+
+msgid "User"
+msgstr "Benutzer"
+
+msgid "Owner"
+msgstr "Besitzer"
+
+msgid "Group"
+msgstr "Gruppe"
+
+msgid "Background execution mode"
+msgstr "Hintergrundmodus der Ausführung"
+
+msgid "Time of the session calculating"
+msgstr "Zeitpunkt der Sitzungsberechnung"
+
+msgid "Connections counter"
+msgstr "Verbindungzähler"
+
+msgid "Last request time, user, language"
+msgstr "Letzte Anfrage Zeit, Benutzer, Sprache"
+
+msgid "Last user action"
+msgstr "Letzte Benutzeraktion"
+
+msgid "Remained to the forced closing, seconds"
+msgstr "Verblieben zum erzwungenen Schließen, Sekunden"
+
+msgid "Period, milliseconds"
+msgstr "Periode, Millisekunden"
+
+msgid "Opened pages"
+msgstr "Offene Seiten"
+
+#, c-format
+msgid "Error function '%s' of the notificator: %s"
+msgstr "Fehlerfunktion '%s' des Notificators: %s"
+
+msgid "Enabled notification"
+msgstr "Aktivieren Meldung"
+
+msgid "Performing the notification"
+msgstr "Ausführen der Benachrichtigung"
+
+msgid "Making the resource"
+msgstr "Die Ressource machen"
+
+msgid "Resource stream"
+msgstr "Ressourcen-Stream"
+
+msgid "Notification message"
+msgstr "Benachrichtigung"
+
+msgid "Language of the notification message"
+msgstr "Sprache der Benachrichtigung"
+
+msgid "Enabling the page."
+msgstr "Aktivieren Seite."
+
+msgid "Disabling the page."
+msgstr "Deaktivieren Seite."
+
+msgid "Session page: "
+msgstr "Sitzungsseite: "
+
+msgid "Opened"
+msgstr "Geöffnet"
+
+#, c-format
+msgid ""
+"Error compiling the function '%s' by the language '%s' for the widget: %s"
+msgstr ""
+"Fehler in der Funktionskompilation '%s' in der Sprache '%s' für Widget: %s"
+
+msgid "Error calculating the widget. Process is disabled."
+msgstr "Fehler der Berechnung des Widgets. Bearbeitung ist abgeschaltet."
+
+msgid "Process"
+msgstr "Bearbeitung"
+
+msgid "Spent time"
+msgstr "Verbrachte Zeit"
+
+msgid "Subtree="
+msgstr "Subtree="
+
+msgid "Item="
+msgstr "Punkt="
+
+msgid "Engine of the visual control area"
+msgstr "Motor der visuellen Kontrollzone"
+
+msgid "Roman Savochenko"
+msgstr "Roman Savotschenko"
+
+msgid "The main engine of the visual control area."
+msgstr "Die Hauptmaschine des visuellen Kontrollbereichs."
+
+msgid "DB table"
+msgstr "DB-Tabelle"
+
+msgid "Parent widget"
+msgstr "Elternwidget"
+
+msgid "Translate procedure"
+msgstr "Übersetzungsverfahren"
+
+msgid "Procedure text and language"
+msgstr "Text und Sprache des Programms"
+
+msgid "Period of the procedure calculating"
+msgstr "Zeitraum der Prozedurberechnung"
+
+msgid "Changed attributes"
+msgstr "Geänderte Attribute"
+
+msgid "Widget identifier"
+msgstr "Widget-ID"
+
+msgid "Child ID"
+msgstr "Tochter-ID"
+
+msgid "Attribute value"
+msgstr "Wert des Attributs"
+
+msgid "Attribute flags"
+msgstr "Attributflags"
+
+msgid "Configuration template"
+msgstr "Konfigurationsvorlage"
+
+msgid "Configuration value"
+msgstr "Konfigurationswert"
+
+msgid "Child identifier"
+msgstr "Kind-ID"
+
+msgid "Attribute generic flags and type"
+msgstr "Basisschalter und Typ des Attributs"
+
+msgid "Permission"
+msgstr "Erlaubnis"
+
+msgid "Period of calculating, milliseconds"
+msgstr "Berechnungszeitraum, Millisekunden"
+
+msgid "Work style"
+msgstr "Arbeitsstil"
+
+msgid "Flags"
+msgstr "Schalter"
+
+msgid "Value 0"
+msgstr "Wert 0"
+
+msgid "Value 1"
+msgstr "Wert 1"
+
+msgid "Value 2"
+msgstr "Wert 2"
+
+msgid "Value 3"
+msgstr "Wert 3"
+
+msgid "Value 4"
+msgstr "Wert 4"
+
+msgid "Value 5"
+msgstr "Wert 5"
+
+msgid "Value 6"
+msgstr "Wert 6"
+
+msgid "Value 7"
+msgstr "Wert 7"
+
+msgid "Value 8"
+msgstr "Wert 8"
+
+msgid "Value 9"
+msgstr "Wert 9"
+
+msgid "Original widgets"
+msgstr "Original Widgets"
+
+#, c-format
+msgid "Time of the library '%s' loading: %f ms."
+msgstr "Zeit Laden der Bibliothek '%s': %f msek."
+
+msgid "Error loading the widgets libraries."
+msgstr "Fehler beim Laden der Widgetsbibliothek."
+
+#, c-format
+msgid "Time of the project '%s' loading: %f ms."
+msgstr "Zeit Laden des Projekts '%s': %f msek."
+
+msgid "Error loading the projects."
+msgstr "Fehler beim Laden der Projekte."
+
+#, c-format
+msgid "Time of the library '%s' enabling: %f ms."
+msgstr "Zeit der Aktivierung der Bibliothek '%s': %f ms."
+
+#, c-format
+msgid "Time of the project '%s' enabling: %f ms."
+msgstr "Zeitpunkt der Aktivierung des Projekts '%s': %f ms."
+
+#, c-format
+msgid "Connecting to the session is not permitted for '%s'."
+msgstr "Die Verbindung zur Sitzung ist für '%s' nicht erlaubt."
+
+#, c-format
+msgid "User was changed to '%s' on the station '%s'."
+msgstr "Benutzer wurde auf der Station '%s' in '%s' geändert."
+
+#, c-format
+msgid "User '%s' has been connected on '%s'."
+msgstr "Benutzer '%s' wurde mit '%s' verbunden."
+
+msgid "Error arguments of the session connecting/creating."
+msgstr "Fehlerargumente der Sitzung, die verbindet/erstellt."
+
+#, c-format
+msgid "User '%s' has been disconnected on '%s'."
+msgstr "Benutzer '%s' wurde bei '%s' getrennt."
+
+msgid "Widgets library"
+msgstr "Widgetsbibliothek"
+
+msgid "Functions"
+msgstr "Funktionen"
+
+msgid "Widgets libraries"
+msgstr "Widgetsbibliotheken"
+
+msgid "Sessions"
+msgstr "Sitzungen"
+
+msgid "Auto created and started"
+msgstr "Automatisch erstellt und gestartet"
+
+#, c-format
+msgid "Project '%s' is already present!"
+msgstr "Projekt '%s' ist vorhanden!"
+
+#, c-format
+msgid "Widgets library '%s' is already present!"
+msgstr "Widgets Bibliothek '%s' ist vorhanden!"
+
+#, c-format
+msgid "Session '%s' is already present!"
+msgstr "Sitzung '%s' ist vorhanden!"
+
+#, c-format
+msgid "The attribute '%s' is not released. Forced removal!"
+msgstr "Das Attribut '%s' wird nicht freigegeben. Zwangsräumung!"
+
+msgid "Path"
+msgstr "Pfad"
+
+msgid ""
+"No access;R_____;R_R___;R_R_R_;RW____;RWR___;RWR_R_;RWRW__;RWRWR_;RWRWRW;"
+"Inheritance;Inherit.(R_____);Inherit.(R_R___);Inherit.(R_R_R_);Inherit."
+"(RW____);Inherit.(RWR___);Inherit.(RWR_R_);Inherit.(RWRW__);Inherit.(RWRWR_);"
+"Inherit.(RWRWRW)"
+msgstr ""
+"Kein Zugang;R_____;R_R___;R_R_R_;RW____;RWR___;RWR_R_;RWRW__;RWRWR_;RWRWRW;"
+"Erbschaft;Erbschaft(R_____);Erbschaft(R_R___);Erbschaft(R_R_R_);"
+"Erbschaft(RW____);Erbschaft(RWR___);Erbschaft(RWR_R_);Erbschaft(RWRW__);"
+"Erbschaft(RWRWR_);Erbschaft(RWRWRW)"
+
+msgid "Root"
+msgstr "Ursprung"
+
+msgid "Active"
+msgstr "Aktiv"
+
+msgid "Geometry: x"
+msgstr "Geometrie: x"
+
+msgid "Geometry: y"
+msgstr "Geometrie: y"
+
+msgid "Geometry: width"
+msgstr "Geometrie: Breite"
+
+msgid "Geometry: height"
+msgstr "Geometrie: Höhe"
+
+msgid "Geometry: x scale"
+msgstr "Geometrie: x Maßstab"
+
+msgid "Geometry: y scale"
+msgstr "Geometrie: y Maßstab"
+
+msgid "Geometry: z"
+msgstr "Geometrie: z"
+
+msgid "Geometry: margin"
+msgstr "Geometrie: Rand"
+
+msgid "Tip: tool"
+msgstr "Hilfe: Prompt"
+
+msgid "Tip: status"
+msgstr "Hilfe: Zustand"
+
+msgid "Context menu"
+msgstr "Kontextmenu"
+
+msgid "Events processing"
+msgstr "Ereignisverarbeitung"
+
+msgid "Parent item is empty or equal to itself!"
+msgstr "Das übergeordnete Element ist leer oder entspricht sich selbst!"
+
+msgid "Parent is identical to the owner for the link!"
+msgstr "Das Elternteil ist identisch mit dem Besitzer des Links!"
+
+#, c-format
+msgid "Error enabling the widget: %s"
+msgstr "Fehler beim Aktivieren des Widgets: %s"
+
+msgid "Disabling the widget."
+msgstr "Deaktivieren des Widgets."
+
+#, c-format
+msgid "Error disabling the inheriting widget '%s'."
+msgstr "Fehler beim Deaktivieren des erbenden Widgets '%s'."
+
+#, c-format
+msgid "Error enabling/disabling the child widget '%s'."
+msgstr "Fehler beim Aktivieren/Deaktivieren des untergeordneten Widgets '%s'."
+
+#, c-format
+msgid ""
+"Impossible to lower down the changes of the widget '%s' to '%s' but it has "
+"the cyclic inheritance!"
+msgstr ""
+"Es ist nicht möglich, die Änderungen des Widgets '%s' auf '%s' zu "
+"reduzieren, aber es hat die zyklische Vererbung!"
+
+#, c-format
+msgid "Adding a new attribute '%s' exceeds the number %d!"
+msgstr "Hinzufügen eines neuen Attributs '%s' überschreitet die Anzahl %d!"
+
+#, c-format
+msgid "Attribute '%s' is not present!"
+msgstr "Attribut '%s' fehlt!"
+
+#, c-format
+msgid "Deleting attribute '%s' has not been released!"
+msgstr "Entfernt Attribut '%s' wird nicht veröffentlicht!"
+
+msgid ""
+"Image name in the form \"[{src}:]{name}\", where:\n"
+"  \"src\" - image source:\n"
+"    file - directly from a local file by the path;\n"
+"    res - from table of DB-mime resources.\n"
+"  \"name\" - file path or mime-resource identifier.\n"
+"Examples:\n"
+"  \"res:backLogo\" - from the table of DB-mime resources for the ID "
+"\"backLogo\";\n"
+"  \"backLogo\" - like to the previous;\n"
+"  \"file:/var/tmp/backLogo.png\" - from a local file by the path \"/var/tmp/"
+"backLogo.png\"."
+msgstr ""
+"Bildname in Form \"[{src}:]{name}\", Wo:\n"
+"  \"src\" - Bildquelle:\n"
+"    file - direkt vom lokalen Dateisystem von Pfad;\n"
+"    res - von DB Mime Ressourcen-Tabelle.\n"
+"  \"name\" - Dateipfad oder Ressource Mime Id.\n"
+"Beispiele:\n"
+"  \"res:backLogo\" - von DB Mime Ressourcen-Tabelle für Id \"backLogo\";\n"
+"  \"backLogo\" - wie frühere;\n"
+"  \"file:/var/tmp/backLogo.png\" - von der lokalen Datei-Pfad \"/var/tmp/"
+"backLogo.png\"."
+
+msgid ""
+"Color name in the form \"{color}[-{alpha}]\", where:\n"
+"  \"color\" - standard color name or its numeric representation \"#RRGGBB"
+"\";\n"
+"  \"alpha\" - alpha-channel level [0...255], where 0 - fully transparent.\n"
+"Examples:\n"
+"  \"red\" - solid red color;\n"
+"  \"#FF0000\" - solid red color by the numeric representation;\n"
+"  \"red-127\" - half transparent red color."
+msgstr ""
+"Nennen Sie die Farben in der Form \"{color}[-{alpha}]\", wo:\n"
+"  \"color\" - Standardfarbname oder seine numerische Darstellung \"#RRGGBB"
+"\";\n"
+"  \"alpha\" - die Höhe der alpha [0...255], wobei 0 - Voll transparent.\n"
+"Beispiele:\n"
+"  \"red\" - die durchgezogene rote Farbe;\n"
+"  \"#FF0000\" - die durchgezogene rote Farbe in digitaler Form;\n"
+"  \"red-127\" - durchscheinend rot."
+
+msgid ""
+"Font name in the form \"{family} {size} {bold} {italic} {underline} "
+"{strike}\", where:\n"
+"  \"family\" - font family, for spaces use symbol '_', like to: \"Arial\", "
+"\"Courier\", \"Times_New_Roman\";\n"
+"  \"size\" - font size in pixels;\n"
+"  \"bold\" - font bold (0 or 1);\n"
+"  \"italic\" - font italic (0 or 1);\n"
+"  \"underline\" - font underlined (0 or 1);\n"
+"  \"strike\" - font striked (0 or 1).\n"
+"Examples:\n"
+"  \"Arial 10 1 0 0 0\" - Arial font, size 10 pixels and bolded."
+msgstr ""
+"Der Name der Schrift in Form von \"{family} {size} {bold} {italic} "
+"{underline} {strike}\", wo:\n"
+"  \"family\" - Die Schriftfamilie, die Lücken nutzen '_' Symbol, z. B.: "
+"\"Arial\", \"Courier\", \"Times_New_Roman\";\n"
+"  \"size\" - Schriftgröße in Pixel;\n"
+"  \"bold\" - Erhöhung der Schriftgröße (0 oder 1);\n"
+"  \"italic\" - Kursivschrift (0 oder 1);\n"
+"  \"underline\" - Unterstreichen font (0 oder 1);\n"
+"  \"strike\" - Durchgestrichener Schrift (0 oder 1).\n"
+"Beispiele:\n"
+"  \"Arial 10 1 0 0 0\" - Arial Schrift größe 10 Pixel und verstärkt."
+
+msgid "Widget: "
+msgstr "Widget: "
+
+msgid "Go to the parent"
+msgstr "Gehe zum Elternteil"
+
+msgid "Clear the widget changes"
+msgstr "Zurücksetzen Änderungen"
+
+msgid "Lower down the widget changes to its parent"
+msgstr "Verringern Sie das Widget nach unten zu seinem übergeordneten Element"
+
+msgid "Included widgets"
+msgstr "Enthaltene Widgets"
+
+msgid "Path to the widget."
+msgstr "Pfad zum Widget."
+
+msgid "Path to the parent widget."
+msgstr "Pfad zum übergeordneten Widget."
+
+msgid ""
+"Owner and groups (separated by ',') of the widget in the form \"{owner}:"
+"{groups}\"."
+msgstr ""
+"Das Widget Eigentümer und die Gruppen (getrennt durch ',') in Form \"{owner}:"
+"{groups}\"."
+
+msgid ""
+"Widget permission in the form \"{user}{group}{other}\".\n"
+"Where, \"user\", \"group\" and \"other\" is:\n"
+"  \"__\" - no access;\n"
+"  \"R_\" - read only;\n"
+"  \"RW\" - read and write."
+msgstr ""
+"Die Erlaubnis, das Widget in Form \"{user}{group}{other}\".\n"
+"Wo \"user\", \"group\" und \"other\" ist:\n"
+"  \"__\" - keine Zugangsdaten;\n"
+"  \"R_\" - nur lesen;\n"
+"  \"RW\" - lesen und schreiben."
+
+msgid ""
+"Direct events processing for manipulating pages in the form:\n"
+"      \"{event}:{evSrc}:{com}:{prm}\". Where:\n"
+"  \"event\" - waiting event;\n"
+"  \"evSrc\" - event source;\n"
+"  \"com\" - command of the session (open, next, prev);\n"
+"  \"prm\" - command parameter, where used:\n"
+"      pg_so - direct name of the desired page, with the prefix;\n"
+"      1 - name of a new page in the common path, without a prefix;\n"
+"      * - the page name is taken from the name of the previous open page;\n"
+"      $ - indicates the position of the relative selection of the page to "
+"open.\n"
+"Examples:\n"
+"  ws_BtPress:/prev:prev:/pg_so/*/*/$\n"
+"  ws_BtPress:/next:next:/pg_so/*/*/$\n"
+"  ws_BtPress:/go_mn:open:/pg_so/*/mn/*\n"
+"  ws_BtPress:/go_graph:open:/pg_so/*/ggraph"
+msgstr ""
+"Direkte Verarbeitung Ereignisse für Seiten Manipulation in Form:\n"
+"      \"{event}:{evSrc}:{com}:{prm}\". Wo:\n"
+"  \"event\" - Warten Veranstaltung;\n"
+"  \"evSrc\" - Ereignisquelle;\n"
+"  \"com\" - Kommando über eine Sitzung (open, next, prev);\n"
+"  \"prm\" - Befehlsparameter, wo verwendet:\n"
+"      pg_so - direkten Namen der gewünschten Seite mit dem Präfix;\n"
+"      1 - Namen einer neuen Seite in allgemeiner Weise, ohne Präfix;\n"
+"      * - die Seite ist aus dem Namen einer Seite zurück genommen;\n"
+"      $ - Punkte an die Stelle der geöffneten Seite relativ.\n"
+"Beispiele:\n"
+"  ws_BtPress:/prev:prev:/pg_so/*/*/$\n"
+"  ws_BtPress:/next:next:/pg_so/*/*/$\n"
+"  ws_BtPress:/go_mn:open:/pg_so/*/mn/*\n"
+"  ws_BtPress:/go_graph:open:/pg_so/*/ggraph"
+
+msgid "Primitive identifier that underlie the widget."
+msgstr "Primitive Kennung, die dem Widget zugrunde liegt."
+
+msgid ""
+"Context menu in the form of the strings list: \"{ItName}:{Signal}\".\n"
+"Where:\n"
+"  \"ItName\" - item name;\n"
+"  \"Signal\" - signal name, where the result signal name is \"usr_{Signal}\"."
+msgstr ""
+"Kontextmenü in Form Strings Liste \"{ItName}:{Signal}\".\n"
+"Wo:\n"
+"  \"ItName\" - Elementnamen;\n"
+"  \"Signal\" - Signal Namen und Ergebnis ist \"usr_{Signal}\"."
+
+msgid "Links"
+msgstr "Links"
+
+msgid "Show attributes"
+msgstr "Attribute anzeigen"
+
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+msgid "Work area"
+msgstr "Arbeitsbereich"
+
+msgid "Calculation"
+msgstr "Berechnung"
+
+msgid "Procedure language"
+msgstr "Verfahrenssprache"
+
+msgid "Period of the calculating, milliseconds"
+msgstr "Zeitraum der Berechnung, Millisekunden"
+
+msgid "Procedure"
+msgstr "Verfahren"
+
+msgid "New attribute"
+msgstr "Neues Attribut"
+
+#, c-format
+msgid "Attribute '%s' is not present."
+msgstr "Attribut '%s' ist nicht vorhanden."
+
+#, c-format
+msgid "Unable to delete non-user attribute '%s'."
+msgstr "Das Nichtbenutzerattribut '%s' konnte nicht gelöscht werden."
+
+#, c-format
+msgid "Unable to change non-user attribute '%s'."
+msgstr "Das Nichtbenutzerattribut '%s' konnte nicht geändert werden."
+
+msgid "The new attribute identifier is empty!"
+msgstr "Die neue Attributkennung ist leer!"
+
+#, c-format
+msgid "The new attribute identifier '%s' is already present!"
+msgstr "Die neue Attributkennung '%s' ist bereits vorhanden!"
+
+msgid "Boolean"
+msgstr "Logisch"
+
+msgid "Integer"
+msgstr "Ganzzahl"
+
+msgid "Real"
+msgstr "Reelle Zahl"
+
+msgid "String"
+msgstr "Text"
+
+msgid "Object"
+msgstr "Objekt"
+
+msgid "Integer numbers selection"
+msgstr "Integer-Zahlen Auswahl"
+
+msgid "Real numbers selection"
+msgstr "Reelle Zahlen Auswahl"
+
+msgid "Strings selection"
+msgstr "Strings Auswahl"
+
+msgid "DateTime"
+msgstr "DatumZeit"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "No"
+msgstr "Nein"
+
+msgid "Constant"
+msgstr "Konstante"
+
+msgid "Input link"
+msgstr "Eingangslink"
+
+msgid "Output link"
+msgstr "Ausgangslink"
+
+msgid "Full link"
+msgstr "Voller Link"
+
+msgid "From style"
+msgstr "Aus dem Stil"
+
+msgid "Element type is not selective!"
+msgstr "Elemententyp ist nicht ausgewählt!"
+
+#, c-format
+msgid "Connects to the attribute '%s' is more than %d!"
+msgstr "Verbindungen an das Attribut '%s' mehr als %d!"
+
+#, c-format
+msgid "Disconnects from the attribute '%s' more than connections!"
+msgstr "Entfernen vom Attribut '%s' mehr Verbindungen!"
+
+msgid "Root primitive"
+msgstr "Ursprungsprimitiv"
+
+msgid "Abstract root primitive"
+msgstr "Abstraktes Ursprungsprimitiv"
+
+msgid "Session user"
+msgstr "Sitzungsbenutzer"
+
+msgid "Returns the session user by the session widget path."
+msgstr "Gibt Sitzungsbenutzer über Sitzungs Widget Pfad zurück."
+
+msgid "List"
+msgstr "Liste"
+
+msgid "Widgets list"
+msgstr "Liste der Widgets"
+
+msgid ""
+"Returns a list of the widgets, into the widgets container, or the child "
+"list. If set <pg> then returns the pages list for projects and sessions."
+msgstr ""
+"Gibt eine Liste der Widgets in den Widgetcontainer oder die untergeordnete "
+"Liste zurück. Wenn Sie <pg> festlegen, wird die Seitenliste für Projekte und "
+"Sitzungen zurückgegeben."
+
+msgid "Node presence"
+msgstr "Knotenpräsenz"
+
+msgid ""
+"Checking for the node presence, including widgets, attributes and other."
+msgstr ""
+"Überprüfen auf die Knotenpräsenz, einschließlich Widgets, Attribute und "
+"andere."
+
+msgid "Not user"
+msgstr "Nicht Benutzer"
+
+msgid "Attributes list"
+msgstr "Attributenliste"
+
+msgid ""
+"Returns an attributes list of the widget. If set <noUser> then returns only "
+"not user attributes."
+msgstr ""
+"Gibt die Attributenliste des Widgets zurück. Wenn <noUser> aktiviert ist, "
+"werden nur nicht-benutzerdefinierte Attribute zurückgeliefert."
+
+msgid "Attribute"
+msgstr "Attribut"
+
+msgid "Get the attribute"
+msgstr "Holen Sie sich das Attribut"
+
+msgid ""
+"Getting value of the widget attribute. The request can be done as by "
+"indicating the full address of the attribute in <addr>, and by: indicating "
+"separately the address of the widget in <addr> and the the attribute "
+"identifier in the <attr>."
+msgstr ""
+"Wert des Widgetattributs ermitteln. Die Anfrage kann erfolgen, indem die "
+"vollständige Adresse des Attributs in <addr> angegeben wird, und indem: die "
+"Adresse des Widget in <addr> und die Attributkennung in <attr> separat "
+"angegeben werden."
+
+msgid "Set the attribute"
+msgstr "Legen Sie das Attribut fest"
+
+msgid ""
+"Setting value of the widget attribute. Setting can be done as by indicating "
+"the full address of the attribute in <addr>, and by: indicating separately "
+"the address of the widget in <addr> and the the attribute identifier in the "
+"<attr>."
+msgstr ""
+"Einstellwert des Widget-Attributs. Einstellwert kann erfolgen, indem die "
+"vollständige Adresse des Attributs in <addr> angegeben wird, und indem: die "
+"Adresse des Widget in <addr> und die Attributkennung in <attr> separat "
+"angegeben werden."

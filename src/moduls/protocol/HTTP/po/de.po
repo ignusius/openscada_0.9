@@ -1,0 +1,204 @@
+# OpenSCADA.Protocol.HTTP translate to German.
+# This file is distributed under the same license as the OpenSCADA.Protocol.HTTP package module.
+#
+# Irina Popkova <IrischkaPopkova@yandex.ru>, 2009.
+# Klaus Fetscher <k.fetscher@fetron.de>, 2009.
+# Roman Savochenko <rom_as@oscada.org>, 2010-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.Protocol.HTTP 1.5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-11 11:42+0300\n"
+"PO-Revision-Date: 2009-08-19 09:03+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: de <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "HTTP-realization"
+msgstr "HTTP-Realisierung"
+
+msgid "Roman Savochenko"
+msgstr "Roman Savotschenko"
+
+msgid "Provides support for the HTTP protocol for WWW-based user interfaces."
+msgstr "HTTP-Unterstützung für eine WWW basierte Benutzerschnittstelle."
+
+#, c-format
+msgid ""
+"======================= Module <%s:%s> options =======================\n"
+"---- Parameters of the module section '%s' of the configuration file ----\n"
+"AuthTime   <min>        Life time of the authentication session, in minutes "
+"(default 10).\n"
+"\n"
+msgstr ""
+"======================= Optionen des Moduls <%s:%s> "
+"=============================\n"
+"------ Parameter des Modulabschnitts '%s' der Konfigurationsdatei ------\n"
+"AuthTime   <min>        Lebensdauer der Authentifizierungssitzung in Minuten "
+"(Standard 10).\n"
+"\n"
+
+#, c-format
+msgid "Error loading the HTML template '%s' for the language '%s': %s"
+msgstr "Fehler beim Laden der HTML-Vorlage '%s' für die Sprache '%s': %s"
+
+#, c-format
+msgid "Exiting the authentication for the user '%s'."
+msgstr "Beenden der Authentifizierung für den Benutzer '%s'."
+
+#, c-format
+msgid "The authentication session for the user '%s' is expired."
+msgstr "Die Authentifizierungssitzung für den Benutzer '%s' ist abgelaufen."
+
+#, c-format
+msgid "Error or not supported the HTTP method '%s'."
+msgstr "Fehler oder nicht unterstützt die HTTP-Methode '%s'."
+
+msgid "Error the HTTP response"
+msgstr "Fehler bei der HTTP-Antwort"
+
+msgid "Not full response."
+msgstr "Nicht vollständige Antwort."
+
+msgid "Protocol"
+msgstr "Protokoll"
+
+msgid "State"
+msgstr "Zustand"
+
+msgid "Active authentication sessions"
+msgstr "Aktive Authentifizierung Sitzungen"
+
+msgid "Module options"
+msgstr "Moduloptionen"
+
+msgid "Deny"
+msgstr "Verweigern"
+
+msgid "Allow"
+msgstr "Zulassen"
+
+msgid "HTML template"
+msgstr "HTML-Template"
+
+msgid "HTML template of the main page"
+msgstr "HTML-Vorlage der Hauptseite"
+
+msgid "Life time of the authentication, minutes"
+msgstr "Lebenszeit der Authentifizierung, Minuten"
+
+msgid "List of users allowed for authentication, separated by ';'"
+msgstr ""
+"Liste der zur Authentifizierung zugelassenen Benutzer, getrennt durch ';'"
+
+msgid "Auto login"
+msgstr "Auto Login"
+
+msgid ""
+"A list of address templates can be used for the address field, for example "
+"\"192.168.1.*;192.168.2.*\"."
+msgstr ""
+"Eine Liste von Adressvorlagen kann für das Adressfeld verwendet werden, zum "
+"Beispiel \"192.168.1.*;192.168.2.*\"."
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "User"
+msgstr "Benutzername"
+
+#, c-format
+msgid "%s %s(%s), by \"%s\""
+msgstr "%s %s(%s), durch \"%s\""
+
+#, c-format
+msgid ""
+"Content: %d:\n"
+"%s"
+msgstr ""
+"Inhalt: %d:\n"
+"%s"
+
+#, c-format
+msgid "Successful authentication for the user '%s'. Host: %s. User agent: %s."
+msgstr ""
+"Erfolgreiche Authentifizierung für den Benutzer '%s'. Host: %s. User-Agent: "
+"%s."
+
+#, c-format
+msgid "Going to the page: <b>%s</b>"
+msgstr "Gehen zur Seite: <b>%s</b>"
+
+#, c-format
+msgid "Wrong authentication from the user '%s'. Host: %s. User agent: %s."
+msgstr "Falsche Authentifizierung vom Benutzer '%s'. Host: %s. User-Agent: %s."
+
+msgid "<p style='color: #CF8122;'>Wrong authentication! Retry please.</p>"
+msgstr ""
+"<p style='color: #CF8122;'>Fehler in der Authentifizierung! Versuchen Sie "
+"noch einmal.</p>"
+
+msgid "No WWW subtype module found!"
+msgstr "Keine Modul mit dem Subtyp WWW gefunden!"
+
+#, c-format
+msgid "No HTTP GET function in the module '%s'!"
+msgstr "Keine HTTP-GET-Funktion für Modul '%s' vorhanden!"
+
+#, c-format
+msgid "No HTTP POST function in the module '%s'!"
+msgstr "Keine HTTP-POST-Funktion für Modul '%s' vorhanden!"
+
+msgid "Login"
+msgstr "Einloggen"
+
+#, c-format
+msgid "You are logged in as \"<b>%s</b>\"."
+msgstr "Sie sind eingeloggt als \"<b>%s</b>\"."
+
+#, c-format
+msgid ""
+"Select the necessary Web-module from the list below, <a href='%s'>logout</a> "
+"or <a href='%s'>login as an another user</a>."
+msgstr ""
+"Wählen Sie den Web-Modul aus der Liste unten, <a href='%s'>ausloggen</a> "
+"oder <a href='%s'>einloggen als anderer Benutzer</a>."
+
+msgid "You are not logged in the system!"
+msgstr "Sie sind nicht eingeloggt!"
+
+#, c-format
+msgid "To use some modules you must be logged in. <a href='%s'>Login now</a>."
+msgstr ""
+"Zum Bedienen einiger Module müssen Sie sich einloggen. <a href='%s'>Jetzt "
+"einloggen</a>."
+
+#, c-format
+msgid ""
+"You can auto-login from the user \"<b>%s</b>\" just selecting the module."
+msgstr ""
+"Sie können Auto-Login von dem Benutzer \"<b>%s</b>\" nur das Modul auswählen."
+
+msgid "Accessible web modules"
+msgstr "Verfügbare Web Module"
+
+msgid "Login to the system"
+msgstr "Einloggen in das System"
+
+msgid "User name"
+msgstr "Benutzername"
+
+msgid "Password"
+msgstr "Kennwort"
+
+msgid "Enter"
+msgstr "Enter"
+
+msgid "Clean"
+msgstr "Bereinigen"

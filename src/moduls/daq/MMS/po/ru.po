@@ -1,0 +1,159 @@
+# OpenSCADA.DAQ.MMS translate to Russian.
+# This file is distributed under the same license as the OpenSCADA.DAQ.MMS package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2013-2014, 2017-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DAQ.MMS 0.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-27 20:07+0300\n"
+"PO-Revision-Date: 2013-10-20 11:50+0300\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "MMS(IEC-9506)"
+msgstr "MMS(IEC-9506)"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid "MMS(IEC-9506) client implementation."
+msgstr "Реализация клиента MMS(IEC-9506)"
+
+msgid "Parameters table"
+msgstr "Таблица параметров"
+
+msgid "Acquisition schedule"
+msgstr "Планирование сбора"
+
+msgid "Priority of the acquisition task"
+msgstr "Приоритет задачи сбора данных"
+
+msgid "Restore timeout, seconds"
+msgstr "Интервал восстановления, секунд"
+
+msgid "Sync inter remote station period, seconds"
+msgstr "Период синхронизации с удалённой станцией, секунд"
+
+msgid "Server address"
+msgstr "Адрес сервера"
+
+msgid "Variables into read request"
+msgstr "Переменных в запросе чтения"
+
+msgid "Destination TSAP"
+msgstr "TSAP назначения"
+
+msgid "Standard"
+msgstr "Стандарт"
+
+msgid "Variables list (next line separated)"
+msgstr "Перечень переменных (разделение след. строкой)"
+
+msgid "No activity data."
+msgstr "Нет активности данных."
+
+#, c-format
+msgid "Connection error. Restoring in %.6g s."
+msgstr "Ошибка подключения. Восстановление через %.6g с."
+
+msgid "Acquisition. "
+msgstr "Сбор. "
+
+#, c-format
+msgid "Acquisition with the period: %s. "
+msgstr "Сбор с периодом: %s. "
+
+#, c-format
+msgid "Next acquisition by the cron '%s'. "
+msgstr "Следующий сбор по cron '%s'. "
+
+msgid "Spent time: %s[%s]. Requests %.6g."
+msgstr "Затрачено времени: %s[%s]. Запросов %.6g."
+
+msgid "Remote host error"
+msgstr "Ошибка удалёного хоста"
+
+#, c-format
+msgid "MMS automatic created transport for '%s' controller."
+msgstr "Автоматически созданный MMS транспорт для контроллера '%s'."
+
+#, c-format
+msgid "DAQ.%s.%s: connect to data source: %s."
+msgstr "DAQ.%s.%s: подключение к источнику данных: %s."
+
+msgid "STOP"
+msgstr "ОСТАНОВЛЕН"
+
+msgid "OK"
+msgstr "НОРМА"
+
+#, c-format
+msgid "Value '%s' type '%s' read is not implemented."
+msgstr "Чтение значения '%s' типа '%s' не реализовано."
+
+msgid "No data"
+msgstr "Нет данных"
+
+msgid "Zero for disable periodic sync."
+msgstr "Ноль для отключения периодической синхронизации."
+
+#, c-format
+msgid "Value type '%s' is not implemented for '%s'."
+msgstr "Значения типа '%s' не реализовано для '%s'."
+
+msgid ""
+"Attributes configuration list. List must be written by lines in format: "
+"\"{MMS_domain}/{MMS_var}[:{opt}[:{tp}[:{id}[:{name}]]]]\".\n"
+"Where:\n"
+"  {MMS_domain} - MMS domain or '*' for global.\n"
+"  {MMS_var} - MMS variable name into domain or global.\n"
+"  {opt} - Options:\n"
+"    w - writable;\n"
+"    s - single request;\n"
+"    /{NN} - call at cycle even to number {N} [2...99].\n"
+"  {tp} - force type:\n"
+"    bool - boolean;\n"
+"    real - real;\n"
+"    int - integer;\n"
+"    string - string;\n"
+"    struct - structure;\n"
+"    array - array;\n"
+"  {id} - force attribute ID.\n"
+"  {name} - force attribute name."
+msgstr ""
+"Список конфигурации атрибутов. Список должен записываться строками формата: "
+"\"{MMS_domain}/{MMS_var}[:{opt}[:{tp}[:{id}[:{name}]]]]\".\n"
+"Где:\n"
+"  {MMS_domain} - MMS домен или '*' для глобального.\n"
+"  {MMS_var} - MMS имя переменной в домене или глобально.\n"
+"  {opt} - Опции:\n"
+"    w - доступен для записи;\n"
+"    s - одиночный запрос;\n"
+"    /{NN} - вызов в цикле кратно номеру {N} [2...99].\n"
+"  {tp} - прямо указанный тип:\n"
+"    bool - логический;\n"
+"    real - реальный;\n"
+"    int - целый;\n"
+"    string - строка;\n"
+"    struct - структура;\n"
+"    array - масив;\n"
+"  {id} - прямо указанный идентификатор.\n"
+"  {name} - прямо указанное имя."
+
+msgid "Variable append"
+msgstr "Добавление переменной"
+
+msgid "1:Parameter disabled."
+msgstr "1:Параметр отключен."
+
+msgid "2:Acquisition stopped."
+msgstr "2:Сбор остановлен."
+
+#, c-format
+msgid "Write to '%s' error: %s."
+msgstr "Ошибка записи в '%s': %s."

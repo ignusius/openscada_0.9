@@ -1,0 +1,329 @@
+# OpenSCADA.Transport.SSL translate to Ukrainian.
+# This file is distributed under the same license as the OpenSCADA.Transport.SSL package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2008-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.Transport.SSL 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-04 14:06+0200\n"
+"PO-Revision-Date: 2008-10-13 19:06+0300\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <uk@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "SSL"
+msgstr ""
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"Provides transport based on the secure sockets' layer. OpenSSL is used and "
+"SSLv3, TLSv1, TLSv1.1, TLSv1.2, DTLSv1 are supported."
+msgstr ""
+"Надає транспорт базований на безпечному шарі сокетів. Використано OpenSSL та "
+"підтримуються SSLv3, TLSv1, TLSv1.1, TLSv1.2, DTLSv1."
+
+msgid "Addition parameters"
+msgstr "Додаткові параметри"
+
+msgid "Start error: "
+msgstr "Помилка запуску: "
+
+#, c-format
+msgid ""
+"Connections %d, opened %d. Traffic in %s, out %s. Closed connections by "
+"limit %d. "
+msgstr ""
+"Підключень %d, відкрито %d. Трафік вхідний %s, вихідний %s. Закрито з'єднань "
+"за лімітом %d. "
+
+#, c-format
+msgid "Processing time %s[%s]. "
+msgstr "Час обробки %s[%s]. "
+
+msgid "Started"
+msgstr "Запущено"
+
+msgid "Stopped"
+msgstr "Зупинено"
+
+#, c-format
+msgid "Open temporary file '%s' error: '%s'"
+msgstr "Помилка відкриття тимчасового файлу '%s': '%s'"
+
+#, c-format
+msgid "Error write to file '%s'."
+msgstr "Помилка запису до файлу '%s'."
+
+#, c-format
+msgid "Close input transport by error: %s"
+msgstr "Закрито вхідний транспорт за помилкою: %s"
+
+msgid "Error creation of the thread!"
+msgstr "Помилка створення потоку!"
+
+msgid " stopping client tasks ..."
+msgstr " зупинка клієнтських задач ..."
+
+#, c-format
+msgid "Socket has been connected by '%s'!"
+msgstr "Підключення до сокету з '%s'!"
+
+#, c-format
+msgid "Socket has been terminated by error: %s"
+msgstr "Сокет було перервано помилкою: %s"
+
+#, c-format
+msgid "The message is received with the size '%d'."
+msgstr "Отримано повідомлення розміром '%d'."
+
+#, c-format
+msgid "%d:Received from '%s'\n"
+msgstr "%d:Отримано з '%s'\n"
+
+#, c-format
+msgid "The message is replied with the size '%d'."
+msgstr "Відповідь повідомленням розміром '%d'."
+
+#, c-format
+msgid "%d:Transmitted to '%s'\n"
+msgstr "%d:Передано до '%s'\n"
+
+#, c-format
+msgid "Has been disconnected by '%s'!"
+msgstr "Відєднано від '%s'!"
+
+#, c-format
+msgid "Socket has been terminated by execution: %s"
+msgstr "Сокет було перервано виключенням: %s"
+
+#, c-format
+msgid "%d:Has been terminated by execution: %s"
+msgstr "%d:Перервано виключенням: %s"
+
+#, c-format
+msgid "New input protocol's object '%s' created!"
+msgstr "Новий об'єкт вхідного протоколу '%s' створено!"
+
+msgid "Error request to protocol."
+msgstr "Помилка запиту до протоколу."
+
+#, c-format
+msgid "A new client %d from '%s' connected"
+msgstr "Підключено новий клієнт %d з %s"
+
+#, c-format
+msgid "Client %d from '%s' disconnected"
+msgstr "Відключено клієнт %d з %s"
+
+msgid "State"
+msgstr "Стан"
+
+msgid "Active connections"
+msgstr "Активні підключення"
+
+msgid ""
+"SSL input transport has address format:\n"
+"  {addr}:{port}[:{mode}] - where:\n"
+"    addr - address for SSL to be opened, '*' address opens for all "
+"interfaces;\n"
+"    port - network port (/etc/services);\n"
+"    mode - SSL mode and version (SSLv3, SSLv23, TLSv1, TLSv1_1, TLSv1_2, "
+"DTLSv1)."
+msgstr ""
+"Формат адреси вхідного SSL транспорту:\n"
+"  {addr}:{port}[:{mode}] - де:\n"
+"    addr - адреса для відкриття SSL, '*' адреса відкриває для усіх "
+"інтерфейсів;\n"
+"    port - мережевий порт (/etc/services);\n"
+"    mode - SSL режим та версія (SSLv3, SSLv23, TLSv1, TLSv1_1, TLSv1_2, "
+"DTLSv1)."
+
+msgid "Certificates and private key"
+msgstr "Сертифікати та приватний ключ"
+
+msgid "SSL PAM certificates chain and private key."
+msgstr "Ланцюг SSL PAM сертифікатів та приватний ключ."
+
+msgid "Private key password"
+msgstr "Пароль приватного ключа"
+
+msgid "Clients maximum"
+msgstr "Максимум клієнтів"
+
+msgid "Clients maximum, per host"
+msgstr "Максимум клієнтів, за хостами"
+
+msgid "Set to zero for disable that limit."
+msgstr "Встановити у нуль для вимкнення ліміту."
+
+msgid "Input buffer (kbyte)"
+msgstr "Вхідний буфер (кбайт)"
+
+msgid "Keep alive requests"
+msgstr "Keep alive запитів"
+
+msgid ""
+"Close the connection after specified requests.\n"
+"Zero value for disable (not close ever)."
+msgstr ""
+"Закриття підключення після визначеної кількості запитів.\n"
+"Нульове значення для відключення (не закривається ніколи)."
+
+msgid "Keep alive timeout, seconds"
+msgstr "Keep alive час очікування, секунд"
+
+msgid ""
+"Close the connection after no requests at specified timeout.\n"
+"Zero value for disable (not close ever)."
+msgstr ""
+"Закриття підключення після відсутності запитів протягом визначеного часу.\n"
+"Нульове значення для відключення (не закривається ніколи)."
+
+msgid "Priority"
+msgstr "Пріоритет"
+
+#, c-format
+msgid "%s %d(%s): last %s; traffic in %s, out %s; "
+msgstr "%s %d(%s): останній %s; трафік вхідний %s, вихідний %s; "
+
+#, c-format
+msgid "processing time %s[%s]; "
+msgstr "час обробки %s[%s]; "
+
+#, c-format
+msgid "Traffic in %s, out %s."
+msgstr "Трафік вхідний %s, вихідний %s."
+
+#, c-format
+msgid "Respond time %s[%s]. "
+msgstr "Час відповіді %s[%s]. "
+
+#, c-format
+msgid "Host '%s' not found!"
+msgstr "Не знайдено хоста '%s'!"
+
+#, c-format
+msgid "The requested name '%s' does not have an IP address!"
+msgstr "Запитане ім'я '%s' не має IP адрес!"
+
+#, c-format
+msgid "A non-recoverable name server error occurred while for '%s'!"
+msgstr "Виникла невиправна помилка серверу імен для '%s'!"
+
+#, c-format
+msgid "A temporary error occurred on an authoritative name server for '%s'!"
+msgstr "Виникла тимчасова помилка на авторитетному сервері імен для '%s'!"
+
+#, c-format
+msgid "Unknown error code from gethostbyname_r for '%s'!"
+msgstr "Невідомий код помилки gethostbyname_r для '%s'!"
+
+#, c-format
+msgid "Error creation TCP socket: %s!"
+msgstr "Помилка створення TCP сокету: %s!"
+
+#, c-format
+msgid ""
+"Error connection to the internet socket '%s:%s' during the timeout, it seems "
+"in down or inaccessible: '%s (%d)'!"
+msgstr ""
+"Помилка підключення до інтернет сокету '%s:%s' протягом таймауту, він схоже "
+"відключений або недоступний: '%s (%d)'!"
+
+#, c-format
+msgid "SSL_CTX_use_certificate_chain_file: %s"
+msgstr ""
+
+#, c-format
+msgid "SSL_CTX_use_PrivateKey_file: %s"
+msgstr ""
+
+msgid "Unknown error"
+msgstr "Невідома помилка"
+
+msgid "Transport is not started!"
+msgstr "Транспорт не запущено!"
+
+#, c-format
+msgid "Request error: %s"
+msgstr "Помилка запиту: %s"
+
+#, c-format
+msgid "Write error: %s"
+msgstr "Помилка запису: %s"
+
+#, c-format
+msgid "Transmitting error: %s"
+msgstr "Помилка передавання: %s"
+
+#, c-format
+msgid "Wrote %s."
+msgstr "Записано %s."
+
+msgid "Transmitted to\n"
+msgstr "Передано\n"
+
+msgid "No data"
+msgstr "Немає даних"
+
+#, c-format
+msgid "Read error: %s"
+msgstr "Помилка читання: %s"
+
+#, c-format
+msgid "Receiving error: %s"
+msgstr "Помилка отримання: %s"
+
+msgid "Read timeouted."
+msgstr "Перевищено час очікування читання!"
+
+msgid "Timeouted!"
+msgstr "Перевищено час очікування!"
+
+#, c-format
+msgid "Read (select) error: %s"
+msgstr "Помилка читання (select): %s"
+
+#, c-format
+msgid "Receiving (select) error: %s"
+msgstr "Помилка отримання (select): %s"
+
+#, c-format
+msgid "Read %s."
+msgstr "Прочитано %s."
+
+msgid "Received from\n"
+msgstr "Отримано\n"
+
+msgid ""
+"SSL output transport has address format:\n"
+"  {addr}:{port}[:{mode}] - where:\n"
+"    addr - remote SSL host address;\n"
+"    port - network port (/etc/services);\n"
+"    mode - SSL mode and version (SSLv3, SSLv23, TLSv1, TLSv1_1, TLSv1_2, "
+"DTLSv1)."
+msgstr ""
+"Формат адреси вихідного SSL транспорту:\n"
+"  {addr}:{port}[:{mode}] - де:\n"
+"    addr - адреса віддаленого SSL хосту;\n"
+"    port - мережевий порт (/etc/services);\n"
+"    mode - SSL режим та версія (SSLv3, SSLv23, TLSv1, TLSv1_1, TLSv1_2, "
+"DTLSv1)."
+
+msgid "Timings"
+msgstr "Інтервали часу"
+
+msgid ""
+"Connection timings in format: \"[conn]:[next]\". Where:\n"
+"    conn - maximum time for connection respond wait, in seconds;\n"
+"    next - maximum time for continue respond wait, in seconds."
+msgstr ""
+"Таймаути підключення у форматі: \"[conn]:[next]\". Де:\n"
+"    conn - максимальний час очікування відповіді з'єднання, у секундах;\n"
+"    next - максимальний час очікування продовження відповіді, у секундах."

@@ -1,0 +1,252 @@
+# OpenSCADA.DAQ.AMRDevs translate to Ukrainian.
+# This file is distributed under the same license as the OpenSCADA.DAQ.AMRDevs package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2010-2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DAQ.AMRDevs 0.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-01 11:07+0300\n"
+"PO-Revision-Date: 2010-02-16 16:54+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <uk@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "13:Error respond: Too short."
+msgstr "13:Помилка відповіді: Не повна."
+
+msgid "13:Error respond: CRC check error."
+msgstr "13:Помилка відповіді: Помилка перевірки CRC."
+
+#, c-format
+msgid "14:Connection error - %s"
+msgstr "14:Помилка підключення - %s"
+
+msgid "15:Response PDU size error."
+msgstr "15:Помилка розміру PDU відповіді."
+
+msgid "Attributes list"
+msgstr "Перелік атрибутів"
+
+msgid ""
+"Attributes configuration list. List must be written by lines in format: [dt:"
+"numb:id:name]\n"
+"Where:\n"
+"  dt - data type: I-integer(16),LI-long integer(32),F-float;\n"
+"  numb - register number (dec, hex or octal);\n"
+"  id - created attribute identifier;\n"
+"  name - created attribute name.\n"
+"Example:\n"
+"  'I:0x300:var:Variable' - integer access;\n"
+"  'F:200:float:Float' - get float from registers 200 and 201;\n"
+"  'LI:300:int32:Int32' - get int32 from registers 300 and 301."
+msgstr ""
+"Перелік конфігурації атрибутів. Перелік має записуватися строками у форматі: "
+"[dt:numb:id:name]\n"
+"Де:\n"
+"  dt - тип даних: I-ціле(16),LI-довге ціле(32),F-реальне;\n"
+"  numb - номер регістру (десят., шіст., або вісімк.);\n"
+"  id - ідентифікатор створюваного атрибуту;\n"
+"  name - ім'я створюваного атрибуту.\n"
+"Приклад:\n"
+"  'I:0x300:var:Variable' - доступ до цілого;\n"
+"  'F:200:float:Float' - отримання реального з регістрів 200 та 201;\n"
+"  'LI:300:int32:Int32' - отримання int32 з регістрів 300 та 301."
+
+msgid "Registers' fragments merge"
+msgstr "Поєднання фрагментів регістрів"
+
+msgid "Value"
+msgstr "Значення"
+
+msgid "Pressure"
+msgstr "Тиск"
+
+msgid "Temperature"
+msgstr "Температура"
+
+msgid "Current flow"
+msgstr "Поточні витрати"
+
+msgid "Quantity for start day"
+msgstr "Кількість з початку доби"
+
+msgid "Quantity for last day"
+msgstr "Кількість за попередню добу"
+
+msgid "Quantity for start"
+msgstr "Кількість з початку вимірювання"
+
+msgid "Caloric"
+msgstr "Калорійність"
+
+msgid "14:Connection error or respond size short."
+msgstr "14:Помилка підключення або коротка відповідь."
+
+msgid "10:Respond error."
+msgstr "10:Помилка відповіді."
+
+msgid "11:Request broken."
+msgstr "11:Помилка запиту."
+
+msgid "15:Respond thread broken."
+msgstr "15:Помилкова нитка у відповіді."
+
+msgid "Thread number"
+msgstr "Номер нитки"
+
+msgid "Firmware version"
+msgstr "Версія ПЗ"
+
+msgid "Kontar"
+msgstr ""
+
+msgid "Input transport"
+msgstr "Вхідний транспорт"
+
+msgid "Master password"
+msgstr "Мастер пароль"
+
+msgid "Master PLC serial number"
+msgstr "Серійний номер МастерПЛК"
+
+msgid "Controllers network config-file"
+msgstr "Конф. файл мережі контролерів"
+
+msgid "PLC serial number"
+msgstr "Серійний номер ПЛК"
+
+msgid "Set PLC clock on different for more, seconds"
+msgstr "Вст. годинника ПЛК при відхилені більш, секунд"
+
+msgid "PLC clock's zone"
+msgstr "Зона годинника ПЛК"
+
+msgid "List"
+msgstr "Перелік"
+
+msgid "Parameter"
+msgstr "Параметр"
+
+#, c-format
+msgid "Master PLC ID Request: '%s'"
+msgstr "Запит ID МастерПЛК: '%s'"
+
+#, c-format
+msgid "Connection from PLC Kontar %xh."
+msgstr "Підключення з ПЛК Контар %xh."
+
+#, c-format
+msgid "Password sequence set: '%s'."
+msgstr "Вст. послідовн. пароля: '%s'."
+
+#, c-format
+msgid "Master PLC ID Response: '%s'"
+msgstr "Відповідь ID МастерПЛК: '%s'"
+
+msgid "No a propper connection from PLC."
+msgstr "Немає придатного підключення з ПЛК."
+
+#, c-format
+msgid "Request: '%s'"
+msgstr "Запит: '%s'"
+
+#, c-format
+msgid "Request (enc): '%s'"
+msgstr "Запит (код): '%s'"
+
+#, c-format
+msgid "13:Inapt MasterPLC ID: %xh != %xh"
+msgstr "13:Непридатний ID МастерПЛК: %xh != %xh"
+
+msgid "12:PLC: The password encrypted by master key."
+msgstr "12:ПЛК: Пароль кодовано мастер ключем."
+
+msgid "12:PLC: Error."
+msgstr "12:ПЛК: Помилка."
+
+msgid "12:PLC: Unknown command."
+msgstr "12:ПЛК: Невідома команда."
+
+msgid "12:PLC: Wrong command format."
+msgstr "12:ПЛК: Помилковий формат команди."
+
+msgid "12:PLC: Error read from slave."
+msgstr "12:ПЛК: Помилка читання підлеглого."
+
+msgid "12:PLC: Network update in process."
+msgstr "12:ПЛК: Оновлення мережі в процесі."
+
+#, c-format
+msgid "Response (enc): '%s'"
+msgstr "Відповідь (код): '%s'"
+
+#, c-format
+msgid "Response: '%s'"
+msgstr "Відповідь: '%s'"
+
+#, c-format
+msgid "Error: '%s': '%s'"
+msgstr "Помилка: '%s': '%s'"
+
+#, c-format
+msgid "15:Response PDU size (%d from %d) error."
+msgstr "15:Помилка розміру PDU (%d з %d) відповіді."
+
+msgid "<No select>"
+msgstr "<Не обрано>"
+
+msgid "AMR devices"
+msgstr "Пристрої АСКО"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"Provides access to automatic meter reading devices. Supported devices: "
+"Kontar (http://www.mzta.ru)."
+msgstr ""
+"Надає доступ до пристроїв лічильників комерцевого обліку. Підтримуються "
+"пристрої: Kontar (http://www.mzta.ru)."
+
+msgid "Acquisition schedule"
+msgstr "Планування збору"
+
+msgid "Priority of the acquisition task"
+msgstr "Пріорітет задачі збору даних"
+
+msgid "Restore timeout, seconds"
+msgstr "Час відновлення, секунд"
+
+msgid "Request tries"
+msgstr "Спроб запиту"
+
+#, c-format
+msgid "Call by period: %s. "
+msgstr "Виклик за періодом: %s. "
+
+#, c-format
+msgid "Call next by cron '%s'. "
+msgstr "Наступний виклик за cron '%s'. "
+
+#, c-format
+msgid "Spent time: %s."
+msgstr "Витрачено часу: %s."
+
+msgid "Status"
+msgstr "Стан"
+
+msgid "Disabled"
+msgstr "Вимкнено"
+
+msgid "Enabled"
+msgstr "Ввімкнено"
+
+msgid "Processed"
+msgstr "Обслуговування"
+
+msgid "11:Value not gathered."
+msgstr "11:Значення не отримано."

@@ -1,0 +1,108 @@
+# OpenSCADA.Archive.DBArch translate to German.
+# This file is distributed under the same license as the OpenSCADA.Archive.DBArch module.
+#
+# Irina Popkova <IrischkaPopkova@yandex.ru>, 2008-2010.
+# Klaus Fetscher <k.fetscher@fetron.de>, 2009.
+# Roman Savochenko <rom_as@oscada.org>, 2016-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.Archive.DBArch 0.9.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-19 11:36+0200\n"
+"PO-Revision-Date: 2009-08-17 10:37+0200\n"
+"Last-Translator: Irina Popkova <IrischkaPopkova@yandex.ru>\n"
+"Language-Team: de <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Archiver on the DB"
+msgstr "Archiver auf der DB"
+
+msgid "Roman Savochenko"
+msgstr "Roman Savotschenko"
+
+msgid ""
+"The archiver module. Provides functions for messages and values archiving to "
+"the DB."
+msgstr ""
+"Das Archivierungsmodul. Funktionen zum Archivieren von Nachrichten und "
+"Werten in die Datenbank."
+
+#, c-format
+msgid "Check value archivator '%s' error."
+msgstr "Überprüfen Sie Wert Archivator '%s' Fehler."
+
+msgid "In minutes"
+msgstr "In Minuten"
+
+msgid "Time, seconds"
+msgstr "Zeit, Sekunden"
+
+msgid "Time, microseconds"
+msgstr "Zeit, Mikrosekunden"
+
+msgid "Category"
+msgstr "Kategorie"
+
+msgid "Message"
+msgstr "Nachricht"
+
+msgid "Level"
+msgstr "Stufe"
+
+#, c-format
+msgid "Enable target DB error: %s"
+msgstr "Aktivieren Sie Ziel-DB-Fehler: %s"
+
+msgid "Archive is not started!"
+msgstr "Archiv ist nicht gestartet!"
+
+msgid "Archiving time (msek)"
+msgstr "Archivierungszeit (msek)"
+
+msgid "Additional options"
+msgstr "Zusätzliche Optionen"
+
+msgid "Archive size (days)"
+msgstr "Grösse des Archivs (Tage)"
+
+msgid "Set to 0 for the limit disable and some performance rise."
+msgstr ""
+"Wird auf 0 gesetzt für die Grenze zu deaktivieren und einige Performance-"
+"Anstieg."
+
+msgid "Force time as string"
+msgstr "Force-Zeit als String"
+
+msgid ""
+"Only for DBs it supports by a specific data type like to \"datetime\" into "
+"MySQL."
+msgstr ""
+"Nur für DBs unterstützt sie durch einen bestimmten Datentyp wie \"Datetime\" "
+"in MySQL."
+
+msgid "Mark, time/(10*per)"
+msgstr "Kennzeichen, time/(10*per)"
+
+msgid "Set to 0 for the limit disable and some performance rise"
+msgstr ""
+"Wird auf 0 gesetzt für die Grenze zu deaktivieren und einige Performance-"
+"Anstieg"
+
+msgid "Grouping parameters limit"
+msgstr "Gruppierung Parameter Limit"
+
+msgid ""
+"Enable grouping arhivator's parameters into a single table. Set to '0' for "
+"one table per parameter."
+msgstr ""
+"Aktivieren arhivator Parameter in einer einzigen Tabelle zu gruppieren. Auf "
+"'0' für eine Tabelle pro Parameter."
+
+msgid "Value"
+msgstr "Wert"

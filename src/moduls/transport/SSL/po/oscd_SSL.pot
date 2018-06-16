@@ -1,0 +1,296 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 22:52+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "SSL"
+msgstr ""
+
+msgid "Roman Savochenko"
+msgstr ""
+
+msgid "Provides transport based on the secure sockets' layer. OpenSSL is used and SSLv3, TLSv1, TLSv1.1, TLSv1.2, DTLSv1 are supported."
+msgstr ""
+
+msgid "Addition parameters"
+msgstr ""
+
+msgid "Start error: "
+msgstr ""
+
+#, c-format
+msgid "Connections %d, opened %d. Traffic in %s, out %s. Closed connections by limit %d. "
+msgstr ""
+
+#, c-format
+msgid "Processing time %s[%s]. "
+msgstr ""
+
+msgid "Started"
+msgstr ""
+
+msgid "Stopped"
+msgstr ""
+
+#, c-format
+msgid "Open temporary file '%s' error: '%s'"
+msgstr ""
+
+#, c-format
+msgid "Error write to file '%s'."
+msgstr ""
+
+#, c-format
+msgid "Close input transport by error: %s"
+msgstr ""
+
+msgid "Error creation of the thread!"
+msgstr ""
+
+msgid " stopping client tasks ..."
+msgstr ""
+
+#, c-format
+msgid "Socket has been connected by '%s'!"
+msgstr ""
+
+#, c-format
+msgid "Socket has been terminated by error: %s"
+msgstr ""
+
+#, c-format
+msgid "The message is received with the size '%d'."
+msgstr ""
+
+#, c-format
+msgid "%d:Received from '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "The message is replied with the size '%d'."
+msgstr ""
+
+#, c-format
+msgid "%d:Transmitted to '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "Has been disconnected by '%s'!"
+msgstr ""
+
+#, c-format
+msgid "Socket has been terminated by execution: %s"
+msgstr ""
+
+#, c-format
+msgid "%d:Has been terminated by execution: %s"
+msgstr ""
+
+#, c-format
+msgid "New input protocol's object '%s' created!"
+msgstr ""
+
+msgid "Error request to protocol."
+msgstr ""
+
+#, c-format
+msgid "A new client %d from '%s' connected"
+msgstr ""
+
+#, c-format
+msgid "Client %d from '%s' disconnected"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Active connections"
+msgstr ""
+
+msgid ""
+"SSL input transport has address format:\n"
+"  {addr}:{port}[:{mode}] - where:\n"
+"    addr - address for SSL to be opened, '*' address opens for all interfaces;\n"
+"    port - network port (/etc/services);\n"
+"    mode - SSL mode and version (SSLv3, SSLv23, TLSv1, TLSv1_1, TLSv1_2, DTLSv1)."
+msgstr ""
+
+msgid "Certificates and private key"
+msgstr ""
+
+msgid "SSL PAM certificates chain and private key."
+msgstr ""
+
+msgid "Private key password"
+msgstr ""
+
+msgid "Clients maximum"
+msgstr ""
+
+msgid "Clients maximum, per host"
+msgstr ""
+
+msgid "Set to zero for disable that limit."
+msgstr ""
+
+msgid "Input buffer (kbyte)"
+msgstr ""
+
+msgid "Keep alive requests"
+msgstr ""
+
+msgid ""
+"Close the connection after specified requests.\n"
+"Zero value for disable (not close ever)."
+msgstr ""
+
+msgid "Keep alive timeout, seconds"
+msgstr ""
+
+msgid ""
+"Close the connection after no requests at specified timeout.\n"
+"Zero value for disable (not close ever)."
+msgstr ""
+
+msgid "Priority"
+msgstr ""
+
+#, c-format
+msgid "%s %d(%s): last %s; traffic in %s, out %s; "
+msgstr ""
+
+#, c-format
+msgid "processing time %s[%s]; "
+msgstr ""
+
+#, c-format
+msgid "Traffic in %s, out %s."
+msgstr ""
+
+#, c-format
+msgid "Respond time %s[%s]. "
+msgstr ""
+
+#, c-format
+msgid "Host '%s' not found!"
+msgstr ""
+
+#, c-format
+msgid "The requested name '%s' does not have an IP address!"
+msgstr ""
+
+#, c-format
+msgid "A non-recoverable name server error occurred while for '%s'!"
+msgstr ""
+
+#, c-format
+msgid "A temporary error occurred on an authoritative name server for '%s'!"
+msgstr ""
+
+#, c-format
+msgid "Unknown error code from gethostbyname_r for '%s'!"
+msgstr ""
+
+#, c-format
+msgid "Error creation TCP socket: %s!"
+msgstr ""
+
+#, c-format
+msgid "Error connection to the internet socket '%s:%s' during the timeout, it seems in down or inaccessible: '%s (%d)'!"
+msgstr ""
+
+#, c-format
+msgid "SSL_CTX_use_certificate_chain_file: %s"
+msgstr ""
+
+#, c-format
+msgid "SSL_CTX_use_PrivateKey_file: %s"
+msgstr ""
+
+msgid "Unknown error"
+msgstr ""
+
+msgid "Transport is not started!"
+msgstr ""
+
+#, c-format
+msgid "Request error: %s"
+msgstr ""
+
+#, c-format
+msgid "Write error: %s"
+msgstr ""
+
+#, c-format
+msgid "Transmitting error: %s"
+msgstr ""
+
+#, c-format
+msgid "Wrote %s."
+msgstr ""
+
+msgid "Transmitted to\n"
+msgstr ""
+
+msgid "No data"
+msgstr ""
+
+#, c-format
+msgid "Read error: %s"
+msgstr ""
+
+#, c-format
+msgid "Receiving error: %s"
+msgstr ""
+
+msgid "Read timeouted."
+msgstr ""
+
+msgid "Timeouted!"
+msgstr ""
+
+#, c-format
+msgid "Read (select) error: %s"
+msgstr ""
+
+#, c-format
+msgid "Receiving (select) error: %s"
+msgstr ""
+
+#, c-format
+msgid "Read %s."
+msgstr ""
+
+msgid "Received from\n"
+msgstr ""
+
+msgid ""
+"SSL output transport has address format:\n"
+"  {addr}:{port}[:{mode}] - where:\n"
+"    addr - remote SSL host address;\n"
+"    port - network port (/etc/services);\n"
+"    mode - SSL mode and version (SSLv3, SSLv23, TLSv1, TLSv1_1, TLSv1_2, DTLSv1)."
+msgstr ""
+
+msgid "Timings"
+msgstr ""
+
+msgid ""
+"Connection timings in format: \"[conn]:[next]\". Where:\n"
+"    conn - maximum time for connection respond wait, in seconds;\n"
+"    next - maximum time for continue respond wait, in seconds."
+msgstr ""

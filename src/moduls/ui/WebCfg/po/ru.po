@@ -1,0 +1,174 @@
+# OpenSCADA.UI.WebCfg translate to Russian.
+# This file is distributed under the same license as the OpenSCADA.UI.WebCfg package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2004-2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.UI.WebCfg 1.5.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-23 16:44+0200\n"
+"PO-Revision-Date: 2007-10-29 22:29+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Program configurator (WEB)"
+msgstr "Конфигуратор программы (WEB)"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid "Provides the WEB-based configurator of the OpenSCADA system."
+msgstr "Предоставляет WEB основанный конфигуратор системы OpenSCADA."
+
+msgid "Name: "
+msgstr "Имя: "
+
+msgid "Description: "
+msgstr "Описание: "
+
+msgid "License: "
+msgstr "Лицензия: "
+
+msgid "Author: "
+msgstr "Автор: "
+
+msgid "Web site: "
+msgstr "Web сайт: "
+
+msgid "Load"
+msgstr "Загрузка"
+
+msgid "Save"
+msgstr "Сохранение"
+
+msgid "Root page"
+msgstr "Корневая страница"
+
+msgid "Current page"
+msgstr "Текущая страница"
+
+msgid "Curent page"
+msgstr "Текущая страница"
+
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+msgid "About"
+msgstr "Про ..."
+
+msgid "user:"
+msgstr "пользователь:"
+
+msgid "from:"
+msgstr "из:"
+
+msgid "Change"
+msgstr "Сменить"
+
+msgid "Exit"
+msgstr "Выход"
+
+msgid "Apply"
+msgstr "Принять"
+
+msgid "Go"
+msgstr "Перейти"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "Insert"
+msgstr "Вставить"
+
+msgid "Edit"
+msgstr "Редактировать"
+
+msgid "Up"
+msgstr "Вверх"
+
+msgid "Down"
+msgstr "Вниз"
+
+msgid "Del"
+msgstr "Удалить"
+
+msgid "Add row"
+msgstr "Добавить строку"
+
+msgid "Insert row"
+msgstr "Вставить строку"
+
+msgid "Delete row"
+msgstr "Удалить строку"
+
+msgid "Move up row"
+msgstr "Переместить строку вверх"
+
+msgid "Move down row"
+msgstr "Переместить строку вниз"
+
+msgid "Post request broken!"
+msgstr "Post запрос повреждён!"
+
+#, c-format
+msgid "%s| Change <%s:%s> to %s"
+msgstr "%s| Изменение <%s:%s> в %s"
+
+#, c-format
+msgid "%s| Go to link '%s'"
+msgstr "%s| Переход по ссылке '%s'"
+
+#, c-format
+msgid "Go to '%s'."
+msgstr "Переход к '%s'."
+
+#, c-format
+msgid "%s| Put command <%s:%s>"
+msgstr "%s| Передача команды <%s:%s>"
+
+#, c-format
+msgid "%s| Delete '%s' element <%s:%s>."
+msgstr "%s| Удаление '%s' элемента <%s:%s>."
+
+#, c-format
+msgid "%s| Insert '%s' element <%s:%s> to %s."
+msgstr "%s| Вставка '%s' элемента <%s:%s> в %s."
+
+#, c-format
+msgid "%s| Add '%s' element <%s:%s>."
+msgstr "%s| Добавление '%s' элемента <%s:%s>."
+
+#, c-format
+msgid "%s| Set '%s' element %s to <%s:%s>."
+msgstr "%s| Установка '%s' элемента %s в <%s:%s>."
+
+#, c-format
+msgid "%s| Move '%s' from %s to %s."
+msgstr "%s| Перемещение '%s' из %s в %s."
+
+#, c-format
+msgid "%s| Set '%s' cell ('%s':%s) to: %s."
+msgstr "%s| Установка '%s' ячейки ('%s':%s) в: %s."
+
+#, c-format
+msgid "%s| Add '%s' record."
+msgstr "%s| Добавление '%s' записи."
+
+#, c-format
+msgid "%s| Insert '%s' record %d."
+msgstr "%s| Вставка '%s' записи %d."
+
+#, c-format
+msgid "%s| Delete '%s' record %d."
+msgstr "%s| Удаление '%s' записи %d."
+
+#, c-format
+msgid "%s| Move '%s' record from %d to %d."
+msgstr "%s| Перемещение '%s' записи из %d в %d."
+
+msgid "System configurator (WEB)"
+msgstr "Системный конфигуратор (WEB)"

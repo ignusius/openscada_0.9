@@ -1,0 +1,27 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>images/button_cancel.png</file>
+    <file>images/button_ok.png</file>
+    <file>images/close.png</file>
+    <file>images/contexthelp.png</file>
+    <file>images/exit.png</file>
+    <file>images/help.png</file>
+    <file>images/next.png</file>
+    <file>images/oscada_cfg.png</file>
+    <file>images/previous.png</file>
+    <file>images/reload.png</file>
+    <file>images/start.png</file>
+    <file>images/stop.png</file>
+    <file>images/up.png</file>
+    <file>images/load.png</file>
+    <file>images/save.png</file>
+    <file>images/it_add.png</file>
+    <file>images/it_del.png</file>
+    <file>images/editcopy.png</file>
+    <file>images/editcut.png</file>
+    <file>images/editpaste.png</file>
+    <file>images/combar.png</file>
+    <file>images/find.png</file>
+    <file>images/manual.png</file>
+</qresource>
+</RCC>

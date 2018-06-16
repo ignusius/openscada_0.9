@@ -1,0 +1,200 @@
+# OpenSCADA.DAQ.DAQGate translate to German.
+# This file is distributed under the same license as the OpenSCADA.DAQ.DAQGate package module.
+#
+# Irina Popkova <IrischkaPopkova@yandex.ru>, 2009.
+# Klaus Fetscher <k.fetscher@fetron.de>, 2009.
+# Roman Savochenko <rom_as@oscada.org>, 2011-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DAQ.DAQGate 0.9.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-01 16:13+0300\n"
+"PO-Revision-Date: 2009-08-17 12:07+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: de <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Data sources gate"
+msgstr "OpenSCADA Datenquellen"
+
+msgid "Roman Savochenko"
+msgstr "Roman Savotscheko"
+
+msgid ""
+"Allows to locate data sources of the remote OpenSCADA stations to local ones."
+msgstr ""
+"Ermöglicht das Lokalisieren von Datenquellen von Remote-OpenSCADA-Stationen "
+"zu lokalen."
+
+msgid "Table of parameters cache"
+msgstr "Tabelle des Parametercaches"
+
+msgid "Acquisition schedule"
+msgstr "Planung der Befragung"
+
+msgid "Priority of the acquisition task"
+msgstr "Priorität der Erfassungsaufgabe"
+
+msgid "Timeout of restore, seconds"
+msgstr "Timeout der Wiederherstellung, Sekunden"
+
+msgid "Depth time of restore data, hours"
+msgstr "Tiefe der Wiederherstellungszeit, Stunden"
+
+msgid "Level of requested messages"
+msgstr "Anzahl der angeforderten Nachrichten"
+
+msgid ""
+"==Disable==;Debug (0);Information (1);Notice (2);Warning (3);Error (4);"
+"Critical (5);Alert (6);Emergency (7)"
+msgstr ""
+"==Deaktivieren==;Debuggen (0);Information (1);Bemerkung (2);Warnung (3);"
+"Fehler (4);Kritisch (5);Wach (6);Notfall (7)"
+
+msgid "Synchronization time with the remote station, seconds"
+msgstr "Synchronisationszeit mit der Gegenstelle, Sekunden"
+
+msgid "Remote stations list"
+msgstr "Liste von entfernten Stationen"
+
+msgid "List of the remote controller objects and parameters"
+msgstr "Liste der Fernsteuerungsobjekte und Parameter"
+
+msgid "Allow the automatic removal of parameters and attributes"
+msgstr "Erlaube das automatische Entfernen von Parametern und Attributen"
+
+msgid "Standard"
+msgstr "Standard"
+
+msgid "Remote parameter address"
+msgstr "Fernparameteradresse"
+
+msgid "Attributes configuration cache"
+msgstr "Attribute-Cache-Konfiguration"
+
+msgid "Presence at stations"
+msgstr "Präsenz an Stationen"
+
+msgid "Acquisition. "
+msgstr "Erwerb. "
+
+#, c-format
+msgid "Acquisition with the period: %s. "
+msgstr "Erwerb mit dem Zeitraum: %s. "
+
+#, c-format
+msgid "Next acquisition by the cron '%s'. "
+msgstr "Erwerb nächsten durch cron '%s'. "
+
+#, c-format
+msgid "Spent time: %s[%s]. "
+msgstr "Verbrauchte Zeit: %s[%s]. "
+
+#, c-format
+msgid "Error the station '%s', restoring in %.3g s."
+msgstr "Fehler der Station '%s', Wiederherstellung in %.3g s."
+
+#, c-format
+msgid "Requests to the station '%s': %.6g."
+msgstr "Anfragen an die Station '%s': %.6g."
+
+#, c-format
+msgid "Enabling: station '%s' processing item '%s' for parameters %d."
+msgstr ""
+"Aktivieren: Stationen '%s' Verarbeitung Elemente '%s' für Parameter %d."
+
+#, c-format
+msgid ""
+"Error deleting parameter '%s' but it is not present on the configuration or "
+"remote station."
+msgstr ""
+"Fehler beim Löschen des Parameters '%s', aber nicht in der Konfiguration "
+"oder der Gegenstelle."
+
+#, c-format
+msgid "DAQ.%s.%s: connecting to the data source: %s."
+msgstr "DAQ.%s.%s: Verbindung zur Datenquelle: %s."
+
+msgid "STOP"
+msgstr "STOP"
+
+msgid "10:Data not available."
+msgstr "10:Keine Daten verfügbar."
+
+msgid "OK"
+msgstr "OK"
+
+#, c-format
+msgid "DAQ.%s.%s: connecting to the data source '%s': %s."
+msgstr "DAQ.%s.%s: Verbindung zur Datenquelle '%s': %s."
+
+#, c-format
+msgid "11:Station missed '%s'."
+msgstr "11:Station verpasst '%s'."
+
+msgid "Zero to disable the access to the remote archive."
+msgstr "Null, um den Zugriff auf das Remote-Archiv zu deaktivieren."
+
+msgid "Zero to disable to the periodic sync."
+msgstr "Zero deaktivieren periodische Synchronisation."
+
+msgid "List of remote OpenSCADA station IDs used in this controller."
+msgstr ""
+"Liste der Remote-OpenSCADA-Stations-IDs, die in diesem Controller verwendet "
+"werden."
+
+msgid "Append station"
+msgstr "Anhängen Station"
+
+msgid "Go to configuration of the remote stations list"
+msgstr "Wechseln Sie zur Konfiguration der Liste der entfernten Stationen"
+
+msgid ""
+"List of remote OpenSCADA full controller objects or individual controller "
+"parameters. Address example:\n"
+"  System.AutoDA - for a controller object;\n"
+"  System.AutoDA.UpTimeStation - for a controller parameter."
+msgstr ""
+"Liste von Remote-OpenSCADA-Voll-Controller-Objekten oder einzelnen Controller-Parametern. "
+"Adressbeispiel:\n"
+"  System.AutoDA - für ein Controller-Objekt;\n"
+"  System.AutoDA.UpTimeStation - für einen Controller-Parameter."
+
+msgid "Parameters tree"
+msgstr "Parameter Baum"
+
+msgid "<<Append current>>"
+msgstr "<<Anhängen aktuellen>>"
+
+msgid "Parameter"
+msgstr "Parameter"
+
+msgid "State"
+msgstr "Zustand"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Enabled"
+msgstr "Aktiviert"
+
+msgid "Identifier"
+msgstr "Identifikator"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Configuration"
+msgstr "Konfiguration"
+
+msgid "Remote station configuration"
+msgstr "Konfiguration einer entfernten Station"
+
+msgid "Controller is not started!"
+msgstr "Controller ist nicht gestartet!"

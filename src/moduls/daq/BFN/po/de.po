@@ -1,0 +1,147 @@
+# OpenSCADA.DAQ.BFN translate to German.
+# Copyright (C) 2010 Irina Popkova
+# This file is distributed under the same license as the OpenSCADA.DAQ.BFN package module.
+#
+# Irina Popkova <IrischkaPopkova@yandex.ru>, 2010, 2011.
+# Roman Savochenko <rom_as@oscada.org>, 2011, 2017-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DAQ.BFN 0.5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 22:44+0300\n"
+"PO-Revision-Date: 2011-07-19 20:40+0400\n"
+"Last-Translator: Irina Popkova <IrischkaPopkova@yandex.ru>\n"
+"Language-Team: German <de@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "BFN module"
+msgstr "BFN Module"
+
+msgid "Roman Savochenko"
+msgstr "Roman Savotschenko"
+
+msgid ""
+"Support Big Farm Net (BFN) modules for Viper CT/BAS and other from \"Big "
+"Dutchman\" (http://www.bigdutchman.com)."
+msgstr ""
+"Big Farm Net (BFN) Module für Viper CT/BAS und andere aus \"Big Dutchman "
+"\" (http://www.bigdutchman.com)."
+
+msgid "Acquisition schedule"
+msgstr "Planung der Befragung"
+
+msgid "Priority of the acquisition task"
+msgstr "Priorität der Erfassungsaufgabe"
+
+msgid "Period of sync with the remote station, seconds"
+msgstr "Periode der Synchronisieren mit der entfernten Station, Sekunden"
+
+msgid "Transport address"
+msgstr "Adresse des Transports"
+
+msgid "User"
+msgstr "Nutzer"
+
+msgid "Password"
+msgstr "Passwort"
+
+msgid "Standard"
+msgstr "Standard"
+
+#, c-format
+msgid "Code %s"
+msgstr "Code %s"
+
+msgid "Symbols"
+msgstr "Symbole"
+
+msgid "Symbols DB"
+msgstr "Symbole DB"
+
+msgid "Codes"
+msgstr "Codes"
+
+msgid "Identifier"
+msgstr "Identifikator"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "Alarms"
+msgstr "Alarme"
+
+msgid "Code"
+msgstr "Code"
+
+msgid "New symbol for code"
+msgstr "Neues Symbol für die Code"
+
+msgid "New symbol for alarm"
+msgstr "Neues Symbol für Alarm"
+
+#, c-format
+msgid "Error: '%s'. "
+msgstr "Fehler: '%s'. "
+
+msgid "Acquisition. "
+msgstr "Erwerb. "
+
+#, c-format
+msgid "Acquisition with the period: %s. "
+msgstr "Erwerb mit dem Zeitraum: %s. "
+
+#, c-format
+msgid "Next acquisition by the cron '%s'. "
+msgstr "Nächste Übernahme durch den Cron '%s'. "
+
+#, c-format
+msgid "Spent time: %s."
+msgstr "Verbrauchte Zeit: %s."
+
+msgid "House:\n"
+msgstr "Haus:\n"
+
+msgid "House computer:\n"
+msgstr "Haus-Computer:\n"
+
+#, c-format
+msgid "DAQ.%s.%s: connect to the data source: %s."
+msgstr "DAQ.%s.%s: Anschluss an die Datenquelle: %s."
+
+msgid "STOP"
+msgstr "STOP"
+
+#, c-format
+msgid "Error connecting to the transport '%s'."
+msgstr "Verbinden Sie den Transport '%s' Fehler."
+
+msgid "Error parsing the respond. The respond seems incomplete."
+msgstr "Reagieren Parsing-Fehler. Mögliche reagieren unvollständig."
+
+#, c-format
+msgid "Unknown alarm '%s'."
+msgstr "Unbekannte Alarm '%s'."
+
+msgid "Main"
+msgstr "Generell"
+
+msgid "Alarm: "
+msgstr "Alarme: "
+
+msgid "Norma: "
+msgstr "Norm: "
+
+msgid "OK"
+msgstr "OK"
+
+msgid "1:Parameter disabled."
+msgstr "1:Parameter abgeschaltet."
+
+msgid "2:Acquisition stopped."
+msgstr "2:Befragung ist gestoppt."

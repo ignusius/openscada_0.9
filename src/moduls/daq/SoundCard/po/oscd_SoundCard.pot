@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-04 13:47+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Sound card"
+msgstr ""
+
+msgid "Roman Savochenko"
+msgstr ""
+
+msgid "Provides an access to the sound card."
+msgstr ""
+
+msgid "Table of parameters"
+msgstr ""
+
+msgid "Card device"
+msgstr ""
+
+msgid "Card sample rate (Hz)"
+msgstr ""
+
+msgid "Card sample type"
+msgstr ""
+
+msgid "Float 32;Int 32;Int 16"
+msgstr ""
+
+msgid "Priority of the acquisition task"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Channel"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+#, c-format
+msgid "%d input channels available"
+msgstr ""
+
+#, c-format
+msgid "Acquisition from %d channels, recieved %.2g MB, samplerate corrections %g and the adjusted value %d."
+msgstr ""
+
+#, c-format
+msgid "Error of the selected device '%s' or default device is not available."
+msgstr ""
+
+msgid "No channel is set up for acquisition."
+msgstr ""
+
+msgid "Error setting sample type."
+msgstr ""
+
+msgid "Sound stream is not stopped!"
+msgstr ""
+
+#, c-format
+msgid "CallBack: Sample rate correction from %g to %g for fix error %ds on time %ds."
+msgstr ""

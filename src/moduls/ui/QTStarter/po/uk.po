@@ -1,0 +1,800 @@
+# OpenSCADA.UI.QTStarter translate to Ukrainian.
+# This file is distributed under the same license as the OpenSCADA.UI.QTStarter package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2005-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.UI.QTStarter 1.6.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-21 17:03+0300\n"
+"PO-Revision-Date: 2007-10-29 22:03+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <uk@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Qt GUI starter"
+msgstr "Qt GUI пускач"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"Provides the Qt GUI starter. Qt-starter is the only and compulsory component "
+"for all GUI modules based on the Qt library."
+msgstr ""
+"Надає Qt GUI пускач. Qt-пускач є єдиним та обов'язковим компонентом для всіх "
+"GUI модулів, основаних на бібліотеці Qt."
+
+msgid "Could not read image data"
+msgstr "Не вдалося прочитати дані зображення"
+
+msgid "&Yes"
+msgstr "&Так"
+
+msgid "&No"
+msgstr "&Ні"
+
+msgid "&Cancel"
+msgstr "&Відмовитися"
+
+msgid "&OK"
+msgstr ""
+
+msgid "Apply"
+msgstr "Прийняти"
+
+msgid "Close"
+msgstr "Закрити"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Forward"
+msgstr "Вперед"
+
+msgid "Parent Directory"
+msgstr "Батьківська тека"
+
+msgid "Look in:"
+msgstr "Перегляд:"
+
+msgid "Computer"
+msgstr "Комп'ютер"
+
+msgid "File"
+msgstr "Файл"
+
+msgid "Folder"
+msgstr "Тека"
+
+msgid "File &name:"
+msgstr "&Ім'я файлу:"
+
+msgid "Open"
+msgstr "Відкрити"
+
+msgid "&Open"
+msgstr "&Відкрити"
+
+msgid "Cancel"
+msgstr "Відмовитися"
+
+msgid "Save"
+msgstr "Зберегти"
+
+msgid "&Save"
+msgstr "Зберегти"
+
+msgid "Save As"
+msgstr "Зберегти як"
+
+msgid "Date Modified"
+msgstr "Дата модифікації"
+
+msgid "All Files (*)"
+msgstr "Всі файли (*)"
+
+msgid "Create New Folder"
+msgstr "Створити нову теку"
+
+msgid "List View"
+msgstr "Вигляд списком"
+
+msgid "Detail View"
+msgstr "Детальний вигляд"
+
+msgid "Files of type:"
+msgstr "Файли типів:"
+
+msgid "New Folder"
+msgstr "Нова тека"
+
+msgid "&New Folder"
+msgstr "&Нова тека"
+
+msgid "Show &hidden files"
+msgstr "Відобразити &приховані файли"
+
+msgid "&Delete"
+msgstr "Ви&далити"
+
+msgid "&Rename"
+msgstr "Перейменувати"
+
+msgid "Remove"
+msgstr "Пересунути"
+
+msgid "&Undo"
+msgstr "Відмінити"
+
+msgid "&Redo"
+msgstr "Відновити"
+
+msgid "Cu&t"
+msgstr "Ви&різати"
+
+msgid "&Copy"
+msgstr "&Копіювати"
+
+msgid "&Paste"
+msgstr "В&ставити"
+
+msgid "Delete"
+msgstr "Видалити"
+
+msgid "Select All"
+msgstr "Обрати все"
+
+msgid "Insert Unicode control character"
+msgstr "Вставити Unicode керуючий символ"
+
+msgid "Size"
+msgstr "Розмір"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Drive"
+msgstr "Диск"
+
+msgid "Go back"
+msgstr "Перейти назад"
+
+msgid "Go forward"
+msgstr "Перейти вперед"
+
+msgid "Go to the parent directory"
+msgstr "Перейти до батьківської теки"
+
+msgid "Create a New Folder"
+msgstr "Створити нову теку"
+
+msgid "Change to list view mode"
+msgstr "Змінити у режим відображення переліком"
+
+msgid "Change to detail view mode"
+msgstr "Змінити у докладний режим відображення"
+
+msgid "Destination file exists"
+msgstr "Файл призначення існує"
+
+msgid "%1 bytes"
+msgstr "%1 байтів"
+
+msgid "%1 KB"
+msgstr "%1 КБ"
+
+msgid "%1 MB"
+msgstr "%1 МБ"
+
+msgid "Are sure you want to delete '%1'?"
+msgstr "Ви дійсно бажаєте видалити '%1'?"
+
+msgid ""
+"%1 already exists.\n"
+"Do you want to replace it?"
+msgstr ""
+"%1 вже існує.\n"
+"Ви бажаєте його видалити?"
+
+msgid "Recent Places"
+msgstr "Недавні місця"
+
+msgid "<h3>About Qt</h3><p>This program uses Qt version %1.</p>"
+msgstr "<h3>Про Qt</h3><p>Ця програма використовує Qt версії %1.</p>"
+
+msgid ""
+"<p>Qt is a C++ toolkit for cross-platform application development.</p><p>Qt "
+"provides single-source portability across MS&nbsp;Windows, Mac&nbsp;OS&nbsp;"
+"X, Linux, and all major commercial Unix variants. Qt is also available for "
+"embedded devices as Qt for Embedded Linux and Qt for Windows CE.</p><p>Qt is "
+"available under three different licensing options designed to accommodate "
+"the needs of our various users.</p><p>Qt licensed under our commercial "
+"license agreement is appropriate for development of proprietary/commercial "
+"software where you do not want to share any source code with third parties "
+"or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU "
+"GPL version 3.0.</p><p>Qt licensed under the GNU LGPL version 2.1 is "
+"appropriate for the development of Qt applications (proprietary or open "
+"source) provided you can comply with the terms and conditions of the GNU "
+"LGPL version 2.1.</p><p>Qt licensed under the GNU General Public License "
+"version 3.0 is appropriate for the development of Qt applications where you "
+"wish to use such applications in combination with software subject to the "
+"terms of the GNU GPL version 3.0 or where you are otherwise willing to "
+"comply with the terms of the GNU GPL version 3.0.</p><p>Please see <a href="
+"\"http://qt.digia.com/product/licensing\">qt.digia.com/product/licensing</a> "
+"for an overview of Qt licensing.</p><p>Copyright (C) 2012 Digia Plc and/or "
+"its subsidiary(-ies).</p><p>Qt is a Digia product. See <a href=\"http://qt."
+"digia.com/\">qt.digia.com</a> for more information.</p>"
+msgstr ""
+
+msgid "Hu&e:"
+msgstr "Відтінок:"
+
+msgid "&Sat:"
+msgstr "Насич.:"
+
+msgid "&Val:"
+msgstr "Яскрав.:"
+
+msgid "&Red:"
+msgstr "Червоний:"
+
+msgid "&Green:"
+msgstr "Зелений:"
+
+msgid "Bl&ue:"
+msgstr "Синій:"
+
+msgid "A&lpha channel:"
+msgstr "Альфа канал:"
+
+msgid "&Basic colors"
+msgstr "Базові кольори"
+
+msgid "&Custom colors"
+msgstr "Кольори користувача"
+
+msgid "&Add to Custom Colors"
+msgstr "Додати колір користувача"
+
+msgid "Select color"
+msgstr "Вибір кольору"
+
+msgid "&Restore"
+msgstr "&Відновити"
+
+msgid "&Move"
+msgstr "&Пересунути"
+
+msgid "&Size"
+msgstr "&Розмір"
+
+msgid "Mi&nimize"
+msgstr "Мі&німізувати"
+
+msgid "Ma&ximize"
+msgstr "Ма&ксимізувати"
+
+msgid "Stay on &Top"
+msgstr "Залишати на &горі"
+
+msgid "&Close"
+msgstr "&Закрити"
+
+msgid "Select Color"
+msgstr "Вибір кольору"
+
+msgid "Form"
+msgstr "Форма"
+
+msgid "Printer"
+msgstr "Принтер"
+
+msgid "&Name:"
+msgstr "Ім'я"
+
+msgid "P&roperties"
+msgstr "Властивості"
+
+msgid "Location:"
+msgstr "Розміщення:"
+
+msgid "Preview"
+msgstr "Перед-перегляд"
+
+msgid "Type:"
+msgstr "Тип"
+
+msgid "Output &file:"
+msgstr "Вихідний файл:"
+
+msgid "Print range"
+msgstr "Діапазон друку"
+
+msgid "Print all"
+msgstr "Друкувати все"
+
+msgid "Current Page"
+msgstr "Поточна сторінка"
+
+msgid "Pages from"
+msgstr "Сторінки з"
+
+msgid "to"
+msgstr "до"
+
+msgid "Selection"
+msgstr "Вибір"
+
+msgid "Output Settings"
+msgstr "Налаштування виводу"
+
+msgid "Copies:"
+msgstr "Копій:"
+
+msgid "Collate"
+msgstr "Перевіряти"
+
+msgid "Reverse"
+msgstr "Реверс"
+
+msgid "Copies"
+msgstr "Копій"
+
+msgid "Color Mode"
+msgstr "Режим кольору"
+
+msgid "Color"
+msgstr "Кольоровий"
+
+msgid "Grayscale"
+msgstr "Сірий"
+
+msgid "Duplex Printing"
+msgstr "Двосторонній друк"
+
+msgid "None"
+msgstr "Немає"
+
+msgid "Long side"
+msgstr "По довгому краю"
+
+msgid "Short side"
+msgstr "По короткому краю"
+
+msgid "Options"
+msgstr "Параметри"
+
+msgid "&Options >>"
+msgstr "Параметри >>"
+
+msgid "&Options <<"
+msgstr "Параметри <<"
+
+msgid "&Print"
+msgstr "Друк"
+
+msgid "Print"
+msgstr "Друк"
+
+msgid "Print to File (PDF)"
+msgstr "Друк до файлу (PDF)"
+
+msgid "Print to File (Postscript)"
+msgstr "Друк до файлу (Postscript)"
+
+msgid "Local file"
+msgstr "Локальний файл"
+
+msgid "Write %1 file"
+msgstr "Запис %1 файлу"
+
+msgid "Paper"
+msgstr "Папір"
+
+msgid "Page size:"
+msgstr "Розмір сторінки:"
+
+msgid "Width:"
+msgstr "Ширина:"
+
+msgid "Height:"
+msgstr "Висота:"
+
+msgid "Paper source:"
+msgstr "Джерело папіру:"
+
+msgid "Orientation"
+msgstr "Орієнтація"
+
+msgid "Portrait"
+msgstr "Портретна"
+
+msgid "Landscape"
+msgstr "Ландшафтна"
+
+msgid "Reverse landscape"
+msgstr "Реверсна ландшафтна"
+
+msgid "Reverse portrait"
+msgstr "Реверсна портретна"
+
+msgid "Margins"
+msgstr "Відступи"
+
+msgid "top margin"
+msgstr "верхній відступ"
+
+msgid "left margin"
+msgstr "лівий відступ"
+
+msgid "right margin"
+msgstr "правий відступ"
+
+msgid "bottom margin"
+msgstr "нижній відступ"
+
+msgid "Points (pt)"
+msgstr "Точок (pt)"
+
+msgid "Inches (in)"
+msgstr "Дюймів (in)"
+
+msgid "Executive"
+msgstr "Розпорядження"
+
+msgid "Folio"
+msgstr "Фоліо"
+
+msgid "Ledger"
+msgstr "Головна книга"
+
+msgid "Legal"
+msgstr "Закон"
+
+msgid "Letter"
+msgstr "Лист"
+
+msgid "Tabloid"
+msgstr "Таблоід"
+
+msgid "US Common #10 Envelope"
+msgstr "US основний конверт №10"
+
+msgid "Custom"
+msgstr "Користувацький"
+
+msgid "Millimeters (mm)"
+msgstr "Міліметрів (mm)"
+
+msgid "Centimeters (cm)"
+msgstr "Сантиметрів (cm)"
+
+msgid "Page"
+msgstr "Сторінка"
+
+msgid "Advanced"
+msgstr "Додатково"
+
+msgid "Mon"
+msgstr "Пон"
+
+msgid "Name"
+msgstr "Ім'я"
+
+msgid "Style"
+msgstr "Стиль"
+
+msgid "Font"
+msgstr "Шрифт"
+
+msgid "Palette"
+msgstr "Палітра"
+
+msgid "Style Sheets"
+msgstr "Таблиця Стилів"
+
+msgid "Hold when overloaded to another project."
+msgstr "Утримувати при перевантажені до іншого проекту."
+
+msgid "Loading the module."
+msgstr "Завантаження модуля."
+
+msgid "Saving the module."
+msgstr "Збереження модуля."
+
+msgid "Starting the module."
+msgstr "Запуск модуля."
+
+msgid "Stopping the module."
+msgstr "Зупинка модуля."
+
+#, c-format
+msgid ""
+"======================= Module <%s:%s> options =======================\n"
+"    --QtInNotMainThread Starts Qt into a different from the main thread.\n"
+"    --showWin=<0,1,2>   Window display mode, initial and which is allowed to "
+"change from: 0-typical window, 1-maximized window, 2-full screen.\n"
+"----------- Qt debug commandline options ----------\n"
+"    --noX11             Prevent the launch of Qt, preferably for a clean "
+"console.\n"
+"    --sync              Switch to Sync X11 for debugging.\n"
+"    --widgetcount       Print debug messages at output, the number of "
+"widgets\n"
+"                        left unselected and their maximum number.\n"
+"----------- Qt commandline options ----------------\n"
+"    --qws               Do this with Qt server software for embedded Linux.\n"
+"    --style=<name>      Sets the GUI style to <name> (windows, platinum, "
+"plastique, ...).\n"
+"    --stylesheet=<path> Set the style sheet from the file by <path>.\n"
+"    --session=<name>    Restore from the previous session with the specified "
+"<name>.\n"
+"    --reverse           Set the layout in Qt::RightToLeft.\n"
+"    --graphicssystem=<nm> Install rendering mechanism for screen widgets and "
+"QPixmaps (raster, opengl).\n"
+"    --display=<nm>      Set the X display (typically $DISPLAY).\n"
+"    --geometry=<geom>   Set the client geometry of the first display "
+"window.\n"
+"---- Parameters of the module section '%s' of the configuration file ----\n"
+"StartMod   <moduls>     List of the modules that are started, separated "
+"';'.\n"
+"CloseToTray <0|1>       Closing all windows or starting without Qt modules "
+"to the system tray.\n"
+"Style      <name>       The GUI style of Qt.\n"
+"Font       <font>       Common Qt font.\n"
+"Palette    <colors>     Twenty colors of the palette separated by symbol ',' "
+"in three lines for active, disabled and inactive groups.\n"
+"StyleSheets <CSS>       Rules of the Cascade Style Sheets.\n"
+"\n"
+msgstr ""
+"========================= Опції модуля <%s:%s> ===========================\n"
+"    --QtInNotMainThread Запускати Qt у окремому потоці від основного.\n"
+"    --showWin=<0,1,2>   Режим відображення вікон, початковий та від якого "
+"дозволений до зміни: 0-типове вікно, 1-максимізоване вікно, 2-повний екран.\n"
+"------ Налагоджувані параметри Qt, командного рядка --\n"
+"    --noX11             Запобігати запуску Qt, переважно для чистої "
+"консолі.\n"
+"    --sync              Переключення у синхронний режим X11 для "
+"налагодження.\n"
+"    --widgetcount       Друк налагоджувальних повідомлень при виході, у "
+"кількості\n"
+"                        віджетів залишених невидаленими та максимальну їх "
+"кількість.\n"
+"------ Параметри Qt, командного рядку -------------\n"
+"    --qws               Робити цю програму сервером із Qt для вбудованого "
+"Linux.\n"
+"    --style=<ім'я>      Встановити GUI стиль у ім'я (windows, platinum, "
+"plastique, ...).\n"
+"    --stylesheet=<шлях> Встановити таблицю стилів із файлу за шляхом.\n"
+"    --session=<ім'я>    Відновити із попереднього сеансу з вказаним ім'ям.\n"
+"    --reverse           Встановити напрямок розташування у Qt::RightToLeft.\n"
+"    --graphicssystem=<ім'я> Встановити механізм рендерінгу для екранних "
+"віджетів та QPixmaps (raster, opengl).\n"
+"    --display=<ім'я>    Встановити X екран (типово у $DISPLAY).\n"
+"    --geometry=<геом>   Встановити клієнтську геометрію першого "
+"відображуваного вікна.\n"
+"------ Параметри модульної секції '%s' конфігураційного файлу ------\n"
+"StartMod   <модулі>     Перелік модулів що запускаються, розділених ';'.\n"
+"CloseToTray <0|1>       Закривати всі вікна або запускати без Qt модулів до "
+"системного трею.\n"
+"Style      <ім'я>       GUI стиль Qt.\n"
+"Font       <шрифт>      Загальний шрифт Qt.\n"
+"Palette    <кольори>    Двадцять кольорів палітри поділених символом ',' у "
+"трьох рядках для активної, вимкненої та неактивної груп.\n"
+"StyleSheets <CSS>       Правила таблиці каскадних стилів (CSS).\n"
+"\n"
+
+msgid "Module options"
+msgstr "Опції модуля"
+
+msgid "Qt modules for startup, separated by ';'"
+msgstr "Модулі Qt для запуску, поділені символом ';'"
+
+msgid "Collapse or startup to the system tray"
+msgstr "Згортати або запускати у системний лоток"
+
+msgid "Look and feel"
+msgstr "Вигляд та відчуття"
+
+msgid "Known profiles"
+msgstr "Відомі профилі"
+
+msgid "Widgets style"
+msgstr "Стиль віджетів"
+
+msgid "Common font"
+msgstr "Загальний шрифт"
+
+msgid "<Select a profile to combine>"
+msgstr "<Обрати профіль до поєднання>"
+
+msgid "<Clear>"
+msgstr "<Очистити>"
+
+msgid "<Read back>"
+msgstr "<Прочитати назад>"
+
+msgid "OpenSCADA Project: %1"
+msgstr "OpenSCADA Проект: %1"
+
+msgid "Exit the program"
+msgstr "Вихід з програми"
+
+msgid "Qt-starter of OpenSCADA"
+msgstr "Qt-пускач OpenSCADA"
+
+msgid "Project: %1"
+msgstr "Проект: %1"
+
+msgid "OpenSCADA start"
+msgstr "Запуск OpenSCADA"
+
+msgid "&About"
+msgstr "&Про ..."
+
+msgid "Program information"
+msgstr "Інформація про програму"
+
+msgid "The button for display the program information."
+msgstr "Кнопка для відображення інформації про програму."
+
+msgid "About &Qt"
+msgstr "Про &Qt"
+
+msgid "Qt information"
+msgstr "Qt інформація"
+
+msgid "The button for getting the Qt information."
+msgstr "Кнопка для отримання інформації про Qt."
+
+msgid "%1 manual"
+msgstr "%1 підручник"
+
+msgid "The button for the manual %1."
+msgstr "Кнопка отримання підручника %1."
+
+msgid "What's &This"
+msgstr "Що &це"
+
+msgid "Question about GUI elements"
+msgstr "Питання про GUI елементи"
+
+msgid ""
+"The button for requesting the information about user interface elements."
+msgstr "Кнопка для запиту інформації про елементи інтерфейсу користувача."
+
+msgid "&Help"
+msgstr "&Допомога"
+
+msgid "Qt modules of OpenSCADA"
+msgstr "Qt модулі OpenSCADA"
+
+msgid "Call the Qt-based UI module '%1'"
+msgstr "Виклик базованого на Qt модуля '%1'"
+
+msgid ""
+"Module: %1\n"
+"Name: %2\n"
+"Source: %3\n"
+"Version: %4\n"
+"Author: %5\n"
+"Description: %6\n"
+"License: %7"
+msgstr ""
+"Модуль: %1\n"
+"Ім'я: %2\n"
+"Джерело: %3\n"
+"Версія: %4\n"
+"Автор: %5\n"
+"Опис: %6\n"
+"Ліцензія: %7"
+
+msgid "Projects of OpenSCADA"
+msgstr "Проекти OpenSCADA"
+
+msgid "List of allowed to call/switch projects of OpenSCADA"
+msgstr "Перелік проектів OpenSCADA доступних для виклику/переключення"
+
+msgid "The list for call and switch to allowed projects of OpenSCADA."
+msgstr "Перелік проектів OpenSCADA доступних для виклику та переключення."
+
+msgid "current"
+msgstr "поточний"
+
+msgid "running"
+msgstr "виконується"
+
+msgid "Switch to the selected project"
+msgstr "Переключитися на обраний проект"
+
+msgid "Call the selected project"
+msgstr "Викликати обраний проект"
+
+msgid "The button for switch to the selected project."
+msgstr "Кнопка для переключення на обраний проект."
+
+msgid "The button for call the selected project."
+msgstr "Кнопка для виклику обраного проекту."
+
+msgid "Creating-updating a project"
+msgstr "Створення-оновлення проекту"
+
+msgid ""
+"New projects creating or updating of presented ones, like to desktop links"
+msgstr ""
+"Створення нових проектів або оновлення наявних, на кшталт посилань робочої "
+"стільниці"
+
+msgid ""
+"The button for new projects creating or updating of presented ones, like to "
+"desktop links."
+msgstr ""
+"Кнопка створення нових проектів або оновлення наявних, на кшталт посилань "
+"робочої стільниці"
+
+msgid "The button for exit the program."
+msgstr "Кнопка для виходу з програми."
+
+#, c-format
+msgid ""
+"%s v%s.\n"
+"%s\n"
+"Author: %s\n"
+"License: %s\n"
+"\n"
+"%s v%s.\n"
+"%s\n"
+"License: %s\n"
+"Author: %s\n"
+"Web site: %s"
+msgstr ""
+"%s v%s.\n"
+"%s\n"
+"Автор: %s\n"
+"Ліцензія: %s\n"
+"\n"
+"%s v%s.\n"
+"%s\n"
+"Ліцензія: %s\n"
+"Автор: %s\n"
+"Web сайт: %s"
+
+msgid "Manual"
+msgstr "Підручник"
+
+msgid "No manual '%1' found offline or online!"
+msgstr "Не знайдено підручника '%1' локально та у мережі!"
+
+msgid "New project or project to update"
+msgstr "Новий проект або проект для оновлення"
+
+msgid "Project name for new one creating or to update present one:"
+msgstr "Ім'я проекту для створення нового або оновлення існуючого:"
+
+msgid "Empty name of the project is unavailable!"
+msgstr "Порожне ім'я проекту недозволене!"
+
+msgid "Switch project"
+msgstr "Переключити проект"
+
+msgid "Do you really want to change the current project \"%1\" to \"%2\"?"
+msgstr "Ви дійсно бажаєте змінити поточний проект \"%1\" на \"%2\"?"
+
+msgid "Call project"
+msgstr "Викликати проект"
+
+msgid "Project \"%1\" seems running now! You still want to switch the project?"
+msgstr "Проект \"%1\" схоже виконується! Ви ще бажаєте переключити проект?"
+
+msgid "Project \"%1\" seems running now! You still want to call the project?"
+msgstr "Проект \"%1\" схоже виконується! Ви ще бажаєте викликати проект?"
+
+msgid "Project \"%1\" seems wrong or broken!"
+msgstr "Проект \"%1\" схоже помилковий або зламаний!"
+
+#, c-format
+msgid "Untranslated Qt message: '%s'"
+msgstr "Неперекладене Qt повідомлення: '%s'"

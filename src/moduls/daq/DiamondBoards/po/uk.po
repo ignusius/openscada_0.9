@@ -1,0 +1,257 @@
+# OpenSCADA.DAQ.DiamondBoards translate to Ukrainian.
+# Copyright (C) 2005-2013 Roman Savochenko
+# This file is distributed under the same license as the OpenSCADA.DAQ.DiamondBoards module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2005-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DAQ.DiamondBoards 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-01 11:15+0300\n"
+"PO-Revision-Date: 2007-10-28 09:43+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Diamond DAQ boards"
+msgstr "Diamond DAQ плати"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"Provides an access to \"Diamond Systems\" DAQ boards. Includes main support "
+"for all generic boards."
+msgstr ""
+"Надає доступ до \"Diamond Systems\" DAQ плат. Включає основну підтримку "
+"базових плат."
+
+msgid ""
+"[-5, +5]V;[-2.5, +2.5]V;[-1.25, +1.25]V;[-10, +10]V;[-5, +5]V;[-2.5, +2.5]V;"
+"[-1.25, +1.25]V;[0, 10]V;[0, 5]V;[0, 2.5]V"
+msgstr ""
+"[-5, +5]В;[-2.5, +2.5]В;[-1.25, +1.25]В;[-10, +10]В;[-5, +5]В;[-2.5, +2.5]В;"
+"[-1.25, +1.25]В;[0, 10]В;[0, 5]В;[0, 2.5]В"
+
+msgid ""
+"[-10, +10]V;[-5, +5]V;[-2.5, +2.5]V;[-1, +1]V;[-0.5, +0.5]V;+-Custom;[0, "
+"10]V;[0, 5]V;[0, 2]V;[0, 1]V;+Custom"
+msgstr ""
+"[-10, +10]В;[-5, +5]В;[-2.5, +2.5]В;[-1, +1]В;[-0.5, +0.5]В;+-Корист.;[0, "
+"10]В;[0, 5]В;[0, 2]В;[0, 1]В;+Корист."
+
+msgid ""
+"[-5, +5]V;[-2.5, +2.5]V;[-1.25, +1.25]V;[-0.625, +0.625]V;[-10, +10]V;[-5, "
+"+5]V;[-2.5, +2.5]V;[-1.25, +1.25]V;[0, 10]V;[0, 5]V;[0, 2.5]V;[0, 1.25]V"
+msgstr ""
+"[-5, +5]В;[-2.5, +2.5]В;[-1.25, +1.25]В;[-0.625, +0.625]В;[-10, +10]В;[-5, "
+"+5]В;[-2.5, +2.5]В;[-1.25, +1.25]В;[0, 10]В;[0, 5]В;[0, 2.5]В;[0, 1.25]В"
+
+msgid ""
+"[-5, +5]V;[-2.5, +2.5]V;[-1.25, +1.25]V;[-0.625, +0.625]V;[0, 10]V;[0, 5]V;"
+"[0, 2.5]V;[0, 1.25]V;[-10, +10]V;[-5, +5]V;[-2.5, +2.5]V;[-1.25, +1.25]V"
+msgstr ""
+"[-5, +5]В;[-2.5, +2.5]В;[-1.25, +1.25]В;[-0.625, +0.625]В;[0, 10]В;[0, 5]В;"
+"[0, 2.5]В;[0, 1.25]В;[-10, +10]В;[-5, +5]В;[-2.5, +2.5]В;[-1.25, +1.25]В"
+
+msgid ""
+"[-10, +10]V;[-5, +5]V;[-2.5, +2.5]V;[-1.25, +1.25]V;[-10, +10]V;[-5, +5]V;"
+"[-2.5, +2.5]V;[-1.25, +1.25]V;[0, 8.3]V;[0, 5]V;[0, 2.5]V"
+msgstr ""
+"[-10, +10]В;[-5, +5]В;[-2.5, +2.5]В;[-1.25, +1.25]В;[-10, +10]В;[-5, +5]В;"
+"[-2.5, +2.5]В;[-1.25, +1.25]В;[0, 8.3]В;[0, 5]В;[0, 2.5]В"
+
+msgid ""
+"[-10, +10]V;[-5, +5]V;[-2.5, +2.5]V;[-1.25, +1.25]V;[0, 10]V;[0, 5]V;[0, "
+"2.5]V;[0, 1.25]V"
+msgstr ""
+"[-10, +10]В;[-5, +5]В;[-2.5, +2.5]В;[-1.25, +1.25]В;[0, 10]В;[0, 5]В;[0, "
+"2.5]В;[0, 1.25]В"
+
+msgid "[0, 5]V;[0, 10]V;[-2.5, +2.5]V;[-5, +5]V;[-10, +10]V"
+msgstr "[0, 5]В;[0, 10]В;[-2.5, +2.5]В;[-5, +5]В;[-10, +10]В"
+
+msgid "dscInit error."
+msgstr "Помилка dscInit."
+
+msgid "Parameters table"
+msgstr "Таблиця параметров"
+
+msgid "Acquisition schedule"
+msgstr "Планування збору"
+
+msgid "Priority of the acquisition task"
+msgstr "Пріорітет задачі збору даних"
+
+msgid "Standard"
+msgstr "Стандарт"
+
+msgid "Board: type"
+msgstr "Плата: тип"
+
+msgid "Board: address"
+msgstr "Плата: адреса"
+
+msgid "Board: interrupt"
+msgstr "Плата: переривання"
+
+msgid "Sample rate (single channel)"
+msgstr "Частота вимірів (один канал)"
+
+msgid "Asynchronous read"
+msgstr "Асинхронне читання"
+
+msgid "AI value mode"
+msgstr "Режим значення AI"
+
+msgid "Code;%;Voltage"
+msgstr "Код;%;Напруга"
+
+msgid "Addition parameters"
+msgstr "Додаткові параметри"
+
+msgid "Acquisition. "
+msgstr "Збір. "
+
+#, c-format
+msgid "Acquisition with the period: %s. "
+msgstr "Збір з періодом: %s. "
+
+#, c-format
+msgid "Next acquisition by the cron '%s'. "
+msgstr "Наступний збір за cron '%s'. "
+
+#, c-format
+msgid "Spent time: %s[%s]. "
+msgstr "Витрачено часу: %s[%s]. "
+
+msgid "1:Parameter disabled."
+msgstr "1:Параметр вимкнено."
+
+msgid "2:Acquisition stopped."
+msgstr "2:Збір зупинено."
+
+#, c-format
+msgid ""
+"0:AI acquisition into interrupt mode; SampleRate=%g; Drift=%gs; Overflows="
+"%u; LostCycles=%u; SRateCor=%u."
+msgstr ""
+"0:Опитування AI за перериванням, SampleRate=%g; Drift=%gs; Overflows=%u; "
+"LostCycles=%u; SRateCor=%u."
+
+msgid "DSC driver is not initialized!"
+msgstr "DSC драйвер не ініційовано!"
+
+#, c-format
+msgid "Select device %d error!"
+msgstr "Помилка вибору пристрою %d!"
+
+#, c-format
+msgid "dscInitBoard '%s'(%xh) error: %s %s"
+msgstr "Помилка dscInitBoard '%s'(%xh): %s %s"
+
+#, c-format
+msgid "Analog input %d"
+msgstr "Аналоговий вхід %d"
+
+#, c-format
+msgid "Analog output %d"
+msgstr "Аналоговий вихід %d"
+
+#, c-format
+msgid "Board's '%s' DIO configuration unsupported."
+msgstr "Конфігурація DIO плати '%s' не підтримується."
+
+#, c-format
+msgid "Digital out %d.%d"
+msgstr "Цифровий вихід %d.%d"
+
+#, c-format
+msgid "Digital input %d.%d"
+msgstr "Цифровий вхід %d.%d"
+
+#, c-format
+msgid ""
+"AI interrupt: Init for: ConvRate=%g; NumbConv=%lu; FIFOdepth=%d; "
+"dump_threshold=%lu; scan_interval=%d."
+msgstr ""
+"Переривання AI: Ініц. для: ConvRate=%g; NumbConv=%lu; FIFOdepth=%d; "
+"dump_threshold=%lu; scan_interval=%d."
+
+#, c-format
+msgid "Interrupt mode disabled by dscADScanInt error: %s %s"
+msgstr ""
+"Режим роботи за перериванням виключено через помилку dscADScanInt: %s %s"
+
+#, c-format
+msgid ""
+"AI interrupt: Cycle: ConvRate=%g; transfers=%lu; prev_transfers=%lu; "
+"total_transfers=%lu; overflows=%lu; lag=%lld; drift=%gs."
+msgstr ""
+"Переривання AI: Цикл: ConvRate=%g; transfers=%lu; prev_transfers=%lu; "
+"total_transfers=%lu; overflows=%lu; lag=%lld; drift=%gс."
+
+#, c-format
+msgid "AI interrupt: Overflows '%d' corrected to %lld! Drift=%gs."
+msgstr "Переривання AI: Переповнення '%d' скориговано у %lld! Drift=%gс."
+
+#, c-format
+msgid "AI interrupt: Lost cycles '%d'. Fast data time corrected! Drift=%gs."
+msgstr ""
+"Переривання AI: Втрата циклів '%d'. Час швидких даних відкориговано! Drift="
+"%gс."
+
+#, c-format
+msgid "AI interrupt: Correction: dt=%gs; dtSz=%lld; per=%d; crmult=%g."
+msgstr "Переривання AI: Корекція: dt=%gc; dtSz=%lld; per=%d; crmult=%g."
+
+#, c-format
+msgid "AI interrupt: Sample rate change to %g! Env: drift=%gs."
+msgstr "Переривання AI: Змінено частоту вимірів у %g! Оточ.: drift=%gс."
+
+msgid "AI numbers process"
+msgstr "Кількість оброблюваних AI"
+
+msgid "Configuration"
+msgstr "Конфігурація"
+
+msgid "Analog inputs scan interval (us)"
+msgstr "Інтервал сканування аналогових входів (мкс)"
+
+#, c-format
+msgid "Input %d type (all inputs)"
+msgstr "Вхід %d: тип (всі входи)"
+
+#, c-format
+msgid "Input %d type"
+msgstr "Вхід %d: тип"
+
+#, c-format
+msgid "Output %d type"
+msgstr "Вихід %d: тип"
+
+#, c-format
+msgid "DIO %d: out"
+msgstr "DIO %d: вихід"
+
+#, c-format
+msgid "DIO %d: reverse"
+msgstr "DIO %d: інверсія"
+
+#, c-format
+msgid "DI %d reverse"
+msgstr "DI %d: інверсія"
+
+#, c-format
+msgid "DO %d reverse"
+msgstr "DO %d: інверсія"
+
+#, c-format
+msgid "%s error: %s %s"
+msgstr "Помилка %s: %s %s"
+
+#~ msgid "Gather task priority"
+#~ msgstr "Пріоритет задачі збору даних"

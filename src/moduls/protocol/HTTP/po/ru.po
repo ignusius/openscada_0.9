@@ -1,0 +1,198 @@
+# OpenSCADA.Protocol.HTTP translate to Russian.
+# This file is distributed under the same license as the OpenSCADA.Protocol.HTTP package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2003-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.Protocol.HTTP 1.5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-11 11:42+0300\n"
+"PO-Revision-Date: 2007-10-23 18:02+0300\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "HTTP-realization"
+msgstr "HTTP-реализация"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid "Provides support for the HTTP protocol for WWW-based user interfaces."
+msgstr ""
+"Предоставляет поддержку HTTP для WWW основанных пользовательских интерфейсов."
+
+#, c-format
+msgid ""
+"======================= Module <%s:%s> options =======================\n"
+"---- Parameters of the module section '%s' of the configuration file ----\n"
+"AuthTime   <min>        Life time of the authentication session, in minutes "
+"(default 10).\n"
+"\n"
+msgstr ""
+"======================= Опции модуля <%s:%s> =============================\n"
+"------ Параметры модульной секции '%s' конфигурационного файла ------\n"
+"AuthTime   <мин>        Время жизни сеанса аутентификации, минут (по "
+"умолчанию 10).\n"
+"\n"
+
+#, c-format
+msgid "Error loading the HTML template '%s' for the language '%s': %s"
+msgstr "Ошибка загрузки HTML шаблона '%s' для языка '%s': %s"
+
+#, c-format
+msgid "Exiting the authentication for the user '%s'."
+msgstr "Выход аутентификации пользователя '%s'."
+
+#, c-format
+msgid "The authentication session for the user '%s' is expired."
+msgstr "Сеанс аутентификации для пользователя '%s' устарел."
+
+#, c-format
+msgid "Error or not supported the HTTP method '%s'."
+msgstr "Ошибка или не поддерживается HTTP-метод '%s'."
+
+msgid "Error the HTTP response"
+msgstr "Ошибка HTTP ответа"
+
+msgid "Not full response."
+msgstr "Неполный ответ."
+
+msgid "Protocol"
+msgstr "Протокол"
+
+msgid "State"
+msgstr "Статус"
+
+msgid "Active authentication sessions"
+msgstr "Активные сеансы аутентификации"
+
+msgid "Module options"
+msgstr "Опции модуля"
+
+msgid "Deny"
+msgstr "Запрещено"
+
+msgid "Allow"
+msgstr "Разрешено"
+
+msgid "HTML template"
+msgstr "HTML шаблон"
+
+msgid "HTML template of the main page"
+msgstr "HTML шаблон главной страницы"
+
+msgid "Life time of the authentication, minutes"
+msgstr "Время жизни аутентификации, минут"
+
+msgid "List of users allowed for authentication, separated by ';'"
+msgstr "Перечень пользователей допустимых для аутентификации, разделённые ';'"
+
+msgid "Auto login"
+msgstr "Автоматический вход"
+
+msgid ""
+"A list of address templates can be used for the address field, for example "
+"\"192.168.1.*;192.168.2.*\"."
+msgstr ""
+"Для поля адреса возможно использование списка шаблонов адресов, для примера "
+"\"192.168.1.*;192.168.2.*\"."
+
+msgid "Address"
+msgstr "Адреса"
+
+msgid "User"
+msgstr "Пользователь"
+
+#, c-format
+msgid "%s %s(%s), by \"%s\""
+msgstr "%s %s(%s), от \"%s\""
+
+#, c-format
+msgid ""
+"Content: %d:\n"
+"%s"
+msgstr ""
+"Содержимое: %d:\n"
+"%s"
+
+#, c-format
+msgid "Successful authentication for the user '%s'. Host: %s. User agent: %s."
+msgstr ""
+"Успешная аутентификация пользователя '%s'. Узел: %s. Агент пользователя: %s."
+
+#, c-format
+msgid "Going to the page: <b>%s</b>"
+msgstr "Переход к странице: <b>%s</b>"
+
+#, c-format
+msgid "Wrong authentication from the user '%s'. Host: %s. User agent: %s."
+msgstr ""
+"Ошибка аутентификации пользователя '%s'. Узел: %s. Агент пользователя: %s."
+
+msgid "<p style='color: #CF8122;'>Wrong authentication! Retry please.</p>"
+msgstr ""
+"<p style='color: #CF8122;'>Ошибка аутентификации! Повторите пожалуйста.</p>"
+
+msgid "No WWW subtype module found!"
+msgstr "Не найдено модулей с подтипом WWW!"
+
+#, c-format
+msgid "No HTTP GET function in the module '%s'!"
+msgstr "Нет HTTP GET функции у модуля '%s'!"
+
+#, c-format
+msgid "No HTTP POST function in the module '%s'!"
+msgstr "Нет HTTP POST функции у модуля '%s'!"
+
+msgid "Login"
+msgstr "Вход"
+
+#, c-format
+msgid "You are logged in as \"<b>%s</b>\"."
+msgstr "Вы вошли как \"<b>%s</b>\"."
+
+#, c-format
+msgid ""
+"Select the necessary Web-module from the list below, <a href='%s'>logout</a> "
+"or <a href='%s'>login as an another user</a>."
+msgstr ""
+"Выберите нужный Web-модуль из списка ниже, <a href='%s'>выйдите</a> или <a "
+"href='%s'>войдите от имени другого пользователя</a>."
+
+msgid "You are not logged in the system!"
+msgstr "Вы не вошли в систему!"
+
+#, c-format
+msgid "To use some modules you must be logged in. <a href='%s'>Login now</a>."
+msgstr ""
+"Для использования некоторых модулей Вы должны войти в систему. <a "
+"href='%s'>Войти</a>."
+
+#, c-format
+msgid ""
+"You can auto-login from the user \"<b>%s</b>\" just selecting the module."
+msgstr ""
+"Вы можете автоматически подключиться от имени пользователя \"<b>%s</b>\" "
+"просто выбрав модуль."
+
+msgid "Accessible web modules"
+msgstr "Доступные web-модули"
+
+msgid "Login to the system"
+msgstr "Вход в систему"
+
+msgid "User name"
+msgstr "Имя пользователя"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Enter"
+msgstr "Принять"
+
+msgid "Clean"
+msgstr "Очистить"

@@ -1,0 +1,737 @@
+# OpenSCADA.UI.QTCfg translate to Russian.
+# This file is distributed under the same license as the OpenSCADA.UI.QTCfg package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2004-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.UI.QTCfg 2.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-01 16:36+0300\n"
+"PO-Revision-Date: 2007-10-29 19:12+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Path"
+msgstr "Путь"
+
+msgid "Main navigation tree of the configurator."
+msgstr "Основное дерево навигации конфигуратора."
+
+msgid "Main frame of the configurator."
+msgstr "Основное пространство конфигуратора."
+
+msgid "Tabulated configuration pages."
+msgstr "Табулированные конфигурационные страницы."
+
+msgid "&Close"
+msgstr "&Закрыть"
+
+msgid "Close the configurator window"
+msgstr "Закрыть окно конфигуратора"
+
+msgid "The button for closing the configurator window"
+msgstr "Кнопка закрытия конфигурационного окна"
+
+msgid "Press to close the configurator window."
+msgstr "Нажать для закрытия окна конфигуратора."
+
+msgid "&Quit"
+msgstr "&Выход"
+
+msgid "Quit the program"
+msgstr "Выход из программы"
+
+msgid "The button for complete quit the program"
+msgstr "Кнопка полного выхода из программы"
+
+msgid "Press for complete quit the program."
+msgstr "Нажать для полного выхода из программы."
+
+msgid "&Up"
+msgstr "&Вверх"
+
+msgid "Go to the parent page"
+msgstr "Перейти к родительской странице"
+
+msgid "The button for going to the parent page"
+msgstr "Кнопка перехода к родительской странице"
+
+msgid "Press for going to the parent page."
+msgstr "Нажать для перехода к родительской странице."
+
+msgid "&Back"
+msgstr "&Предыдущая"
+
+msgid "Go back"
+msgstr "Перейти назад"
+
+msgid "The button for going to the back page"
+msgstr "Кнопка перехода не следующую страницу"
+
+msgid "Press for going to the back page."
+msgstr "Нажать для перехода на следующую страницу."
+
+msgid "&Forward"
+msgstr "&Следующая"
+
+msgid "Go forward"
+msgstr "Перейти вперёд"
+
+msgid "The button for going to the forward page"
+msgstr "Кнопка перехода на следующую страницу"
+
+msgid "Press for going to the forward page."
+msgstr "Нажать для перехода на следующую страницу."
+
+msgid "Load from the DB"
+msgstr "Загрузить из БД"
+
+msgid "Load the item data from DB"
+msgstr "Загрузить данные элемента из БД"
+
+msgid "The button for loading the item data from the DB"
+msgstr "Кнопка загрузки данных элемента из БД"
+
+msgid "Press for loading the item data from the DB."
+msgstr "Нажать для загрузки данных элемента из БД."
+
+msgid "Save to the DB"
+msgstr "Сохранить в БД"
+
+msgid "Save the item data to DB"
+msgstr "Сохранить данные элемента в БД"
+
+msgid "The button for saving the item data to the DB"
+msgstr "Кнопка сохранения данных элемента в БД"
+
+msgid "Press for saving the item data to the DB."
+msgstr "Нажать для сохранения данных элемента в БД."
+
+msgid "&Add"
+msgstr "&Добавить"
+
+msgid "Add item"
+msgstr "Добавить элемент"
+
+msgid "The button for adding a new item"
+msgstr "Кнопка добавления нового элемента"
+
+msgid "Press for adding a new item."
+msgstr "Нажать для добавления нового элемента."
+
+msgid "&Delete"
+msgstr "&Удалить"
+
+msgid "Delete item"
+msgstr "Удалить элемент"
+
+msgid "The button for deleting the item"
+msgstr "Кнопка удаления элемента"
+
+msgid "Press for deleting the item."
+msgstr "Нажать для удаления элемента."
+
+msgid "Copy item"
+msgstr "Копировать элемент"
+
+msgid "Copying the item"
+msgstr "Копирование элемента"
+
+msgid "The button for copying the item"
+msgstr "Кнопка копирования элемента"
+
+msgid "Press for copying the item."
+msgstr "Нажать для копирования элемента."
+
+msgid "Cut item"
+msgstr "Вырезать элемент"
+
+msgid "Cutting the item"
+msgstr "Вырезание элемента"
+
+msgid "The button for cutting the item"
+msgstr "Кнопка вырезания элемента"
+
+msgid "Press for cutting the item."
+msgstr "Нажать для вырезания элемента."
+
+msgid "Paste item"
+msgstr "Вставить элемент"
+
+msgid "Pasting the item"
+msgstr "Вставка элемента"
+
+msgid "The button for pasting the item"
+msgstr "Кнопка вставки элемента"
+
+msgid "Press for pasting the item."
+msgstr "Нажать для вставки элемента."
+
+msgid "&Refresh"
+msgstr "&Обновить"
+
+msgid "Refresh the page"
+msgstr "Обновить текущую страницу"
+
+msgid "The button for refreshing the page content"
+msgstr "Кнопка обновления содержимого текущей страницы"
+
+msgid "Press for refreshing the page content."
+msgstr "Нажать для обновления содержимого текущей страницы."
+
+msgid "&Start"
+msgstr "&Запустить"
+
+msgid "Start the cycled refreshing"
+msgstr "Запустить периодическое обновление"
+
+msgid "The button for starting the cycled refreshing of the page content"
+msgstr "Кнопка запуска периодического обновления содержимого текущей страницы."
+
+msgid "Press for starting the cycled refreshing of the page content."
+msgstr ""
+"Нажать для запуска периодического обновления содержимого текущей страницы."
+
+msgid "&Stop"
+msgstr "&Остановить"
+
+msgid "Stop the cycled refreshing"
+msgstr "Остановить периодическое обновление"
+
+msgid "The button for stopping the cycled refreshing of the page content"
+msgstr ""
+"Кнопка останова периодического обновления содержимого текущей страницы."
+
+msgid "Press for stopping the cycled refreshing of the page content."
+msgstr ""
+"Нажать для останова периодического обновления содержимого текущей страницы."
+
+msgid "&About"
+msgstr "Пр&о..."
+
+msgid "Program and OpenSCADA information"
+msgstr "Информация о программе и OpenSCADA"
+
+msgid "The button of the information of the program and OpenSCADA"
+msgstr "Кнопка информации о программе и OpenSCADA"
+
+msgid "Press for information of the program and OpenSCADA."
+msgstr "Нажать для показа информации о программе и OpenSCADA."
+
+msgid "About &Qt"
+msgstr "Про &Qt"
+
+msgid "Qt information"
+msgstr "Qt информация"
+
+msgid "The button for getting the using Qt information"
+msgstr "Кнопка для получения информации о Qt"
+
+msgid "Press for getting the using Qt information."
+msgstr "Нажать для получения информации о Qt."
+
+msgid "Manual on '%1'"
+msgstr "Руководство на '%1'"
+
+msgid "The button for getting the using %1 manual"
+msgstr "Кнопка для получения руководства %1"
+
+msgid "Press to get the using %1 manual."
+msgstr "Нажать для получения руководства %1."
+
+msgid "Manual on the page"
+msgstr "Руководство на сторінку"
+
+msgid "Selected page manual"
+msgstr "Руководство выбранной страницы"
+
+msgid "The button for getting the using selected page manual."
+msgstr "Кнопка для получения руководства выбранной страницы."
+
+msgid "Press to get the using selected page manual."
+msgstr "Нажать для получения руководства выбранной страницы."
+
+msgid "What's &This"
+msgstr "Что &это"
+
+msgid "Requesting about GUI elements"
+msgstr "Запрос про GUI элементы"
+
+msgid "The button for requesting information about the user interface elements"
+msgstr "Кнопка запроса информации про элементы пользовательского интерфейса"
+
+msgid "Press for requesting information about the user interface elements."
+msgstr ""
+"Нажать для запроса информации про элементы пользовательского интерфейса"
+
+msgid "&File"
+msgstr "&Файл"
+
+msgid "&Edit"
+msgstr "&Редактирование"
+
+msgid "&View"
+msgstr "&Вид"
+
+msgid "&Help"
+msgstr "&Помощь"
+
+msgid "Main toolbar"
+msgstr "Главная панель инструментов"
+
+msgid "This label displays the current user."
+msgstr "Эта метка отображает текущего пользователя."
+
+msgid "Field for displaying the current user."
+msgstr "Поле отображения текущего пользователя."
+
+msgid "Double click to change the user."
+msgstr "Кликнуть дважды для смены пользователя."
+
+msgid "This label indicates the fact of making changes."
+msgstr "Эта метка отображает факт внесения изменений."
+
+msgid "Field for indicating the fact of making changes."
+msgstr "Поле отображения факта внесения изменений."
+
+msgid "This button calls the status bar history."
+msgstr "Эта кнопка для вызова истории строки статуса."
+
+msgid "Button for calling the status bar history."
+msgstr "Кнопка вызова истории строки статуса."
+
+msgid "Ready"
+msgstr "Готов"
+
+#, c-format
+msgid "Configurator using the remote host %d times."
+msgstr "Конфигуратор использует удалённые хосты %d раз."
+
+msgid "Saving the changes"
+msgstr "Сохранение изменений."
+
+msgid ""
+"Some changes were made!\n"
+"Save the changes to the DB before exiting?"
+msgstr ""
+"Были сделаны некоторые изменения.\n"
+"Сохранить изменения в БД при выходе?"
+
+msgid "No edited container is present."
+msgstr "Нет ни одного редактируемого контейнера."
+
+msgid "Adding an item to the node '%1'."
+msgstr "Добавление элемента в узел '%1'."
+
+msgid "Adding a node"
+msgstr "Добавление узла"
+
+msgid "The node '%1' is already present."
+msgstr "Узел '%1' уже присутствует."
+
+msgid "Are you sure of deleting the nodes '%1'?"
+msgstr "Вы действительно желаете удалить узлы '%1'?"
+
+msgid "Deleting the nodes"
+msgstr "Удаление узлов"
+
+msgid "Copying is not possible."
+msgstr "Копирование невозможно."
+
+msgid "Selected"
+msgstr "Выбранный"
+
+msgid "Moving or copying the node"
+msgstr "Перемещение или копирование узла"
+
+msgid "Moving the node '%1' to '%2'.\n"
+msgstr "Перемещение узла '%1' в '%2'.\n"
+
+msgid "Copying the node '%1' to '%2'.\n"
+msgstr "Копирование узла '%1' в '%2'.\n"
+
+msgid "Do not ask for more."
+msgstr "Не спрашивать более."
+
+msgid "The node '%1' is already present. Continue?"
+msgstr "Узел '%1' уже присутствует. Продолжить?"
+
+msgid "List of messages in the status bar:"
+msgstr "Список сообщений строки статуса:"
+
+msgid "Status messages"
+msgstr "Сообщения статуса"
+
+#, c-format
+msgid ""
+"%s v%s.\n"
+"%s\n"
+"Author: %s\n"
+"License: %s\n"
+"\n"
+"%s v%s.\n"
+"%s\n"
+"License: %s\n"
+"Author: %s\n"
+"Web site: %s"
+msgstr ""
+"%s v%s.\n"
+"%s\n"
+"Автор: %s\n"
+"Лицензия: %s\n"
+"\n"
+"%s v%s.\n"
+"%s\n"
+"Лицензия: %s\n"
+"Автор: %s\n"
+"Web сайт: %s"
+
+msgid "Manual"
+msgstr "Руководство"
+
+msgid "The manual '%1' was not found offline or online!"
+msgstr "Не найдено руководства '%1' локально и в сети!"
+
+msgid "<EVAL>"
+msgstr ""
+
+msgid "On"
+msgstr "Вкл"
+
+msgid "Off"
+msgstr "Выкл"
+
+msgid "Applying the changes"
+msgstr "Принятие изменений"
+
+msgid ""
+"Some changes were made!\n"
+"Accept the changes now or lose?"
+msgstr ""
+"Осуществлены некоторые изменения!\n"
+"Принять изменения сейчас или потерять?"
+
+msgid "Broken information request - there are no descendants."
+msgstr "Сломанный запрос информации - нет потомков."
+
+msgid "Refresh the items tree"
+msgstr "Обновить элементы дерева"
+
+#, c-format
+msgid "Time of expanding/updating '%s': %f ms."
+msgstr "Время расширения/обновления '%s': %f мс."
+
+msgid "Sending the changes to the selected ones"
+msgstr "Отправка изменений выбранным"
+
+#, c-format
+msgid "Send the command '%s' to other selected nodes \"%s\"?"
+msgstr "Отправить команду '%s' другим выбранным узлам \"%s\"?"
+
+#, c-format
+msgid "Unknown host '%s'."
+msgstr "Неизвестный хост '%s'."
+
+msgid "Waiting the reply from the host '%1'"
+msgstr "Ожидание ответа от хоста '%1'"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Local station"
+msgstr "Локальная станция"
+
+msgid "Remote station"
+msgstr "Удалённая станция"
+
+#, c-format
+msgid "%s| Set '%s' to '%s'!"
+msgstr "%s| Установлен '%s' в '%s'!"
+
+#, c-format
+msgid "%s| Went to the link '%s'!"
+msgstr "%s| Переход по ссылке '%s'!"
+
+#, c-format
+msgid "%s| Pressed down '%s'!"
+msgstr "%s| Нажат '%s'!"
+
+msgid "Value is wrong: "
+msgstr "Значение ошибочно:"
+
+#, c-format
+msgid "%s| Changed '%s' from '%s' to '%s'!"
+msgstr "%s| Изменён '%s' из '%s' в '%s'!"
+
+msgid "Go"
+msgstr "Перейти"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "Insert"
+msgstr "Вставить"
+
+msgid "Edit"
+msgstr "Редактировать"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Up"
+msgstr "Вверх"
+
+msgid "Down"
+msgstr "Вниз"
+
+msgid "Setting the item name"
+msgstr "Установка имени элемента"
+
+msgid "Add a new element."
+msgstr "Добавить новый элемент."
+
+msgid "Insert a new element."
+msgstr "Вставить новый елемент."
+
+msgid "Rename the element."
+msgstr "Переименовать елемент."
+
+#, c-format
+msgid "%s| '%s' added by the element <%s:%s>!"
+msgstr "%s| '%s' добавлен элемент <%s:%s>!"
+
+#, c-format
+msgid "%s| '%s' inserted by the element <%s:%s> to %d!"
+msgstr "%s| '%s' вставлен элемент <%s:%s> в %d!"
+
+#, c-format
+msgid "%s| '%s' set for the element %d to <%s:%s>!"
+msgstr "%s| '%s' установлен элемент %d в <%s:%s>!"
+
+#, c-format
+msgid "%s| '%s' deleted for the element <%s:%s>!"
+msgstr "%s| '%s' удалён элемент <%s:%s>!"
+
+#, c-format
+msgid "%s| '%s' moved for the element %d to %d!"
+msgstr "%s| '%s' перемещён из %d в %d!"
+
+msgid "Add record"
+msgstr "Добавить запись"
+
+msgid "Insert record"
+msgstr "Вставить запись"
+
+msgid "Delete record"
+msgstr "Удалить запись"
+
+msgid "Move Up"
+msgstr "Передвинуть вверх"
+
+msgid "Move Down"
+msgstr "Передвинуть вниз"
+
+msgid "Copy"
+msgstr "Копировать"
+
+#, c-format
+msgid "%s| '%s' add by a record."
+msgstr "%s| '%s' добавлена запись."
+
+#, c-format
+msgid "%s| '%s' inserted for the record %d."
+msgstr "%s| '%s' вставлена запись %d."
+
+#, c-format
+msgid "%s| '%s' deleted for the record '%s'."
+msgstr "%s| '%s' удалена запись '%s'."
+
+#, c-format
+msgid "%s| '%s' moved for the record %d to %d."
+msgstr "%s| '%s' перемещение записи из %d в %d."
+
+msgid "Saving an image"
+msgstr "Сохранение изображения"
+
+msgid "Loading an image"
+msgstr "Загрузка изображения"
+
+msgid "Saving the picture"
+msgstr "Сохранение картинки"
+
+msgid "Images (*.png *.xpm *.jpg)"
+msgstr "Изображения (*.png *.xpm *.jpg)"
+
+#, c-format
+msgid "Error saving to the file '%s'\n"
+msgstr "Ошибка сохранения в файл '%s'\n"
+
+msgid "Loading the picture"
+msgstr "Загрузка картинки"
+
+msgid "Images (*.png *.jpg)"
+msgstr "Изображения (*.png *.jpg)"
+
+#, c-format
+msgid "Error opening the file '%s'\n"
+msgstr "Ошибка открытия файла %s\n"
+
+#, c-format
+msgid "Error image file '%s'\n"
+msgstr "Ошибка файла изображения '%s'\n"
+
+#, c-format
+msgid "%s| '%s' uploaded by the picture '%s'."
+msgstr "%s| '%s' загружена картинка в '%s'."
+
+#, c-format
+msgid "The value '%s' is wrong!"
+msgstr "Значение '%s' ошибочно!"
+
+#, c-format
+msgid "%s| '%s' set for cell ('%s':%s) to: %s."
+msgstr "%s| '%s' установлена ячейка ('%s':%s) в: %s."
+
+#, c-format
+msgid "Selective element '%s' is missing!"
+msgstr "Выбираемый элемент '%s' отсутствует!"
+
+#, c-format
+msgid "%s| '%s' changed to: '%s'!"
+msgstr "%s| '%s' изменен в: '%s'!"
+
+msgid "No connection is established"
+msgstr "Не установлено подключения"
+
+msgid "Picture is not set!"
+msgstr "Картинка не установлена!"
+
+msgid "Find"
+msgstr "Поиск"
+
+msgid "Find next"
+msgstr "Поиск следующего"
+
+msgid "Apply"
+msgstr "Принять"
+
+msgid "Cursor = (%1:%2)"
+msgstr "Курсор = (%1:%2)"
+
+msgid "Enter a string to search:"
+msgstr "Введите строку поиска:"
+
+msgid "Searching a string"
+msgstr "Поиск строки"
+
+msgid "Backward"
+msgstr "Обратно"
+
+msgid "Case sensitively"
+msgstr "Чувствительный к регистру"
+
+msgid "Whole words"
+msgstr "Слово целиком"
+
+msgid "Identifier:"
+msgstr "Идентификатор:"
+
+msgid "Name:"
+msgstr "Имя:"
+
+msgid "Ok"
+msgstr ""
+
+msgid "Item type:"
+msgstr "Тип элемента:"
+
+msgid "Selecting an user"
+msgstr "Выбор пользователя"
+
+msgid "User:"
+msgstr "Пользователь:"
+
+msgid "Password:"
+msgstr "Пароль:"
+
+msgid "Error authentication!!!"
+msgstr "Ошибка аутентификации!!!"
+
+msgid "Program configurator (Qt)"
+msgstr "Конфигуратор программы (Qt)"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid "Provides the Qt-based configurator of OpenSCADA."
+msgstr "Предоставляет основанный на Qt конфигуратор OpenSCADA."
+
+#, c-format
+msgid ""
+"======================= Module <%s:%s> options =======================\n"
+"---- Parameters of the module section '%s' of the configuration file ----\n"
+"StartPath  <path>       Initial page path of the configurator.\n"
+"StartUser  <user>       Starting user without password.\n"
+"ToolTipLim <chars>      ToolTip limit in chars, by default 150. Set zero for "
+"disable.\n"
+"\n"
+msgstr ""
+"======================= Опции модуля <%s:%s> =============================\n"
+"------ Параметры модульной секции '%s' конфигурационного файла ------\n"
+"StartPath  <path>       Путь первичной страницы конфигуратора.\n"
+"StartUser  <user>       Стартовый пользователь, беспарольный.\n"
+"ToolTipLim <символов>   Ограничение ToolTip в символах, по умолчанию 150. "
+"Установить в ноль для отключения.\n"
+"\n"
+
+msgid "Loading the module."
+msgstr "Загрузка модуля."
+
+msgid "Saving the module."
+msgstr "Сохранение модуля."
+
+msgid "Starting the module."
+msgstr "Запуск модуля."
+
+msgid "Stopping the module."
+msgstr "Останов модуля."
+
+msgid "Module options"
+msgstr "Опции модуля"
+
+msgid "Timeouts of checking connections '{fail}:{good}', seconds"
+msgstr "Таймауты проверки подключения '{нет}:{есть}', в секундах"
+
+msgid "Initial path of the configurator"
+msgstr "Стартовый путь конфигуратора"
+
+msgid "Initial user of the configurator"
+msgstr "Стартовый пользователь конфигуратора"
+
+msgid "ToolTip limit, zero to disable"
+msgstr "Ограничение ToolTip, ноль для отключения"
+
+msgid "Go to the configuration of the list of remote stations"
+msgstr "Перейти к конфигурации списка удалённых станций"
+
+msgid "Page"
+msgstr "Страница"
+
+msgid "Item"
+msgstr "Элемент"
+
+msgid "QTCfg dialog"
+msgstr "QTCfg диалог"
+
+msgid "Selecting the identifier and the name of the node"
+msgstr "Выбор идентификатора и имени узла"

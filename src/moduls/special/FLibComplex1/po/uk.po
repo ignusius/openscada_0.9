@@ -1,0 +1,433 @@
+# OpenSCADA.Special.FLibComplex1 translate to Ukrainian.
+# Copyright (C) 2005-2010 Roman Savochenko
+# This file is distributed under the same license as the OpenSCADA.Special.FLibComplex1 package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2005-2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.Special.FLibComplex1 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-01 20:01+0300\n"
+"PO-Revision-Date: 2007-10-24 16:47+0300\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <uk@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Complex1 function's lib"
+msgstr "Бібліотека функцій Complex1"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"Provides the library of functions compatible with SCADA Complex1 of the firm "
+"SIC \"DIYA\"."
+msgstr ""
+"Надає бібліотеку функцій сумісних із SCADA Complex1 фірми ТОВ НІП \"ДІЯ\"."
+
+msgid "Function"
+msgstr "Функція"
+
+msgid "Functions"
+msgstr "Функції"
+
+msgid "Command \"Open\""
+msgstr "Команда \"Відкрити\""
+
+msgid "Command \"Close\""
+msgstr "Команда \"Закрити\""
+
+msgid "Command \"Stop\""
+msgstr "Команда \"Зупинити\""
+
+msgid "Stat \"Opened\""
+msgstr "Стан \"Відкрито\""
+
+msgid "Stat \"Closed\""
+msgstr "Стан \"Закрито\""
+
+msgid "Command hold time (s)"
+msgstr "Час утримання команди (с)"
+
+msgid "Calculation period (ms)"
+msgstr "Період обрахування (мс)"
+
+msgid "Process command clock"
+msgstr "Лічильник обробки команди"
+
+msgid "Last command"
+msgstr "Остання команда"
+
+msgid "Digital block"
+msgstr "Дискретний блок"
+
+msgid "Digital assemble block."
+msgstr "Збірка дискретних параметрів."
+
+msgid "Output"
+msgstr "Вихід"
+
+#, c-format
+msgid "Input %d.1"
+msgstr "Вхід %d.1"
+
+#, c-format
+msgid "Input %d.2"
+msgstr "Вхід %d.2"
+
+msgid "Simple summator"
+msgstr "Простий суматор"
+
+msgid ""
+"Simple summator per formula:\n"
+"out=in1_1*in1_2+in2_1*in2_2+in3_1*in3_2+in4_1*in4_2+\n"
+"    in5_1*in5_2+in6_1*in6_2+in7_1*in7_2+in8_1*in8_2;"
+msgstr ""
+"Простий суматор за формулою:\n"
+"out=in1_1*in1_2+in2_1*in2_2+in3_1*in3_2+in4_1*in4_2+\n"
+"    in5_1*in5_2+in6_1*in6_2+in7_1*in7_2+in8_1*in8_2;"
+
+msgid "Input 1."
+msgstr "Вхід 1."
+
+msgid "Input 2."
+msgstr "Вхід 2."
+
+msgid "Simple multiplier"
+msgstr "Просте множення"
+
+msgid ""
+"Simple multiplier per formula:\n"
+"out=(in1_1*in1_2*in1_3*in1_4*in1_5*in1_6)/(in2_1*in2_2*in2_3*in2_4);"
+msgstr ""
+"Просте множення за формулою:\n"
+"out=(in1_1*in1_2*in1_3*in1_4*in1_5*in1_6)/(in2_1*in2_2*in2_3*in2_4);"
+
+msgid "Input 3."
+msgstr "Вхід 3."
+
+msgid "Input 4."
+msgstr "Вхід 4."
+
+msgid "Multiplier+divider"
+msgstr "Множення+поділ"
+
+msgid ""
+"Multiplier+divider per formula:\n"
+"out=in1_1*in1_2*in1_3*in1_4*in1_5*(in2_1*in2_2*in2_3*in2_4*in2_5+\n"
+"          (in3_1*in3_2*in3_3*in3_4*in3_5)/(in4_1*in4_2*in4_3*in4_4*in4_5));"
+msgstr ""
+"Множення та поділ за формулою:\n"
+"out=in1_1*in1_2*in1_3*in1_4*in1_5*(in2_1*in2_2*in2_3*in2_4*in2_5+\n"
+"          (in3_1*in3_2*in3_3*in3_4*in3_5)/(in4_1*in4_2*in4_3*in4_4*in4_5));"
+
+msgid "Input 3"
+msgstr "Вхід 3"
+
+msgid "Input 5"
+msgstr "Вхід 5"
+
+msgid "Exponent"
+msgstr "Експонента"
+
+msgid ""
+"Exponent per formula:\n"
+"out=exp (in1_1*in1_2*in1_3*in1_4*in1_5 +\n"
+"         (in2_1*in2_2*in2_3*in2_4*in2_5+in3) / "
+"(in4_1*in4_2*in4_3*in4_4*in4_5+in5) );"
+msgstr ""
+"Експонента за формулою:\n"
+"out=exp (in1_1*in1_2*in1_3*in1_4*in1_5 +\n"
+"         (in2_1*in2_2*in2_3*in2_4*in2_5+in3) / "
+"(in4_1*in4_2*in4_3*in4_4*in4_5+in5) );"
+
+msgid "Power"
+msgstr "Степінь"
+
+msgid ""
+"Power per formula:\n"
+"out=(in1_1*in1_2*in1_3*in1_4*in1_5)^(in2_1*in2_2*in2_3*in2_4*in2_5 +\n"
+"\t(in3_1*in3_2*in3_3*in3_4*in3_5)/(in4_1*in4_2*in4_3*in4_4*in4_5));"
+msgstr ""
+"Степінь за формулою:\n"
+"out=(in1_1*in1_2*in1_3*in1_4*in1_5)^(in2_1*in2_2*in2_3*in2_4*in2_5 +\n"
+"\t(in3_1*in3_2*in3_3*in3_4*in3_5)/(in4_1*in4_2*in4_3*in4_4*in4_5));"
+
+msgid "Input 1"
+msgstr "Вхід 1"
+
+msgid "Condition '<'"
+msgstr "Умова '<'"
+
+msgid ""
+"Condition '<' per formula:\n"
+"out=if( in1<(in2_1*in2_2*in2_3*in2_4) ) then in3_1*in3_2*in3_3*in3_4;\n"
+"    else in4_1*in4_2*in4_3*in4_4;"
+msgstr ""
+"Умова '<' за формулою:\n"
+"out=if( in1<(in2_1*in2_2*in2_3*in2_4) ) then in3_1*in3_2*in3_3*in3_4;\n"
+"    else in4_1*in4_2*in4_3*in4_4;"
+
+msgid "Condition '>'"
+msgstr "Умова '>'"
+
+msgid ""
+"Condition '>' per formula:\n"
+"out=if( in1>(in2_1*in2_2*in2_3*in2_4) ) then in3_1*in3_2*in3_3*in3_4;\n"
+"    else in4_1*in4_2*in4_3*in4_4;"
+msgstr ""
+"Умова '>' за формулою:\n"
+"out=if( in1>(in2_1*in2_2*in2_3*in2_4) ) then in3_1*in3_2*in3_3*in3_4;\n"
+"    else in4_1*in4_2*in4_3*in4_4;"
+
+msgid "Input 5."
+msgstr "Вхід 5."
+
+msgid "Input 6."
+msgstr "Вхід 6."
+
+msgid "Full condition"
+msgstr "Повна умова"
+
+msgid ""
+"Full condition per formula:\n"
+"out = if( in1<(in2_1*in2_2*in2_3*in2_4) )    then in3_1*in3_2*in3_3*in3_4;\n"
+"      else if( in1>(in4_1*in4_2*in4_3*in4_4) then in5_1*in5_2*in5_3*in5_4;\n"
+"      else in6_1*in6_2*in6_3*in6_4;"
+msgstr ""
+"Повна умова за формулою:\n"
+"out = if( in1<(in2_1*in2_2*in2_3*in2_4) )    then in3_1*in3_2*in3_3*in3_4;\n"
+"      else if( in1>(in4_1*in4_2*in4_3*in4_4) then in5_1*in5_2*in5_3*in5_4;\n"
+"      else in6_1*in6_2*in6_3*in6_4;"
+
+msgid "Select"
+msgstr "Вибір"
+
+msgid "Selector"
+msgstr "Вибір"
+
+msgid ""
+"Selector per formula:\n"
+"out = if( sel = 1 )  then in1_1*in1_2*in1_3*in1_4;\n"
+"      if( sel = 2 )  then in2_1*in2_2*in2_3*in2_4;\n"
+"      if( sel = 3 )  then in3_1*in3_2*in3_3*in3_4;\n"
+"      if( sel = 4 )  then in4_1*in4_2*in4_3*in4_4;"
+msgstr ""
+"Вибір за формулою:\n"
+"out = if( sel = 1 )  then in1_1*in1_2*in1_3*in1_4;\n"
+"      if( sel = 2 )  then in2_1*in2_2*in2_3*in2_4;\n"
+"      if( sel = 3 )  then in3_1*in3_2*in3_3*in3_4;\n"
+"      if( sel = 4 )  then in4_1*in4_2*in4_3*in4_4;"
+
+msgid "Input"
+msgstr "Вхід"
+
+msgid "Previous"
+msgstr "Попередній"
+
+msgid "Positive coefficient"
+msgstr "Позитивний коефіцієнт"
+
+msgid "Negative coefficient"
+msgstr "Негативний коефіцієнт"
+
+msgid "Increment"
+msgstr "Ітератор"
+
+msgid ""
+"Increment per formula:\n"
+"out = if( in > prev ) then prev + (k+)*(in-prev); else prev - (k-)*(prev-in);"
+msgstr ""
+"Ітератор за формулою:\n"
+"out = if( in > prev ) then prev + (k+)*(in-prev); else prev - (k-)*(prev-in);"
+
+msgid "Input 6"
+msgstr "Вхід 6"
+
+msgid "Divider"
+msgstr "Дільник"
+
+msgid ""
+"Divider per formula:\n"
+"out = (in1_1*in1_2*in1_3*in1_4*in1_5 + in2_1*in2_2*in2_3*in2_4*in2_5 + "
+"in3) /\n"
+"      (in4_1*in4_2*in4_3*in4_4*in4_5 + in5_1*in5_2*in5_3*in5_4*in5_5 + in6);"
+msgstr ""
+"Поділ за формулою:\n"
+"out = (in1_1*in1_2*in1_3*in1_4*in1_5 + in2_1*in2_2*in2_3*in2_4*in2_5 + "
+"in3) /\n"
+"      (in4_1*in4_2*in4_3*in4_4*in4_5 + in5_1*in5_2*in5_3*in5_4*in5_5 + in6);"
+
+msgid "Variable"
+msgstr "Змінна"
+
+msgid "Set-point"
+msgstr "Завдання"
+
+msgid "Max scale"
+msgstr "Макс. шкали"
+
+msgid "Min scale"
+msgstr "Мін. шкали"
+
+msgid "Manual input (%)"
+msgstr "Ручний ввід (%)"
+
+msgid "Output (%)"
+msgstr "Вихід (%)"
+
+msgid "Auto mode"
+msgstr "Режим автомат"
+
+msgid "Cascade mode"
+msgstr "Режим каскад"
+
+msgid "Kp"
+msgstr "Кп"
+
+msgid "Ti (ms)"
+msgstr "Ті (мс)"
+
+msgid "Kd"
+msgstr "Кд"
+
+msgid "Td (ms)"
+msgstr "Тд (мс)"
+
+msgid "Td lag (ms)"
+msgstr "Тд затр. (мс)"
+
+msgid "Out up limit (%)"
+msgstr "Верхня границя виходу (%)"
+
+msgid "Out down limit (%)"
+msgstr "Нижня границя виходу (%)"
+
+msgid "Insensibility (%)"
+msgstr "Нечутливість (%)"
+
+msgid "Follow sp from var on manual"
+msgstr "Слідк. завдання за змінною у ручному"
+
+msgid "K input 1"
+msgstr "К входу 1"
+
+msgid "K input 2"
+msgstr "К входу 2"
+
+msgid "Input 2"
+msgstr "Вхід 2"
+
+msgid "K input 3"
+msgstr "К входу 3"
+
+msgid "K input 4"
+msgstr "К входу 4"
+
+msgid "Input 4"
+msgstr "Вхід 4"
+
+msgid "Calculate frequency (Hz)"
+msgstr "Частота обчислення (Гц)"
+
+msgid "Integral value"
+msgstr "Значення інтегралу"
+
+msgid "Differential value"
+msgstr "Значення диференціалу"
+
+msgid "Differential lag"
+msgstr "Затримка диференціалу"
+
+msgid "PID regulator"
+msgstr "ПІД регулятор"
+
+msgid "Value"
+msgstr "Значення"
+
+msgid "Maximum"
+msgstr "Максимум"
+
+msgid "Minimum"
+msgstr "Мінімум"
+
+msgid "Alarm"
+msgstr "Сигнал"
+
+msgid ""
+"Scale parameter alarm:\n"
+"out = if (val>max || val<min) then true; else false;"
+msgstr ""
+"Сигнал за шкалою параметра:\n"
+"out = if (val>max || val<min) then true; else false;"
+
+msgid "Flow"
+msgstr "Витрати"
+
+msgid "X position"
+msgstr "X позиція"
+
+msgid "K1"
+msgstr ""
+
+msgid "K2"
+msgstr ""
+
+msgid "K3"
+msgstr ""
+
+msgid "K4"
+msgstr ""
+
+msgid ""
+"Flow calculate per formula:\n"
+"f = K1*((K3+K4*x)^K2);"
+msgstr ""
+"Розрахунок витрат за формулою:\n"
+"f = K1*((K3+K4*x)^K2);"
+
+msgid "Summation and multiplication"
+msgstr "Сума з множенням"
+
+msgid ""
+"Summation and multiplication per formula:\n"
+"out = in1_1*in1_2*(in1_3*in1_4+in1_5) + in2_1*in2_2*(in2_3*in2_4+in2_5) +\n"
+"      in3_1*in3_2*(in3_3*in3_4+in3_5) + in4_1*in4_2*(in4_3*in4_4+in4_5);"
+msgstr ""
+"Сума з множенням за формулою:\n"
+"out = in1_1*in1_2*(in1_3*in1_4+in1_5) + in2_1*in2_2*(in2_3*in2_4+in2_5) +\n"
+"      in3_1*in3_2*(in3_3*in3_4+in3_5) + in4_1*in4_2*(in4_3*in4_4+in4_5);"
+
+msgid "Summation and divide"
+msgstr "Сума з поділом"
+
+msgid ""
+"Summation and divide per formula:\n"
+"out = in1_1*in1_2*(in1_3+in1_4/in1_5) + in2_1*in2_2*(in2_3+in2_4/in2_5) +\n"
+"      in3_1*in3_2*(in3_3+in3_4/in3_5) + in4_1*in4_2*(in4_3+in4_4/in4_5);"
+msgstr ""
+"Сума з поділом за формулою:\n"
+"out = in1_1*in1_2*(in1_3+in1_4/in1_5) + in2_1*in2_2*(in2_3+in2_4/in2_5) +\n"
+"      in3_1*in3_2*(in3_3+in3_4/in3_5) + in4_1*in4_2*(in4_3+in4_4/in4_5);"
+
+msgid "Y"
+msgstr ""
+
+msgid "X"
+msgstr ""
+
+msgid "Klag"
+msgstr "Кзатр"
+
+msgid "Lag"
+msgstr "Затримка"
+
+msgid ""
+"Lag per formula:\n"
+"y = y - Klag*( y - x );"
+msgstr ""
+"Затримка за формулою:\n"
+"y = y - Klag*( y - x );"

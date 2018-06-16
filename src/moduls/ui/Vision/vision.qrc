@@ -1,0 +1,55 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>images/button_cancel.png</file>
+    <file>images/button_ok.png</file>
+    <file>images/print.png</file>
+    <file>images/export.png</file>
+    <file>images/close.png</file>
+    <file>images/contexthelp.png</file>
+    <file>images/exit.png</file>
+    <file>images/help.png</file>
+    <file>images/vision.png</file>
+    <file>images/prj_run.png</file>
+    <file>images/prj_new.png</file>
+    <file>images/lib_new.png</file>
+    <file>images/v_it_add.png</file>
+    <file>images/v_it_del.png</file>
+    <file>images/v_it_prop.png</file>
+    <file>images/v_it_edit.png</file>
+    <file>images/v_it_clear.png</file>
+    <file>images/v_it_ChDown.png</file>
+    <file>images/load.png</file>
+    <file>images/save.png</file>
+    <file>images/reload.png</file>
+    <file>images/attention.png</file>
+    <file>images/align_left.png</file>
+    <file>images/align_right.png</file>
+    <file>images/align_vcenter.png</file>
+    <file>images/align_top.png</file>
+    <file>images/align_bottom.png</file>
+    <file>images/align_hcenter.png</file>
+    <file>images/level_up.png</file>
+    <file>images/level_down.png</file>
+    <file>images/level_rise.png</file>
+    <file>images/level_lower.png</file>
+    <file>images/elfig_line.png</file>
+    <file>images/elfig_arc.png</file>
+    <file>images/elfig_besie.png</file>
+    <file>images/elfig_lock.png</file>
+    <file>images/elfig_cursor.png</file>
+    <file>images/edit.png</file>
+    <file>images/editcopy.png</file>
+    <file>images/editcut.png</file>
+    <file>images/editpaste.png</file>
+    <file>images/undo.png</file>
+    <file>images/redo.png</file>
+    <file>images/alarmLev.png</file>
+    <file>images/alarmLight.png</file>
+    <file>images/alarmAlarm.png</file>
+    <file>images/alarmSound.png</file>
+    <file>images/find.png</file>
+    <file>images/disable.png</file>
+    <file>images/manual.png</file>
+    <file>images/down.png</file>
+</qresource>
+</RCC>

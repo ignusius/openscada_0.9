@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSCADA>
+    <!--
+    This is the OpenSCADA configuration file.
+    -->
+    <station id="ProjInit">
+	<!--
+	Description of the internal parameters of the station.
+	The station is OpenSCADA program.
+	-->
+	<prm id="StName">Project initial</prm>
+	<prm id="LogTarget">10</prm>
+	<prm id="SaveAtExit">0</prm>
+	<prm id="SavePeriod">0</prm>
+
+	<node id="sub_ModSched">
+	    <prm id="ModAllow">ui_QTStarter.so</prm>
+	    <prm id="ModDeny"></prm>
+	    <prm id="ChkPer">0</prm>
+	</node>
+
+	<node id="sub_UI">
+	    <node id="mod_QTStarter">
+		<prm id="Style"></prm>
+		<prm id="Font"></prm>
+		<prm id="Palette"></prm>
+		<prm id="StyleSheets"></prm>
+	    </node>
+	</node>
+    </station>
+</OpenSCADA>

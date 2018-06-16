@@ -1,0 +1,804 @@
+# OpenSCADA.UI.QTStarter translate to Russian.
+# This file is distributed under the same license as the OpenSCADA.UI.QTStarter package module.
+#
+# Roman Savochenko <rom_as@oscada.org>, 2005-2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.UI.QTStarter 1.6.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-21 17:03+0300\n"
+"PO-Revision-Date: 2007-10-29 22:03+0200\n"
+"Last-Translator: Roman Savochenko <rom_as@oscada.org>\n"
+"Language-Team: <ru@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Qt GUI starter"
+msgstr "Qt GUI пускатель"
+
+msgid "Roman Savochenko"
+msgstr "Роман Савоченко"
+
+msgid ""
+"Provides the Qt GUI starter. Qt-starter is the only and compulsory component "
+"for all GUI modules based on the Qt library."
+msgstr ""
+"Предоставляет Qt GUI пускатель. Qt-пускатель является единственным и "
+"обязательным компонентом для всех GUI модулей, основанных на библиотеке Qt."
+
+msgid "Could not read image data"
+msgstr "Не удалось прочитать данные изображения"
+
+msgid "&Yes"
+msgstr "&Да"
+
+msgid "&No"
+msgstr "&Нет"
+
+msgid "&Cancel"
+msgstr "&Отмена"
+
+msgid "&OK"
+msgstr ""
+
+msgid "Apply"
+msgstr "Применить"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Forward"
+msgstr "Вперёд"
+
+msgid "Parent Directory"
+msgstr "Родительская директория"
+
+msgid "Look in:"
+msgstr "Просмотр:"
+
+msgid "Computer"
+msgstr "Компьютер"
+
+msgid "File"
+msgstr "Файл"
+
+msgid "Folder"
+msgstr "Папка"
+
+msgid "File &name:"
+msgstr "&Имя файла:"
+
+msgid "Open"
+msgstr "Открыть"
+
+msgid "&Open"
+msgstr "&Открыть"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "&Save"
+msgstr "Сохранить"
+
+msgid "Save As"
+msgstr "Сохранить как"
+
+msgid "Date Modified"
+msgstr "Дата модификации"
+
+msgid "All Files (*)"
+msgstr "Все файлы (*)"
+
+msgid "Create New Folder"
+msgstr "Создать новую папку"
+
+msgid "List View"
+msgstr "Вид списком"
+
+msgid "Detail View"
+msgstr "Детальный вид"
+
+msgid "Files of type:"
+msgstr "Файлы типов:"
+
+msgid "New Folder"
+msgstr "Новая папка"
+
+msgid "&New Folder"
+msgstr "&Новая папка"
+
+msgid "Show &hidden files"
+msgstr "Показать &скрытые файлы"
+
+msgid "&Delete"
+msgstr "У&далить"
+
+msgid "&Rename"
+msgstr "Пере&именовать"
+
+msgid "Remove"
+msgstr "Переместить"
+
+msgid "&Undo"
+msgstr "&Откат"
+
+msgid "&Redo"
+msgstr "&Повтор"
+
+msgid "Cu&t"
+msgstr "Вы&резать"
+
+msgid "&Copy"
+msgstr "&Копировать"
+
+msgid "&Paste"
+msgstr "В&ставить"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Select All"
+msgstr "Выбрать всё"
+
+msgid "Insert Unicode control character"
+msgstr "Вставить Unicode управляющий символ"
+
+msgid "Size"
+msgstr "Размер"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Drive"
+msgstr "Диск"
+
+msgid "Go back"
+msgstr "Перейти назад"
+
+msgid "Go forward"
+msgstr "Перейти вперёд"
+
+msgid "Go to the parent directory"
+msgstr "Перейти в родительскую директорию"
+
+msgid "Create a New Folder"
+msgstr "Создать новую папку"
+
+msgid "Change to list view mode"
+msgstr "Изменить в режим отображения списком"
+
+msgid "Change to detail view mode"
+msgstr "Изменить в детализированный режим"
+
+msgid "Destination file exists"
+msgstr "Файл назначения присутствует"
+
+msgid "%1 bytes"
+msgstr "%1 байт"
+
+msgid "%1 KB"
+msgstr "%1 КБ"
+
+msgid "%1 MB"
+msgstr "%1 МБ"
+
+msgid "Are sure you want to delete '%1'?"
+msgstr "Вы действительно желаете удалить '%1'?"
+
+msgid ""
+"%1 already exists.\n"
+"Do you want to replace it?"
+msgstr ""
+"%1 уже существует.\n"
+"Вы хотите его удалить?"
+
+msgid "Recent Places"
+msgstr "Недавние места"
+
+msgid "<h3>About Qt</h3><p>This program uses Qt version %1.</p>"
+msgstr "<h3>Про Qt</h3><p>Эта программа использует Qt версии %1.</p>"
+
+msgid ""
+"<p>Qt is a C++ toolkit for cross-platform application development.</p><p>Qt "
+"provides single-source portability across MS&nbsp;Windows, Mac&nbsp;OS&nbsp;"
+"X, Linux, and all major commercial Unix variants. Qt is also available for "
+"embedded devices as Qt for Embedded Linux and Qt for Windows CE.</p><p>Qt is "
+"available under three different licensing options designed to accommodate "
+"the needs of our various users.</p><p>Qt licensed under our commercial "
+"license agreement is appropriate for development of proprietary/commercial "
+"software where you do not want to share any source code with third parties "
+"or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU "
+"GPL version 3.0.</p><p>Qt licensed under the GNU LGPL version 2.1 is "
+"appropriate for the development of Qt applications (proprietary or open "
+"source) provided you can comply with the terms and conditions of the GNU "
+"LGPL version 2.1.</p><p>Qt licensed under the GNU General Public License "
+"version 3.0 is appropriate for the development of Qt applications where you "
+"wish to use such applications in combination with software subject to the "
+"terms of the GNU GPL version 3.0 or where you are otherwise willing to "
+"comply with the terms of the GNU GPL version 3.0.</p><p>Please see <a href="
+"\"http://qt.digia.com/product/licensing\">qt.digia.com/product/licensing</a> "
+"for an overview of Qt licensing.</p><p>Copyright (C) 2012 Digia Plc and/or "
+"its subsidiary(-ies).</p><p>Qt is a Digia product. See <a href=\"http://qt."
+"digia.com/\">qt.digia.com</a> for more information.</p>"
+msgstr ""
+
+msgid "Hu&e:"
+msgstr "Оттенок:"
+
+msgid "&Sat:"
+msgstr "Насыщ.:"
+
+msgid "&Val:"
+msgstr "Яркость:"
+
+msgid "&Red:"
+msgstr "Красный:"
+
+msgid "&Green:"
+msgstr "Зелёный:"
+
+msgid "Bl&ue:"
+msgstr "Синий:"
+
+msgid "A&lpha channel:"
+msgstr "Альфа канал:"
+
+msgid "&Basic colors"
+msgstr "Базовые цвета"
+
+msgid "&Custom colors"
+msgstr "Пользовательские цвета"
+
+msgid "&Add to Custom Colors"
+msgstr "Добавить пользовательский цвет"
+
+msgid "Select color"
+msgstr "Выбор цвета"
+
+msgid "&Restore"
+msgstr "&Восстановить"
+
+msgid "&Move"
+msgstr "&Переместить"
+
+msgid "&Size"
+msgstr "&Размер"
+
+msgid "Mi&nimize"
+msgstr "Ми&нимизировать"
+
+msgid "Ma&ximize"
+msgstr "Ма&ксимизировать"
+
+msgid "Stay on &Top"
+msgstr "Оставаться с&верху"
+
+msgid "&Close"
+msgstr "&Закрыть"
+
+msgid "Select Color"
+msgstr "Выбор цвета"
+
+msgid "Form"
+msgstr "Форма"
+
+msgid "Printer"
+msgstr "Принтер"
+
+msgid "&Name:"
+msgstr "Имя:"
+
+msgid "P&roperties"
+msgstr "Свойства"
+
+msgid "Location:"
+msgstr "Расположение:"
+
+msgid "Preview"
+msgstr "Пред-просмотр"
+
+msgid "Type:"
+msgstr "Тип:"
+
+msgid "Output &file:"
+msgstr "Выходной файл:"
+
+msgid "Print range"
+msgstr "Диапазон печати"
+
+msgid "Print all"
+msgstr "Печать всё"
+
+msgid "Current Page"
+msgstr "Текущая страница"
+
+msgid "Pages from"
+msgstr "Страницы от"
+
+msgid "to"
+msgstr "до"
+
+msgid "Selection"
+msgstr "Выбор"
+
+msgid "Output Settings"
+msgstr "Установки вывода"
+
+msgid "Copies:"
+msgstr "Копий:"
+
+msgid "Collate"
+msgstr "Проверять"
+
+msgid "Reverse"
+msgstr "Реверс"
+
+msgid "Copies"
+msgstr "Копии"
+
+msgid "Color Mode"
+msgstr "Режим цвета"
+
+msgid "Color"
+msgstr "Цветной"
+
+msgid "Grayscale"
+msgstr "Серый"
+
+msgid "Duplex Printing"
+msgstr "Двухсторонняя печать"
+
+msgid "None"
+msgstr "Нет"
+
+msgid "Long side"
+msgstr "По длинной стороне"
+
+msgid "Short side"
+msgstr "По короткой стороне"
+
+msgid "Options"
+msgstr "Опции"
+
+msgid "&Options >>"
+msgstr "Опции >>"
+
+msgid "&Options <<"
+msgstr "Опции <<"
+
+msgid "&Print"
+msgstr "Печать"
+
+msgid "Print"
+msgstr "Печать"
+
+msgid "Print to File (PDF)"
+msgstr "Печать в файл (PDF)"
+
+msgid "Print to File (Postscript)"
+msgstr "Печать в файл (Postscript)"
+
+msgid "Local file"
+msgstr "Локальный файл"
+
+msgid "Write %1 file"
+msgstr "Запись %1 файла"
+
+msgid "Paper"
+msgstr "Бумага"
+
+msgid "Page size:"
+msgstr "Размер страницы:"
+
+msgid "Width:"
+msgstr "Ширина:"
+
+msgid "Height:"
+msgstr "Высота:"
+
+msgid "Paper source:"
+msgstr "Источник бумаги:"
+
+msgid "Orientation"
+msgstr "Ориентация"
+
+msgid "Portrait"
+msgstr "Портретная"
+
+msgid "Landscape"
+msgstr "Ландшафт"
+
+msgid "Reverse landscape"
+msgstr "Реверсный ландшафт"
+
+msgid "Reverse portrait"
+msgstr "Реверсный портрет"
+
+msgid "Margins"
+msgstr "Отступы"
+
+msgid "top margin"
+msgstr "верхний отступ"
+
+msgid "left margin"
+msgstr "левый отступ"
+
+msgid "right margin"
+msgstr "правый отступ"
+
+msgid "bottom margin"
+msgstr "нижний отступ"
+
+msgid "Points (pt)"
+msgstr "Точек (pt)"
+
+msgid "Inches (in)"
+msgstr "Дюймов (in)"
+
+msgid "Executive"
+msgstr "Распоряжение"
+
+msgid "Folio"
+msgstr "Фолио"
+
+msgid "Ledger"
+msgstr "Главная книга"
+
+msgid "Legal"
+msgstr "Закон"
+
+msgid "Letter"
+msgstr "Письмо"
+
+msgid "Tabloid"
+msgstr "Таблоид"
+
+msgid "US Common #10 Envelope"
+msgstr "US основной конверт №10"
+
+msgid "Custom"
+msgstr "Пользовательский"
+
+msgid "Millimeters (mm)"
+msgstr "Миллиметров (mm)"
+
+msgid "Centimeters (cm)"
+msgstr "Сантиметров (cm)"
+
+msgid "Page"
+msgstr "Страница"
+
+msgid "Advanced"
+msgstr "Дополнительно"
+
+msgid "Mon"
+msgstr "Пон"
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Style"
+msgstr "Стиль"
+
+msgid "Font"
+msgstr "Шрифт"
+
+msgid "Palette"
+msgstr "Палитра"
+
+msgid "Style Sheets"
+msgstr "Таблица Стилей"
+
+msgid "Hold when overloaded to another project."
+msgstr "Удерживать при перегрузке в другой проект."
+
+msgid "Loading the module."
+msgstr "Загрузка модуля."
+
+msgid "Saving the module."
+msgstr "Сохранение модуля."
+
+msgid "Starting the module."
+msgstr "Запуск модуля."
+
+msgid "Stopping the module."
+msgstr "Останов модуля."
+
+#, c-format
+msgid ""
+"======================= Module <%s:%s> options =======================\n"
+"    --QtInNotMainThread Starts Qt into a different from the main thread.\n"
+"    --showWin=<0,1,2>   Window display mode, initial and which is allowed to "
+"change from: 0-typical window, 1-maximized window, 2-full screen.\n"
+"----------- Qt debug commandline options ----------\n"
+"    --noX11             Prevent the launch of Qt, preferably for a clean "
+"console.\n"
+"    --sync              Switch to Sync X11 for debugging.\n"
+"    --widgetcount       Print debug messages at output, the number of "
+"widgets\n"
+"                        left unselected and their maximum number.\n"
+"----------- Qt commandline options ----------------\n"
+"    --qws               Do this with Qt server software for embedded Linux.\n"
+"    --style=<name>      Sets the GUI style to <name> (windows, platinum, "
+"plastique, ...).\n"
+"    --stylesheet=<path> Set the style sheet from the file by <path>.\n"
+"    --session=<name>    Restore from the previous session with the specified "
+"<name>.\n"
+"    --reverse           Set the layout in Qt::RightToLeft.\n"
+"    --graphicssystem=<nm> Install rendering mechanism for screen widgets and "
+"QPixmaps (raster, opengl).\n"
+"    --display=<nm>      Set the X display (typically $DISPLAY).\n"
+"    --geometry=<geom>   Set the client geometry of the first display "
+"window.\n"
+"---- Parameters of the module section '%s' of the configuration file ----\n"
+"StartMod   <moduls>     List of the modules that are started, separated "
+"';'.\n"
+"CloseToTray <0|1>       Closing all windows or starting without Qt modules "
+"to the system tray.\n"
+"Style      <name>       The GUI style of Qt.\n"
+"Font       <font>       Common Qt font.\n"
+"Palette    <colors>     Twenty colors of the palette separated by symbol ',' "
+"in three lines for active, disabled and inactive groups.\n"
+"StyleSheets <CSS>       Rules of the Cascade Style Sheets.\n"
+"\n"
+msgstr ""
+"======================== Опции модуля <%s:%s> ============================\n"
+"    --QtInNotMainThread Запускать Qt в отдельном потоке от основного.\n"
+"    --showWin=<0,1,2>   Режим отображения окон, начальный и от которого "
+"разрешён для изменения: 0-типовое окно, 1-максимизированое окно, 2-полный "
+"экран.\n"
+"------ Отладочные параметры Qt, командной строки --\n"
+"    --noX11             Предотвращать запуск Qt, в основном для чистой "
+"консоли.\n"
+"    --sync              Переключение в синхронный режим X11 для отладки.\n"
+"    --widgetcount       Печать отладочных сообщений при выходе, о "
+"количеcтве\n"
+"                        виджетов оставшихся неудалёнными и максимальном их "
+"количестве.\n"
+"------ Параметры Qt, командной строки -------------\n"
+"    --qws               Делает данное приложение сервером с Qt для "
+"встраиваемого Linux.\n"
+"    --style=<имя>       Установить GUI стиль в имя (windows, platinum, "
+"plastique, ...).\n"
+"    --stylesheet=<путь> Установить таблицу стилей из файла по пути.\n"
+"    --session=<имя>     Восстановить из предыдущего сеанса с указанным "
+"именем.\n"
+"    --reverse           Установить направление размещения в Qt::"
+"RightToLeft.\n"
+"    --graphicssystem=<имя> Установить механизм рендеринга для экранных "
+"виджетов и QPixmaps (raster, opengl).\n"
+"    --display=<имя>     Установить X экран (типично в $DISPLAY).\n"
+"    --geometry=<геом>   Установить клиентскую геометрию первого "
+"отображаемого окна.\n"
+"------ Параметры модульной секции '%s' конфигурационного файла ------\n"
+"StartMod   <модули>     Список запускаемых модулей, разделённых ';'.\n"
+"CloseToTray <0|1>       Закрывать все окна или запускать без Qt модулей в "
+"системный лоток.\n"
+"Style      <имя>        GUI стиль Qt.\n"
+"Font       <шрифт>      Общий шрифт Qt.\n"
+"Palette    <цвета>      Двадцать цветов палитры разделённые символом ',' в "
+"трёх строках для активной, отключенной и неактивной групп.\n"
+"StyleSheets <CSS>       Правила таблиц каскадных стилей (CSS).\n"
+"\n"
+
+msgid "Module options"
+msgstr "Опции модуля"
+
+msgid "Qt modules for startup, separated by ';'"
+msgstr "Модули Qt для запуска, разделённые символом ';'"
+
+msgid "Collapse or startup to the system tray"
+msgstr "Сворачивать или запускать в системный лоток"
+
+msgid "Look and feel"
+msgstr "Вид и ощущение"
+
+msgid "Known profiles"
+msgstr "Известные профиля"
+
+msgid "Widgets style"
+msgstr "Стиль виджетов"
+
+msgid "Common font"
+msgstr "Общий шрифт"
+
+msgid "<Select a profile to combine>"
+msgstr "<Выбрать профиль для объединения>"
+
+msgid "<Clear>"
+msgstr "<Очистить>"
+
+msgid "<Read back>"
+msgstr "<Прочитать назад>"
+
+msgid "OpenSCADA Project: %1"
+msgstr "OpenSCADA Проект: %1"
+
+msgid "Exit the program"
+msgstr "Выход из программы"
+
+msgid "Qt-starter of OpenSCADA"
+msgstr "Qt-пускатель OpenSCADA"
+
+msgid "Project: %1"
+msgstr "Проект: %1"
+
+msgid "OpenSCADA start"
+msgstr "Запуск OpenSCADA"
+
+msgid "&About"
+msgstr "Пр&о..."
+
+msgid "Program information"
+msgstr "Информация о программе"
+
+msgid "The button for display the program information."
+msgstr "Кнопка получения информации о программе."
+
+msgid "About &Qt"
+msgstr "Про &Qt"
+
+msgid "Qt information"
+msgstr "Qt информация"
+
+msgid "The button for getting the Qt information."
+msgstr "Кнопка получения информации о Qt."
+
+msgid "%1 manual"
+msgstr "%1 руководство"
+
+msgid "The button for the manual %1."
+msgstr "Кнопка получения руководства %1."
+
+msgid "What's &This"
+msgstr "Что &это"
+
+msgid "Question about GUI elements"
+msgstr "Вопрос про GUI элементы"
+
+msgid ""
+"The button for requesting the information about user interface elements."
+msgstr ""
+"Кнопка для запроса информации про элементы пользовательского интерфейса."
+
+msgid "&Help"
+msgstr "&Помощь"
+
+msgid "Qt modules of OpenSCADA"
+msgstr "Qt модули OpenSCADA"
+
+msgid "Call the Qt-based UI module '%1'"
+msgstr "Вызов основанного на Qt UI модуля '%1'"
+
+msgid ""
+"Module: %1\n"
+"Name: %2\n"
+"Source: %3\n"
+"Version: %4\n"
+"Author: %5\n"
+"Description: %6\n"
+"License: %7"
+msgstr ""
+"Модуль: %1\n"
+"Имя: %2\n"
+"Источник: %3\n"
+"Версия: %4\n"
+"Автор: %5\n"
+"Описание: %6\n"
+"Лицензия: %7"
+
+msgid "Projects of OpenSCADA"
+msgstr "Проекти OpenSCADA"
+
+msgid "List of allowed to call/switch projects of OpenSCADA"
+msgstr "Перечень проектов OpenSCADA доступных для вызова/переключения"
+
+msgid "The list for call and switch to allowed projects of OpenSCADA."
+msgstr "Перечень проектов OpenSCADA доступных для вызова и переключения."
+
+msgid "current"
+msgstr "текущий"
+
+msgid "running"
+msgstr "исполняется"
+
+msgid "Switch to the selected project"
+msgstr "Переключиться на выбранный проект"
+
+msgid "Call the selected project"
+msgstr "Вызвать выбранный проект"
+
+msgid "The button for switch to the selected project."
+msgstr "Кнопка для переключения на выбранный проект."
+
+msgid "The button for call the selected project."
+msgstr "Кнопка для вызова выбранного проекта."
+
+msgid "Creating-updating a project"
+msgstr "Создание-обновление проекта"
+
+msgid ""
+"New projects creating or updating of presented ones, like to desktop links"
+msgstr ""
+"Создание новых проектов или обновление присутствующих, вроде ссылок рабочего "
+"стола"
+
+msgid ""
+"The button for new projects creating or updating of presented ones, like to "
+"desktop links."
+msgstr ""
+"Кнопка создание новых проектов или обновление присутствующих, вроде ссылок "
+"рабочего стола"
+
+msgid "The button for exit the program."
+msgstr "Кнопка для выхода из программы."
+
+#, c-format
+msgid ""
+"%s v%s.\n"
+"%s\n"
+"Author: %s\n"
+"License: %s\n"
+"\n"
+"%s v%s.\n"
+"%s\n"
+"License: %s\n"
+"Author: %s\n"
+"Web site: %s"
+msgstr ""
+"%s v%s.\n"
+"%s\n"
+"Автор: %s\n"
+"Лицензия: %s\n"
+"\n"
+"%s v%s.\n"
+"%s\n"
+"Лицензия: %s\n"
+"Автор: %s\n"
+"Web сайт: %s"
+
+msgid "Manual"
+msgstr "Руководство"
+
+msgid "No manual '%1' found offline or online!"
+msgstr "Не найдено руководства '%1' локально и в сети!"
+
+msgid "New project or project to update"
+msgstr "Новый проект или проект для обновления"
+
+msgid "Project name for new one creating or to update present one:"
+msgstr "Имя проекта для создания нового или обновления присутствующего:"
+
+msgid "Empty name of the project is unavailable!"
+msgstr "Пустое имя проекта недопустимо!"
+
+msgid "Switch project"
+msgstr "Переключить проект"
+
+msgid "Do you really want to change the current project \"%1\" to \"%2\"?"
+msgstr "Вы действительно желаете изменить текущий проект \"%1\" на \"%2\"?"
+
+msgid "Call project"
+msgstr "Вызвать проект"
+
+msgid "Project \"%1\" seems running now! You still want to switch the project?"
+msgstr ""
+"Проект \"%1\" похоже исполняется! Вы всё ещё желаете переключить проект?"
+
+msgid "Project \"%1\" seems running now! You still want to call the project?"
+msgstr "Проект \"%1\" похоже исполняется! Вы всё ещё желаете вызвать проект?"
+
+msgid "Project \"%1\" seems wrong or broken!"
+msgstr "Проект \"%1\" похоже ошибочный или сломан!"
+
+#, c-format
+msgid "Untranslated Qt message: '%s'"
+msgstr "Непереведенное Qt сообщение: '%s'"

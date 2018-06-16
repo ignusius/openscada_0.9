@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 22:44+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "BFN module"
+msgstr ""
+
+msgid "Roman Savochenko"
+msgstr ""
+
+msgid "Support Big Farm Net (BFN) modules for Viper CT/BAS and other from \"Big Dutchman\" (http://www.bigdutchman.com)."
+msgstr ""
+
+msgid "Acquisition schedule"
+msgstr ""
+
+msgid "Priority of the acquisition task"
+msgstr ""
+
+msgid "Period of sync with the remote station, seconds"
+msgstr ""
+
+msgid "Transport address"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+#, c-format
+msgid "Code %s"
+msgstr ""
+
+msgid "Symbols"
+msgstr ""
+
+msgid "Symbols DB"
+msgstr ""
+
+msgid "Codes"
+msgstr ""
+
+msgid "Identifier"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Alarms"
+msgstr ""
+
+msgid "Code"
+msgstr ""
+
+msgid "New symbol for code"
+msgstr ""
+
+msgid "New symbol for alarm"
+msgstr ""
+
+#, c-format
+msgid "Error: '%s'. "
+msgstr ""
+
+msgid "Acquisition. "
+msgstr ""
+
+#, c-format
+msgid "Acquisition with the period: %s. "
+msgstr ""
+
+#, c-format
+msgid "Next acquisition by the cron '%s'. "
+msgstr ""
+
+#, c-format
+msgid "Spent time: %s."
+msgstr ""
+
+msgid "House:\n"
+msgstr ""
+
+msgid "House computer:\n"
+msgstr ""
+
+#, c-format
+msgid "DAQ.%s.%s: connect to the data source: %s."
+msgstr ""
+
+msgid "STOP"
+msgstr ""
+
+#, c-format
+msgid "Error connecting to the transport '%s'."
+msgstr ""
+
+msgid "Error parsing the respond. The respond seems incomplete."
+msgstr ""
+
+#, c-format
+msgid "Unknown alarm '%s'."
+msgstr ""
+
+msgid "Main"
+msgstr ""
+
+msgid "Alarm: "
+msgstr ""
+
+msgid "Norma: "
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "1:Parameter disabled."
+msgstr ""
+
+msgid "2:Acquisition stopped."
+msgstr ""

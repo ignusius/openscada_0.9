@@ -1,0 +1,79 @@
+# OpenSCADA.DB.DBF translate to German.
+# Copyright (C) 2008-2009 Irina Popkova
+# This file is distributed under the same license as the OpenSCADA.DB.DBF module.
+#
+# Irina Popkova <IrischkaPopkova@yandex.ru>, 2008-2009.
+# Klaus Fetscher <k.fetscher@fetron.de>, 2009.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSCADA.DB.DBF 2.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 10:43+0200\n"
+"PO-Revision-Date: 2009-08-17 11:32+0200\n"
+"Last-Translator: Klaus Fetscher <k.fetscher@fetron.de>\n"
+"Language-Team: de <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "DB DBF"
+msgstr "DB DBF"
+
+msgid "Roman Savochenko"
+msgstr "Roman Savotschenko "
+
+msgid "BD module. Provides support of the *.dbf files, version 3.0."
+msgstr "Modul unterstützt die *.dbf Datenbank Version 3.0."
+
+msgid "Delete DB error!"
+msgstr "Fehler beim Löschen der Datenbank!"
+
+#, c-format
+msgid "Error create DB directory '%s'!"
+msgstr "Fehler beim Erstellen des Datenbank-Verzeichnisses '%s'!"
+
+msgid "Restore previous directory as current error."
+msgstr "Wiederherstellung des vorherigen Verzeichnisses ist nicht erlaubt."
+
+#, c-format
+msgid "Error open table '%s'. DB is disabled."
+msgstr "Fehler beim Öffnen der Tabelle '%s', die Datenbank ist abgeschaltet."
+
+msgid ""
+"For DBF address DB is the directory which contains files of tables (*.dbf).\n"
+"For example: /opt/dbf ."
+msgstr ""
+"Für DBF ist die Adresse das Verzeichnis welches die Tabellendateien (*.dbf) "
+"beinhaltet.\n"
+"Zum Beispiel: /opt/dbf ."
+
+msgid "Open table error!"
+msgstr "Fehler beim Öffnen der Tabelle!"
+
+msgid "Cell error!"
+msgstr "Fehler in der Zelle!"
+
+msgid "Field is not present!"
+msgstr "Das Feld ist nicht vorhanden!"
+
+#, c-format
+msgid "Read only access to file '%s'."
+msgstr "Nur Lesezugriff auf Datei '%s'."
+
+msgid "Column error!"
+msgstr "Fehler in der Spalte!"
+
+msgid "Delete field error!"
+msgstr "Fehler beim Löschen des Feldes!"
+
+msgid "Line error!"
+msgstr "Fehler in der Zeile!"
+
+#, c-format
+msgid "Key column '%s' is not present!"
+msgstr "Die Schlüsselzeile '%s' ist nicht vorhanden!"
